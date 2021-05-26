@@ -6,21 +6,20 @@
   "description": "",
   "source": "@site/docs/doc1.md",
   "sourceDirName": ".",
-  "slug": "/",
-  "permalink": "/docs/",
+  "slug": "/doc1",
+  "permalink": "/docs/doc1",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
   "version": "current",
   "sidebar_label": "Style Guide",
   "frontMatter": {
     "id": "doc1",
     "title": "Style Guide",
-    "sidebar_label": "Style Guide",
-    "slug": "/"
+    "sidebar_label": "Style Guide"
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Welcome",
-    "permalink": "/docs/Getting-started"
+    "title": "Install, activate and update of Bitform",
+    "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
   },
   "next": {
     "title": "Document Numbers rrr 2",

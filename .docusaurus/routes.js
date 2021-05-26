@@ -89,12 +89,17 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','fd8'),
+  component: ComponentCreator('/docs','24f'),
   
   routes: [
 {
   path: '/docs/',
-  component: ComponentCreator('/docs/','87d'),
+  component: ComponentCreator('/docs/','df5'),
+  exact: true,
+},
+{
+  path: '/docs/doc1',
+  component: ComponentCreator('/docs/doc1','392'),
   exact: true,
 },
 {
@@ -108,8 +113,8 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Getting-started',
-  component: ComponentCreator('/docs/Getting-started','a20'),
+  path: '/docs/install-activate-wordpress-frombuilder-bitform',
+  component: ComponentCreator('/docs/install-activate-wordpress-frombuilder-bitform','242'),
   exact: true,
 },
 {

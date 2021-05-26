@@ -110,13 +110,17 @@
     "sidebar": "sidebar---blog-69-f-7e4",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-fd8": {
+  "/docs-24f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/-87d": {
+  "/docs/-df5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-b-2-f-393"
+    "content": "content---docs-dda-e8e"
+  },
+  "/docs/doc1-392": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-doc-1-b-2-f-e80"
   },
   "/docs/doc2-fd3": {
     "component": "component---theme-doc-item-178-a40",
@@ -126,9 +130,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-doc-3616-40c"
   },
-  "/docs/Getting-started-a20": {
+  "/docs/install-activate-wordpress-frombuilder-bitform-242": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-getting-startedd-23-1fe"
+    "content": "content---docs-install-activate-wordpress-frombuilder-bitform-39-a-8cb"
   },
   "/docs/mdx-955": {
     "component": "component---theme-doc-item-178-a40",

@@ -8,11 +8,11 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "doc1",
+          "mainDocId": "Getting Started/welcome",
           "docs": [
             {
               "id": "doc1",
-              "path": "/docs/",
+              "path": "/docs/doc1",
               "sidebar": "someSidebar"
             },
             {
@@ -26,8 +26,13 @@
               "sidebar": "someSidebar"
             },
             {
-              "id": "Getting-started",
-              "path": "/docs/Getting-started",
+              "id": "Getting Started/install",
+              "path": "/docs/install-activate-wordpress-frombuilder-bitform",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Getting Started/welcome",
+              "path": "/docs/",
               "sidebar": "someSidebar"
             },
             {

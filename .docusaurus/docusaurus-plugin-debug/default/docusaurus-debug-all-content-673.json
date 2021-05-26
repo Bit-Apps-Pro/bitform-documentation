@@ -13,7 +13,7 @@
           "sidebarFilePath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
           "contentPath": "E:\\RF\\laragon\\www\\bitform-documentation\\docs",
           "contentPathLocalized": "E:\\RF\\laragon\\www\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
-          "mainDocId": "doc1",
+          "mainDocId": "Getting Started/welcome",
           "sidebars": {
             "someSidebar": [
               {
@@ -23,7 +23,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Getting-started"
+                    "id": "Getting Started/welcome"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Getting Started/install"
                   }
                 ]
               },
@@ -60,10 +64,11 @@
             ]
           },
           "permalinkToSidebar": {
-            "/docs/": "someSidebar",
+            "/docs/doc1": "someSidebar",
             "/docs/doc2": "someSidebar",
             "/docs/doc3": "someSidebar",
-            "/docs/Getting-started": "someSidebar",
+            "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
+            "/docs/": "someSidebar",
             "/docs/mdx": "someSidebar"
           },
           "docs": [
@@ -75,21 +80,20 @@
               "description": "",
               "source": "@site/docs/doc1.md",
               "sourceDirName": ".",
-              "slug": "/",
-              "permalink": "/docs/",
+              "slug": "/doc1",
+              "permalink": "/docs/doc1",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
               "version": "current",
               "sidebar_label": "Style Guide",
               "frontMatter": {
                 "id": "doc1",
                 "title": "Style Guide",
-                "sidebar_label": "Style Guide",
-                "slug": "/"
+                "sidebar_label": "Style Guide"
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Welcome",
-                "permalink": "/docs/Getting-started"
+                "title": "Install, activate and update of Bitform",
+                "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
               },
               "next": {
                 "title": "Document Numbers rrr 2",
@@ -115,7 +119,7 @@
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Style Guide",
-                "permalink": "/docs/"
+                "permalink": "/docs/doc1"
               },
               "next": {
                 "title": "This is Document Number 3",
@@ -149,27 +153,57 @@
               }
             },
             {
-              "unversionedId": "Getting-started",
-              "id": "Getting-started",
+              "unversionedId": "Getting Started/install",
+              "id": "Getting Started/install",
               "isDocsHomePage": false,
-              "title": "Welcome",
-              "description": "Warmly welcome to Bit Press. Our one of the most helpful WordPress plugin - Bit Form. It can be your easy to go form builder plugin. Its has 20+ drag & drop fields, built-in style editor, 25+ integration, Conditional logic & much more attractive feature make it all in one form builder plugin. Bit Form's data management process is more precise & easy to handle with its responses management system. With our built-in SMTP feature, now email deliverability is more protected  & reliable for the site owner.",
-              "source": "@site/docs/Getting-started.md",
-              "sourceDirName": ".",
-              "slug": "/Getting-started",
-              "permalink": "/docs/Getting-started",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting-started.md",
+              "title": "Install, activate and update of Bitform",
+              "description": "In this section we will show you how you can install Bit Form on your WordPress site & also how you can activate Bit Form pro version.",
+              "source": "@site/docs/Getting Started/install.mdx",
+              "sourceDirName": "Getting Started",
+              "slug": "/install-activate-wordpress-frombuilder-bitform",
+              "permalink": "/docs/install-activate-wordpress-frombuilder-bitform",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/install.mdx",
+              "version": "current",
+              "sidebar_label": "Install, Active & Update",
+              "frontMatter": {
+                "id": "install",
+                "title": "Install, activate and update of Bitform",
+                "sidebar_label": "Install, Active & Update",
+                "slug": "/install-activate-wordpress-frombuilder-bitform"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Welcome to Bitform",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Style Guide",
+                "permalink": "/docs/doc1"
+              }
+            },
+            {
+              "unversionedId": "Getting Started/welcome",
+              "id": "Getting Started/welcome",
+              "isDocsHomePage": false,
+              "title": "Welcome to Bitform",
+              "description": "Warmly welcome to Bit Press. Our one of the most helpful WordPress plugin - Bit Form. It",
+              "source": "@site/docs/Getting Started/welcome.mdx",
+              "sourceDirName": "Getting Started",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/welcome.mdx",
               "version": "current",
               "sidebar_label": "Welcome",
               "frontMatter": {
-                "id": "Getting-started",
-                "title": "Welcome",
-                "sidebar_label": "Welcome"
+                "id": "welcome",
+                "title": "Welcome to Bitform",
+                "sidebar_label": "Welcome",
+                "slug": "/"
               },
               "sidebar": "someSidebar",
               "next": {
-                "title": "Style Guide",
-                "permalink": "/docs/"
+                "title": "Install, activate and update of Bitform",
+                "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
               }
             },
             {

@@ -13,7 +13,12 @@
           {
             "type": "link",
             "label": "Welcome",
-            "href": "/docs/Getting-started"
+            "href": "/docs/"
+          },
+          {
+            "type": "link",
+            "label": "Install, Active & Update",
+            "href": "/docs/install-activate-wordpress-frombuilder-bitform"
           }
         ]
       },
@@ -25,7 +30,7 @@
           {
             "type": "link",
             "label": "Style Guide",
-            "href": "/docs/"
+            "href": "/docs/doc1"
           },
           {
             "type": "link",
@@ -54,10 +59,11 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/": "someSidebar",
+    "/docs/doc1": "someSidebar",
     "/docs/doc2": "someSidebar",
     "/docs/doc3": "someSidebar",
-    "/docs/Getting-started": "someSidebar",
+    "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
+    "/docs/": "someSidebar",
     "/docs/mdx": "someSidebar"
   }
 }
