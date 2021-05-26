@@ -26,6 +26,11 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Getting-started",
+              "path": "/docs/Getting-started",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "mdx",
               "path": "/docs/mdx",
               "sidebar": "someSidebar"

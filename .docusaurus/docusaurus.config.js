@@ -1,23 +1,23 @@
 export default {
-  "title": "My Site",
+  "title": "Bit Form | Top free form builder in WordPress | Fastest Form-Builder",
   "tagline": "The tagline of my site",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "BitPress",
+  "projectName": "BitForm",
   "themeConfig": {
     "navbar": {
       "title": "Bit Form",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Bit-Form Logo",
         "src": "img/logo.svg"
       },
       "items": [
         {
-          "to": "docs/",
+          "to": "/docs",
           "activeBasePath": "docs",
           "label": "Docs",
           "position": "left"
@@ -109,7 +109,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "F:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
+          "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -117,10 +117,13 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "F:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"
+          "customCss": "E:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"
         }
       }
     ]
+  ],
+  "plugins": [
+    "@docusaurus/plugin-ideal-image"
   ],
   "stylesheets": [
     "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
@@ -136,7 +139,6 @@ export default {
   },
   "onDuplicateRoutes": "warn",
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "titleDelimiter": "|",
   "noIndex": false

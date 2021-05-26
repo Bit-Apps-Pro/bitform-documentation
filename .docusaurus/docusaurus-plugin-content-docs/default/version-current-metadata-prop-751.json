@@ -8,6 +8,18 @@
       {
         "collapsed": true,
         "type": "category",
+        "label": "Getting started",
+        "items": [
+          {
+            "type": "link",
+            "label": "Welcome",
+            "href": "/docs/Getting-started"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
         "label": "Docusaurus",
         "items": [
           {
@@ -45,6 +57,7 @@
     "/docs/": "someSidebar",
     "/docs/doc2": "someSidebar",
     "/docs/doc3": "someSidebar",
+    "/docs/Getting-started": "someSidebar",
     "/docs/mdx": "someSidebar"
   }
 }

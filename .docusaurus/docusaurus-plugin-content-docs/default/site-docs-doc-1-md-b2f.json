@@ -3,15 +3,23 @@
   "id": "doc1",
   "isDocsHomePage": false,
   "title": "Style Guide",
-  "source": "@site/docs\\doc1.md",
+  "description": "",
+  "source": "@site/docs/doc1.md",
+  "sourceDirName": ".",
   "slug": "/",
   "permalink": "/docs/",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
   "version": "current",
   "sidebar_label": "Style Guide",
+  "frontMatter": {
+    "id": "doc1",
+    "title": "Style Guide",
+    "sidebar_label": "Style Guide",
+    "slug": "/"
+  },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Getting-started",
+    "title": "Welcome",
     "permalink": "/docs/Getting-started"
   },
   "next": {

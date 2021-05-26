@@ -6,14 +6,27 @@
           "versionName": "current",
           "versionLabel": "Next",
           "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "F:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
-          "docsDirPath": "F:\\RF\\laragon\\www\\bitform-documentation\\docs",
-          "docsDirPathLocalized": "F:\\RF\\laragon\\www\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
+          "contentPath": "E:\\RF\\laragon\\www\\bitform-documentation\\docs",
+          "contentPathLocalized": "E:\\RF\\laragon\\www\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "doc1",
           "sidebars": {
             "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Getting-started"
+                  }
+                ]
+              },
               {
                 "collapsed": true,
                 "type": "category",
@@ -50,6 +63,7 @@
             "/docs/": "someSidebar",
             "/docs/doc2": "someSidebar",
             "/docs/doc3": "someSidebar",
+            "/docs/Getting-started": "someSidebar",
             "/docs/mdx": "someSidebar"
           },
           "docs": [
@@ -58,14 +72,25 @@
               "id": "doc1",
               "isDocsHomePage": false,
               "title": "Style Guide",
-              "description": "You can write content using GitHub-flavored Markdown syntax.",
-              "source": "@site/docs\\doc1.md",
+              "description": "",
+              "source": "@site/docs/doc1.md",
+              "sourceDirName": ".",
               "slug": "/",
               "permalink": "/docs/",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
               "version": "current",
               "sidebar_label": "Style Guide",
+              "frontMatter": {
+                "id": "doc1",
+                "title": "Style Guide",
+                "sidebar_label": "Style Guide",
+                "slug": "/"
+              },
               "sidebar": "someSidebar",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/docs/Getting-started"
+              },
               "next": {
                 "title": "Document Numbers rrr 2",
                 "permalink": "/docs/doc2"
@@ -77,11 +102,16 @@
               "isDocsHomePage": false,
               "title": "Document Numbers rrr 2",
               "description": "This is a link to another document. This is a link to an external page.",
-              "source": "@site/docs\\doc2.md",
+              "source": "@site/docs/doc2.md",
+              "sourceDirName": ".",
               "slug": "/doc2",
               "permalink": "/docs/doc2",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
               "version": "current",
+              "frontMatter": {
+                "id": "doc2",
+                "title": "Document Numbers rrr 2"
+              },
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Style Guide",
@@ -98,11 +128,16 @@
               "isDocsHomePage": false,
               "title": "This is Document Number 3",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-              "source": "@site/docs\\doc3.md",
+              "source": "@site/docs/doc3.md",
+              "sourceDirName": ".",
               "slug": "/doc3",
               "permalink": "/docs/doc3",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
               "version": "current",
+              "frontMatter": {
+                "id": "doc3",
+                "title": "This is Document Number 3"
+              },
               "sidebar": "someSidebar",
               "previous": {
                 "title": "Document Numbers rrr 2",
@@ -114,16 +149,45 @@
               }
             },
             {
+              "unversionedId": "Getting-started",
+              "id": "Getting-started",
+              "isDocsHomePage": false,
+              "title": "Welcome",
+              "description": "Warmly welcome to Bit Press. Our one of the most helpful WordPress plugin - Bit Form. It can be your easy to go form builder plugin. Its has 20+ drag & drop fields, built-in style editor, 25+ integration, Conditional logic & much more attractive feature make it all in one form builder plugin. Bit Form's data management process is more precise & easy to handle with its responses management system. With our built-in SMTP feature, now email deliverability is more protected  & reliable for the site owner.",
+              "source": "@site/docs/Getting-started.md",
+              "sourceDirName": ".",
+              "slug": "/Getting-started",
+              "permalink": "/docs/Getting-started",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting-started.md",
+              "version": "current",
+              "sidebar_label": "Welcome",
+              "frontMatter": {
+                "id": "Getting-started",
+                "title": "Welcome",
+                "sidebar_label": "Welcome"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Style Guide",
+                "permalink": "/docs/"
+              }
+            },
+            {
               "unversionedId": "mdx",
               "id": "mdx",
               "isDocsHomePage": false,
               "title": "Powered by MDX",
               "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
-              "source": "@site/docs\\mdx.md",
+              "source": "@site/docs/mdx.md",
+              "sourceDirName": ".",
               "slug": "/mdx",
               "permalink": "/docs/mdx",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
               "version": "current",
+              "frontMatter": {
+                "id": "mdx",
+                "title": "Powered by MDX"
+              },
               "sidebar": "someSidebar",
               "previous": {
                 "title": "This is Document Number 3",
@@ -143,9 +207,11 @@
           "metadata": {
             "permalink": "/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
-            "source": "@site/blog\\2019-05-30-welcome.md",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "title": "Welcome",
             "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
             "date": "2019-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2019",
             "tags": [
               {
                 "label": "facebook",
@@ -160,7 +226,6 @@
                 "permalink": "/blog/tags/docusaurus"
               }
             ],
-            "title": "Welcome",
             "readingTime": 0.175,
             "truncated": false,
             "nextItem": {
@@ -174,9 +239,11 @@
           "metadata": {
             "permalink": "/blog/hello-world",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
-            "source": "@site/blog\\2019-05-29-hello-world.md",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "title": "Hello",
             "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
             "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
             "tags": [
               {
                 "label": "hello",
@@ -187,7 +254,6 @@
                 "permalink": "/blog/tags/docusaurus"
               }
             ],
-            "title": "Hello",
             "readingTime": 0.12,
             "truncated": true,
             "prevItem": {
@@ -205,9 +271,11 @@
           "metadata": {
             "permalink": "/blog/hola",
             "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
-            "source": "@site/blog\\2019-05-28-hola.md",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "title": "Hola",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
             "tags": [
               {
                 "label": "hola",
@@ -218,7 +286,6 @@
                 "permalink": "/blog/tags/docusaurus"
               }
             ],
-            "title": "Hola",
             "readingTime": 0.12,
             "truncated": false,
             "prevItem": {
@@ -289,7 +356,7 @@
       {
         "type": "jsx",
         "permalink": "/",
-        "source": "@site/src\\pages\\index.js"
+        "source": "@site/src/pages/index.js"
       }
     ]
   },
@@ -297,6 +364,9 @@
     "default": null
   },
   "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-ideal-image": {
     "default": null
   }
 }
