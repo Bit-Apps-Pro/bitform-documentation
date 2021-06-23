@@ -26,6 +26,51 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Fields/checkboxfield",
+              "path": "/docs/wpbitform-checkboxfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/countryfield",
+              "path": "/docs/wpbitform-countryfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/drop-downfield",
+              "path": "/docs/wpbitform-drop-downfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/fields-overview",
+              "path": "/docs/wpbitform-field-types",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/multilinetextfield",
+              "path": "/docs/wpbitform-multilinetextfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/numberfield",
+              "path": "/docs/wpbitform-numberfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/radiobuttonfield",
+              "path": "/docs/wpbitform-radiobuttonfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/textfield",
+              "path": "/docs/wpbitform-textfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Getting Started/create-new-form",
+              "path": "/docs/How-to-create-a-WordPress-from-using-BitForm",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Getting Started/install",
               "path": "/docs/install-activate-wordpress-frombuilder-bitform",
               "sidebar": "someSidebar"

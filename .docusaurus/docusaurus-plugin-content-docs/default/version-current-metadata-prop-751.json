@@ -19,6 +19,58 @@
             "type": "link",
             "label": "Install, Active & Update",
             "href": "/docs/install-activate-wordpress-frombuilder-bitform"
+          },
+          {
+            "type": "link",
+            "label": "Create New Form",
+            "href": "/docs/How-to-create-a-WordPress-from-using-BitForm"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Form Fields",
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/wpbitform-field-types"
+          },
+          {
+            "type": "link",
+            "label": "Text field",
+            "href": "/docs/wpbitform-textfield"
+          },
+          {
+            "type": "link",
+            "label": "Multi-Line Text field",
+            "href": "/docs/wpbitform-multilinetextfield"
+          },
+          {
+            "type": "link",
+            "label": "Checkbox field",
+            "href": "/docs/wpbitform-checkboxfield"
+          },
+          {
+            "type": "link",
+            "label": "Radio Button field",
+            "href": "/docs/wpbitform-radiobuttonfield"
+          },
+          {
+            "type": "link",
+            "label": "Number field",
+            "href": "/docs/wpbitform-numberfield"
+          },
+          {
+            "type": "link",
+            "label": "Drop-Down field",
+            "href": "/docs/wpbitform-drop-downfield"
+          },
+          {
+            "type": "link",
+            "label": "Country field",
+            "href": "/docs/wpbitform-countryfield"
           }
         ]
       },
@@ -62,6 +114,15 @@
     "/docs/doc1": "someSidebar",
     "/docs/doc2": "someSidebar",
     "/docs/doc3": "someSidebar",
+    "/docs/wpbitform-checkboxfield": "someSidebar",
+    "/docs/wpbitform-countryfield": "someSidebar",
+    "/docs/wpbitform-drop-downfield": "someSidebar",
+    "/docs/wpbitform-field-types": "someSidebar",
+    "/docs/wpbitform-multilinetextfield": "someSidebar",
+    "/docs/wpbitform-numberfield": "someSidebar",
+    "/docs/wpbitform-radiobuttonfield": "someSidebar",
+    "/docs/wpbitform-textfield": "someSidebar",
+    "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
     "/docs/mdx": "someSidebar"

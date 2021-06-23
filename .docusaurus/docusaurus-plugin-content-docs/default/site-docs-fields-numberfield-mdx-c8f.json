@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/numberfield",
+  "id": "Fields/numberfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Number field",
+  "description": "Number field is one of the most commonly used types of field available in form builder, and its main purpose is to allow the user to enter an integer/numerical value in the field. Number fields are used to capture numbers like quantity, price, number of hours etc. It is a mandatory field in any form.",
+  "source": "@site/docs/Fields/Numberfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-numberfield",
+  "permalink": "/docs/wpbitform-numberfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Numberfield.mdx",
+  "version": "current",
+  "sidebar_label": "Number field",
+  "frontMatter": {
+    "id": "numberfield",
+    "title": "Bit from - Number field",
+    "sidebar_label": "Number field",
+    "slug": "/wpbitform-numberfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Radio Button field",
+    "permalink": "/docs/wpbitform-radiobuttonfield"
+  },
+  "next": {
+    "title": "Bit from - Drop-Down field",
+    "permalink": "/docs/wpbitform-drop-downfield"
+  }
+}

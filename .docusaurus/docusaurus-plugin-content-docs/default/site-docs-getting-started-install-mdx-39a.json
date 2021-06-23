@@ -2,7 +2,7 @@
   "unversionedId": "Getting Started/install",
   "id": "Getting Started/install",
   "isDocsHomePage": false,
-  "title": "Install, activate and update of Bitform",
+  "title": "Installation, Activate and Upgrade of Bitform",
   "description": "In this section we will show you how you can install Bit Form on your WordPress site & also how you can activate Bit Form pro version.",
   "source": "@site/docs/Getting Started/install.mdx",
   "sourceDirName": "Getting Started",
@@ -13,7 +13,7 @@
   "sidebar_label": "Install, Active & Update",
   "frontMatter": {
     "id": "install",
-    "title": "Install, activate and update of Bitform",
+    "title": "Installation, Activate and Upgrade of Bitform",
     "sidebar_label": "Install, Active & Update",
     "slug": "/install-activate-wordpress-frombuilder-bitform"
   },
@@ -23,7 +23,7 @@
     "permalink": "/docs/"
   },
   "next": {
-    "title": "Style Guide",
-    "permalink": "/docs/doc1"
+    "title": "How to create a WordPress form using BitForm",
+    "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
   }
 }

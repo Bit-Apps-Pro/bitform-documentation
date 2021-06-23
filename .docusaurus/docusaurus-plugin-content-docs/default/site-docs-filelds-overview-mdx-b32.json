@@ -1,0 +1,20 @@
+{
+  "unversionedId": "Filelds/fields-overview",
+  "id": "Filelds/fields-overview",
+  "isDocsHomePage": false,
+  "title": "Welcome to Bitform",
+  "description": "",
+  "source": "@site/docs/Filelds/Overview.mdx",
+  "sourceDirName": "Filelds",
+  "slug": "/wpbitform-field-types",
+  "permalink": "/docs/wpbitform-field-types",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Filelds/Overview.mdx",
+  "version": "current",
+  "sidebar_label": "Overview",
+  "frontMatter": {
+    "id": "fields-overview",
+    "title": "Welcome to Bitform",
+    "sidebar_label": "Overview",
+    "slug": "/wpbitform-field-types"
+  }
+}

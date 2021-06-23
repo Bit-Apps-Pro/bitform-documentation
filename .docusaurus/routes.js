@@ -44,52 +44,52 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','6d3'),
+  component: ComponentCreator('/blog','e08'),
   exact: true,
 },
 {
   path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','a95'),
+  component: ComponentCreator('/blog/hello-world','d57'),
   exact: true,
 },
 {
   path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','ac9'),
+  component: ComponentCreator('/blog/hola','36e'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','74a'),
+  component: ComponentCreator('/blog/tags','14a'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','7aa'),
+  component: ComponentCreator('/blog/tags/docusaurus','b8d'),
   exact: true,
 },
 {
   path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','0a4'),
+  component: ComponentCreator('/blog/tags/facebook','e3d'),
   exact: true,
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','ac5'),
+  component: ComponentCreator('/blog/tags/hello','af1'),
   exact: true,
 },
 {
   path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','c28'),
+  component: ComponentCreator('/blog/tags/hola','7bf'),
   exact: true,
 },
 {
   path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','659'),
+  component: ComponentCreator('/blog/welcome','c63'),
   exact: true,
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','24f'),
+  component: ComponentCreator('/docs','727'),
   
   routes: [
 {
@@ -113,6 +113,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/How-to-create-a-WordPress-from-using-BitForm',
+  component: ComponentCreator('/docs/How-to-create-a-WordPress-from-using-BitForm','21c'),
+  exact: true,
+},
+{
   path: '/docs/install-activate-wordpress-frombuilder-bitform',
   component: ComponentCreator('/docs/install-activate-wordpress-frombuilder-bitform','242'),
   exact: true,
@@ -120,6 +125,46 @@ export default [
 {
   path: '/docs/mdx',
   component: ComponentCreator('/docs/mdx','955'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-checkboxfield',
+  component: ComponentCreator('/docs/wpbitform-checkboxfield','644'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-countryfield',
+  component: ComponentCreator('/docs/wpbitform-countryfield','adb'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-drop-downfield',
+  component: ComponentCreator('/docs/wpbitform-drop-downfield','2ae'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-field-types',
+  component: ComponentCreator('/docs/wpbitform-field-types','28e'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-multilinetextfield',
+  component: ComponentCreator('/docs/wpbitform-multilinetextfield','b9d'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-numberfield',
+  component: ComponentCreator('/docs/wpbitform-numberfield','5bb'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-radiobuttonfield',
+  component: ComponentCreator('/docs/wpbitform-radiobuttonfield','a74'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-textfield',
+  component: ComponentCreator('/docs/wpbitform-textfield','e8d'),
   exact: true,
 },
 ]

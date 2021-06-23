@@ -109,7 +109,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
+          "sidebarPath": "E:\\bitform-documentation\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -117,7 +117,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "E:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"
+          "customCss": "E:\\bitform-documentation\\src\\css\\custom.css"
         }
       }
     ]

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/drop-downfield",
+  "id": "Fields/drop-downfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Drop-Down field",
+  "description": "Drop-Down field in form builder is a data entry screen where the user only has a set number of choices to select from. This is helpful when you want your users to select from a predefined list of values, but you may not want to enter each one manually. Users can enter his custom values or select a value from the drop-down list.",
+  "source": "@site/docs/Fields/Drop-Down.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-drop-downfield",
+  "permalink": "/docs/wpbitform-drop-downfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Drop-Down.mdx",
+  "version": "current",
+  "sidebar_label": "Drop-Down field",
+  "frontMatter": {
+    "id": "drop-downfield",
+    "title": "Bit from - Drop-Down field",
+    "sidebar_label": "Drop-Down field",
+    "slug": "/wpbitform-drop-downfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Number field",
+    "permalink": "/docs/wpbitform-numberfield"
+  },
+  "next": {
+    "title": "Bit from - Country field",
+    "permalink": "/docs/wpbitform-countryfield"
+  }
+}
