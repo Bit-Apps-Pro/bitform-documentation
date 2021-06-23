@@ -1,0 +1,28 @@
+{
+  "unversionedId": "doc1",
+  "id": "doc1",
+  "isDocsHomePage": false,
+  "title": "Style Guide",
+  "description": "",
+  "source": "@site/docs/doc1.md",
+  "sourceDirName": ".",
+  "slug": "/doc1",
+  "permalink": "/docs/doc1",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+  "version": "current",
+  "sidebar_label": "Style Guide",
+  "frontMatter": {
+    "id": "doc1",
+    "title": "Style Guide",
+    "sidebar_label": "Style Guide"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Country field",
+    "permalink": "/docs/wpbitform-countryfield"
+  },
+  "next": {
+    "title": "Document Numbers rrr 2",
+    "permalink": "/docs/doc2"
+  }
+}

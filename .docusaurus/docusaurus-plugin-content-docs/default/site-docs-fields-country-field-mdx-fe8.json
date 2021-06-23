@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/countryfield",
+  "id": "Fields/countryfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Country field",
+  "description": "⚙ General Settings :",
+  "source": "@site/docs/Fields/CountryField.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-countryfield",
+  "permalink": "/docs/wpbitform-countryfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/CountryField.mdx",
+  "version": "current",
+  "sidebar_label": "Country field",
+  "frontMatter": {
+    "id": "countryfield",
+    "title": "Bit from - Country field",
+    "sidebar_label": "Country field",
+    "slug": "/wpbitform-countryfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Drop-Down field",
+    "permalink": "/docs/wpbitform-drop-downfield"
+  },
+  "next": {
+    "title": "Style Guide",
+    "permalink": "/docs/doc1"
+  }
+}

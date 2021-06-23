@@ -1,0 +1,719 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "versionEditUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs",
+          "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "E:\\bitform-documentation\\sidebars.js",
+          "contentPath": "E:\\bitform-documentation\\docs",
+          "contentPathLocalized": "E:\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "Getting Started/welcome",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Getting Started/welcome"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Getting Started/install"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Getting Started/create-new-form"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Form Fields",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Fields/fields-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/textfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/multilinetextfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/checkboxfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/radiobuttonfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/numberfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/drop-downfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/countryfield"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Docusaurus",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc3"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Features",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "mdx"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/doc1": "someSidebar",
+            "/docs/doc2": "someSidebar",
+            "/docs/doc3": "someSidebar",
+            "/docs/wpbitform-checkboxfield": "someSidebar",
+            "/docs/wpbitform-countryfield": "someSidebar",
+            "/docs/wpbitform-drop-downfield": "someSidebar",
+            "/docs/wpbitform-field-types": "someSidebar",
+            "/docs/wpbitform-multilinetextfield": "someSidebar",
+            "/docs/wpbitform-numberfield": "someSidebar",
+            "/docs/wpbitform-radiobuttonfield": "someSidebar",
+            "/docs/wpbitform-textfield": "someSidebar",
+            "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
+            "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
+            "/docs/": "someSidebar",
+            "/docs/mdx": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Style Guide",
+              "description": "",
+              "source": "@site/docs/doc1.md",
+              "sourceDirName": ".",
+              "slug": "/doc1",
+              "permalink": "/docs/doc1",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
+              "version": "current",
+              "sidebar_label": "Style Guide",
+              "frontMatter": {
+                "id": "doc1",
+                "title": "Style Guide",
+                "sidebar_label": "Style Guide"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Country field",
+                "permalink": "/docs/wpbitform-countryfield"
+              },
+              "next": {
+                "title": "Document Numbers rrr 2",
+                "permalink": "/docs/doc2"
+              }
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "isDocsHomePage": false,
+              "title": "Document Numbers rrr 2",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/doc2.md",
+              "sourceDirName": ".",
+              "slug": "/doc2",
+              "permalink": "/docs/doc2",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "doc2",
+                "title": "Document Numbers rrr 2"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Style Guide",
+                "permalink": "/docs/doc1"
+              },
+              "next": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "This is Document Number 3",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "source": "@site/docs/doc3.md",
+              "sourceDirName": ".",
+              "slug": "/doc3",
+              "permalink": "/docs/doc3",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "doc3",
+                "title": "This is Document Number 3"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Document Numbers rrr 2",
+                "permalink": "/docs/doc2"
+              },
+              "next": {
+                "title": "Powered by MDX",
+                "permalink": "/docs/mdx"
+              }
+            },
+            {
+              "unversionedId": "Fields/checkboxfield",
+              "id": "Fields/checkboxfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Checkbox field",
+              "description": "_The Checkbox field_ contains multiple options set by the admin panel. It allows user to select single or multiple options by their choice. Users can check or uncheck the from the listed options. Also having a checkbox in a form enables users to express the fact that they accept the conditions of that form. Checkboxes are great because they allow the user to select as many options as they want.",
+              "source": "@site/docs/Fields/Checkbox.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-checkboxfield",
+              "permalink": "/docs/wpbitform-checkboxfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Checkbox.mdx",
+              "version": "current",
+              "sidebar_label": "Checkbox field",
+              "frontMatter": {
+                "id": "checkboxfield",
+                "title": "Bit from - Checkbox field",
+                "sidebar_label": "Checkbox field",
+                "slug": "/wpbitform-checkboxfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Multi-Line Text field",
+                "permalink": "/docs/wpbitform-multilinetextfield"
+              },
+              "next": {
+                "title": "Bit from - Radio Button field",
+                "permalink": "/docs/wpbitform-radiobuttonfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/countryfield",
+              "id": "Fields/countryfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Country field",
+              "description": "⚙ General Settings :",
+              "source": "@site/docs/Fields/CountryField.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-countryfield",
+              "permalink": "/docs/wpbitform-countryfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/CountryField.mdx",
+              "version": "current",
+              "sidebar_label": "Country field",
+              "frontMatter": {
+                "id": "countryfield",
+                "title": "Bit from - Country field",
+                "sidebar_label": "Country field",
+                "slug": "/wpbitform-countryfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Drop-Down field",
+                "permalink": "/docs/wpbitform-drop-downfield"
+              },
+              "next": {
+                "title": "Style Guide",
+                "permalink": "/docs/doc1"
+              }
+            },
+            {
+              "unversionedId": "Fields/drop-downfield",
+              "id": "Fields/drop-downfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Drop-Down field",
+              "description": "Drop-Down field in form builder is a data entry screen where the user only has a set number of choices to select from. This is helpful when you want your users to select from a predefined list of values, but you may not want to enter each one manually. Users can enter his custom values or select a value from the drop-down list.",
+              "source": "@site/docs/Fields/Drop-Down.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-drop-downfield",
+              "permalink": "/docs/wpbitform-drop-downfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Drop-Down.mdx",
+              "version": "current",
+              "sidebar_label": "Drop-Down field",
+              "frontMatter": {
+                "id": "drop-downfield",
+                "title": "Bit from - Drop-Down field",
+                "sidebar_label": "Drop-Down field",
+                "slug": "/wpbitform-drop-downfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Number field",
+                "permalink": "/docs/wpbitform-numberfield"
+              },
+              "next": {
+                "title": "Bit from - Country field",
+                "permalink": "/docs/wpbitform-countryfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/fields-overview",
+              "id": "Fields/fields-overview",
+              "isDocsHomePage": false,
+              "title": "Bit form-Field Types",
+              "description": "The field types of form builder are a form of user interface components that are used to create a form within a web page or an application. Field types are available by default in the form builder. The field types are available when you create a new form by choosing the Form builder option. There are many field types that can be used to create different types of online forms. The most popular types are the ones for user input, like text fields, checkboxes, radio buttons and select lists.",
+              "source": "@site/docs/Fields/Overview.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-field-types",
+              "permalink": "/docs/wpbitform-field-types",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Overview.mdx",
+              "version": "current",
+              "sidebar_label": "Overview",
+              "frontMatter": {
+                "id": "fields-overview",
+                "title": "Bit form-Field Types",
+                "sidebar_label": "Overview",
+                "slug": "/wpbitform-field-types"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "How to create a WordPress form using BitForm",
+                "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
+              },
+              "next": {
+                "title": "Bit from - Textfield",
+                "permalink": "/docs/wpbitform-textfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/multilinetextfield",
+              "id": "Fields/multilinetextfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Multi-Line Text field",
+              "description": "Multiline text field is similar to the Single Line field, but with a greater capacity. This field accepts multiple lines of plain text like paragraph text or description types.",
+              "source": "@site/docs/Fields/Multilinetextfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-multilinetextfield",
+              "permalink": "/docs/wpbitform-multilinetextfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Multilinetextfield.mdx",
+              "version": "current",
+              "sidebar_label": "Multi-Line Text field",
+              "frontMatter": {
+                "id": "multilinetextfield",
+                "title": "Bit from - Multi-Line Text field",
+                "sidebar_label": "Multi-Line Text field",
+                "slug": "/wpbitform-multilinetextfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Textfield",
+                "permalink": "/docs/wpbitform-textfield"
+              },
+              "next": {
+                "title": "Bit from - Checkbox field",
+                "permalink": "/docs/wpbitform-checkboxfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/numberfield",
+              "id": "Fields/numberfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Number field",
+              "description": "Number field is one of the most commonly used types of field available in form builder, and its main purpose is to allow the user to enter an integer/numerical value in the field. Number fields are used to capture numbers like quantity, price, number of hours etc. It is a mandatory field in any form.",
+              "source": "@site/docs/Fields/Numberfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-numberfield",
+              "permalink": "/docs/wpbitform-numberfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Numberfield.mdx",
+              "version": "current",
+              "sidebar_label": "Number field",
+              "frontMatter": {
+                "id": "numberfield",
+                "title": "Bit from - Number field",
+                "sidebar_label": "Number field",
+                "slug": "/wpbitform-numberfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Radio Button field",
+                "permalink": "/docs/wpbitform-radiobuttonfield"
+              },
+              "next": {
+                "title": "Bit from - Drop-Down field",
+                "permalink": "/docs/wpbitform-drop-downfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/radiobuttonfield",
+              "id": "Fields/radiobuttonfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Radio Button field",
+              "description": "Radio buttons is the group of options that let user select only one value from group of values. These are clickable components which are used to select a single option from a set of options. These components are mostly used as an alternative to a dropdown and are commonly used when the number of options is limited and the options are clear. Depending on the form builder being used, this can be achieved by inserting radio buttons in a group, or it can be done without a group. The settings of the radio button is as similar as checkbox field.",
+              "source": "@site/docs/Fields/Radiobuttonfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-radiobuttonfield",
+              "permalink": "/docs/wpbitform-radiobuttonfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Radiobuttonfield.mdx",
+              "version": "current",
+              "sidebar_label": "Radio Button field",
+              "frontMatter": {
+                "id": "radiobuttonfield",
+                "title": "Bit from - Radio Button field",
+                "sidebar_label": "Radio Button field",
+                "slug": "/wpbitform-radiobuttonfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Checkbox field",
+                "permalink": "/docs/wpbitform-checkboxfield"
+              },
+              "next": {
+                "title": "Bit from - Number field",
+                "permalink": "/docs/wpbitform-numberfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/textfield",
+              "id": "Fields/textfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Textfield",
+              "description": "_The Text field_ allows plain text input from the user. Users can enter letters, numbers, and special characters. This field can't except not more than single line input. Users can use it to collect First Name, Last name or city.",
+              "source": "@site/docs/Fields/Textfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-textfield",
+              "permalink": "/docs/wpbitform-textfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Textfield.mdx",
+              "version": "current",
+              "sidebar_label": "Text field",
+              "frontMatter": {
+                "id": "textfield",
+                "title": "Bit from - Textfield",
+                "sidebar_label": "Text field",
+                "slug": "/wpbitform-textfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit form-Field Types",
+                "permalink": "/docs/wpbitform-field-types"
+              },
+              "next": {
+                "title": "Bit from - Multi-Line Text field",
+                "permalink": "/docs/wpbitform-multilinetextfield"
+              }
+            },
+            {
+              "unversionedId": "Getting Started/create-new-form",
+              "id": "Getting Started/create-new-form",
+              "isDocsHomePage": false,
+              "title": "How to create a WordPress form using BitForm",
+              "description": "Create your first form",
+              "source": "@site/docs/Getting Started/CreateNewForm.mdx",
+              "sourceDirName": "Getting Started",
+              "slug": "/How-to-create-a-WordPress-from-using-BitForm",
+              "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/CreateNewForm.mdx",
+              "version": "current",
+              "sidebar_label": "Create New Form",
+              "frontMatter": {
+                "id": "create-new-form",
+                "title": "How to create a WordPress form using BitForm",
+                "sidebar_label": "Create New Form",
+                "slug": "/How-to-create-a-WordPress-from-using-BitForm"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Installation, Activate and Upgrade of Bitform",
+                "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
+              },
+              "next": {
+                "title": "Bit form-Field Types",
+                "permalink": "/docs/wpbitform-field-types"
+              }
+            },
+            {
+              "unversionedId": "Getting Started/install",
+              "id": "Getting Started/install",
+              "isDocsHomePage": false,
+              "title": "Installation, Activate and Upgrade of Bitform",
+              "description": "In this section we will show you how you can install Bit Form on your WordPress site & also how you can activate Bit Form pro version.",
+              "source": "@site/docs/Getting Started/install.mdx",
+              "sourceDirName": "Getting Started",
+              "slug": "/install-activate-wordpress-frombuilder-bitform",
+              "permalink": "/docs/install-activate-wordpress-frombuilder-bitform",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/install.mdx",
+              "version": "current",
+              "sidebar_label": "Install, Active & Update",
+              "frontMatter": {
+                "id": "install",
+                "title": "Installation, Activate and Upgrade of Bitform",
+                "sidebar_label": "Install, Active & Update",
+                "slug": "/install-activate-wordpress-frombuilder-bitform"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Welcome to Bitform",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "How to create a WordPress form using BitForm",
+                "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
+              }
+            },
+            {
+              "unversionedId": "Getting Started/welcome",
+              "id": "Getting Started/welcome",
+              "isDocsHomePage": false,
+              "title": "Welcome to Bitform",
+              "description": "Warmly welcome to Bit Press. Our one of the most helpful WordPress plugin - Bit Form. It",
+              "source": "@site/docs/Getting Started/welcome.mdx",
+              "sourceDirName": "Getting Started",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/welcome.mdx",
+              "version": "current",
+              "sidebar_label": "Welcome",
+              "frontMatter": {
+                "id": "welcome",
+                "title": "Welcome to Bitform",
+                "sidebar_label": "Welcome",
+                "slug": "/"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Installation, Activate and Upgrade of Bitform",
+                "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/mdx.md",
+              "sourceDirName": ".",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
+              "version": "current",
+              "frontMatter": {
+                "id": "mdx",
+                "title": "Powered by MDX"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "This is Document Number 3",
+                "permalink": "/docs/doc3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
+            "source": "@site/blog/2019-05-30-welcome.md",
+            "title": "Welcome",
+            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
+            "date": "2019-05-30T00:00:00.000Z",
+            "formattedDate": "May 30, 2019",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.175,
+            "truncated": false,
+            "nextItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        },
+        {
+          "id": "hello-world",
+          "metadata": {
+            "permalink": "/blog/hello-world",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
+            "source": "@site/blog/2019-05-29-hello-world.md",
+            "title": "Hello",
+            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
+            "date": "2019-05-29T00:00:00.000Z",
+            "formattedDate": "May 29, 2019",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": true,
+            "prevItem": {
+              "title": "Welcome",
+              "permalink": "/blog/welcome"
+            },
+            "nextItem": {
+              "title": "Hola",
+              "permalink": "/blog/hola"
+            }
+          }
+        },
+        {
+          "id": "hola",
+          "metadata": {
+            "permalink": "/blog/hola",
+            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
+            "source": "@site/blog/2019-05-28-hola.md",
+            "title": "Hola",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "May 28, 2019",
+            "tags": [
+              {
+                "label": "hola",
+                "permalink": "/blog/tags/hola"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.12,
+            "truncated": false,
+            "prevItem": {
+              "title": "Hello",
+              "permalink": "/blog/hello-world"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 3,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ]
+        }
+      ],
+      "blogTags": {
+        "facebook": {
+          "name": "facebook",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/facebook"
+        },
+        "hello": {
+          "name": "hello",
+          "items": [
+            "welcome",
+            "hello-world"
+          ],
+          "permalink": "/blog/tags/hello"
+        },
+        "docusaurus": {
+          "name": "docusaurus",
+          "items": [
+            "welcome",
+            "hello-world",
+            "hola"
+          ],
+          "permalink": "/blog/tags/docusaurus"
+        },
+        "hola": {
+          "name": "hola",
+          "items": [
+            "hola"
+          ],
+          "permalink": "/blog/tags/hola"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-ideal-image": {
+    "default": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "1.Getting_started",
+  "id": "1.Getting_started",
+  "isDocsHomePage": false,
+  "title": "Document Numbers rrr 2",
+  "source": "@site/docs\\1.Getting_started.md",
+  "slug": "/1.Getting_started",
+  "permalink": "/docs/1.Getting_started",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/1.Getting_started.md",
+  "version": "current",
+  "sidebar_label": "Style Guideasd",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Style Guide",
+    "permalink": "/docs/"
+  }
+}

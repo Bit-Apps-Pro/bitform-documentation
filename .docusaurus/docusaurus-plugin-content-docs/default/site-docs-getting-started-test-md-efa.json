@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Getting Started/test",
+  "id": "Getting Started/test",
+  "isDocsHomePage": false,
+  "title": "Install, activate and update of Bitform",
+  "description": "If you have successfully installed & activated Bit Form, now it's time to create your very first form using Bit Form",
+  "source": "@site/docs/Getting Started/test.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/test",
+  "permalink": "/docs/test",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/test.md",
+  "version": "current",
+  "sidebar_label": "Install, Active & Update",
+  "frontMatter": {
+    "id": "test",
+    "slug": "/test",
+    "title": "Install, activate and update of Bitform",
+    "sidebar_label": "Install, Active & Update"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Install, activate and update of Bitform",
+    "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
+  },
+  "next": {
+    "title": "Style Guide",
+    "permalink": "/docs/doc1"
+  }
+}
