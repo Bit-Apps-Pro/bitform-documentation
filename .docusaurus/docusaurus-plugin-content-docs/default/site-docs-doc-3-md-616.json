@@ -13,14 +13,5 @@
   "frontMatter": {
     "id": "doc3",
     "title": "This is Document Number 3"
-  },
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Document Numbers rrr 2",
-    "permalink": "/docs/doc2"
-  },
-  "next": {
-    "title": "Powered by MDX",
-    "permalink": "/docs/mdx"
   }
 }

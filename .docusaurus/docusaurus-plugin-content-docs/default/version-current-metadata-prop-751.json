@@ -22,7 +22,7 @@
           },
           {
             "type": "link",
-            "label": "Create New Form",
+            "label": "Create First Form",
             "href": "/docs/How-to-create-a-WordPress-from-using-BitForm"
           }
         ]
@@ -73,47 +73,37 @@
             "href": "/docs/wpbitform-countryfield"
           }
         ]
+      }
+    ],
+    "changelogSidebar": [
+      {
+        "type": "link",
+        "label": "Bit Form Chagelog",
+        "href": "/docs/changelog/BitForm-changelog-timeline"
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "Docusaurus",
+        "label": "Log Details",
         "items": [
           {
             "type": "link",
-            "label": "Style Guide",
-            "href": "/docs/doc1"
+            "label": "BitForm v-1.3",
+            "href": "/docs/changelog/BitForm-version-1.3-changelog"
           },
           {
             "type": "link",
-            "label": "Document Numbers rrr 2",
-            "href": "/docs/doc2"
-          },
-          {
-            "type": "link",
-            "label": "This is Document Number 3",
-            "href": "/docs/doc3"
-          }
-        ]
-      },
-      {
-        "collapsed": true,
-        "type": "category",
-        "label": "Features",
-        "items": [
-          {
-            "type": "link",
-            "label": "Powered by MDX",
-            "href": "/docs/mdx"
+            "label": "BitForm v-1.4",
+            "href": "/docs/changelog/BitForm-version-1.4-changelog"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/docs/doc1": "someSidebar",
-    "/docs/doc2": "someSidebar",
-    "/docs/doc3": "someSidebar",
+    "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
+    "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
+    "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
     "/docs/wpbitform-checkboxfield": "someSidebar",
     "/docs/wpbitform-countryfield": "someSidebar",
     "/docs/wpbitform-drop-downfield": "someSidebar",
@@ -124,7 +114,6 @@
     "/docs/wpbitform-textfield": "someSidebar",
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
-    "/docs/": "someSidebar",
-    "/docs/mdx": "someSidebar"
+    "/docs/": "someSidebar"
   }
 }

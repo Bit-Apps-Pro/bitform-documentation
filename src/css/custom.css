@@ -11,6 +11,7 @@ body {
   /* font-family: 'Poppins', sans-serif; */
   /* font-family: "Montserrat", sans-serif; */
 }
+
 :root {
   --ifm-color-primary: #3740ff;
   --ifm-color-primary-dark: rgb(234, 0, 255);
@@ -21,15 +22,42 @@ body {
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
   --ifm-global-radius: 0.6rem;
+  --ifm-navbar-background-color:rgba(255, 255, 255, 0.73);
 }
-
+[data-theme="dark"]:root{
+  --ifm-navbar-background-color:rgba(32, 32, 32, 0.73);
+}
 .menu__link{
   border-radius: 0.5rem;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
   display: block;
+  background-color: rgb(72, 77, 91);
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+.doc-img{
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 9px -4px grey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.download-btn{
+  background: #0089ff;
+  color: white;
+  border-radius: 30px;
+  margin-right: 10px;
+  padding: 7px 22px;
+  transition: box-shadow 300ms background 200ms;
+}
+.download-btn:hover{
+  background: #007eec;
+  color: white;
+  box-shadow: 0 0 9px -3px grey;
+}
+.download-btn:active{
+  transform: scale(0.95);
+}
+.navbar{backdrop-filter: blur(10px);}

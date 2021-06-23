@@ -54,12 +54,27 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','727'),
+  component: ComponentCreator('/docs','3a6'),
   
   routes: [
 {
   path: '/docs/',
   component: ComponentCreator('/docs/','df5'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-changelog-timeline',
+  component: ComponentCreator('/docs/changelog/BitForm-changelog-timeline','957'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-version-1.3-changelog',
+  component: ComponentCreator('/docs/changelog/BitForm-version-1.3-changelog','e91'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-version-1.4-changelog',
+  component: ComponentCreator('/docs/changelog/BitForm-version-1.4-changelog','7fc'),
   exact: true,
 },
 {
