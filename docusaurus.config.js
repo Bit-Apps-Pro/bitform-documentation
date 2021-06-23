@@ -6,8 +6,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'BitApps',
-  projectName: 'BitForm',
+  organizationName: 'Bit-Press',
+  projectName: 'bitform-documentation',
   themeConfig: {
     navbar: {
       title: 'Bit Form',
