@@ -76,6 +76,36 @@
             "type": "link",
             "label": "Password field",
             "href": "/docs/wpbitform-passwordfield"
+          },
+          {
+            "type": "link",
+            "label": "Email field",
+            "href": "/docs/wpbitform-emailfield"
+          },
+          {
+            "type": "link",
+            "label": "URL field",
+            "href": "/docs/wpbitform-urlfield"
+          },
+          {
+            "type": "link",
+            "label": "File Upload field",
+            "href": "/docs/wpbitform-fileuploadfield"
+          },
+          {
+            "type": "link",
+            "label": "Date field",
+            "href": "/docs/wpbitform-datefield"
+          },
+          {
+            "type": "link",
+            "label": "Time field",
+            "href": "/docs/wpbitform-timefield"
+          },
+          {
+            "type": "link",
+            "label": "Date-Time field",
+            "href": "/docs/wpbitform-date-timefield"
           }
         ]
       }
@@ -111,13 +141,19 @@
     "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
     "/docs/wpbitform-checkboxfield": "someSidebar",
     "/docs/wpbitform-countryfield": "someSidebar",
+    "/docs/wpbitform-date-timefield": "someSidebar",
+    "/docs/wpbitform-datefield": "someSidebar",
     "/docs/wpbitform-drop-downfield": "someSidebar",
+    "/docs/wpbitform-emailfield": "someSidebar",
     "/docs/wpbitform-field-types": "someSidebar",
+    "/docs/wpbitform-fileuploadfield": "someSidebar",
     "/docs/wpbitform-multilinetextfield": "someSidebar",
     "/docs/wpbitform-numberfield": "someSidebar",
     "/docs/wpbitform-passwordfield": "someSidebar",
     "/docs/wpbitform-radiobuttonfield": "someSidebar",
     "/docs/wpbitform-textfield": "someSidebar",
+    "/docs/wpbitform-timefield": "someSidebar",
+    "/docs/wpbitform-urlfield": "someSidebar",
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar"

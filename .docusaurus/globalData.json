@@ -48,17 +48,33 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Fields/date-timefield",
+              "path": "/docs/wpbitform-date-timefield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/datefield",
+              "path": "/docs/wpbitform-datefield",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Fields/drop-downfield",
               "path": "/docs/wpbitform-drop-downfield",
               "sidebar": "someSidebar"
             },
             {
-              "id": "Fields/Emailfield",
-              "path": "/docs/Fields/Emailfield"
+              "id": "Fields/emailfield",
+              "path": "/docs/wpbitform-emailfield",
+              "sidebar": "someSidebar"
             },
             {
               "id": "Fields/fields-overview",
               "path": "/docs/wpbitform-field-types",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/fileuploadfield",
+              "path": "/docs/wpbitform-fileuploadfield",
               "sidebar": "someSidebar"
             },
             {
@@ -84,6 +100,16 @@
             {
               "id": "Fields/textfield",
               "path": "/docs/wpbitform-textfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/timefield",
+              "path": "/docs/wpbitform-timefield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/urlfield",
+              "path": "/docs/wpbitform-urlfield",
               "sidebar": "someSidebar"
             },
             {

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Fields/date-timefield",
+  "id": "Fields/date-timefield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Date-Time field",
+  "description": "Date field supports a calendar and enables your users to select a date. Users can also type a date value as long as it matches your app’s date-time format.",
+  "source": "@site/docs/Fields/Date-Time.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-date-timefield",
+  "permalink": "/docs/wpbitform-date-timefield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Date-Time.mdx",
+  "version": "current",
+  "sidebar_label": "Date-Time field",
+  "frontMatter": {
+    "id": "date-timefield",
+    "title": "Bit from - Date-Time field",
+    "sidebar_label": "Date-Time field",
+    "slug": "/wpbitform-date-timefield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Timefield",
+    "permalink": "/docs/wpbitform-timefield"
+  }
+}

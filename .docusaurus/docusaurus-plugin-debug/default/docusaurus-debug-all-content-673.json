@@ -10,9 +10,9 @@
           "versionEditUrlLocalized": "https://github.com/facebook/docusaurus/edit/master/website/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
-          "contentPath": "E:\\RF\\laragon\\www\\bitform-documentation\\docs",
-          "contentPathLocalized": "E:\\RF\\laragon\\www\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "E:\\bitform-documentation\\sidebars.js",
+          "contentPath": "E:\\bitform-documentation\\docs",
+          "contentPathLocalized": "E:\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "Getting Started/welcome",
           "sidebars": {
             "someSidebar": [
@@ -71,6 +71,34 @@
                   {
                     "type": "doc",
                     "id": "Fields/countryfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/passwordfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/emailfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/urlfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/fileuploadfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/datefield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/timefield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/date-timefield"
                   }
                 ]
               }
@@ -103,12 +131,19 @@
             "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
             "/docs/wpbitform-checkboxfield": "someSidebar",
             "/docs/wpbitform-countryfield": "someSidebar",
+            "/docs/wpbitform-date-timefield": "someSidebar",
+            "/docs/wpbitform-datefield": "someSidebar",
             "/docs/wpbitform-drop-downfield": "someSidebar",
+            "/docs/wpbitform-emailfield": "someSidebar",
             "/docs/wpbitform-field-types": "someSidebar",
+            "/docs/wpbitform-fileuploadfield": "someSidebar",
             "/docs/wpbitform-multilinetextfield": "someSidebar",
             "/docs/wpbitform-numberfield": "someSidebar",
+            "/docs/wpbitform-passwordfield": "someSidebar",
             "/docs/wpbitform-radiobuttonfield": "someSidebar",
             "/docs/wpbitform-textfield": "someSidebar",
+            "/docs/wpbitform-timefield": "someSidebar",
+            "/docs/wpbitform-urlfield": "someSidebar",
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar"
@@ -298,6 +333,64 @@
               "previous": {
                 "title": "Bit from - Drop-Down field",
                 "permalink": "/docs/wpbitform-drop-downfield"
+              },
+              "next": {
+                "title": "Bit from - Password field",
+                "permalink": "/docs/wpbitform-passwordfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/date-timefield",
+              "id": "Fields/date-timefield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Date-Time field",
+              "description": "Date field supports a calendar and enables your users to select a date. Users can also type a date value as long as it matches your app’s date-time format.",
+              "source": "@site/docs/Fields/Date-Time.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-date-timefield",
+              "permalink": "/docs/wpbitform-date-timefield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Date-Time.mdx",
+              "version": "current",
+              "sidebar_label": "Date-Time field",
+              "frontMatter": {
+                "id": "date-timefield",
+                "title": "Bit from - Date-Time field",
+                "sidebar_label": "Date-Time field",
+                "slug": "/wpbitform-date-timefield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Timefield",
+                "permalink": "/docs/wpbitform-timefield"
+              }
+            },
+            {
+              "unversionedId": "Fields/datefield",
+              "id": "Fields/datefield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Datefield",
+              "description": "Date and time field is a field that is used for date and time functionality. It is required field information form builder that records date and time information. From the drop-down list of this form you can select the current time & date also.",
+              "source": "@site/docs/Fields/Datefield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-datefield",
+              "permalink": "/docs/wpbitform-datefield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Datefield.mdx",
+              "version": "current",
+              "sidebar_label": "Date field",
+              "frontMatter": {
+                "id": "datefield",
+                "title": "Bit from - Datefield",
+                "sidebar_label": "Date field",
+                "slug": "/wpbitform-datefield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - File Upload field",
+                "permalink": "/docs/wpbitform-fileuploadfield"
+              },
+              "next": {
+                "title": "Bit from - Timefield",
+                "permalink": "/docs/wpbitform-timefield"
               }
             },
             {
@@ -330,6 +423,35 @@
               }
             },
             {
+              "unversionedId": "Fields/emailfield",
+              "id": "Fields/emailfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Emailfield",
+              "description": "Email field is a text field in the form builder of a website that takes a valid input format. It is a field that allows to send an email message to the user after the user submits the form. The Email field is the most widely used field in the form Builder. If a user enters any email address in an invalid format & tries to submit form then an error will be shown to them.",
+              "source": "@site/docs/Fields/Emailfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-emailfield",
+              "permalink": "/docs/wpbitform-emailfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Emailfield.mdx",
+              "version": "current",
+              "sidebar_label": "Email field",
+              "frontMatter": {
+                "id": "emailfield",
+                "title": "Bit from - Emailfield",
+                "sidebar_label": "Email field",
+                "slug": "/wpbitform-emailfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Password field",
+                "permalink": "/docs/wpbitform-passwordfield"
+              },
+              "next": {
+                "title": "Bit from - URLfield",
+                "permalink": "/docs/wpbitform-urlfield"
+              }
+            },
+            {
               "unversionedId": "Fields/fields-overview",
               "id": "Fields/fields-overview",
               "isDocsHomePage": false,
@@ -356,6 +478,35 @@
               "next": {
                 "title": "Bit from - Textfield",
                 "permalink": "/docs/wpbitform-textfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/fileuploadfield",
+              "id": "Fields/fileuploadfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - File Upload field",
+              "description": "File upload field allows user to upload files like - image, audio, video, spreadsheet, doc & zip files. You can limit the size of the file from the settings option.",
+              "source": "@site/docs/Fields/FileUpload.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-fileuploadfield",
+              "permalink": "/docs/wpbitform-fileuploadfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/FileUpload.mdx",
+              "version": "current",
+              "sidebar_label": "File Upload field",
+              "frontMatter": {
+                "id": "fileuploadfield",
+                "title": "Bit from - File Upload field",
+                "sidebar_label": "File Upload field",
+                "slug": "/wpbitform-fileuploadfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - URLfield",
+                "permalink": "/docs/wpbitform-urlfield"
+              },
+              "next": {
+                "title": "Bit from - Datefield",
+                "permalink": "/docs/wpbitform-datefield"
               }
             },
             {
@@ -417,6 +568,35 @@
               }
             },
             {
+              "unversionedId": "Fields/passwordfield",
+              "id": "Fields/passwordfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Password field",
+              "description": "Password field takes sequence of characters. These characters can be text characters, special characters, numeric characters or any other valid input. The entering character will be masked up as a dot sign.",
+              "source": "@site/docs/Fields/PasswordField.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-passwordfield",
+              "permalink": "/docs/wpbitform-passwordfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/PasswordField.mdx",
+              "version": "current",
+              "sidebar_label": "Password field",
+              "frontMatter": {
+                "id": "passwordfield",
+                "title": "Bit from - Password field",
+                "sidebar_label": "Password field",
+                "slug": "/wpbitform-passwordfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Country field",
+                "permalink": "/docs/wpbitform-countryfield"
+              },
+              "next": {
+                "title": "Bit from - Emailfield",
+                "permalink": "/docs/wpbitform-emailfield"
+              }
+            },
+            {
               "unversionedId": "Fields/radiobuttonfield",
               "id": "Fields/radiobuttonfield",
               "isDocsHomePage": false,
@@ -472,6 +652,64 @@
               "next": {
                 "title": "Bit from - Multi-Line Text field",
                 "permalink": "/docs/wpbitform-multilinetextfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/timefield",
+              "id": "Fields/timefield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Timefield",
+              "description": "Time field accepts a valid time. This field is something that we scroll through time to choose a time for a particular action",
+              "source": "@site/docs/Fields/TimeFields.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-timefield",
+              "permalink": "/docs/wpbitform-timefield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/TimeFields.mdx",
+              "version": "current",
+              "sidebar_label": "Time field",
+              "frontMatter": {
+                "id": "timefield",
+                "title": "Bit from - Timefield",
+                "sidebar_label": "Time field",
+                "slug": "/wpbitform-timefield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Datefield",
+                "permalink": "/docs/wpbitform-datefield"
+              },
+              "next": {
+                "title": "Bit from - Date-Time field",
+                "permalink": "/docs/wpbitform-date-timefield"
+              }
+            },
+            {
+              "unversionedId": "Fields/urlfield",
+              "id": "Fields/urlfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - URLfield",
+              "description": "URL field is a special type of text box that displays the URL of the content on the server that the user clicks to send the data to. This field automatically detect if user put any invalid URL link.",
+              "source": "@site/docs/Fields/URLfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-urlfield",
+              "permalink": "/docs/wpbitform-urlfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/URLfield.mdx",
+              "version": "current",
+              "sidebar_label": "URL field",
+              "frontMatter": {
+                "id": "urlfield",
+                "title": "Bit from - URLfield",
+                "sidebar_label": "URL field",
+                "slug": "/wpbitform-urlfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Emailfield",
+                "permalink": "/docs/wpbitform-emailfield"
+              },
+              "next": {
+                "title": "Bit from - File Upload field",
+                "permalink": "/docs/wpbitform-fileuploadfield"
               }
             },
             {
