@@ -1,185 +1,167 @@
 {
   "/-deb": {
-    "component": "component---site-src-pages-index-jsc-4-f-f99",
-    "config": "config---5-e-9-4f3"
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
   },
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
-  },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---docusaurus-debug-content-246-9aa"
-  },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
-  },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
-  },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
-  },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
-  },
-  "/blog-e08": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---bloge-1-e-521",
+  "/blog-6d3": {
+    "component": "a6aa9e1f",
+    "sidebar": "69f6601e",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blogb-2-b-df1"
+    "metadata": "b2b675dd"
   },
-  "/blog/hello-world-d57": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---bloge-1-e-521",
-    "content": "content---blog-hello-worldd-61-086"
+  "/blog/hello-world-a95": {
+    "component": "ccc49370",
+    "sidebar": "69f6601e",
+    "content": "d610846f"
   },
-  "/blog/hola-36e": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---bloge-1-e-521",
-    "content": "content---blog-holabdd-150"
+  "/blog/hola-ac9": {
+    "component": "ccc49370",
+    "sidebar": "69f6601e",
+    "content": "bdd709f1"
   },
-  "/blog/tags-14a": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---bloge-1-e-521",
-    "tags": "tags---blog-tagsa-70-da2"
+  "/blog/tags-74a": {
+    "component": "01a85c17",
+    "sidebar": "69f6601e",
+    "tags": "a7023ddc"
   },
-  "/blog/tags/docusaurus-b8d": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloge-1-e-521",
+  "/blog/tags/docusaurus-7aa": {
+    "component": "6875c492",
+    "sidebar": "69f6601e",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       },
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728"
+    "metadata": "a80da1cf"
   },
-  "/blog/tags/facebook-e3d": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloge-1-e-521",
+  "/blog/tags/facebook-0a4": {
+    "component": "6875c492",
+    "sidebar": "69f6601e",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       }
     ],
-    "metadata": "metadata---blog-tags-facebook-031-c52"
+    "metadata": "031793e1"
   },
-  "/blog/tags/hello-af1": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloge-1-e-521",
+  "/blog/tags/hello-ac5": {
+    "component": "6875c492",
+    "sidebar": "69f6601e",
     "items": [
       {
-        "content": "content---blogaf-1-856"
+        "content": "af172acd"
       },
       {
-        "content": "content---blog-357-22b"
+        "content": "3570154c"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed"
+    "metadata": "30a24c52"
   },
-  "/blog/tags/hola-7bf": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---bloge-1-e-521",
+  "/blog/tags/hola-c28": {
+    "component": "6875c492",
+    "sidebar": "69f6601e",
     "items": [
       {
-        "content": "content---blog-8-e-9-35c"
+        "content": "8e9f0a8a"
       }
     ],
-    "metadata": "metadata---blog-tags-holae-16-18a"
+    "metadata": "e16015ca"
   },
-  "/blog/welcome-c63": {
-    "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---bloge-1-e-521",
-    "content": "content---blog-welcome-286-e55"
+  "/blog/welcome-659": {
+    "component": "ccc49370",
+    "sidebar": "69f6601e",
+    "content": "2868cdab"
   },
-  "/docs-d3c": {
-    "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---docs-935-398"
+  "/docs-3a6": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
   },
   "/docs/-df5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-dda-e8e"
+    "component": "17896441",
+    "content": "dda7241c"
+  },
+  "/docs/changelog/BitForm-changelog-timeline-957": {
+    "component": "17896441",
+    "content": "c5030c08"
+  },
+  "/docs/changelog/BitForm-version-1.3-changelog-e91": {
+    "component": "17896441",
+    "content": "5b2d998f"
+  },
+  "/docs/changelog/BitForm-version-1.4-changelog-7fc": {
+    "component": "17896441",
+    "content": "0cc80887"
   },
   "/docs/doc1-392": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-doc-1-b-2-f-e80"
+    "component": "17896441",
+    "content": "b2f90839"
   },
   "/docs/doc2-fd3": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-doc-2-df-3-eaa"
+    "component": "17896441",
+    "content": "df361e2b"
   },
   "/docs/doc3-e02": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-doc-3616-40c"
-  },
-  "/docs/Fields/Emailfield-cc4": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-emailfielde-39-339"
+    "component": "17896441",
+    "content": "616665f6"
   },
   "/docs/How-to-create-a-WordPress-from-using-BitForm-21c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-how-to-create-a-word-press-from-using-bit-form-83-c-6e9"
+    "component": "17896441",
+    "content": "83c7d311"
   },
   "/docs/install-activate-wordpress-frombuilder-bitform-242": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-install-activate-wordpress-frombuilder-bitform-39-a-8cb"
+    "component": "17896441",
+    "content": "39ae05d2"
   },
   "/docs/mdx-955": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-mdxce-3-7d1"
+    "component": "17896441",
+    "content": "ce3e42ad"
   },
   "/docs/wpbitform-checkboxfield-644": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-checkboxfield-0-b-7-1b4"
+    "component": "17896441",
+    "content": "0b71ea26"
   },
   "/docs/wpbitform-countryfield-adb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-countryfieldfe-8-950"
+    "component": "17896441",
+    "content": "fe8e959b"
   },
   "/docs/wpbitform-drop-downfield-2ae": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-drop-downfield-903-1c0"
+    "component": "17896441",
+    "content": "90325ccb"
   },
   "/docs/wpbitform-field-types-28e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-field-types-4-f-5-cad"
+    "component": "17896441",
+    "content": "4f5b62e5"
   },
   "/docs/wpbitform-multilinetextfield-b9d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-multilinetextfield-3-b-6-c3b"
+    "component": "17896441",
+    "content": "3b669025"
   },
   "/docs/wpbitform-numberfield-5bb": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-numberfieldc-8-f-984"
-  },
-  "/docs/wpbitform-passwordfield-d8c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-password-field-5-c-9-b95"
+    "component": "17896441",
+    "content": "c8f42758"
   },
   "/docs/wpbitform-radiobuttonfield-a74": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-radiobuttonfield-0-c-4-1f6"
+    "component": "17896441",
+    "content": "0c471293"
   },
   "/docs/wpbitform-textfield-e8d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-wpbitform-textfield-05-f-a90"
+    "component": "17896441",
+    "content": "05fe13a9"
   }
 }

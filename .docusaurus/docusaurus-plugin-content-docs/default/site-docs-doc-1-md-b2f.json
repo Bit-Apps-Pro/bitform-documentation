@@ -3,7 +3,7 @@
   "id": "doc1",
   "isDocsHomePage": false,
   "title": "Style Guide",
-  "description": "",
+  "description": "asd",
   "source": "@site/docs/doc1.md",
   "sourceDirName": ".",
   "slug": "/doc1",
@@ -15,14 +15,5 @@
     "id": "doc1",
     "title": "Style Guide",
     "sidebar_label": "Style Guide"
-  },
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Bit from - Password field",
-    "permalink": "/docs/wpbitform-passwordfield"
-  },
-  "next": {
-    "title": "Document Numbers rrr 2",
-    "permalink": "/docs/doc2"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "unversionedId": "changelog/asd",
+  "id": "changelog/asd",
+  "isDocsHomePage": false,
+  "title": "dsfsdfsdf",
+  "description": "",
+  "source": "@site/docs/changelog/asd.mdx",
+  "sourceDirName": "changelog",
+  "slug": "/changelog/asd",
+  "permalink": "/docs/changelog/asd",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/changelog/asd.mdx",
+  "version": "current",
+  "sidebar_label": "asdasd",
+  "frontMatter": {
+    "id": "asd",
+    "title": "BitForm Changelog version 1.3",
+    "sidebar_label": "asdasd"
+  }
+}

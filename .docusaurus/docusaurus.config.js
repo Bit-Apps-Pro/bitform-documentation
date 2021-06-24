@@ -1,13 +1,13 @@
 export default {
   "title": "Bit Form | Top free form builder in WordPress | Fastest Form-Builder",
-  "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
+  "tagline": "WP Bit Form made easy to build a form in wordpress with database management system.",
+  "url": "https://docs.bitform.bitpress.pro/",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "BitPress",
-  "projectName": "BitForm",
+  "organizationName": "Bit-Press",
+  "projectName": "bitform-documentation",
   "themeConfig": {
     "navbar": {
       "title": "Bit Form",
@@ -23,14 +23,16 @@ export default {
           "position": "left"
         },
         {
-          "to": "blog",
-          "label": "Blog",
-          "position": "left"
+          "to": "/docs/changelog/BitForm-changelog-timeline",
+          "label": "Changelogs",
+          "position": "left",
+          "activeBasePath": "changelog"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
+          "href": "https://downloads.wordpress.org/plugin/bit-form.zip",
+          "label": "Free Download",
+          "position": "right",
+          "className": "download-btn"
         }
       ],
       "hideOnScroll": false
@@ -42,12 +44,12 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Style Guide",
-              "to": "docs/"
+              "label": "Install & Activate",
+              "to": "docs/install-activate-wordpress-frombuilder-bitform"
             },
             {
-              "label": "Second Doc",
-              "to": "docs/doc2/"
+              "label": "Form Fields",
+              "to": "docs/wpbitform-field-types"
             }
           ]
         },
@@ -55,16 +57,8 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Facebook",
+              "href": "https://www.facebook.com/groups/bitcommunityusers"
             }
           ]
         },
@@ -77,12 +71,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/Bit-Press/bitform-documentation/"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2021 BitApps."
     },
     "colorMode": {
       "defaultMode": "light",
@@ -109,7 +103,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "E:\\bitform-documentation\\sidebars.js",
+          "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
         },
         "blog": {
@@ -117,7 +111,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
         },
         "theme": {
-          "customCss": "E:\\bitform-documentation\\src\\css\\custom.css"
+          "customCss": "E:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"
         }
       }
     ]
@@ -128,6 +122,12 @@ export default {
   "stylesheets": [
     "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
     "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+  ],
+  "scripts": [
+    {
+      "src": "/scripts/tawk.to.js",
+      "defer": true
+    }
   ],
   "baseUrlIssueBanner": true,
   "i18n": {

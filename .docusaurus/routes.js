@@ -8,93 +8,73 @@ export default [
   exact: true,
 },
 {
-  path: '/__docusaurus/debug',
-  component: ComponentCreator('/__docusaurus/debug','3d6'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/config',
-  component: ComponentCreator('/__docusaurus/debug/config','914'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/content',
-  component: ComponentCreator('/__docusaurus/debug/content','c28'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/globalData',
-  component: ComponentCreator('/__docusaurus/debug/globalData','3cf'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/metadata',
-  component: ComponentCreator('/__docusaurus/debug/metadata','31b'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/registry',
-  component: ComponentCreator('/__docusaurus/debug/registry','0da'),
-  exact: true,
-},
-{
-  path: '/__docusaurus/debug/routes',
-  component: ComponentCreator('/__docusaurus/debug/routes','244'),
-  exact: true,
-},
-{
   path: '/blog',
-  component: ComponentCreator('/blog','e08'),
+  component: ComponentCreator('/blog','6d3'),
   exact: true,
 },
 {
   path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','d57'),
+  component: ComponentCreator('/blog/hello-world','a95'),
   exact: true,
 },
 {
   path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','36e'),
+  component: ComponentCreator('/blog/hola','ac9'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','14a'),
+  component: ComponentCreator('/blog/tags','74a'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','b8d'),
+  component: ComponentCreator('/blog/tags/docusaurus','7aa'),
   exact: true,
 },
 {
   path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','e3d'),
+  component: ComponentCreator('/blog/tags/facebook','0a4'),
   exact: true,
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','af1'),
+  component: ComponentCreator('/blog/tags/hello','ac5'),
   exact: true,
 },
 {
   path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','7bf'),
+  component: ComponentCreator('/blog/tags/hola','c28'),
   exact: true,
 },
 {
   path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','c63'),
+  component: ComponentCreator('/blog/welcome','659'),
   exact: true,
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d3c'),
+  component: ComponentCreator('/docs','3a6'),
   
   routes: [
 {
   path: '/docs/',
   component: ComponentCreator('/docs/','df5'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-changelog-timeline',
+  component: ComponentCreator('/docs/changelog/BitForm-changelog-timeline','957'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-version-1.3-changelog',
+  component: ComponentCreator('/docs/changelog/BitForm-version-1.3-changelog','e91'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/BitForm-version-1.4-changelog',
+  component: ComponentCreator('/docs/changelog/BitForm-version-1.4-changelog','7fc'),
   exact: true,
 },
 {
@@ -110,11 +90,6 @@ export default [
 {
   path: '/docs/doc3',
   component: ComponentCreator('/docs/doc3','e02'),
-  exact: true,
-},
-{
-  path: '/docs/Fields/Emailfield',
-  component: ComponentCreator('/docs/Fields/Emailfield','cc4'),
   exact: true,
 },
 {
@@ -160,11 +135,6 @@ export default [
 {
   path: '/docs/wpbitform-numberfield',
   component: ComponentCreator('/docs/wpbitform-numberfield','5bb'),
-  exact: true,
-},
-{
-  path: '/docs/wpbitform-passwordfield',
-  component: ComponentCreator('/docs/wpbitform-passwordfield','d8c'),
   exact: true,
 },
 {
