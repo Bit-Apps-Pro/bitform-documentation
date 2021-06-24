@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-727": {
+  "/docs-d3c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -130,6 +130,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-doc-3616-40c"
   },
+  "/docs/Fields/Emailfield-cc4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-emailfielde-39-339"
+  },
   "/docs/How-to-create-a-WordPress-from-using-BitForm-21c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-how-to-create-a-word-press-from-using-bit-form-83-c-6e9"
@@ -148,11 +152,11 @@
   },
   "/docs/wpbitform-countryfield-adb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-country-fieldfe-8-5f0"
+    "content": "content---docs-wpbitform-countryfieldfe-8-950"
   },
   "/docs/wpbitform-drop-downfield-2ae": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-drop-down-903-c86"
+    "content": "content---docs-wpbitform-drop-downfield-903-1c0"
   },
   "/docs/wpbitform-field-types-28e": {
     "component": "component---theme-doc-item-178-a40",
@@ -165,6 +169,10 @@
   "/docs/wpbitform-numberfield-5bb": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-numberfieldc-8-f-984"
+  },
+  "/docs/wpbitform-passwordfield-d8c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-password-field-5-c-9-b95"
   },
   "/docs/wpbitform-radiobuttonfield-a74": {
     "component": "component---theme-doc-item-178-a40",

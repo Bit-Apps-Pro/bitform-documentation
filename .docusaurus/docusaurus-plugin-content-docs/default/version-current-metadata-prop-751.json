@@ -71,6 +71,11 @@
             "type": "link",
             "label": "Country field",
             "href": "/docs/wpbitform-countryfield"
+          },
+          {
+            "type": "link",
+            "label": "Password field",
+            "href": "/docs/wpbitform-passwordfield"
           }
         ]
       },
@@ -120,6 +125,7 @@
     "/docs/wpbitform-field-types": "someSidebar",
     "/docs/wpbitform-multilinetextfield": "someSidebar",
     "/docs/wpbitform-numberfield": "someSidebar",
+    "/docs/wpbitform-passwordfield": "someSidebar",
     "/docs/wpbitform-radiobuttonfield": "someSidebar",
     "/docs/wpbitform-textfield": "someSidebar",
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",

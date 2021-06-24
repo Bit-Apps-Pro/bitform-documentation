@@ -71,6 +71,10 @@
                   {
                     "type": "doc",
                     "id": "Fields/countryfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/passwordfield"
                   }
                 ]
               },
@@ -116,6 +120,7 @@
             "/docs/wpbitform-field-types": "someSidebar",
             "/docs/wpbitform-multilinetextfield": "someSidebar",
             "/docs/wpbitform-numberfield": "someSidebar",
+            "/docs/wpbitform-passwordfield": "someSidebar",
             "/docs/wpbitform-radiobuttonfield": "someSidebar",
             "/docs/wpbitform-textfield": "someSidebar",
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
@@ -144,8 +149,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Country field",
-                "permalink": "/docs/wpbitform-countryfield"
+                "title": "Bit from - Password field",
+                "permalink": "/docs/wpbitform-passwordfield"
               },
               "next": {
                 "title": "Document Numbers rrr 2",
@@ -258,8 +263,8 @@
                 "permalink": "/docs/wpbitform-drop-downfield"
               },
               "next": {
-                "title": "Style Guide",
-                "permalink": "/docs/doc1"
+                "title": "Bit from - Password field",
+                "permalink": "/docs/wpbitform-passwordfield"
               }
             },
             {
@@ -290,6 +295,20 @@
                 "title": "Bit from - Country field",
                 "permalink": "/docs/wpbitform-countryfield"
               }
+            },
+            {
+              "unversionedId": "Fields/Emailfield",
+              "id": "Fields/Emailfield",
+              "isDocsHomePage": false,
+              "title": "Emailfield",
+              "description": "",
+              "source": "@site/docs/Fields/Emailfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/Fields/Emailfield",
+              "permalink": "/docs/Fields/Emailfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Emailfield.mdx",
+              "version": "current",
+              "frontMatter": {}
             },
             {
               "unversionedId": "Fields/fields-overview",
@@ -376,6 +395,35 @@
               "next": {
                 "title": "Bit from - Drop-Down field",
                 "permalink": "/docs/wpbitform-drop-downfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/passwordfield",
+              "id": "Fields/passwordfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Password field",
+              "description": "Password field takes sequence of characters. These characters can be text characters, special characters, numeric characters or any other valid input. The entering character will be masked up as a dot sign.",
+              "source": "@site/docs/Fields/PasswordField.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-passwordfield",
+              "permalink": "/docs/wpbitform-passwordfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/PasswordField.mdx",
+              "version": "current",
+              "sidebar_label": "Password field",
+              "frontMatter": {
+                "id": "passwordfield",
+                "title": "Bit from - Password field",
+                "sidebar_label": "Password field",
+                "slug": "/wpbitform-passwordfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Country field",
+                "permalink": "/docs/wpbitform-countryfield"
+              },
+              "next": {
+                "title": "Style Guide",
+                "permalink": "/docs/doc1"
               }
             },
             {

@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','727'),
+  component: ComponentCreator('/docs','d3c'),
   
   routes: [
 {
@@ -110,6 +110,11 @@ export default [
 {
   path: '/docs/doc3',
   component: ComponentCreator('/docs/doc3','e02'),
+  exact: true,
+},
+{
+  path: '/docs/Fields/Emailfield',
+  component: ComponentCreator('/docs/Fields/Emailfield','cc4'),
   exact: true,
 },
 {
@@ -155,6 +160,11 @@ export default [
 {
   path: '/docs/wpbitform-numberfield',
   component: ComponentCreator('/docs/wpbitform-numberfield','5bb'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-passwordfield',
+  component: ComponentCreator('/docs/wpbitform-passwordfield','d8c'),
   exact: true,
 },
 {

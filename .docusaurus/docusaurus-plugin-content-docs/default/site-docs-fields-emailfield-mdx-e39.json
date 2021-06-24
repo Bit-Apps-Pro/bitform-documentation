@@ -1,0 +1,14 @@
+{
+  "unversionedId": "Fields/Emailfield",
+  "id": "Fields/Emailfield",
+  "isDocsHomePage": false,
+  "title": "Emailfield",
+  "description": "",
+  "source": "@site/docs/Fields/Emailfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/Fields/Emailfield",
+  "permalink": "/docs/Fields/Emailfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Emailfield.mdx",
+  "version": "current",
+  "frontMatter": {}
+}

@@ -41,6 +41,10 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Fields/Emailfield",
+              "path": "/docs/Fields/Emailfield"
+            },
+            {
               "id": "Fields/fields-overview",
               "path": "/docs/wpbitform-field-types",
               "sidebar": "someSidebar"
@@ -53,6 +57,11 @@
             {
               "id": "Fields/numberfield",
               "path": "/docs/wpbitform-numberfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/passwordfield",
+              "path": "/docs/wpbitform-passwordfield",
               "sidebar": "someSidebar"
             },
             {
