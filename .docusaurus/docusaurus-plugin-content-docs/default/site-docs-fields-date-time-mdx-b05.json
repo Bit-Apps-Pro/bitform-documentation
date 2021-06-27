@@ -21,5 +21,9 @@
   "previous": {
     "title": "Bit from - Timefield",
     "permalink": "/docs/wpbitform-timefield"
+  },
+  "next": {
+    "title": "Bit from - Month field",
+    "permalink": "/docs/wpbitform-monthfield"
   }
 }

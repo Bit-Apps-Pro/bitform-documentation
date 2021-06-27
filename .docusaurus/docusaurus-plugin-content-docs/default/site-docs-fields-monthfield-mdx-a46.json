@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/monthfield",
+  "id": "Fields/monthfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Month field",
+  "description": "Week field in Form Builder is used to collect a week based information.",
+  "source": "@site/docs/Fields/Monthfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-monthfield",
+  "permalink": "/docs/wpbitform-monthfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Monthfield.mdx",
+  "version": "current",
+  "sidebar_label": "Month field",
+  "frontMatter": {
+    "id": "monthfield",
+    "title": "Bit from - Month field",
+    "sidebar_label": "Month field",
+    "slug": "/wpbitform-monthfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Date-Time field",
+    "permalink": "/docs/wpbitform-date-timefield"
+  },
+  "next": {
+    "title": "Bit from - Color Picker field",
+    "permalink": "/docs/wpbitform-colorpickerfield"
+  }
+}

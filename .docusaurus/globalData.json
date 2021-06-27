@@ -43,6 +43,11 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Fields/colorpickerfield",
+              "path": "/docs/wpbitform-colorpickerfield",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Fields/countryfield",
               "path": "/docs/wpbitform-countryfield",
               "sidebar": "someSidebar"
@@ -75,6 +80,11 @@
             {
               "id": "Fields/fileuploadfield",
               "path": "/docs/wpbitform-fileuploadfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/monthfield",
+              "path": "/docs/wpbitform-monthfield",
               "sidebar": "someSidebar"
             },
             {
@@ -111,6 +121,10 @@
               "id": "Fields/urlfield",
               "path": "/docs/wpbitform-urlfield",
               "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/weekfield",
+              "path": "/docs/wpbitform-weekfield"
             },
             {
               "id": "Getting Started/create-new-form",

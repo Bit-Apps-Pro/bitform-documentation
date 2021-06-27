@@ -99,6 +99,14 @@
                   {
                     "type": "doc",
                     "id": "Fields/date-timefield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/monthfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/colorpickerfield"
                   }
                 ]
               }
@@ -130,6 +138,7 @@
             "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
             "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
             "/docs/wpbitform-checkboxfield": "someSidebar",
+            "/docs/wpbitform-colorpickerfield": "someSidebar",
             "/docs/wpbitform-countryfield": "someSidebar",
             "/docs/wpbitform-date-timefield": "someSidebar",
             "/docs/wpbitform-datefield": "someSidebar",
@@ -137,6 +146,7 @@
             "/docs/wpbitform-emailfield": "someSidebar",
             "/docs/wpbitform-field-types": "someSidebar",
             "/docs/wpbitform-fileuploadfield": "someSidebar",
+            "/docs/wpbitform-monthfield": "someSidebar",
             "/docs/wpbitform-multilinetextfield": "someSidebar",
             "/docs/wpbitform-numberfield": "someSidebar",
             "/docs/wpbitform-passwordfield": "someSidebar",
@@ -311,6 +321,31 @@
               }
             },
             {
+              "unversionedId": "Fields/colorpickerfield",
+              "id": "Fields/colorpickerfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Color Picker field",
+              "description": "Color Picker is a web component that provides color display and input functionality to web pages. It is used to fill the color fields in a form.",
+              "source": "@site/docs/Fields/Colorpicker.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-colorpickerfield",
+              "permalink": "/docs/wpbitform-colorpickerfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Colorpicker.mdx",
+              "version": "current",
+              "sidebar_label": "Color Picker field",
+              "frontMatter": {
+                "id": "colorpickerfield",
+                "title": "Bit from - Color Picker field",
+                "sidebar_label": "Color Picker field",
+                "slug": "/wpbitform-colorpickerfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Month field",
+                "permalink": "/docs/wpbitform-monthfield"
+              }
+            },
+            {
               "unversionedId": "Fields/countryfield",
               "id": "Fields/countryfield",
               "isDocsHomePage": false,
@@ -362,6 +397,10 @@
               "previous": {
                 "title": "Bit from - Timefield",
                 "permalink": "/docs/wpbitform-timefield"
+              },
+              "next": {
+                "title": "Bit from - Month field",
+                "permalink": "/docs/wpbitform-monthfield"
               }
             },
             {
@@ -507,6 +546,35 @@
               "next": {
                 "title": "Bit from - Datefield",
                 "permalink": "/docs/wpbitform-datefield"
+              }
+            },
+            {
+              "unversionedId": "Fields/monthfield",
+              "id": "Fields/monthfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Month field",
+              "description": "Week field in Form Builder is used to collect a week based information.",
+              "source": "@site/docs/Fields/Monthfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-monthfield",
+              "permalink": "/docs/wpbitform-monthfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Monthfield.mdx",
+              "version": "current",
+              "sidebar_label": "Month field",
+              "frontMatter": {
+                "id": "monthfield",
+                "title": "Bit from - Month field",
+                "sidebar_label": "Month field",
+                "slug": "/wpbitform-monthfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Date-Time field",
+                "permalink": "/docs/wpbitform-date-timefield"
+              },
+              "next": {
+                "title": "Bit from - Color Picker field",
+                "permalink": "/docs/wpbitform-colorpickerfield"
               }
             },
             {
@@ -710,6 +778,26 @@
               "next": {
                 "title": "Bit from - File Upload field",
                 "permalink": "/docs/wpbitform-fileuploadfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/weekfield",
+              "id": "Fields/weekfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Week field",
+              "description": "⚙ General Settings :",
+              "source": "@site/docs/Fields/Weekfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-weekfield",
+              "permalink": "/docs/wpbitform-weekfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Weekfield.mdx",
+              "version": "current",
+              "sidebar_label": "Week field",
+              "frontMatter": {
+                "id": "weekfield",
+                "title": "Bit from - Week field",
+                "sidebar_label": "Week field",
+                "slug": "/wpbitform-weekfield"
               }
             },
             {

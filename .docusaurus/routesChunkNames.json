@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-15b": {
+  "/docs-d60": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -158,17 +158,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-checkboxfield-0-b-7-1b4"
   },
+  "/docs/wpbitform-colorpickerfield-b49": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-colorpicker-2-f-9-b9a"
+  },
   "/docs/wpbitform-countryfield-adb": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-countryfieldfe-8-950"
   },
   "/docs/wpbitform-date-timefield-5f9": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-date-timeb-05-4a3"
+    "content": "content---docs-wpbitform-date-timefieldb-05-04d"
   },
   "/docs/wpbitform-datefield-5dd": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-datefieldbc-0-d3f"
+    "content": "content---docs-wpbitform-datefieldbc-0-c8d"
   },
   "/docs/wpbitform-drop-downfield-2ae": {
     "component": "component---theme-doc-item-178-a40",
@@ -184,7 +188,11 @@
   },
   "/docs/wpbitform-fileuploadfield-c5b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-file-uploadbe-7-9bf"
+    "content": "content---docs-wpbitform-fileuploadfieldbe-7-6ca"
+  },
+  "/docs/wpbitform-monthfield-feb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-monthfielda-46-045"
   },
   "/docs/wpbitform-multilinetextfield-b9d": {
     "component": "component---theme-doc-item-178-a40",
@@ -208,10 +216,14 @@
   },
   "/docs/wpbitform-timefield-3b6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-time-fields-22-e-814"
+    "content": "content---docs-wpbitform-timefield-22-e-010"
   },
   "/docs/wpbitform-urlfield-eb7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-ur-lfieldb-96-1ce"
+    "content": "content---docs-wpbitform-urlfieldb-96-1a8"
+  },
+  "/docs/wpbitform-weekfield-251": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-weekfield-08-e-ce3"
   }
 }

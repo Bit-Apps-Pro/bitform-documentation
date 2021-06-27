@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     'Getting started': ['Getting Started/welcome', 'Getting Started/install', 'Getting Started/create-new-form'],
-    'Form Fields': ['Fields/fields-overview', 'Fields/textfield', 'Fields/multilinetextfield', 'Fields/checkboxfield', 'Fields/radiobuttonfield', 'Fields/numberfield', 'Fields/drop-downfield', 'Fields/countryfield','Fields/passwordfield','Fields/emailfield','Fields/urlfield','Fields/fileuploadfield','Fields/datefield','Fields/timefield','Fields/date-timefield'],
+    'Form Fields': ['Fields/fields-overview', 'Fields/textfield', 'Fields/multilinetextfield', 'Fields/checkboxfield', 'Fields/radiobuttonfield', 'Fields/numberfield', 'Fields/drop-downfield', 'Fields/countryfield','Fields/passwordfield','Fields/emailfield','Fields/urlfield','Fields/fileuploadfield','Fields/datefield','Fields/timefield','Fields/date-timefield','Fields/monthfield','Fields/colorpickerfield'],
     // Docusaurus: ['doc1', 'doc2', 'doc3'],
     // Features: ['mdx'],
   },

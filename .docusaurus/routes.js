@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','15b'),
+  component: ComponentCreator('/docs','d60'),
   
   routes: [
 {
@@ -148,6 +148,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-colorpickerfield',
+  component: ComponentCreator('/docs/wpbitform-colorpickerfield','b49'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-countryfield',
   component: ComponentCreator('/docs/wpbitform-countryfield','adb'),
   exact: true,
@@ -183,6 +188,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-monthfield',
+  component: ComponentCreator('/docs/wpbitform-monthfield','feb'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-multilinetextfield',
   component: ComponentCreator('/docs/wpbitform-multilinetextfield','b9d'),
   exact: true,
@@ -215,6 +225,11 @@ export default [
 {
   path: '/docs/wpbitform-urlfield',
   component: ComponentCreator('/docs/wpbitform-urlfield','eb7'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-weekfield',
+  component: ComponentCreator('/docs/wpbitform-weekfield','251'),
   exact: true,
 },
 ]
