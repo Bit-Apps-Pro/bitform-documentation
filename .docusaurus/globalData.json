@@ -38,6 +38,11 @@
               "path": "/docs/doc3"
             },
             {
+              "id": "Fields/buttonfield",
+              "path": "/docs/wpbitform-buttonfield",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Fields/checkboxfield",
               "path": "/docs/wpbitform-checkboxfield",
               "sidebar": "someSidebar"
@@ -60,6 +65,11 @@
             {
               "id": "Fields/datefield",
               "path": "/docs/wpbitform-datefield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/decisionboxfield",
+              "path": "/docs/wpbitform-decisionboxfield",
               "sidebar": "someSidebar"
             },
             {
@@ -103,8 +113,23 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Fields/paypalfield",
+              "path": "/docs/wpbitform-paypalfield",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Fields/radiobuttonfield",
               "path": "/docs/wpbitform-radiobuttonfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/razorpayfield",
+              "path": "/docs/wpbitform-razorpayfield",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Fields/recaptchav2field",
+              "path": "/docs/wpbitform-recaptchav2field",
               "sidebar": "someSidebar"
             },
             {
@@ -144,6 +169,21 @@
             {
               "id": "mdx",
               "path": "/docs/mdx"
+            },
+            {
+              "id": "StyleEditor/background-customize",
+              "path": "/docs/wpbitform-background-customize",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "StyleEditor/form-block-customize",
+              "path": "/docs/wpbitform-form-block-customize",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "StyleEditor/form-customize",
+              "path": "/docs/wpbitform-form-customize",
+              "sidebar": "someSidebar"
             }
           ]
         }

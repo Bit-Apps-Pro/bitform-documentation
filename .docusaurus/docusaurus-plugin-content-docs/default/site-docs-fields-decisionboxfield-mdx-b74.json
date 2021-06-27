@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/decisionboxfield",
+  "id": "Fields/decisionboxfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Decision Box field",
+  "description": "From the Decision Box field user can agree to any decision required by the admin panel. As example, admin can use the decision box as Terms & Condition field.",
+  "source": "@site/docs/Fields/Decisionboxfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-decisionboxfield",
+  "permalink": "/docs/wpbitform-decisionboxfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Decisionboxfield.mdx",
+  "version": "current",
+  "sidebar_label": "Decision Box field",
+  "frontMatter": {
+    "id": "decisionboxfield",
+    "title": "Bit from - Decision Box field",
+    "sidebar_label": "Decision Box field",
+    "slug": "/wpbitform-decisionboxfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - reCAPTCHA v2 field",
+    "permalink": "/docs/wpbitform-recaptchav2field"
+  },
+  "next": {
+    "title": "Bit from - Button field",
+    "permalink": "/docs/wpbitform-buttonfield"
+  }
+}

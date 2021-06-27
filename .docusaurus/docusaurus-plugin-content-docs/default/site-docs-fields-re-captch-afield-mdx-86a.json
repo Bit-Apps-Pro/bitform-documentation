@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/recaptchav2field",
+  "id": "Fields/recaptchav2field",
+  "isDocsHomePage": false,
+  "title": "Bit from - reCAPTCHA v2 field",
+  "description": "Google reCAPTCHA is a free service to prevent spam and malware from entering your website/web application. It works like this: When a user submits a form/web form. This reCAPTCHA  field helps prevent spam and abuse on websites.",
+  "source": "@site/docs/Fields/reCAPTCHAfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-recaptchav2field",
+  "permalink": "/docs/wpbitform-recaptchav2field",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/reCAPTCHAfield.mdx",
+  "version": "current",
+  "sidebar_label": "reCAPTCHA v2 field",
+  "frontMatter": {
+    "id": "recaptchav2field",
+    "title": "Bit from - reCAPTCHA v2 field",
+    "sidebar_label": "reCAPTCHA v2 field",
+    "slug": "/wpbitform-recaptchav2field"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Color Picker field",
+    "permalink": "/docs/wpbitform-colorpickerfield"
+  },
+  "next": {
+    "title": "Bit from - Decision Box field",
+    "permalink": "/docs/wpbitform-decisionboxfield"
+  }
+}

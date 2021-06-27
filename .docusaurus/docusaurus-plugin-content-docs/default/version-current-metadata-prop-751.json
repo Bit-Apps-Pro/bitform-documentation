@@ -116,6 +116,53 @@
             "type": "link",
             "label": "Color Picker field",
             "href": "/docs/wpbitform-colorpickerfield"
+          },
+          {
+            "type": "link",
+            "label": "reCAPTCHA v2 field",
+            "href": "/docs/wpbitform-recaptchav2field"
+          },
+          {
+            "type": "link",
+            "label": "Decision Box field",
+            "href": "/docs/wpbitform-decisionboxfield"
+          },
+          {
+            "type": "link",
+            "label": "Button field",
+            "href": "/docs/wpbitform-buttonfield"
+          },
+          {
+            "type": "link",
+            "label": "PayPal field",
+            "href": "/docs/wpbitform-paypalfield"
+          },
+          {
+            "type": "link",
+            "label": "Razorpay field",
+            "href": "/docs/wpbitform-razorpayfield"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Style Editor",
+        "items": [
+          {
+            "type": "link",
+            "label": "Background Customize",
+            "href": "/docs/wpbitform-background-customize"
+          },
+          {
+            "type": "link",
+            "label": "Form Customize",
+            "href": "/docs/wpbitform-form-customize"
+          },
+          {
+            "type": "link",
+            "label": "Form Block Customize",
+            "href": "/docs/wpbitform-form-block-customize"
           }
         ]
       }
@@ -149,11 +196,13 @@
     "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
     "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
     "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
+    "/docs/wpbitform-buttonfield": "someSidebar",
     "/docs/wpbitform-checkboxfield": "someSidebar",
     "/docs/wpbitform-colorpickerfield": "someSidebar",
     "/docs/wpbitform-countryfield": "someSidebar",
     "/docs/wpbitform-date-timefield": "someSidebar",
     "/docs/wpbitform-datefield": "someSidebar",
+    "/docs/wpbitform-decisionboxfield": "someSidebar",
     "/docs/wpbitform-drop-downfield": "someSidebar",
     "/docs/wpbitform-emailfield": "someSidebar",
     "/docs/wpbitform-field-types": "someSidebar",
@@ -162,12 +211,18 @@
     "/docs/wpbitform-multilinetextfield": "someSidebar",
     "/docs/wpbitform-numberfield": "someSidebar",
     "/docs/wpbitform-passwordfield": "someSidebar",
+    "/docs/wpbitform-paypalfield": "someSidebar",
     "/docs/wpbitform-radiobuttonfield": "someSidebar",
+    "/docs/wpbitform-razorpayfield": "someSidebar",
+    "/docs/wpbitform-recaptchav2field": "someSidebar",
     "/docs/wpbitform-textfield": "someSidebar",
     "/docs/wpbitform-timefield": "someSidebar",
     "/docs/wpbitform-urlfield": "someSidebar",
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
-    "/docs/": "someSidebar"
+    "/docs/": "someSidebar",
+    "/docs/wpbitform-background-customize": "someSidebar",
+    "/docs/wpbitform-form-block-customize": "someSidebar",
+    "/docs/wpbitform-form-customize": "someSidebar"
   }
 }

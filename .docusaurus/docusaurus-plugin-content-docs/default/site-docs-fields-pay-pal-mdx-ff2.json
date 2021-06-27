@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/paypalfield",
+  "id": "Fields/paypalfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - PayPal field",
+  "description": "Admin can receive Order Payment & Subscription Payment through the PayPal field.",
+  "source": "@site/docs/Fields/PayPal.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-paypalfield",
+  "permalink": "/docs/wpbitform-paypalfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/PayPal.mdx",
+  "version": "current",
+  "sidebar_label": "PayPal field",
+  "frontMatter": {
+    "id": "paypalfield",
+    "title": "Bit from - PayPal field",
+    "sidebar_label": "PayPal field",
+    "slug": "/wpbitform-paypalfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Button field",
+    "permalink": "/docs/wpbitform-buttonfield"
+  },
+  "next": {
+    "title": "Bit from - Razorpay field",
+    "permalink": "/docs/wpbitform-razorpayfield"
+  }
+}

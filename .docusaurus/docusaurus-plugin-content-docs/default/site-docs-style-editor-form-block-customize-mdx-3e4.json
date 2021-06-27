@@ -1,0 +1,25 @@
+{
+  "unversionedId": "StyleEditor/form-block-customize",
+  "id": "StyleEditor/form-block-customize",
+  "isDocsHomePage": false,
+  "title": "Bit from - Form Block Customize",
+  "description": "You can design individual Form block in Form Block Customize section.",
+  "source": "@site/docs/StyleEditor/FormBlockCustomize.mdx",
+  "sourceDirName": "StyleEditor",
+  "slug": "/wpbitform-form-block-customize",
+  "permalink": "/docs/wpbitform-form-block-customize",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FormBlockCustomize.mdx",
+  "version": "current",
+  "sidebar_label": "Form Block Customize",
+  "frontMatter": {
+    "id": "form-block-customize",
+    "title": "Bit from - Form Block Customize",
+    "sidebar_label": "Form Block Customize",
+    "slug": "/wpbitform-form-block-customize"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Form Customize",
+    "permalink": "/docs/wpbitform-form-customize"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "StyleEditor/background-customize",
+  "id": "StyleEditor/background-customize",
+  "isDocsHomePage": false,
+  "title": "Bit from - Background Customize",
+  "description": "In this step you can design Form background as much as your choice.There has many kinds of options. Such as:",
+  "source": "@site/docs/StyleEditor/BackgroundCustomize.mdx",
+  "sourceDirName": "StyleEditor",
+  "slug": "/wpbitform-background-customize",
+  "permalink": "/docs/wpbitform-background-customize",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/BackgroundCustomize.mdx",
+  "version": "current",
+  "sidebar_label": "Background Customize",
+  "frontMatter": {
+    "id": "background-customize",
+    "title": "Bit from - Background Customize",
+    "sidebar_label": "Background Customize",
+    "slug": "/wpbitform-background-customize"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Razorpay field",
+    "permalink": "/docs/wpbitform-razorpayfield"
+  },
+  "next": {
+    "title": "Bit from - Form Customize",
+    "permalink": "/docs/wpbitform-form-customize"
+  }
+}

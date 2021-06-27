@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-d60": {
+  "/docs-e75": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -154,13 +154,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-mdxce-3-7d1"
   },
+  "/docs/wpbitform-background-customize-673": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-background-customized-76-48d"
+  },
+  "/docs/wpbitform-buttonfield-66c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-buttonfieldca-7-edd"
+  },
   "/docs/wpbitform-checkboxfield-644": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-checkboxfield-0-b-7-1b4"
   },
   "/docs/wpbitform-colorpickerfield-b49": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-colorpicker-2-f-9-b9a"
+    "content": "content---docs-wpbitform-colorpickerfield-2-f-9-9be"
   },
   "/docs/wpbitform-countryfield-adb": {
     "component": "component---theme-doc-item-178-a40",
@@ -173,6 +181,10 @@
   "/docs/wpbitform-datefield-5dd": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-datefieldbc-0-c8d"
+  },
+  "/docs/wpbitform-decisionboxfield-56d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-decisionboxfieldb-74-8dd"
   },
   "/docs/wpbitform-drop-downfield-2ae": {
     "component": "component---theme-doc-item-178-a40",
@@ -190,9 +202,17 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-fileuploadfieldbe-7-6ca"
   },
+  "/docs/wpbitform-form-block-customize-36a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-style-editor-form-block-customize-3-e-4-520"
+  },
+  "/docs/wpbitform-form-customize-9a0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-style-editor-form-customize-76-d-193"
+  },
   "/docs/wpbitform-monthfield-feb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-monthfielda-46-045"
+    "content": "content---docs-wpbitform-monthfielda-46-d20"
   },
   "/docs/wpbitform-multilinetextfield-b9d": {
     "component": "component---theme-doc-item-178-a40",
@@ -206,9 +226,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-passwordfield-5-c-9-0e9"
   },
+  "/docs/wpbitform-paypalfield-388": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-pay-palff-2-e46"
+  },
   "/docs/wpbitform-radiobuttonfield-a74": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-radiobuttonfield-0-c-4-1f6"
+  },
+  "/docs/wpbitform-razorpayfield-2cf": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-razorpayb-19-2a3"
+  },
+  "/docs/wpbitform-recaptchav2field-578": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-fields-re-captch-afield-86-a-640"
   },
   "/docs/wpbitform-textfield-e8d": {
     "component": "component---theme-doc-item-178-a40",
@@ -224,6 +256,6 @@
   },
   "/docs/wpbitform-weekfield-251": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-fields-weekfield-08-e-ce3"
+    "content": "content---docs-wpbitform-weekfield-08-e-e63"
   }
 }

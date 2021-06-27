@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Fields/buttonfield",
+  "id": "Fields/buttonfield",
+  "isDocsHomePage": false,
+  "title": "Bit from - Button field",
+  "description": "Button Field is a significant & integral part of any website especially when it comes to web forms and customizing them is quite a bit of work to make the button look good and stand out. In our Bit Form, users will get a default submit button.",
+  "source": "@site/docs/Fields/Buttonfield.mdx",
+  "sourceDirName": "Fields",
+  "slug": "/wpbitform-buttonfield",
+  "permalink": "/docs/wpbitform-buttonfield",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Buttonfield.mdx",
+  "version": "current",
+  "sidebar_label": "Button field",
+  "frontMatter": {
+    "id": "buttonfield",
+    "title": "Bit from - Button field",
+    "sidebar_label": "Button field",
+    "slug": "/wpbitform-buttonfield"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Decision Box field",
+    "permalink": "/docs/wpbitform-decisionboxfield"
+  },
+  "next": {
+    "title": "Bit from - PayPal field",
+    "permalink": "/docs/wpbitform-paypalfield"
+  }
+}

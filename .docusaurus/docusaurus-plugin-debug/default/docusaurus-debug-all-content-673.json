@@ -107,6 +107,45 @@
                   {
                     "type": "doc",
                     "id": "Fields/colorpickerfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/recaptchav2field"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/decisionboxfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/buttonfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/paypalfield"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Fields/razorpayfield"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Style Editor",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "StyleEditor/background-customize"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "StyleEditor/form-customize"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "StyleEditor/form-block-customize"
                   }
                 ]
               }
@@ -137,11 +176,13 @@
             "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
             "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
             "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
+            "/docs/wpbitform-buttonfield": "someSidebar",
             "/docs/wpbitform-checkboxfield": "someSidebar",
             "/docs/wpbitform-colorpickerfield": "someSidebar",
             "/docs/wpbitform-countryfield": "someSidebar",
             "/docs/wpbitform-date-timefield": "someSidebar",
             "/docs/wpbitform-datefield": "someSidebar",
+            "/docs/wpbitform-decisionboxfield": "someSidebar",
             "/docs/wpbitform-drop-downfield": "someSidebar",
             "/docs/wpbitform-emailfield": "someSidebar",
             "/docs/wpbitform-field-types": "someSidebar",
@@ -150,13 +191,19 @@
             "/docs/wpbitform-multilinetextfield": "someSidebar",
             "/docs/wpbitform-numberfield": "someSidebar",
             "/docs/wpbitform-passwordfield": "someSidebar",
+            "/docs/wpbitform-paypalfield": "someSidebar",
             "/docs/wpbitform-radiobuttonfield": "someSidebar",
+            "/docs/wpbitform-razorpayfield": "someSidebar",
+            "/docs/wpbitform-recaptchav2field": "someSidebar",
             "/docs/wpbitform-textfield": "someSidebar",
             "/docs/wpbitform-timefield": "someSidebar",
             "/docs/wpbitform-urlfield": "someSidebar",
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
-            "/docs/": "someSidebar"
+            "/docs/": "someSidebar",
+            "/docs/wpbitform-background-customize": "someSidebar",
+            "/docs/wpbitform-form-block-customize": "someSidebar",
+            "/docs/wpbitform-form-customize": "someSidebar"
           },
           "docs": [
             {
@@ -292,6 +339,35 @@
               }
             },
             {
+              "unversionedId": "Fields/buttonfield",
+              "id": "Fields/buttonfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Button field",
+              "description": "Button Field is a significant & integral part of any website especially when it comes to web forms and customizing them is quite a bit of work to make the button look good and stand out. In our Bit Form, users will get a default submit button.",
+              "source": "@site/docs/Fields/Buttonfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-buttonfield",
+              "permalink": "/docs/wpbitform-buttonfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Buttonfield.mdx",
+              "version": "current",
+              "sidebar_label": "Button field",
+              "frontMatter": {
+                "id": "buttonfield",
+                "title": "Bit from - Button field",
+                "sidebar_label": "Button field",
+                "slug": "/wpbitform-buttonfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Decision Box field",
+                "permalink": "/docs/wpbitform-decisionboxfield"
+              },
+              "next": {
+                "title": "Bit from - PayPal field",
+                "permalink": "/docs/wpbitform-paypalfield"
+              }
+            },
+            {
               "unversionedId": "Fields/checkboxfield",
               "id": "Fields/checkboxfield",
               "isDocsHomePage": false,
@@ -343,6 +419,10 @@
               "previous": {
                 "title": "Bit from - Month field",
                 "permalink": "/docs/wpbitform-monthfield"
+              },
+              "next": {
+                "title": "Bit from - reCAPTCHA v2 field",
+                "permalink": "/docs/wpbitform-recaptchav2field"
               }
             },
             {
@@ -430,6 +510,35 @@
               "next": {
                 "title": "Bit from - Timefield",
                 "permalink": "/docs/wpbitform-timefield"
+              }
+            },
+            {
+              "unversionedId": "Fields/decisionboxfield",
+              "id": "Fields/decisionboxfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Decision Box field",
+              "description": "From the Decision Box field user can agree to any decision required by the admin panel. As example, admin can use the decision box as Terms & Condition field.",
+              "source": "@site/docs/Fields/Decisionboxfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-decisionboxfield",
+              "permalink": "/docs/wpbitform-decisionboxfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Decisionboxfield.mdx",
+              "version": "current",
+              "sidebar_label": "Decision Box field",
+              "frontMatter": {
+                "id": "decisionboxfield",
+                "title": "Bit from - Decision Box field",
+                "sidebar_label": "Decision Box field",
+                "slug": "/wpbitform-decisionboxfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - reCAPTCHA v2 field",
+                "permalink": "/docs/wpbitform-recaptchav2field"
+              },
+              "next": {
+                "title": "Bit from - Button field",
+                "permalink": "/docs/wpbitform-buttonfield"
               }
             },
             {
@@ -665,6 +774,35 @@
               }
             },
             {
+              "unversionedId": "Fields/paypalfield",
+              "id": "Fields/paypalfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - PayPal field",
+              "description": "Admin can receive Order Payment & Subscription Payment through the PayPal field.",
+              "source": "@site/docs/Fields/PayPal.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-paypalfield",
+              "permalink": "/docs/wpbitform-paypalfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/PayPal.mdx",
+              "version": "current",
+              "sidebar_label": "PayPal field",
+              "frontMatter": {
+                "id": "paypalfield",
+                "title": "Bit from - PayPal field",
+                "sidebar_label": "PayPal field",
+                "slug": "/wpbitform-paypalfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Button field",
+                "permalink": "/docs/wpbitform-buttonfield"
+              },
+              "next": {
+                "title": "Bit from - Razorpay field",
+                "permalink": "/docs/wpbitform-razorpayfield"
+              }
+            },
+            {
               "unversionedId": "Fields/radiobuttonfield",
               "id": "Fields/radiobuttonfield",
               "isDocsHomePage": false,
@@ -691,6 +829,64 @@
               "next": {
                 "title": "Bit from - Number field",
                 "permalink": "/docs/wpbitform-numberfield"
+              }
+            },
+            {
+              "unversionedId": "Fields/razorpayfield",
+              "id": "Fields/razorpayfield",
+              "isDocsHomePage": false,
+              "title": "Bit from - Razorpay field",
+              "description": "Another payment gateway plugin Razorpay has been added to Bit Form. It allows credit cards, debit cards, net banking, wallet & UPI payments.",
+              "source": "@site/docs/Fields/Razorpay.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-razorpayfield",
+              "permalink": "/docs/wpbitform-razorpayfield",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Razorpay.mdx",
+              "version": "current",
+              "sidebar_label": "Razorpay field",
+              "frontMatter": {
+                "id": "razorpayfield",
+                "title": "Bit from - Razorpay field",
+                "sidebar_label": "Razorpay field",
+                "slug": "/wpbitform-razorpayfield"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - PayPal field",
+                "permalink": "/docs/wpbitform-paypalfield"
+              },
+              "next": {
+                "title": "Bit from - Background Customize",
+                "permalink": "/docs/wpbitform-background-customize"
+              }
+            },
+            {
+              "unversionedId": "Fields/recaptchav2field",
+              "id": "Fields/recaptchav2field",
+              "isDocsHomePage": false,
+              "title": "Bit from - reCAPTCHA v2 field",
+              "description": "Google reCAPTCHA is a free service to prevent spam and malware from entering your website/web application. It works like this: When a user submits a form/web form. This reCAPTCHA  field helps prevent spam and abuse on websites.",
+              "source": "@site/docs/Fields/reCAPTCHAfield.mdx",
+              "sourceDirName": "Fields",
+              "slug": "/wpbitform-recaptchav2field",
+              "permalink": "/docs/wpbitform-recaptchav2field",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/reCAPTCHAfield.mdx",
+              "version": "current",
+              "sidebar_label": "reCAPTCHA v2 field",
+              "frontMatter": {
+                "id": "recaptchav2field",
+                "title": "Bit from - reCAPTCHA v2 field",
+                "sidebar_label": "reCAPTCHA v2 field",
+                "slug": "/wpbitform-recaptchav2field"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Color Picker field",
+                "permalink": "/docs/wpbitform-colorpickerfield"
+              },
+              "next": {
+                "title": "Bit from - Decision Box field",
+                "permalink": "/docs/wpbitform-decisionboxfield"
               }
             },
             {
@@ -898,6 +1094,89 @@
               "frontMatter": {
                 "id": "mdx",
                 "title": "Powered by MDX"
+              }
+            },
+            {
+              "unversionedId": "StyleEditor/background-customize",
+              "id": "StyleEditor/background-customize",
+              "isDocsHomePage": false,
+              "title": "Bit from - Background Customize",
+              "description": "In this step you can design Form background as much as your choice.There has many kinds of options. Such as:",
+              "source": "@site/docs/StyleEditor/BackgroundCustomize.mdx",
+              "sourceDirName": "StyleEditor",
+              "slug": "/wpbitform-background-customize",
+              "permalink": "/docs/wpbitform-background-customize",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/BackgroundCustomize.mdx",
+              "version": "current",
+              "sidebar_label": "Background Customize",
+              "frontMatter": {
+                "id": "background-customize",
+                "title": "Bit from - Background Customize",
+                "sidebar_label": "Background Customize",
+                "slug": "/wpbitform-background-customize"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Razorpay field",
+                "permalink": "/docs/wpbitform-razorpayfield"
+              },
+              "next": {
+                "title": "Bit from - Form Customize",
+                "permalink": "/docs/wpbitform-form-customize"
+              }
+            },
+            {
+              "unversionedId": "StyleEditor/form-block-customize",
+              "id": "StyleEditor/form-block-customize",
+              "isDocsHomePage": false,
+              "title": "Bit from - Form Block Customize",
+              "description": "You can design individual Form block in Form Block Customize section.",
+              "source": "@site/docs/StyleEditor/FormBlockCustomize.mdx",
+              "sourceDirName": "StyleEditor",
+              "slug": "/wpbitform-form-block-customize",
+              "permalink": "/docs/wpbitform-form-block-customize",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FormBlockCustomize.mdx",
+              "version": "current",
+              "sidebar_label": "Form Block Customize",
+              "frontMatter": {
+                "id": "form-block-customize",
+                "title": "Bit from - Form Block Customize",
+                "sidebar_label": "Form Block Customize",
+                "slug": "/wpbitform-form-block-customize"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Form Customize",
+                "permalink": "/docs/wpbitform-form-customize"
+              }
+            },
+            {
+              "unversionedId": "StyleEditor/form-customize",
+              "id": "StyleEditor/form-customize",
+              "isDocsHomePage": false,
+              "title": "Bit from - Form Customize",
+              "description": "In Form Customize  you can design form as much as your choice.",
+              "source": "@site/docs/StyleEditor/FormCustomize.mdx",
+              "sourceDirName": "StyleEditor",
+              "slug": "/wpbitform-form-customize",
+              "permalink": "/docs/wpbitform-form-customize",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FormCustomize.mdx",
+              "version": "current",
+              "sidebar_label": "Form Customize",
+              "frontMatter": {
+                "id": "form-customize",
+                "title": "Bit from - Form Customize",
+                "sidebar_label": "Form Customize",
+                "slug": "/wpbitform-form-customize"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Background Customize",
+                "permalink": "/docs/wpbitform-background-customize"
+              },
+              "next": {
+                "title": "Bit from - Form Block Customize",
+                "permalink": "/docs/wpbitform-form-block-customize"
               }
             }
           ]

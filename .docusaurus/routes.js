@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','d60'),
+  component: ComponentCreator('/docs','e75'),
   
   routes: [
 {
@@ -143,6 +143,16 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-background-customize',
+  component: ComponentCreator('/docs/wpbitform-background-customize','673'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-buttonfield',
+  component: ComponentCreator('/docs/wpbitform-buttonfield','66c'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-checkboxfield',
   component: ComponentCreator('/docs/wpbitform-checkboxfield','644'),
   exact: true,
@@ -168,6 +178,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-decisionboxfield',
+  component: ComponentCreator('/docs/wpbitform-decisionboxfield','56d'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-drop-downfield',
   component: ComponentCreator('/docs/wpbitform-drop-downfield','2ae'),
   exact: true,
@@ -185,6 +200,16 @@ export default [
 {
   path: '/docs/wpbitform-fileuploadfield',
   component: ComponentCreator('/docs/wpbitform-fileuploadfield','c5b'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-form-block-customize',
+  component: ComponentCreator('/docs/wpbitform-form-block-customize','36a'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-form-customize',
+  component: ComponentCreator('/docs/wpbitform-form-customize','9a0'),
   exact: true,
 },
 {
@@ -208,8 +233,23 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-paypalfield',
+  component: ComponentCreator('/docs/wpbitform-paypalfield','388'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-radiobuttonfield',
   component: ComponentCreator('/docs/wpbitform-radiobuttonfield','a74'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-razorpayfield',
+  component: ComponentCreator('/docs/wpbitform-razorpayfield','2cf'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-recaptchav2field',
+  component: ComponentCreator('/docs/wpbitform-recaptchav2field','578'),
   exact: true,
 },
 {

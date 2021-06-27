@@ -1,0 +1,29 @@
+{
+  "unversionedId": "StyleEditor/form-customize",
+  "id": "StyleEditor/form-customize",
+  "isDocsHomePage": false,
+  "title": "Bit from - Form Customize",
+  "description": "In Form Customize  you can design form as much as your choice.",
+  "source": "@site/docs/StyleEditor/FormCustomize.mdx",
+  "sourceDirName": "StyleEditor",
+  "slug": "/wpbitform-form-customize",
+  "permalink": "/docs/wpbitform-form-customize",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FormCustomize.mdx",
+  "version": "current",
+  "sidebar_label": "Form Customize",
+  "frontMatter": {
+    "id": "form-customize",
+    "title": "Bit from - Form Customize",
+    "sidebar_label": "Form Customize",
+    "slug": "/wpbitform-form-customize"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Background Customize",
+    "permalink": "/docs/wpbitform-background-customize"
+  },
+  "next": {
+    "title": "Bit from - Form Block Customize",
+    "permalink": "/docs/wpbitform-form-block-customize"
+  }
+}
