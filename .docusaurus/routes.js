@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','e75'),
+  component: ComponentCreator('/docs','cc4'),
   
   routes: [
 {
@@ -193,6 +193,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-field-customize',
+  component: ComponentCreator('/docs/wpbitform-field-customize','ef6'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-field-types',
   component: ComponentCreator('/docs/wpbitform-field-types','28e'),
   exact: true,
@@ -213,6 +218,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-form-settings',
+  component: ComponentCreator('/docs/wpbitform-form-settings','96d'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-monthfield',
   component: ComponentCreator('/docs/wpbitform-monthfield','feb'),
   exact: true,
@@ -225,6 +235,11 @@ export default [
 {
   path: '/docs/wpbitform-numberfield',
   component: ComponentCreator('/docs/wpbitform-numberfield','5bb'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-overview',
+  component: ComponentCreator('/docs/wpbitform-overview','19e'),
   exact: true,
 },
 {

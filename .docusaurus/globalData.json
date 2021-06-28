@@ -152,6 +152,11 @@
               "path": "/docs/wpbitform-weekfield"
             },
             {
+              "id": "form-settings",
+              "path": "/docs/wpbitform-form-settings",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Getting Started/create-new-form",
               "path": "/docs/How-to-create-a-WordPress-from-using-BitForm",
               "sidebar": "someSidebar"
@@ -171,8 +176,18 @@
               "path": "/docs/mdx"
             },
             {
+              "id": "Response Management/response-management",
+              "path": "/docs/wpbitform-overview",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "StyleEditor/background-customize",
               "path": "/docs/wpbitform-background-customize",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "StyleEditor/field-customize",
+              "path": "/docs/wpbitform-field-customize",
               "sidebar": "someSidebar"
             },
             {

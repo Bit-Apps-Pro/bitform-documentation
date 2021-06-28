@@ -163,8 +163,23 @@
             "type": "link",
             "label": "Form Block Customize",
             "href": "/docs/wpbitform-form-block-customize"
+          },
+          {
+            "type": "link",
+            "label": "Field Customize",
+            "href": "/docs/wpbitform-field-customize"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Response Management",
+        "href": "/docs/wpbitform-overview"
+      },
+      {
+        "type": "link",
+        "label": "Form Settings",
+        "href": "/docs/wpbitform-form-settings"
       }
     ],
     "changelogSidebar": [
@@ -218,10 +233,13 @@
     "/docs/wpbitform-textfield": "someSidebar",
     "/docs/wpbitform-timefield": "someSidebar",
     "/docs/wpbitform-urlfield": "someSidebar",
+    "/docs/wpbitform-form-settings": "someSidebar",
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
+    "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",
+    "/docs/wpbitform-field-customize": "someSidebar",
     "/docs/wpbitform-form-block-customize": "someSidebar",
     "/docs/wpbitform-form-customize": "someSidebar"
   }

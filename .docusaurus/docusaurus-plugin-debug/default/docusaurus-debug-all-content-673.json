@@ -146,8 +146,20 @@
                   {
                     "type": "doc",
                     "id": "StyleEditor/form-block-customize"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "StyleEditor/field-customize"
                   }
                 ]
+              },
+              {
+                "type": "doc",
+                "id": "Response Management/response-management"
+              },
+              {
+                "type": "doc",
+                "id": "form-settings"
               }
             ],
             "changelogSidebar": [
@@ -198,10 +210,13 @@
             "/docs/wpbitform-textfield": "someSidebar",
             "/docs/wpbitform-timefield": "someSidebar",
             "/docs/wpbitform-urlfield": "someSidebar",
+            "/docs/wpbitform-form-settings": "someSidebar",
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
+            "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
+            "/docs/wpbitform-field-customize": "someSidebar",
             "/docs/wpbitform-form-block-customize": "someSidebar",
             "/docs/wpbitform-form-customize": "someSidebar"
           },
@@ -997,6 +1012,31 @@
               }
             },
             {
+              "unversionedId": "form-settings",
+              "id": "form-settings",
+              "isDocsHomePage": false,
+              "title": "Bit from - Form Settings",
+              "description": "Overview",
+              "source": "@site/docs/Form-Settings.mdx",
+              "sourceDirName": ".",
+              "slug": "/wpbitform-form-settings",
+              "permalink": "/docs/wpbitform-form-settings",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Form-Settings.mdx",
+              "version": "current",
+              "sidebar_label": "Form Settings",
+              "frontMatter": {
+                "id": "form-settings",
+                "title": "Bit from - Form Settings",
+                "sidebar_label": "Form Settings",
+                "slug": "/wpbitform-form-settings"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Response Management",
+                "permalink": "/docs/wpbitform-overview"
+              }
+            },
+            {
               "unversionedId": "Getting Started/create-new-form",
               "id": "Getting Started/create-new-form",
               "isDocsHomePage": false,
@@ -1097,6 +1137,35 @@
               }
             },
             {
+              "unversionedId": "Response Management/response-management",
+              "id": "Response Management/response-management",
+              "isDocsHomePage": false,
+              "title": "Bit from - Response Management",
+              "description": "Overview:",
+              "source": "@site/docs/Response Management/response-management.mdx",
+              "sourceDirName": "Response Management",
+              "slug": "/wpbitform-overview",
+              "permalink": "/docs/wpbitform-overview",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Response Management/response-management.mdx",
+              "version": "current",
+              "sidebar_label": "Response Management",
+              "frontMatter": {
+                "id": "response-management",
+                "title": "Bit from - Response Management",
+                "sidebar_label": "Response Management",
+                "slug": "/wpbitform-overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Field Customize",
+                "permalink": "/docs/wpbitform-field-customize"
+              },
+              "next": {
+                "title": "Bit from - Form Settings",
+                "permalink": "/docs/wpbitform-form-settings"
+              }
+            },
+            {
               "unversionedId": "StyleEditor/background-customize",
               "id": "StyleEditor/background-customize",
               "isDocsHomePage": false,
@@ -1126,6 +1195,35 @@
               }
             },
             {
+              "unversionedId": "StyleEditor/field-customize",
+              "id": "StyleEditor/field-customize",
+              "isDocsHomePage": false,
+              "title": "Bit from - Field Customize",
+              "description": "You can design form fields in this section.",
+              "source": "@site/docs/StyleEditor/FieldCustomize.mdx",
+              "sourceDirName": "StyleEditor",
+              "slug": "/wpbitform-field-customize",
+              "permalink": "/docs/wpbitform-field-customize",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FieldCustomize.mdx",
+              "version": "current",
+              "sidebar_label": "Field Customize",
+              "frontMatter": {
+                "id": "field-customize",
+                "title": "Bit from - Field Customize",
+                "sidebar_label": "Field Customize",
+                "slug": "/wpbitform-field-customize"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Form Block Customize",
+                "permalink": "/docs/wpbitform-form-block-customize"
+              },
+              "next": {
+                "title": "Bit from - Response Management",
+                "permalink": "/docs/wpbitform-overview"
+              }
+            },
+            {
               "unversionedId": "StyleEditor/form-block-customize",
               "id": "StyleEditor/form-block-customize",
               "isDocsHomePage": false,
@@ -1148,6 +1246,10 @@
               "previous": {
                 "title": "Bit from - Form Customize",
                 "permalink": "/docs/wpbitform-form-customize"
+              },
+              "next": {
+                "title": "Bit from - Field Customize",
+                "permalink": "/docs/wpbitform-field-customize"
               }
             },
             {

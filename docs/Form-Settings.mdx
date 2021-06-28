@@ -1,0 +1,261 @@
+---
+id: form-settings
+title: Bit from - Form Settings
+sidebar_label: Form Settings
+slug: /wpbitform-form-settings
+---
+
+import Image from ".././src/components/Image";
+
+## Overview
+
+The following features are available under ***Form Settings*** -
+
+✔ Allow Single Entry for each IP address
+
+✔ Disable this form after limited entry
+
+✔ Honeypot
+
+✔ Limit form submission period
+
+✔ Blocked IP list
+
+✔ Allowed IP
+ 
+✔ SMTP Configuration
+
+✔ Form import & export
+
+
+### Allow Single Entry for each IP address
+One form can be submitted one time from each IP address. Suppose you are submitting a form using/from this IP 123.123. 12.1. You can not submit the same form again from the same IP address but you can submit the form using another IP address which is not used yet to submit the same form.
+
+<Image src="Bit-Form-single-entry-for-ip-address" alt="New-Form" w="1000" h="450" />
+
+### Disable this form after limited entry
+If you want to disable the form after certain entries you can use this feature. Suppose you have decided that after 100 times submission you want to disable the form than this feature is for you
+
+<Image src="Bit-Form-limited-entry" alt="New-Form" w="1000" h="450" />
+
+### Honeypot
+It is a well-known fact that spambots are real trouble today. One of the common problems web developers face is that spambots create web forms to submit spam messages to the websites. Spam prevention is not easy because of intelligent bots. Though re-captcha will help you in this situation by setting some challenges or tricks to avoid bots, sometimes you can get into an endless trap which is annoying to some visitors. So, we have come with a better experience for spam protection while submitting web forms & that is an intelligent “Honeypot,” aka a hidden field.
+
+The main goal of today’s article is – how you can prevent a bot from submitting the form using Honeypot in Bit Form. Our previous article demonstrated to you how you could add hidden fields manually using conditional logic. But now, you can use Honeypot by enabling a simple option from the settings. In this article, we will show you how you can do that.
+
+**What is Honeypot & how does it work?**
+ 
+Honeypot is a security technique that helps an administrator to prevent form submission by a spam bot. With Honeypot, an admin can prevent spamming, which decreases spamming compliance of your website.
+
+Honeypot works by setting up an automatic trap that will catch the hackers when they try to submit a form with a script. It checks if the hidden field is filled up by someone who will be obviously a bot because a real human can not view the field.
+
+**How does Honeypot work on Bit Form?**
+
+✔ To set up “Honeypot” on Bit Form –
+
+✔ Create a form or select a form you have created before.
+
+✔ Navigate to “Form settings” from the “Settings” option.
+
+✔ Enable the option “Honeypot trap for bot” & save the settings
+
+<Image src="Honeypot-Bit-Form (2)" alt="New-Form" w="1000" h="350" />
+
+This settings will automatically create some hidden fields that a real human can’t access, but bot will take it as a part of web forms. As it starts to try to fill those fields, it will end up revealings as “Spambots” Whenever bots try to fill those hidden fields & submit the form an error message will be displayed “Trying to submit the form by bot”.
+
+
+### Limit form submission period
+If you want to disable the form after certain entries you can use this feature. Suppose you have decided that after 100 times submission you want to disable the form than this feature is for you
+
+<Image src="Bit-Form-limit-period" alt="New-Form" w="1000" h="450" />
+
+### Blocked IP list
+The blocked listed IP addresses can not submit your form. Suppose you have noticed that from specific IP addresses a form is being submitted as spamming and you do not like it. In this case, you can use this feature, you can list those IP here and form submission from those IP will not be accepted anymore.And you can also disable the blocked listed IPs whenever you want.
+For example, you want to disallow submission from the below listed IPs
+103.145.119.253
+103.145.119.251
+103.145.119.250
+Just put these three IPs on blocked list and enable blocked option. Now, no more submission will be accepted from those IPs
+
+<Image src="Bit-Form-block-ip" alt="New-Form" w="1000" h="450" />
+
+### Allowed IP
+In some cases, some organization or company want to accept form submission from some specific IP addresses. Only in those situations, this feature will be helpful for them.
+
+By enabling this option only the listed IP can submit this form.
+
+Suppose you have listed these two IP 123.123. 12.1 and 123.123. 12.2 Now, only form submission from these two IPs will be accepted.
+
+<Image src="Bit-Form-allowed-ip" alt="New-Form" w="1000" h="350" />
+
+### SMTP Configuration
+A new addition to our Bit Form plugin is – SMTP configuration. A lot of site owners face the spam mail problem for using the WordPress default PHP mail function.SMTP is a protocol that helps your WordPress site to make its email deliverability more easygoing & reliable. By enabling this feature you can send mail from your site to your recipients via your preferred mail server.
+
+**Watch the video here!**
+
+**How does SMTP works :**
+At first, you have to open an account on your desired hosting provider (e.g: MailGun, Gmail, Yahoo, Hotmail, Zoho mail). By opening an account you are authenticating your WordPress site. They will provide you the necessary credentials (e.g.: Encryption type, SMTP port ). You have to put this information when configuring SMTP on your site. Once your site is authenticated you can send mail through your preferred SMTP server. All the email validation work will be done on your specified SMTP server.
+
+
+You don’t have to use different SMTP plug-in or different workflow of SMTP providers. We bring it all in one feature. To access all the mail services you need professional mail addresses. The mail services you can use through this feature:
+
+✔ MailGun SMTP [5,000 free email /per month for 3 months]
+
+✔ Gmail SMTP [6,000 free email/per month]
+
+✔ Hotmail
+
+✔ Yahoo
+
+✔ AWS SES
+
+✔ ZOHO Mail
+
+**Process of SMTP settings :** 
+
+To configure you need to go WordPress Dashboard. Then click to Bit Form. From Bit Form to Settings. Then go to SMTP option.
+
+***1.Bit Form SMTP general settings :***
+
+➤ Enable  SMTP: Enabling SMTP ‘YES’ you are ready to configure general SMTP settings.
+
+➤ From Email Address: Set the email address from where you want to send mail to recipients.
+
+➤ From Name: Set the name that will be shown to your recipients as the part of ‘Form’ or ‘Sender’
+
+➤ Reply-To Email Address: Set the email address to whom you want to send the mail.
+
+➤SMTP Host: Set the outgoing mail server that you have to choose.(e.g: smtp.gmail.com)
+
+
+<Image src="SMTP/SMTP_1" alt="New-Form" w="1000" h="600" />
+
+➤ Type of Encryption: Choose the encryption type regarding your hosting server.
+
+➤ SMTP Port: Choose the port to relay your outgoing mail to the SMTP server. Here are all the details :
+
+**☆  Mail Gun :**
+
+            SMTP Host: smtp.mailgun.org
+
+            Type of Encryption:TLS
+
+            SMTP Port: 587
+
+**☆ Gmail :**
+
+
+            SMTP Host: smtp.gmail.com
+
+            Type of Encryption: TLS
+
+            SMTP Port: 587
+
+> **Note: The mail you use must be professional mail, then it will work to send the mail.**
+
+**☆ Hotmail :**
+
+            SMTP Host : smtp.live.com
+
+            Type of Encryption : TLS
+
+            SMTP Port: 587
+
+**☆ Yahoo :**
+
+            SMTP Host : smtp.mail.yahoo.com
+
+            Type of Encryption : SSL
+
+            SMTP Port: 465
+
+**☆ Zoho :**
+
+             SMTP Host : smtp.zoho.com
+
+            Type of Encryption : TSL
+
+            SMTP Port: 587
+
+> **Note: When configuring Zoho SMTP, you need to provide the entire email address and the correct password for authentication. You may require an Application-specific Password to set up the account in other devices if you’ve enabled Two-Factor Authentication.**
+
+➤ SMTP authentication: Set the authentication YES always.
+
+➤ SMTP Username & Password: Enter your username & password that you use to login into your mail server.
+
+After clicking the ‘Save Changes’ your SMTP configuration will be finished. Now you are ready for the test to see whether SMTP settings works or not!
+
+**2.SMTP Testing :**
+
+This testing option will help you to verify that actually, your website can relay outgoing mail to the referred recipients. SMTP testing option consists of :
+
+➤ To Field: Type the email address to whom you want to send the mail.
+
+➤ Subject Field: Include the subject of your message.
+
+➤ Message Field: Write your message to this text field.
+
+***Let’s see an example to clear this out!***
+
+ ▪ Let say you open an account on a mail server using your Gmail (e.g.: xyz@gmail.com) to send all the emails from your site.
+
+ ▪ Now you want to see what will recipients see when they get your mail. Then set an alternate Gmail(abc_14@gmail.com) in the ‘To’ field & set the subject, message.
+
+ ▪ Clicking on  ‘Send Test’ your mail will relay to the Gmail SMTP server. Gmail will validate the information you have set before(username, password)
+
+ ▪ When Gmail will validate your mail then the mail will be delivered to abc_14@gmail.com.Hence your mail will be delivered safely to your recipient via the SMTP server.
+ 
+ <Image src="SMTP/SMTP_2" alt="New-Form" w="1000" h="300" />
+
+ ### Form import & export
+ Bit Form comes with an Import & Export Form feature that allows you to migrate your forms to & from multiple WordPress websites. It consumes your time effortlessly as well as within a minute. Read this documentation to know more.
+
+**Export Forms:**
+1. At first, go to your WordPress dashboard, then click on Bit Form.
+
+ <Image src="Form-Import-Export/Dashboard-to-BitForm-" alt="New-Form" w="1000" h="300" />
+
+2. Now, choose any form from the list which you want to export from your site.
+
+3. Then click on the menu from the right side of the selected form.
+
+ <Image src="Form-Import-Export/Select-the-menu" alt="New-Form" w="1000" h="300" />
+
+4. Choose “Export” among the actions. By clicking this option, you can only export the form & related other styling & integration, but not the entries related to the selected form.
+
+ <Image src="Form-Import-Export/Select-Export" alt="New-Form" w="1000" h="300" />
+
+5. A JSON file will e downloaded after clicking the Export option.
+
+**Import Forms:**
+
+1. Go to another domain where you want to import the form. Then click on Bit Form.
+> **Note: Make sure that Bit Form is successfully installed on your new domain where you are going to import the form.**
+
+2. Now click on the “Create Form“, hover to the (+) icon & you can see the “Import” option. Click on the option.
+
+ <Image src="Form-Import-Export/Create-Form" alt="New-Form" w="1000" h="300" />
+ <Image src="Form-Import-Export/Import" alt="New-Form" w="1000" h="300" />
+
+3. Then, click on “Choose File” & upload the downloaded JSON file from your computer. Here you have to select the property that you want to import with your form. They are:
+
+  ⇛ All
+
+  ⇛ Form Settings
+
+  ⇛ Confirmations
+
+  ⇛ Conditional Logic
+
+  ⇛ Email templates
+
+  ⇛ Integrations
+
+ If you want to import all properties, click on the “All” option.
+
+ <Image src="Form-Import-Export/Choose-file-property" alt="New-Form" w="1000" h="300" />
+
+4. After successful import, you will see the form on the form list.
+
+**Watch the full video tutorial here!**
+

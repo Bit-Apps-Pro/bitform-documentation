@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Response Management/response-management",
+  "id": "Response Management/response-management",
+  "isDocsHomePage": false,
+  "title": "Bit from - Response Management",
+  "description": "Overview:",
+  "source": "@site/docs/Response Management/response-management.mdx",
+  "sourceDirName": "Response Management",
+  "slug": "/wpbitform-overview",
+  "permalink": "/docs/wpbitform-overview",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Response Management/response-management.mdx",
+  "version": "current",
+  "sidebar_label": "Response Management",
+  "frontMatter": {
+    "id": "response-management",
+    "title": "Bit from - Response Management",
+    "sidebar_label": "Response Management",
+    "slug": "/wpbitform-overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Field Customize",
+    "permalink": "/docs/wpbitform-field-customize"
+  },
+  "next": {
+    "title": "Bit from - Form Settings",
+    "permalink": "/docs/wpbitform-form-settings"
+  }
+}

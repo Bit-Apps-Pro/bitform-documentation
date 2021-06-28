@@ -1,0 +1,29 @@
+{
+  "unversionedId": "StyleEditor/field-customize",
+  "id": "StyleEditor/field-customize",
+  "isDocsHomePage": false,
+  "title": "Bit from - Field Customize",
+  "description": "You can design form fields in this section.",
+  "source": "@site/docs/StyleEditor/FieldCustomize.mdx",
+  "sourceDirName": "StyleEditor",
+  "slug": "/wpbitform-field-customize",
+  "permalink": "/docs/wpbitform-field-customize",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FieldCustomize.mdx",
+  "version": "current",
+  "sidebar_label": "Field Customize",
+  "frontMatter": {
+    "id": "field-customize",
+    "title": "Bit from - Field Customize",
+    "sidebar_label": "Field Customize",
+    "slug": "/wpbitform-field-customize"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Form Block Customize",
+    "permalink": "/docs/wpbitform-form-block-customize"
+  },
+  "next": {
+    "title": "Bit from - Response Management",
+    "permalink": "/docs/wpbitform-overview"
+  }
+}
