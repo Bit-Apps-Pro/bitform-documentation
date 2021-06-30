@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Integrations/mailchimp",
+  "id": "Integrations/mailchimp",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Mailchimp",
+  "description": "Building a good email list of your users can help you enrich your brand or company’s marketing strategy. With the direct Bit Form integration with Mailchimp, you can add the contact to the audience list as a subscriber. Go through the documentation about the Mailchimp integration process.",
+  "source": "@site/docs/Integrations/MailChimp.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-mailchimp",
+  "permalink": "/docs/wpbitform-mailchimp",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/MailChimp.mdx",
+  "version": "current",
+  "sidebar_label": "Mailchimp",
+  "frontMatter": {
+    "id": "mailchimp",
+    "title": "Bit from Integration With Mailchimp",
+    "sidebar_label": "Mailchimp",
+    "slug": "/wpbitform-mailchimp"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With Active Campaign",
+    "permalink": "/docs/wpbitform-activecampaign"
+  }
+}

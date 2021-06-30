@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/activecampaign",
+  "id": "Integrations/activecampaign",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Active Campaign",
+  "description": "Using straight integration with ActiveCampaign, you can now automatically send data via Bit Form to the ‘Contact‘ of ActiveCampaign in a matter of minutes. This integration also allows you to update the data of the contact list direct from Bit Form. Go through this documentation for in-depth details of this integration.",
+  "source": "@site/docs/Integrations/Active-Campaign.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-activecampaign",
+  "permalink": "/docs/wpbitform-activecampaign",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Active-Campaign.mdx",
+  "version": "current",
+  "sidebar_label": "Active Campaign",
+  "frontMatter": {
+    "id": "activecampaign",
+    "title": "Bit from Integration With Active Campaign",
+    "sidebar_label": "Active Campaign",
+    "slug": "/wpbitform-activecampaign"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With Telegram",
+    "permalink": "/docs/wpbitform-telegram"
+  },
+  "next": {
+    "title": "Bit from Integration With Mailchimp",
+    "permalink": "/docs/wpbitform-mailchimp"
+  }
+}

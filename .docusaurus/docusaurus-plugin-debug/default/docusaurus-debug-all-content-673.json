@@ -181,6 +181,26 @@
                   {
                     "type": "doc",
                     "id": "Integrations/pods"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/googlesheet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/googleads"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/telegram"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/activecampaign"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/mailchimp"
                   }
                 ]
               }
@@ -240,7 +260,12 @@
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
+            "/docs/wpbitform-activecampaign": "someSidebar",
+            "/docs/wpbitform-googleads": "someSidebar",
+            "/docs/wpbitform-googlesheet": "someSidebar",
+            "/docs/wpbitform-mailchimp": "someSidebar",
             "/docs/wpbitform-pods": "someSidebar",
+            "/docs/wpbitform-telegram": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
             "/docs/wpbitform-field-customize": "someSidebar",
@@ -1238,18 +1263,116 @@
               }
             },
             {
-              "unversionedId": "Integrations/Google-Sheet",
-              "id": "Integrations/Google-Sheet",
+              "unversionedId": "Integrations/activecampaign",
+              "id": "Integrations/activecampaign",
               "isDocsHomePage": false,
-              "title": "Google-Sheet",
-              "description": "",
+              "title": "Bit from Integration With Active Campaign",
+              "description": "Using straight integration with ActiveCampaign, you can now automatically send data via Bit Form to the ‘Contact‘ of ActiveCampaign in a matter of minutes. This integration also allows you to update the data of the contact list direct from Bit Form. Go through this documentation for in-depth details of this integration.",
+              "source": "@site/docs/Integrations/Active-Campaign.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-activecampaign",
+              "permalink": "/docs/wpbitform-activecampaign",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Active-Campaign.mdx",
+              "version": "current",
+              "sidebar_label": "Active Campaign",
+              "frontMatter": {
+                "id": "activecampaign",
+                "title": "Bit from Integration With Active Campaign",
+                "sidebar_label": "Active Campaign",
+                "slug": "/wpbitform-activecampaign"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Telegram",
+                "permalink": "/docs/wpbitform-telegram"
+              },
+              "next": {
+                "title": "Bit from Integration With Mailchimp",
+                "permalink": "/docs/wpbitform-mailchimp"
+              }
+            },
+            {
+              "unversionedId": "Integrations/googleads",
+              "id": "Integrations/googleads",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Google Ads",
+              "description": "Google Ads, also known as AdWords, is a pay-per-click online advertising service created by Google. It is a platform that allows advertisers to show targeted advertisements to visitors of websites. Google uses contextual targeting, which is based on keywords and searches terms. The advertisements are text-based and can either be text ads or display ads.",
+              "source": "@site/docs/Integrations/Google-Ads.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-googleads",
+              "permalink": "/docs/wpbitform-googleads",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Google-Ads.mdx",
+              "version": "current",
+              "sidebar_label": "Google Ads",
+              "frontMatter": {
+                "id": "googleads",
+                "title": "Bit from Integration With Google Ads",
+                "sidebar_label": "Google Ads",
+                "slug": "/wpbitform-googleads"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Google Sheet",
+                "permalink": "/docs/wpbitform-googlesheet"
+              },
+              "next": {
+                "title": "Bit from Integration With Telegram",
+                "permalink": "/docs/wpbitform-telegram"
+              }
+            },
+            {
+              "unversionedId": "Integrations/googlesheet",
+              "id": "Integrations/googlesheet",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Google Sheet",
+              "description": "In a new addition to our integration section, recently, we have added a new integration with Google Sheet. From now on, you can store all the submitted data to google sheet by Bit Form.",
               "source": "@site/docs/Integrations/Google-Sheet.mdx",
               "sourceDirName": "Integrations",
-              "slug": "/Integrations/Google-Sheet",
-              "permalink": "/docs/Integrations/Google-Sheet",
+              "slug": "/wpbitform-googlesheet",
+              "permalink": "/docs/wpbitform-googlesheet",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Google-Sheet.mdx",
               "version": "current",
-              "frontMatter": {}
+              "sidebar_label": "Google Sheet",
+              "frontMatter": {
+                "id": "googlesheet",
+                "title": "Bit from Integration With Google Sheet",
+                "sidebar_label": "Google Sheet",
+                "slug": "/wpbitform-googlesheet"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Pods",
+                "permalink": "/docs/wpbitform-pods"
+              },
+              "next": {
+                "title": "Bit from Integration With Google Ads",
+                "permalink": "/docs/wpbitform-googleads"
+              }
+            },
+            {
+              "unversionedId": "Integrations/mailchimp",
+              "id": "Integrations/mailchimp",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Mailchimp",
+              "description": "Building a good email list of your users can help you enrich your brand or company’s marketing strategy. With the direct Bit Form integration with Mailchimp, you can add the contact to the audience list as a subscriber. Go through the documentation about the Mailchimp integration process.",
+              "source": "@site/docs/Integrations/MailChimp.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-mailchimp",
+              "permalink": "/docs/wpbitform-mailchimp",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/MailChimp.mdx",
+              "version": "current",
+              "sidebar_label": "Mailchimp",
+              "frontMatter": {
+                "id": "mailchimp",
+                "title": "Bit from Integration With Mailchimp",
+                "sidebar_label": "Mailchimp",
+                "slug": "/wpbitform-mailchimp"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Active Campaign",
+                "permalink": "/docs/wpbitform-activecampaign"
+              }
             },
             {
               "unversionedId": "Integrations/pods",
@@ -1274,6 +1397,39 @@
               "previous": {
                 "title": "Bit from - Email Tempalate",
                 "permalink": "/docs/wpbitform- email-template"
+              },
+              "next": {
+                "title": "Bit from Integration With Google Sheet",
+                "permalink": "/docs/wpbitform-googlesheet"
+              }
+            },
+            {
+              "unversionedId": "Integrations/telegram",
+              "id": "Integrations/telegram",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Telegram",
+              "description": "Telegram is a cloud-based messaging solution. You can message anyone who is registered on the Telegram platform. With the help of Telegram integration with Bit Form users can send photos, videos, and any other files to a specific channel in the telegram group. This new feature provides a seamless experience, allowing you to boost your leads with ease.",
+              "source": "@site/docs/Integrations/Telegram.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-telegram",
+              "permalink": "/docs/wpbitform-telegram",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Telegram.mdx",
+              "version": "current",
+              "sidebar_label": "Telegram",
+              "frontMatter": {
+                "id": "telegram",
+                "title": "Bit from Integration With Telegram",
+                "sidebar_label": "Telegram",
+                "slug": "/wpbitform-telegram"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Google Ads",
+                "permalink": "/docs/wpbitform-googleads"
+              },
+              "next": {
+                "title": "Bit from Integration With Active Campaign",
+                "permalink": "/docs/wpbitform-activecampaign"
               }
             },
             {

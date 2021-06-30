@@ -1,0 +1,101 @@
+---
+id: googlesheet
+title: Bit from Integration With Google Sheet 
+sidebar_label: Google Sheet
+slug: /wpbitform-googlesheet
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Image";
+
+In a new addition to our integration section, recently, we have added a new integration with Google Sheet. From now on, you can store all the submitted data to google sheet by Bit Form.
+
+## Authorization Settings:
+
+At first, select the name of the form you want to apply the Google Sheet integration; after that, follow the below instructions.
+
+Follow the path:
+
+***Settings=> Integrations => Click on (+) => Click on ‘Google Sheet’***
+
+<Image src="Google-Sheet-Integration/Select Google Sheet Integration" alt="google-Sheet" w="1875" h="420" />
+
+A. Integration Name: Set the integration name “Google Sheet API”.
+
+B. Homepage URL: Enter the URL of your website.
+
+C. Authorized Redirect URL: Enter the URL in which Google Sheet will send the authentication code.
+
+D. Client ID & Secret: For client ID & secret you have to visit the Google API console. If you already have any Client ID & secret before then copy this to the field. If you don’t have any then you have to create a new client ID & secret.
+
+<Image src="Google-Sheet-Integration/To get ID & Secret" alt="google-Sheet" w="1020" h="550" />
+
+<Image src="Google-Sheet-Integration/Credential to Google sheet" alt="google-Sheet" w="1020" h="300" />
+
+<Image src="Google-Sheet-Integration/Created ID & Secret" alt="google-Sheet" w="1913" h="250" />
+
+If you don’t have any then you have to create a new client ID & secret.
+
+To get new Client Id & Client secret information go to Google API CONSOL=> Credentials=>Create Credentials=> OAuth Client ID => Select Application Type=> Give a Client Name => Add home page URL => Add authorized URL.
+
+Register all the information and get your client ID & Secret information from google sheet.
+
+<Image src="Google-Sheet-Integration/Create credentials_1" alt="google-Sheet" w="1875" h="300" />
+
+<Image src="Google-Sheet-Integration/Create credentials_2" alt="google-Sheet" w="1875" h="300" />
+
+<Image src="Google-Sheet-Integration/Create Credential_3" alt="google-Sheet" w="1875" h="350" />
+
+<Image src="Google-Sheet-Integration/Create Credential_4" alt="google-Sheet" w="1875" h="500" />
+
+Now give ID & Secret to the fields & click ‘Authorize‘ & you are ready to import all your data from Bit Form to your Google Sheet.
+
+<Image src="Google-Sheet-Integration/Give Id & secret" alt="google-Sheet" w="1875" h="350" />
+
+## Integration Settings:
+
+1. Select the specific spreadsheet from the drop-down menu which you have created before on Google Sheet.
+
+2. Then select the worksheet that belongs to the selected spreadsheet.
+
+<Image src="Google-Sheet-Integration/Spreadsheet, Worksheet,Header Row" alt="google-Sheet" w="1875" h="300" />
+
+3. Now specify the header row. By default, the first row of the worksheet is considered as a header row.
+
+<Image src="Google-Sheet-Integration/Header Row" alt="google-Sheet" w="1875" h="300" />
+
+<Image src="Google-Sheet-Integration/Name of header row" alt="google-Sheet" w="1875" h="300" />
+
+4. Click on the refresh button.
+
+5. You can now map the Bit form fields with the necessary Google field. You can send custom values on Google Sheet. After mapping the desired fields, click on ‘Next’.
+
+<Image src="Google-Sheet-Integration/Map" alt="google-Sheet" w="1875" h="350" />
+
+6. To save the integration process click on “Finish & Save”.
+
+7. Now to run this integration you have created, navigate to conditional logic. Conditional logics helps you to trigger integration when it is necessary.
+
+<Image src="Google-Sheet-Integration/Conditional Logics" alt="google-Sheet" w="1875" h="350" />
+
+8. After clicking update, all the information will be saved & you will be able to see all the submitted data through google sheet. When a form will be submitted, the information will be shown on the sheet.
+
+<Image src="Google-Sheet-Integration/Test" alt="google-Sheet" w="1875" h="380" />
+
+<Image src="Google-Sheet-Integration/Show in sheet" alt="google-Sheet" w="1875" h="380" />
+
+9. Also if you edit any data on the responses page, the data will be updated automatically on a google sheet.
+
+<Image src="Google-Sheet-Integration/Responses update" alt="google-Sheet" w="1875" h="200" />
+
+<Image src="Google-Sheet-Integration/Show update" alt="Show in sheet" w="1875" h="400" />
+
+**Watch the video tutorial here!**
+<Video youtube src="https://youtu.be/Vb4CE-hXbbo" />
+
+
+
+
+
+
+
+

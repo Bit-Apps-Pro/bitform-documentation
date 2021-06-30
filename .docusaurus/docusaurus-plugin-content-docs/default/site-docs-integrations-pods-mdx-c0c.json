@@ -21,5 +21,9 @@
   "previous": {
     "title": "Bit from - Email Tempalate",
     "permalink": "/docs/wpbitform- email-template"
+  },
+  "next": {
+    "title": "Bit from Integration With Google Sheet",
+    "permalink": "/docs/wpbitform-googlesheet"
   }
 }

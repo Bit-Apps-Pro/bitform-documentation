@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','4cf'),
+  component: ComponentCreator('/docs','7bc'),
   
   routes: [
 {
@@ -138,11 +138,6 @@ export default [
   exact: true,
 },
 {
-  path: '/docs/Integrations/Google-Sheet',
-  component: ComponentCreator('/docs/Integrations/Google-Sheet','e82'),
-  exact: true,
-},
-{
   path: '/docs/mdx',
   component: ComponentCreator('/docs/mdx','955'),
   exact: true,
@@ -155,6 +150,11 @@ export default [
 {
   path: '/docs/wpbitform- email-template',
   component: ComponentCreator('/docs/wpbitform- email-template','f43'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-activecampaign',
+  component: ComponentCreator('/docs/wpbitform-activecampaign','6ae'),
   exact: true,
 },
 {
@@ -243,6 +243,21 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-googleads',
+  component: ComponentCreator('/docs/wpbitform-googleads','710'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-googlesheet',
+  component: ComponentCreator('/docs/wpbitform-googlesheet','6c1'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-mailchimp',
+  component: ComponentCreator('/docs/wpbitform-mailchimp','a37'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-monthfield',
   component: ComponentCreator('/docs/wpbitform-monthfield','feb'),
   exact: true,
@@ -290,6 +305,11 @@ export default [
 {
   path: '/docs/wpbitform-recaptchav2field',
   component: ComponentCreator('/docs/wpbitform-recaptchav2field','578'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-telegram',
+  component: ComponentCreator('/docs/wpbitform-telegram','d89'),
   exact: true,
 },
 {

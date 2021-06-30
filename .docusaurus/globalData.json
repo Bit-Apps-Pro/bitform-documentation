@@ -187,12 +187,33 @@
               "sidebar": "someSidebar"
             },
             {
-              "id": "Integrations/Google-Sheet",
-              "path": "/docs/Integrations/Google-Sheet"
+              "id": "Integrations/activecampaign",
+              "path": "/docs/wpbitform-activecampaign",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/googleads",
+              "path": "/docs/wpbitform-googleads",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/googlesheet",
+              "path": "/docs/wpbitform-googlesheet",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/mailchimp",
+              "path": "/docs/wpbitform-mailchimp",
+              "sidebar": "someSidebar"
             },
             {
               "id": "Integrations/pods",
               "path": "/docs/wpbitform-pods",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/telegram",
+              "path": "/docs/wpbitform-telegram",
               "sidebar": "someSidebar"
             },
             {

@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-4cf": {
+  "/docs-7bc": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -150,10 +150,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-install-activate-wordpress-frombuilder-bitform-39-a-8cb"
   },
-  "/docs/Integrations/Google-Sheet-e82": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-google-sheetb-32-2d9"
-  },
   "/docs/mdx-955": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-mdxce-3-7d1"
@@ -165,6 +161,10 @@
   "/docs/wpbitform- email-template-f43": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-email-templateadf-c87"
+  },
+  "/docs/wpbitform-activecampaign-6ae": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-active-campaigne-3-f-8a1"
   },
   "/docs/wpbitform-background-customize-673": {
     "component": "component---theme-doc-item-178-a40",
@@ -234,6 +234,18 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-form-settings-467-f1c"
   },
+  "/docs/wpbitform-googleads-710": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-googleads-35-f-a96"
+  },
+  "/docs/wpbitform-googlesheet-6c1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-google-sheetb-32-2d9"
+  },
+  "/docs/wpbitform-mailchimp-a37": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-mailchimpd-18-cc7"
+  },
   "/docs/wpbitform-monthfield-feb": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-monthfielda-46-d20"
@@ -273,6 +285,10 @@
   "/docs/wpbitform-recaptchav2field-578": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-recaptchav-2-field-86-a-324"
+  },
+  "/docs/wpbitform-telegram-d89": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-telegram-4-b-4-5f8"
   },
   "/docs/wpbitform-textfield-e8d": {
     "component": "component---theme-doc-item-178-a40",

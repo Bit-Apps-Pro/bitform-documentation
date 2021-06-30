@@ -46,7 +46,7 @@ module.exports = {
     "conditional-logic",
     "confirmation-massage",
     "email-template",
-    { Integrations: ["Integrations/pods"] },
+    { Integrations: ["Integrations/pods","Integrations/googlesheet","Integrations/googleads","Integrations/telegram","Integrations/activecampaign","Integrations/mailchimp"] },
   ],
 
   changelogSidebar: [
