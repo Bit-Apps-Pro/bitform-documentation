@@ -1,0 +1,29 @@
+{
+  "unversionedId": "confirmation-massage",
+  "id": "confirmation-massage",
+  "isDocsHomePage": false,
+  "title": "Bit from - Confirmation Message",
+  "description": "Success or Error Message",
+  "source": "@site/docs/Confirmation Message.mdx",
+  "sourceDirName": ".",
+  "slug": "/wpbitform- confirmation-massage",
+  "permalink": "/docs/wpbitform- confirmation-massage",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Confirmation Message.mdx",
+  "version": "current",
+  "sidebar_label": "Confirmation Message",
+  "frontMatter": {
+    "id": "confirmation-massage",
+    "title": "Bit from - Confirmation Message",
+    "sidebar_label": "Confirmation Message",
+    "slug": "/wpbitform- confirmation-massage"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Conditional Logic",
+    "permalink": "/docs/wpbitform-conditional-logic"
+  },
+  "next": {
+    "title": "Bit from - Email Tempalate",
+    "permalink": "/docs/wpbitform- email-template"
+  }
+}

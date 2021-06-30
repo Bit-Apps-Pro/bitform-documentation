@@ -1,0 +1,14 @@
+{
+  "unversionedId": "Integrations/Google-Sheet",
+  "id": "Integrations/Google-Sheet",
+  "isDocsHomePage": false,
+  "title": "Google-Sheet",
+  "description": "",
+  "source": "@site/docs/Integrations/Google-Sheet.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/Integrations/Google-Sheet",
+  "permalink": "/docs/Integrations/Google-Sheet",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Google-Sheet.mdx",
+  "version": "current",
+  "frontMatter": {}
+}

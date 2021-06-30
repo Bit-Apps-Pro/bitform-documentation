@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','cc4'),
+  component: ComponentCreator('/docs','4cf'),
   
   routes: [
 {
@@ -138,8 +138,23 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/Integrations/Google-Sheet',
+  component: ComponentCreator('/docs/Integrations/Google-Sheet','e82'),
+  exact: true,
+},
+{
   path: '/docs/mdx',
   component: ComponentCreator('/docs/mdx','955'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform- confirmation-massage',
+  component: ComponentCreator('/docs/wpbitform- confirmation-massage','f52'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform- email-template',
+  component: ComponentCreator('/docs/wpbitform- email-template','f43'),
   exact: true,
 },
 {
@@ -160,6 +175,11 @@ export default [
 {
   path: '/docs/wpbitform-colorpickerfield',
   component: ComponentCreator('/docs/wpbitform-colorpickerfield','b49'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-conditional-logic',
+  component: ComponentCreator('/docs/wpbitform-conditional-logic','8f6'),
   exact: true,
 },
 {
@@ -250,6 +270,11 @@ export default [
 {
   path: '/docs/wpbitform-paypalfield',
   component: ComponentCreator('/docs/wpbitform-paypalfield','388'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-pods',
+  component: ComponentCreator('/docs/wpbitform-pods','48f'),
   exact: true,
 },
 {

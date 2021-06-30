@@ -43,7 +43,12 @@ module.exports = {
     },
     "Response Management/response-management",
     "form-settings",
+    "conditional-logic",
+    "confirmation-massage",
+    "email-template",
+    { Integrations: ["Integrations/pods"] },
   ],
+
   changelogSidebar: [
     "changelog/overview",
     { "Log Details": ["changelog/1.3", "changelog/1.4"] },

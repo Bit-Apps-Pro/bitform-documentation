@@ -26,6 +26,16 @@
               "sidebar": "changelogSidebar"
             },
             {
+              "id": "conditional-logic",
+              "path": "/docs/wpbitform-conditional-logic",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "confirmation-massage",
+              "path": "/docs/wpbitform- confirmation-massage",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "doc1",
               "path": "/docs/doc1"
             },
@@ -36,6 +46,11 @@
             {
               "id": "doc3",
               "path": "/docs/doc3"
+            },
+            {
+              "id": "email-template",
+              "path": "/docs/wpbitform- email-template",
+              "sidebar": "someSidebar"
             },
             {
               "id": "Fields/buttonfield",
@@ -169,6 +184,15 @@
             {
               "id": "Getting Started/welcome",
               "path": "/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/Google-Sheet",
+              "path": "/docs/Integrations/Google-Sheet"
+            },
+            {
+              "id": "Integrations/pods",
+              "path": "/docs/wpbitform-pods",
               "sidebar": "someSidebar"
             },
             {

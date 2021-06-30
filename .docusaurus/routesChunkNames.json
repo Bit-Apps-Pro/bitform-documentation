@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-cc4": {
+  "/docs-4cf": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -150,9 +150,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-install-activate-wordpress-frombuilder-bitform-39-a-8cb"
   },
+  "/docs/Integrations/Google-Sheet-e82": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-google-sheetb-32-2d9"
+  },
   "/docs/mdx-955": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-mdxce-3-7d1"
+  },
+  "/docs/wpbitform- confirmation-massage-f52": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-confirmation-massage-68-b-a6c"
+  },
+  "/docs/wpbitform- email-template-f43": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-email-templateadf-c87"
   },
   "/docs/wpbitform-background-customize-673": {
     "component": "component---theme-doc-item-178-a40",
@@ -169,6 +181,10 @@
   "/docs/wpbitform-colorpickerfield-b49": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-colorpickerfield-2-f-9-9be"
+  },
+  "/docs/wpbitform-conditional-logic-8f6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-conditional-logicd-40-f53"
   },
   "/docs/wpbitform-countryfield-adb": {
     "component": "component---theme-doc-item-178-a40",
@@ -196,7 +212,7 @@
   },
   "/docs/wpbitform-field-customize-ef6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-style-editor-field-customize-1-d-9-6f2"
+    "content": "content---docs-wpbitform-field-customize-1-d-9-225"
   },
   "/docs/wpbitform-field-types-28e": {
     "component": "component---theme-doc-item-178-a40",
@@ -241,6 +257,10 @@
   "/docs/wpbitform-paypalfield-388": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-paypalfieldff-2-9dd"
+  },
+  "/docs/wpbitform-pods-48f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-podsc-0-c-15f"
   },
   "/docs/wpbitform-radiobuttonfield-a74": {
     "component": "component---theme-doc-item-178-a40",

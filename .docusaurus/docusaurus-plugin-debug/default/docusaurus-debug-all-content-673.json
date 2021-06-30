@@ -160,6 +160,29 @@
               {
                 "type": "doc",
                 "id": "form-settings"
+              },
+              {
+                "type": "doc",
+                "id": "conditional-logic"
+              },
+              {
+                "type": "doc",
+                "id": "confirmation-massage"
+              },
+              {
+                "type": "doc",
+                "id": "email-template"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Integrations",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Integrations/pods"
+                  }
+                ]
               }
             ],
             "changelogSidebar": [
@@ -188,6 +211,9 @@
             "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
             "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
             "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
+            "/docs/wpbitform-conditional-logic": "someSidebar",
+            "/docs/wpbitform- confirmation-massage": "someSidebar",
+            "/docs/wpbitform- email-template": "someSidebar",
             "/docs/wpbitform-buttonfield": "someSidebar",
             "/docs/wpbitform-checkboxfield": "someSidebar",
             "/docs/wpbitform-colorpickerfield": "someSidebar",
@@ -214,6 +240,7 @@
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
+            "/docs/wpbitform-pods": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
             "/docs/wpbitform-field-customize": "someSidebar",
@@ -301,6 +328,64 @@
               }
             },
             {
+              "unversionedId": "conditional-logic",
+              "id": "conditional-logic",
+              "isDocsHomePage": false,
+              "title": "Bit from - Conditional Logic",
+              "description": "Workflows in Bit Form, are a set of actions (Success Message, Redirect URL, Web Hook, Email Notifications, Integration, and field updates) that are executed when certain specified conditions are met. These rules automate the process of Success Message, Redirect URL, Web Hook, Email Notifications, Integration and field updates when a rule is triggered.",
+              "source": "@site/docs/Conditional Logic.mdx",
+              "sourceDirName": ".",
+              "slug": "/wpbitform-conditional-logic",
+              "permalink": "/docs/wpbitform-conditional-logic",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Conditional Logic.mdx",
+              "version": "current",
+              "sidebar_label": "Conditional Logic",
+              "frontMatter": {
+                "id": "conditional-logic",
+                "title": "Bit from - Conditional Logic",
+                "sidebar_label": "Conditional Logic",
+                "slug": "/wpbitform-conditional-logic"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Form Settings",
+                "permalink": "/docs/wpbitform-form-settings"
+              },
+              "next": {
+                "title": "Bit from - Confirmation Message",
+                "permalink": "/docs/wpbitform- confirmation-massage"
+              }
+            },
+            {
+              "unversionedId": "confirmation-massage",
+              "id": "confirmation-massage",
+              "isDocsHomePage": false,
+              "title": "Bit from - Confirmation Message",
+              "description": "Success or Error Message",
+              "source": "@site/docs/Confirmation Message.mdx",
+              "sourceDirName": ".",
+              "slug": "/wpbitform- confirmation-massage",
+              "permalink": "/docs/wpbitform- confirmation-massage",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Confirmation Message.mdx",
+              "version": "current",
+              "sidebar_label": "Confirmation Message",
+              "frontMatter": {
+                "id": "confirmation-massage",
+                "title": "Bit from - Confirmation Message",
+                "sidebar_label": "Confirmation Message",
+                "slug": "/wpbitform- confirmation-massage"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Conditional Logic",
+                "permalink": "/docs/wpbitform-conditional-logic"
+              },
+              "next": {
+                "title": "Bit from - Email Tempalate",
+                "permalink": "/docs/wpbitform- email-template"
+              }
+            },
+            {
               "unversionedId": "doc1",
               "id": "doc1",
               "isDocsHomePage": false,
@@ -351,6 +436,35 @@
               "frontMatter": {
                 "id": "doc3",
                 "title": "This is Document Number 3"
+              }
+            },
+            {
+              "unversionedId": "email-template",
+              "id": "email-template",
+              "isDocsHomePage": false,
+              "title": "Bit from - Email Tempalate",
+              "description": "Click on ➤ Form Name ➤ Setting➤Email Template",
+              "source": "@site/docs/Email-Template.mdx",
+              "sourceDirName": ".",
+              "slug": "/wpbitform- email-template",
+              "permalink": "/docs/wpbitform- email-template",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Email-Template.mdx",
+              "version": "current",
+              "sidebar_label": "Email Tempalate",
+              "frontMatter": {
+                "id": "email-template",
+                "title": "Bit from - Email Tempalate",
+                "sidebar_label": "Email Tempalate",
+                "slug": "/wpbitform- email-template"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Confirmation Message",
+                "permalink": "/docs/wpbitform- confirmation-massage"
+              },
+              "next": {
+                "title": "Bit from Integration With Pods",
+                "permalink": "/docs/wpbitform-pods"
               }
             },
             {
@@ -1034,6 +1148,10 @@
               "previous": {
                 "title": "Bit from - Response Management",
                 "permalink": "/docs/wpbitform-overview"
+              },
+              "next": {
+                "title": "Bit from - Conditional Logic",
+                "permalink": "/docs/wpbitform-conditional-logic"
               }
             },
             {
@@ -1117,6 +1235,45 @@
               "next": {
                 "title": "Installation, Activate and Upgrade of Bitform",
                 "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
+              }
+            },
+            {
+              "unversionedId": "Integrations/Google-Sheet",
+              "id": "Integrations/Google-Sheet",
+              "isDocsHomePage": false,
+              "title": "Google-Sheet",
+              "description": "",
+              "source": "@site/docs/Integrations/Google-Sheet.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/Integrations/Google-Sheet",
+              "permalink": "/docs/Integrations/Google-Sheet",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Google-Sheet.mdx",
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "Integrations/pods",
+              "id": "Integrations/pods",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Pods",
+              "description": "Pods is a content management framework that offers an intuitive alternative to WordPress and other content management systems for building sites. With its integration with the Form Builder plugin, it is easier than ever to create and publish forms in WordPress.",
+              "source": "@site/docs/Integrations/Pods.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-pods",
+              "permalink": "/docs/wpbitform-pods",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Pods.mdx",
+              "version": "current",
+              "sidebar_label": "Pods",
+              "frontMatter": {
+                "id": "pods",
+                "title": "Bit from Integration With Pods",
+                "sidebar_label": "Pods",
+                "slug": "/wpbitform-pods"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Email Tempalate",
+                "permalink": "/docs/wpbitform- email-template"
               }
             },
             {

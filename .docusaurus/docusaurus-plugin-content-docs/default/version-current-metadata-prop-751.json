@@ -180,6 +180,33 @@
         "type": "link",
         "label": "Form Settings",
         "href": "/docs/wpbitform-form-settings"
+      },
+      {
+        "type": "link",
+        "label": "Conditional Logic",
+        "href": "/docs/wpbitform-conditional-logic"
+      },
+      {
+        "type": "link",
+        "label": "Confirmation Message",
+        "href": "/docs/wpbitform- confirmation-massage"
+      },
+      {
+        "type": "link",
+        "label": "Email Tempalate",
+        "href": "/docs/wpbitform- email-template"
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Integrations",
+        "items": [
+          {
+            "type": "link",
+            "label": "Pods",
+            "href": "/docs/wpbitform-pods"
+          }
+        ]
       }
     ],
     "changelogSidebar": [
@@ -211,6 +238,9 @@
     "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
     "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
     "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
+    "/docs/wpbitform-conditional-logic": "someSidebar",
+    "/docs/wpbitform- confirmation-massage": "someSidebar",
+    "/docs/wpbitform- email-template": "someSidebar",
     "/docs/wpbitform-buttonfield": "someSidebar",
     "/docs/wpbitform-checkboxfield": "someSidebar",
     "/docs/wpbitform-colorpickerfield": "someSidebar",
@@ -237,6 +267,7 @@
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
+    "/docs/wpbitform-pods": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",
     "/docs/wpbitform-field-customize": "someSidebar",

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "email-template",
+  "id": "email-template",
+  "isDocsHomePage": false,
+  "title": "Bit from - Email Tempalate",
+  "description": "Click on ➤ Form Name ➤ Setting➤Email Template",
+  "source": "@site/docs/Email-Template.mdx",
+  "sourceDirName": ".",
+  "slug": "/wpbitform- email-template",
+  "permalink": "/docs/wpbitform- email-template",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Email-Template.mdx",
+  "version": "current",
+  "sidebar_label": "Email Tempalate",
+  "frontMatter": {
+    "id": "email-template",
+    "title": "Bit from - Email Tempalate",
+    "sidebar_label": "Email Tempalate",
+    "slug": "/wpbitform- email-template"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Confirmation Message",
+    "permalink": "/docs/wpbitform- confirmation-massage"
+  },
+  "next": {
+    "title": "Bit from Integration With Pods",
+    "permalink": "/docs/wpbitform-pods"
+  }
+}

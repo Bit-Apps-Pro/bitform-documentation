@@ -1,0 +1,75 @@
+---
+id: confirmation-massage
+title: Bit from - Confirmation Message
+sidebar_label: Confirmation Message
+slug: /wpbitform- confirmation-massage
+---
+
+import Image from ".././src/components/Image";
+import Video from ".././src/components/Video";
+
+## Success or Error Message
+
+*** Success Message ***
+
+After form submission one can see the success message “Your form has been submitted successfully.” For example: “The form has been successfully submitted” or “We will contact you in 24 hours” etc.
+
+Success message works on both form submission and field validation. Based on the condition you can show custom success messages.
+
+<Video src="Bit-Form-Success-messages" alt="Confirmation" w="800" h="400" />
+
+<br/>
+
+*** Error Message ***
+
+If you have any conditions to meet when a form has been submitted or edited. If the condition does not satisfy fully then you can show the error message. For example: “Cannot but less than five pieces” or “Delivery price outside USA is more than $50” etc.
+
+Error message works on both form data submit and on field validation. Based on the condition you can show custom error messages.
+
+<Video src="Bit-Form-Error-messages" alt="Confirmation" w="800" h="400" />
+
+> ***Notice : If you create multiple Success/Error messages then the last created message will be work first. Also you can use workflow for showing specific Success/Error message.***
+
+
+## Redirect page
+
+After Form submission user/visitor will be redirected to the same page or any custom url. On record/data edit, Redirection will not work.
+
+In redirection form value can be passed by adding parameters with URL.
+
+Redirect URL with form value can be used like this:
+
+website_url?Key_1=bit_form_field_api_name_1&Key_2=bit_form_field_api_name_2
+
+**Key_1 and Key_2 = The field api name where you want to use/put the field value from the current form.
+
+<Video src="Bit-Form-redirection" alt="Confirmation" w="800" h="400" />
+
+
+## Webhook
+
+While submitting or editing any record you can call a webhook. Following methods are available in webhook:
+
+1. GET
+
+2. POST
+
+3. PUT
+
+4. PATCH
+
+5. OPTION
+
+6. DELETE
+
+7. TRACE
+
+8. CONNECT
+
+You can also pass form value via/with webhook. Please follow the following example:
+
+website_url?key_1=bit_form_field_api_name_1&key_2=bit_form_field_api_name_2
+
+**Key_1 and Key_2 = The field api name where you want to use/put the value from this form.
+
+<Image src="webhook1" alt="New-Form" w="1875" h="420" />
