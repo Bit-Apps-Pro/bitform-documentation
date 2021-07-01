@@ -192,6 +192,16 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/encharge",
+              "path": "/docs/wpbitform-encharge",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/fluentcrm",
+              "path": "/docs/wpbitform-fluentcrm",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/googleads",
               "path": "/docs/wpbitform-googleads",
               "sidebar": "someSidebar"
@@ -207,8 +217,18 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/mailpoet",
+              "path": "/docs/wpbitform-mailpoet",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/pods",
               "path": "/docs/wpbitform-pods",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/sendinblue",
+              "path": "/docs/wpbitform-sendinblue",
               "sidebar": "someSidebar"
             },
             {

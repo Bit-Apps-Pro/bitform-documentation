@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/mailpoet",
+  "id": "Integrations/mailpoet",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With MailPoet",
+  "description": "Another integration that eases your email marketing is MailPoet integration via Bit form. When users submit any form, the email of that corresponding user will store in the newsletter list of MailPoet. For more details go through this documentation carefully.",
+  "source": "@site/docs/Integrations/MailPoet.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-mailpoet",
+  "permalink": "/docs/wpbitform-mailpoet",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/MailPoet.mdx",
+  "version": "current",
+  "sidebar_label": "MailPoet",
+  "frontMatter": {
+    "id": "mailpoet",
+    "title": "Bit from Integration With MailPoet",
+    "sidebar_label": "MailPoet",
+    "slug": "/wpbitform-mailpoet"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With Mailchimp",
+    "permalink": "/docs/wpbitform-mailchimp"
+  },
+  "next": {
+    "title": "Bit from Integration With Encharge",
+    "permalink": "/docs/wpbitform-encharge"
+  }
+}

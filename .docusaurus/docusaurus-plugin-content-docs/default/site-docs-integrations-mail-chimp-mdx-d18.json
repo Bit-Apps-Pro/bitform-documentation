@@ -21,5 +21,9 @@
   "previous": {
     "title": "Bit from Integration With Active Campaign",
     "permalink": "/docs/wpbitform-activecampaign"
+  },
+  "next": {
+    "title": "Bit from Integration With MailPoet",
+    "permalink": "/docs/wpbitform-mailpoet"
   }
 }

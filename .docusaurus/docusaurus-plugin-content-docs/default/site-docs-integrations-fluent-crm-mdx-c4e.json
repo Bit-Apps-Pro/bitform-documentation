@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Integrations/fluentcrm",
+  "id": "Integrations/fluentcrm",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With FluentCRM",
+  "description": "Managing your leads from your website in an effective way is essential to growing your business. Fluent CRM is a powerful email marketing tool that can help you make your website visitors active leads. Bit Form integration with Bit Form allows you to capture leads from your website and automatically import them to your CRM, where you can nurture them until they become sales-ready.",
+  "source": "@site/docs/Integrations/Fluent-CRM.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-fluentcrm",
+  "permalink": "/docs/wpbitform-fluentcrm",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Fluent-CRM.mdx",
+  "version": "current",
+  "sidebar_label": "FluentCRM",
+  "frontMatter": {
+    "id": "fluentcrm",
+    "title": "Bit from Integration With FluentCRM",
+    "sidebar_label": "FluentCRM",
+    "slug": "/wpbitform-fluentcrm"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With Sendinblue",
+    "permalink": "/docs/wpbitform-sendinblue"
+  }
+}

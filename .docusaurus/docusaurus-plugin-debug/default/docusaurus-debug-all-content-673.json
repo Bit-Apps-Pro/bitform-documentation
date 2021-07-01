@@ -201,6 +201,22 @@
                   {
                     "type": "doc",
                     "id": "Integrations/mailchimp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/mailpoet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/encharge"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/sendinblue"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/fluentcrm"
                   }
                 ]
               }
@@ -261,10 +277,14 @@
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
             "/docs/wpbitform-activecampaign": "someSidebar",
+            "/docs/wpbitform-encharge": "someSidebar",
+            "/docs/wpbitform-fluentcrm": "someSidebar",
             "/docs/wpbitform-googleads": "someSidebar",
             "/docs/wpbitform-googlesheet": "someSidebar",
             "/docs/wpbitform-mailchimp": "someSidebar",
+            "/docs/wpbitform-mailpoet": "someSidebar",
             "/docs/wpbitform-pods": "someSidebar",
+            "/docs/wpbitform-sendinblue": "someSidebar",
             "/docs/wpbitform-telegram": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
@@ -1292,6 +1312,60 @@
               }
             },
             {
+              "unversionedId": "Integrations/encharge",
+              "id": "Integrations/encharge",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Encharge",
+              "description": "Marketing is an essential part of any business, and online marketing is an integral part of today’s business. Email marketing is an interactive way to create a relationship with your customers. Encharge is a complete automated marketing system that allows you to send personalized emails with dynamic tags. This cloud-based software helps you create behavior-based email campaigns & also can run those campaigns from anywhere.",
+              "source": "@site/docs/Integrations/Encharge.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-encharge",
+              "permalink": "/docs/wpbitform-encharge",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Encharge.mdx",
+              "version": "current",
+              "sidebar_label": "Encharge",
+              "frontMatter": {
+                "id": "encharge",
+                "title": "Bit from Integration With Encharge",
+                "sidebar_label": "Encharge",
+                "slug": "/wpbitform-encharge"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With MailPoet",
+                "permalink": "/docs/wpbitform-mailpoet"
+              },
+              "next": {
+                "title": "Bit from Integration With Sendinblue",
+                "permalink": "/docs/wpbitform-sendinblue"
+              }
+            },
+            {
+              "unversionedId": "Integrations/fluentcrm",
+              "id": "Integrations/fluentcrm",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With FluentCRM",
+              "description": "Managing your leads from your website in an effective way is essential to growing your business. Fluent CRM is a powerful email marketing tool that can help you make your website visitors active leads. Bit Form integration with Bit Form allows you to capture leads from your website and automatically import them to your CRM, where you can nurture them until they become sales-ready.",
+              "source": "@site/docs/Integrations/Fluent-CRM.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-fluentcrm",
+              "permalink": "/docs/wpbitform-fluentcrm",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Fluent-CRM.mdx",
+              "version": "current",
+              "sidebar_label": "FluentCRM",
+              "frontMatter": {
+                "id": "fluentcrm",
+                "title": "Bit from Integration With FluentCRM",
+                "sidebar_label": "FluentCRM",
+                "slug": "/wpbitform-fluentcrm"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Sendinblue",
+                "permalink": "/docs/wpbitform-sendinblue"
+              }
+            },
+            {
               "unversionedId": "Integrations/googleads",
               "id": "Integrations/googleads",
               "isDocsHomePage": false,
@@ -1372,6 +1446,39 @@
               "previous": {
                 "title": "Bit from Integration With Active Campaign",
                 "permalink": "/docs/wpbitform-activecampaign"
+              },
+              "next": {
+                "title": "Bit from Integration With MailPoet",
+                "permalink": "/docs/wpbitform-mailpoet"
+              }
+            },
+            {
+              "unversionedId": "Integrations/mailpoet",
+              "id": "Integrations/mailpoet",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With MailPoet",
+              "description": "Another integration that eases your email marketing is MailPoet integration via Bit form. When users submit any form, the email of that corresponding user will store in the newsletter list of MailPoet. For more details go through this documentation carefully.",
+              "source": "@site/docs/Integrations/MailPoet.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-mailpoet",
+              "permalink": "/docs/wpbitform-mailpoet",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/MailPoet.mdx",
+              "version": "current",
+              "sidebar_label": "MailPoet",
+              "frontMatter": {
+                "id": "mailpoet",
+                "title": "Bit from Integration With MailPoet",
+                "sidebar_label": "MailPoet",
+                "slug": "/wpbitform-mailpoet"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Mailchimp",
+                "permalink": "/docs/wpbitform-mailchimp"
+              },
+              "next": {
+                "title": "Bit from Integration With Encharge",
+                "permalink": "/docs/wpbitform-encharge"
               }
             },
             {
@@ -1401,6 +1508,35 @@
               "next": {
                 "title": "Bit from Integration With Google Sheet",
                 "permalink": "/docs/wpbitform-googlesheet"
+              }
+            },
+            {
+              "unversionedId": "Integrations/sendinblue",
+              "id": "Integrations/sendinblue",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Sendinblue",
+              "description": "From now on you can list the email of your user as a ‘Contact‘ through the Sendinblue integration process. It helps you to conduct any email marketing of your business or company easily. For in-depth details go through this documentation.",
+              "source": "@site/docs/Integrations/Sendinblue.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-sendinblue",
+              "permalink": "/docs/wpbitform-sendinblue",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Sendinblue.mdx",
+              "version": "current",
+              "sidebar_label": "Sendinblue",
+              "frontMatter": {
+                "id": "sendinblue",
+                "title": "Bit from Integration With Sendinblue",
+                "sidebar_label": "Sendinblue",
+                "slug": "/wpbitform-sendinblue"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Encharge",
+                "permalink": "/docs/wpbitform-encharge"
+              },
+              "next": {
+                "title": "Bit from Integration With FluentCRM",
+                "permalink": "/docs/wpbitform-fluentcrm"
               }
             },
             {

@@ -230,6 +230,26 @@
             "type": "link",
             "label": "Mailchimp",
             "href": "/docs/wpbitform-mailchimp"
+          },
+          {
+            "type": "link",
+            "label": "MailPoet",
+            "href": "/docs/wpbitform-mailpoet"
+          },
+          {
+            "type": "link",
+            "label": "Encharge",
+            "href": "/docs/wpbitform-encharge"
+          },
+          {
+            "type": "link",
+            "label": "Sendinblue",
+            "href": "/docs/wpbitform-sendinblue"
+          },
+          {
+            "type": "link",
+            "label": "FluentCRM",
+            "href": "/docs/wpbitform-fluentcrm"
           }
         ]
       }
@@ -293,10 +313,14 @@
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
     "/docs/wpbitform-activecampaign": "someSidebar",
+    "/docs/wpbitform-encharge": "someSidebar",
+    "/docs/wpbitform-fluentcrm": "someSidebar",
     "/docs/wpbitform-googleads": "someSidebar",
     "/docs/wpbitform-googlesheet": "someSidebar",
     "/docs/wpbitform-mailchimp": "someSidebar",
+    "/docs/wpbitform-mailpoet": "someSidebar",
     "/docs/wpbitform-pods": "someSidebar",
+    "/docs/wpbitform-sendinblue": "someSidebar",
     "/docs/wpbitform-telegram": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",

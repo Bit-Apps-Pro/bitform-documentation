@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/encharge",
+  "id": "Integrations/encharge",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Encharge",
+  "description": "Marketing is an essential part of any business, and online marketing is an integral part of today’s business. Email marketing is an interactive way to create a relationship with your customers. Encharge is a complete automated marketing system that allows you to send personalized emails with dynamic tags. This cloud-based software helps you create behavior-based email campaigns & also can run those campaigns from anywhere.",
+  "source": "@site/docs/Integrations/Encharge.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-encharge",
+  "permalink": "/docs/wpbitform-encharge",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Encharge.mdx",
+  "version": "current",
+  "sidebar_label": "Encharge",
+  "frontMatter": {
+    "id": "encharge",
+    "title": "Bit from Integration With Encharge",
+    "sidebar_label": "Encharge",
+    "slug": "/wpbitform-encharge"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With MailPoet",
+    "permalink": "/docs/wpbitform-mailpoet"
+  },
+  "next": {
+    "title": "Bit from Integration With Sendinblue",
+    "permalink": "/docs/wpbitform-sendinblue"
+  }
+}

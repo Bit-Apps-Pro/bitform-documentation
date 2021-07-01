@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-7bc": {
+  "/docs-520": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -164,7 +164,7 @@
   },
   "/docs/wpbitform-activecampaign-6ae": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-active-campaigne-3-f-8a1"
+    "content": "content---docs-wpbitform-activecampaigne-3-f-770"
   },
   "/docs/wpbitform-background-customize-673": {
     "component": "component---theme-doc-item-178-a40",
@@ -210,6 +210,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-emailfielde-39-c96"
   },
+  "/docs/wpbitform-encharge-0fb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-encharge-4-d-9-ecb"
+  },
   "/docs/wpbitform-field-customize-ef6": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-field-customize-1-d-9-225"
@@ -221,6 +225,10 @@
   "/docs/wpbitform-fileuploadfield-c5b": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-fileuploadfieldbe-7-6ca"
+  },
+  "/docs/wpbitform-fluentcrm-520": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-fluent-cr-mc-4-e-648"
   },
   "/docs/wpbitform-form-block-customize-36a": {
     "component": "component---theme-doc-item-178-a40",
@@ -240,11 +248,15 @@
   },
   "/docs/wpbitform-googlesheet-6c1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-google-sheetb-32-2d9"
+    "content": "content---docs-wpbitform-googlesheetb-32-05f"
   },
   "/docs/wpbitform-mailchimp-a37": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-mailchimpd-18-cc7"
+  },
+  "/docs/wpbitform-mailpoet-86e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-mail-poet-3-da-762"
   },
   "/docs/wpbitform-monthfield-feb": {
     "component": "component---theme-doc-item-178-a40",
@@ -286,9 +298,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-recaptchav-2-field-86-a-324"
   },
+  "/docs/wpbitform-sendinblue-1af": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-sendinblue-9-e-5-2c8"
+  },
   "/docs/wpbitform-telegram-d89": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-telegram-4-b-4-5f8"
+    "content": "content---docs-wpbitform-telegram-4-b-4-992"
   },
   "/docs/wpbitform-textfield-e8d": {
     "component": "component---theme-doc-item-178-a40",

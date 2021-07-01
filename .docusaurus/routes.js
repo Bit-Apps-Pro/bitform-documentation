@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','7bc'),
+  component: ComponentCreator('/docs','520'),
   
   routes: [
 {
@@ -213,6 +213,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-encharge',
+  component: ComponentCreator('/docs/wpbitform-encharge','0fb'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-field-customize',
   component: ComponentCreator('/docs/wpbitform-field-customize','ef6'),
   exact: true,
@@ -225,6 +230,11 @@ export default [
 {
   path: '/docs/wpbitform-fileuploadfield',
   component: ComponentCreator('/docs/wpbitform-fileuploadfield','c5b'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-fluentcrm',
+  component: ComponentCreator('/docs/wpbitform-fluentcrm','520'),
   exact: true,
 },
 {
@@ -255,6 +265,11 @@ export default [
 {
   path: '/docs/wpbitform-mailchimp',
   component: ComponentCreator('/docs/wpbitform-mailchimp','a37'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-mailpoet',
+  component: ComponentCreator('/docs/wpbitform-mailpoet','86e'),
   exact: true,
 },
 {
@@ -305,6 +320,11 @@ export default [
 {
   path: '/docs/wpbitform-recaptchav2field',
   component: ComponentCreator('/docs/wpbitform-recaptchav2field','578'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-sendinblue',
+  component: ComponentCreator('/docs/wpbitform-sendinblue','1af'),
   exact: true,
 },
 {
