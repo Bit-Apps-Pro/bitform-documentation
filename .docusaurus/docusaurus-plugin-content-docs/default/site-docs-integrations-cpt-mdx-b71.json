@@ -8,7 +8,7 @@
   "sourceDirName": "Integrations",
   "slug": "/wpbitform-customposttype",
   "permalink": "/docs/wpbitform-customposttype",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/CPT.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/CPT.mdx",
   "version": "current",
   "sidebar_label": "Custom Post Type (CPT)",
   "frontMatter": {

@@ -289,7 +289,7 @@
         ]
       }
     ],
-    "changelogSidebar": [
+    "changelog": [
       {
         "type": "link",
         "label": "Bit Form Chagelog",
@@ -315,9 +315,9 @@
     ]
   },
   "permalinkToSidebar": {
-    "/docs/changelog/BitForm-version-1.3-changelog": "changelogSidebar",
-    "/docs/changelog/BitForm-version-1.4-changelog": "changelogSidebar",
-    "/docs/changelog/BitForm-changelog-timeline": "changelogSidebar",
+    "/docs/changelog/BitForm-version-1.3-changelog": "changelog",
+    "/docs/changelog/BitForm-version-1.4-changelog": "changelog",
+    "/docs/changelog/BitForm-changelog-timeline": "changelog",
     "/docs/wpbitform-conditional-logic": "someSidebar",
     "/docs/wpbitform- confirmation-massage": "someSidebar",
     "/docs/wpbitform- email-template": "someSidebar",

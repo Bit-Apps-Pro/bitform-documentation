@@ -9,6 +9,30 @@ module.exports = {
   organizationName: 'Bit-Press',
   projectName: 'bitform-documentation',
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        // Icon for the switch while in dark mode
+        darkIcon: '💡',
+
+        // CSS to apply to dark icon,
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: {
+          marginLeft: '2px',
+        },
+
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: '🌑',
+
+        lightIconStyle: {
+          marginLeft: '1px',
+        },
+      },
+    },
     navbar: {
       title: 'Bit Form',
       logo: {
@@ -18,12 +42,18 @@ module.exports = {
       items: [
         {
           to: '/docs',
-          activeBasePath: 'docs',
+          // activeBasePath: 'docs',
+          // activeBaseRegex:'docs\/\b(?!changelog\b).+|docs',
           label: 'Docs',
           position: 'left',
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
-        { to: '/docs/changelog/BitForm-changelog-timeline', label: 'Changelogs', position: 'left', activeBasePath: 'changelog' },
+        {
+          to: '/docs/changelog/BitForm-changelog-timeline',
+          label: 'Changelogs',
+          position: 'left',
+          activeBasePath: '/docs/changelog'
+        },
         {
           href: 'https://downloads.wordpress.org/plugin/bit-form.zip',
           label: 'Free Download',
@@ -79,16 +109,20 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
+          // path:'./docs',
+          // routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+        },
+        changelog: {
+          path: 'changelog',
+          sidebarPath: require.resolve('./sidebars.clog.js'),
+          // routeBasePath: '/wp-bit-form-changelog',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

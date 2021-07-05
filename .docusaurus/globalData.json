@@ -13,17 +13,17 @@
             {
               "id": "changelog/1.3",
               "path": "/docs/changelog/BitForm-version-1.3-changelog",
-              "sidebar": "changelogSidebar"
+              "sidebar": "changelog"
             },
             {
               "id": "changelog/1.4",
               "path": "/docs/changelog/BitForm-version-1.4-changelog",
-              "sidebar": "changelogSidebar"
+              "sidebar": "changelog"
             },
             {
               "id": "changelog/overview",
               "path": "/docs/changelog/BitForm-changelog-timeline",
-              "sidebar": "changelogSidebar"
+              "sidebar": "changelog"
             },
             {
               "id": "conditional-logic",

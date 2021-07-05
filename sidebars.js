@@ -46,10 +46,29 @@ module.exports = {
     "conditional-logic",
     "confirmation-massage",
     "email-template",
-    { Integrations: ["Integrations/pods","Integrations/googlesheet","Integrations/googleads","Integrations/telegram","Integrations/activecampaign","Integrations/mailchimp","Integrations/mailpoet","Integrations/encharge","Integrations/sendinblue","Integrations/fluentcrm","Integrations/customposttype","Integrations/recaptchav3","Integrations/zapier","Integrations/pabbly","Integrations/integromat","Integrations/integrately","Integrations/zoho-flow"] },
+    {
+      Integrations: [
+        "Integrations/pods",
+        "Integrations/googlesheet",
+        "Integrations/googleads",
+        "Integrations/telegram",
+        "Integrations/activecampaign",
+        "Integrations/mailchimp",
+        "Integrations/mailpoet",
+        "Integrations/encharge",
+        "Integrations/sendinblue",
+        "Integrations/fluentcrm",
+        "Integrations/customposttype",
+        "Integrations/recaptchav3",
+        "Integrations/zapier",
+        "Integrations/pabbly",
+        "Integrations/integromat",
+        "Integrations/integrately",
+        "Integrations/zoho-flow",
+      ],
+    },
   ],
-
-  changelogSidebar: [
+  changelog: [
     "changelog/overview",
     { "Log Details": ["changelog/1.3", "changelog/1.4"] },
   ],
