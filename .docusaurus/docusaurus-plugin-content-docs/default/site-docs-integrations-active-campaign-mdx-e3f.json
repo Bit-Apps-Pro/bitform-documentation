@@ -8,9 +8,8 @@
   "sourceDirName": "Integrations",
   "slug": "/wpbitform-activecampaign",
   "permalink": "/docs/wpbitform-activecampaign",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Active-Campaign.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Active-Campaign.mdx",
   "version": "current",
-  "sidebar_label": "Active Campaign",
   "frontMatter": {
     "id": "activecampaign",
     "title": "Bit from Integration With Active Campaign",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Telegram",
+    "title": "Telegram",
     "permalink": "/docs/wpbitform-telegram"
   },
   "next": {
-    "title": "Bit from Integration With Mailchimp",
+    "title": "Mailchimp",
     "permalink": "/docs/wpbitform-mailchimp"
   }
 }

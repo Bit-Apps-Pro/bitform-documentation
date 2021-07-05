@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-weekfield",
   "permalink": "/docs/wpbitform-weekfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Weekfield.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Weekfield.mdx",
   "version": "current",
-  "sidebar_label": "Week field",
   "frontMatter": {
     "id": "weekfield",
     "title": "Bit from - Week field",

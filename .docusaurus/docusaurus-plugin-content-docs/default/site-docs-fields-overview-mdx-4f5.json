@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-field-types",
   "permalink": "/docs/wpbitform-field-types",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Overview.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Overview.mdx",
   "version": "current",
-  "sidebar_label": "Overview",
   "frontMatter": {
     "id": "fields-overview",
     "title": "Bit form-Field Types",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "How to create a WordPress form using BitForm",
+    "title": "Create First Form",
     "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
   },
   "next": {
-    "title": "Bit from - Textfield",
+    "title": "Text field",
     "permalink": "/docs/wpbitform-textfield"
   }
 }

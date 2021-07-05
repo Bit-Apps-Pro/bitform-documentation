@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-fileuploadfield",
   "permalink": "/docs/wpbitform-fileuploadfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/FileUpload.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/FileUpload.mdx",
   "version": "current",
-  "sidebar_label": "File Upload field",
   "frontMatter": {
     "id": "fileuploadfield",
     "title": "Bit from - File Upload field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - URLfield",
+    "title": "URL field",
     "permalink": "/docs/wpbitform-urlfield"
   },
   "next": {
-    "title": "Bit from - Datefield",
+    "title": "Date field",
     "permalink": "/docs/wpbitform-datefield"
   }
 }

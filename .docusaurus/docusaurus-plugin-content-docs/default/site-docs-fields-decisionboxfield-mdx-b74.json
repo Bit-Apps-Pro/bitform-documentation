@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-decisionboxfield",
   "permalink": "/docs/wpbitform-decisionboxfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Decisionboxfield.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Decisionboxfield.mdx",
   "version": "current",
-  "sidebar_label": "Decision Box field",
   "frontMatter": {
     "id": "decisionboxfield",
     "title": "Bit from - Decision Box field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - reCAPTCHA v2 field",
+    "title": "reCAPTCHA v2 field",
     "permalink": "/docs/wpbitform-recaptchav2field"
   },
   "next": {
-    "title": "Bit from - Button field",
+    "title": "Button field",
     "permalink": "/docs/wpbitform-buttonfield"
   }
 }

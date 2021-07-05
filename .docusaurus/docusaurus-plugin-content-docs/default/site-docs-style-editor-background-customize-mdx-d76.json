@@ -8,9 +8,8 @@
   "sourceDirName": "StyleEditor",
   "slug": "/wpbitform-background-customize",
   "permalink": "/docs/wpbitform-background-customize",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/BackgroundCustomize.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/BackgroundCustomize.mdx",
   "version": "current",
-  "sidebar_label": "Background Customize",
   "frontMatter": {
     "id": "background-customize",
     "title": "Bit from - Background Customize",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Razorpay field",
+    "title": "Razorpay field",
     "permalink": "/docs/wpbitform-razorpayfield"
   },
   "next": {
-    "title": "Bit from - Form Customize",
+    "title": "Form Customize",
     "permalink": "/docs/wpbitform-form-customize"
   }
 }

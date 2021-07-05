@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-date-timefield",
   "permalink": "/docs/wpbitform-date-timefield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Date-Time.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Date-Time.mdx",
   "version": "current",
-  "sidebar_label": "Date-Time field",
   "frontMatter": {
     "id": "date-timefield",
     "title": "Bit from - Date-Time field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Timefield",
+    "title": "Time field",
     "permalink": "/docs/wpbitform-timefield"
   },
   "next": {
-    "title": "Bit from - Month field",
+    "title": "Month field",
     "permalink": "/docs/wpbitform-monthfield"
   }
 }

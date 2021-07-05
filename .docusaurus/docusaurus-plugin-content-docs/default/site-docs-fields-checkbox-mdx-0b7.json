@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-checkboxfield",
   "permalink": "/docs/wpbitform-checkboxfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Checkbox.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Checkbox.mdx",
   "version": "current",
-  "sidebar_label": "Checkbox field",
   "frontMatter": {
     "id": "checkboxfield",
     "title": "Bit from - Checkbox field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Multi-Line Text field",
+    "title": "Multi-Line Text field",
     "permalink": "/docs/wpbitform-multilinetextfield"
   },
   "next": {
-    "title": "Bit from - Radio Button field",
+    "title": "Radio Button field",
     "permalink": "/docs/wpbitform-radiobuttonfield"
   }
 }

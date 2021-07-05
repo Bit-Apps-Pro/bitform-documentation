@@ -8,9 +8,8 @@
   "sourceDirName": ".",
   "slug": "/wpbitform-form-settings",
   "permalink": "/docs/wpbitform-form-settings",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Form-Settings.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Form-Settings.mdx",
   "version": "current",
-  "sidebar_label": "Form Settings",
   "frontMatter": {
     "id": "form-settings",
     "title": "Bit from - Form Settings",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Response Management",
+    "title": "Response Management",
     "permalink": "/docs/wpbitform-overview"
   },
   "next": {
-    "title": "Bit from - Conditional Logic",
+    "title": "Conditional Logic",
     "permalink": "/docs/wpbitform-conditional-logic"
   }
 }

@@ -8,9 +8,8 @@
   "sourceDirName": "StyleEditor",
   "slug": "/wpbitform-field-customize",
   "permalink": "/docs/wpbitform-field-customize",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FieldCustomize.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FieldCustomize.mdx",
   "version": "current",
-  "sidebar_label": "Field Customize",
   "frontMatter": {
     "id": "field-customize",
     "title": "Bit from - Field Customize",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Form Block Customize",
+    "title": "Form Block Customize",
     "permalink": "/docs/wpbitform-form-block-customize"
   },
   "next": {
-    "title": "Bit from - Response Management",
+    "title": "Response Management",
     "permalink": "/docs/wpbitform-overview"
   }
 }

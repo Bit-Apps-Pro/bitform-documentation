@@ -1,5 +1,6 @@
 module.exports = {
   someSidebar: [
+    "changelog/overview",
     {
       "Getting started": [
         "Getting Started/welcome",

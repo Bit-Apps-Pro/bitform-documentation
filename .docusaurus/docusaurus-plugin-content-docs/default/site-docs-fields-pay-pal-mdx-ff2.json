@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-paypalfield",
   "permalink": "/docs/wpbitform-paypalfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/PayPal.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/PayPal.mdx",
   "version": "current",
-  "sidebar_label": "PayPal field",
   "frontMatter": {
     "id": "paypalfield",
     "title": "Bit from - PayPal field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Button field",
+    "title": "Button field",
     "permalink": "/docs/wpbitform-buttonfield"
   },
   "next": {
-    "title": "Bit from - Razorpay field",
+    "title": "Razorpay field",
     "permalink": "/docs/wpbitform-razorpayfield"
   }
 }

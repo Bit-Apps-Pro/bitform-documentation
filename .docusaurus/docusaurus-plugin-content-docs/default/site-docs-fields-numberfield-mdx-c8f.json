@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-numberfield",
   "permalink": "/docs/wpbitform-numberfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Numberfield.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Numberfield.mdx",
   "version": "current",
-  "sidebar_label": "Number field",
   "frontMatter": {
     "id": "numberfield",
     "title": "Bit from - Number field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Radio Button field",
+    "title": "Radio Button field",
     "permalink": "/docs/wpbitform-radiobuttonfield"
   },
   "next": {
-    "title": "Bit from - Drop-Down field",
+    "title": "Drop-Down field",
     "permalink": "/docs/wpbitform-drop-downfield"
   }
 }

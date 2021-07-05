@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-buttonfield",
   "permalink": "/docs/wpbitform-buttonfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/Buttonfield.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Buttonfield.mdx",
   "version": "current",
-  "sidebar_label": "Button field",
   "frontMatter": {
     "id": "buttonfield",
     "title": "Bit from - Button field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Decision Box field",
+    "title": "Decision Box field",
     "permalink": "/docs/wpbitform-decisionboxfield"
   },
   "next": {
-    "title": "Bit from - PayPal field",
+    "title": "PayPal field",
     "permalink": "/docs/wpbitform-paypalfield"
   }
 }

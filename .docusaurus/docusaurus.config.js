@@ -9,6 +9,21 @@ export default {
   "organizationName": "Bit-Press",
   "projectName": "bitform-documentation",
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "light",
+      "disableSwitch": false,
+      "respectPrefersColorScheme": true,
+      "switchConfig": {
+        "darkIcon": "💡",
+        "darkIconStyle": {
+          "marginLeft": "2px"
+        },
+        "lightIcon": "🌑",
+        "lightIconStyle": {
+          "marginLeft": "1px"
+        }
+      }
+    },
     "navbar": {
       "title": "Bit Form",
       "logo": {
@@ -18,7 +33,6 @@ export default {
       "items": [
         {
           "to": "/docs",
-          "activeBasePath": "docs",
           "label": "Docs",
           "position": "left"
         },
@@ -26,7 +40,7 @@ export default {
           "to": "/docs/changelog/BitForm-changelog-timeline",
           "label": "Changelogs",
           "position": "left",
-          "activeBasePath": "changelog"
+          "activeBasePath": "/docs/changelog"
         },
         {
           "href": "https://downloads.wordpress.org/plugin/bit-form.zip",
@@ -78,17 +92,6 @@ export default {
       ],
       "copyright": "Copyright © 2021 BitApps."
     },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false,
-      "switchConfig": {
-        "darkIcon": "🌜",
-        "darkIconStyle": {},
-        "lightIcon": "🌞",
-        "lightIconStyle": {}
-      }
-    },
     "docs": {
       "versionPersistence": "localStorage"
     },
@@ -103,12 +106,17 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
+          "path": "docs",
           "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/"
+          "editUrl": "https://github.com/Bit-Press/bitform-documentation"
+        },
+        "changelog": {
+          "path": "changelog",
+          "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.clog.js"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/"
+          "editUrl": "https://github.com/Bit-Press/bitform-documentation"
         },
         "theme": {
           "customCss": "E:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"

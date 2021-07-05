@@ -8,9 +8,8 @@
   "sourceDirName": "Integrations",
   "slug": "/wpbitform-mailpoet",
   "permalink": "/docs/wpbitform-mailpoet",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/MailPoet.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/MailPoet.mdx",
   "version": "current",
-  "sidebar_label": "MailPoet",
   "frontMatter": {
     "id": "mailpoet",
     "title": "Bit from Integration With MailPoet",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Mailchimp",
+    "title": "Mailchimp",
     "permalink": "/docs/wpbitform-mailchimp"
   },
   "next": {
-    "title": "Bit from Integration With Encharge",
+    "title": "Encharge",
     "permalink": "/docs/wpbitform-encharge"
   }
 }

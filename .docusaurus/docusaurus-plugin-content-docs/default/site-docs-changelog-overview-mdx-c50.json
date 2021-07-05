@@ -3,23 +3,22 @@
   "id": "changelog/overview",
   "isDocsHomePage": false,
   "title": "BitForm Changelogs Timeline",
-  "description": "asd",
+  "description": "Version 1.24",
   "source": "@site/docs/changelog/overview.mdx",
   "sourceDirName": "changelog",
   "slug": "/changelog/BitForm-changelog-timeline",
   "permalink": "/docs/changelog/BitForm-changelog-timeline",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/changelog/overview.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/overview.mdx",
   "version": "current",
-  "sidebar_label": "Bit Form Chagelog",
   "frontMatter": {
     "id": "overview",
     "title": "BitForm Changelogs Timeline",
     "sidebar_label": "Bit Form Chagelog",
     "slug": "/changelog/BitForm-changelog-timeline"
   },
-  "sidebar": "changelogSidebar",
+  "sidebar": "changelog",
   "next": {
-    "title": "dsfsdfsdf",
+    "title": "BitForm v-1.3",
     "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
   }
 }

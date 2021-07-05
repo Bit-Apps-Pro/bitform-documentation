@@ -8,9 +8,8 @@
   "sourceDirName": "Integrations",
   "slug": "/wpbitform-googlesheet",
   "permalink": "/docs/wpbitform-googlesheet",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Google-Sheet.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Google-Sheet.mdx",
   "version": "current",
-  "sidebar_label": "Google Sheet",
   "frontMatter": {
     "id": "googlesheet",
     "title": "Bit from Integration With Google Sheet",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Pods",
+    "title": "Pods",
     "permalink": "/docs/wpbitform-pods"
   },
   "next": {
-    "title": "Bit from Integration With Google Ads",
+    "title": "Google Ads",
     "permalink": "/docs/wpbitform-googleads"
   }
 }

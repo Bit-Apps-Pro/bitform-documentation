@@ -8,9 +8,8 @@
   "sourceDirName": "Fields",
   "slug": "/wpbitform-urlfield",
   "permalink": "/docs/wpbitform-urlfield",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Fields/URLfield.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/URLfield.mdx",
   "version": "current",
-  "sidebar_label": "URL field",
   "frontMatter": {
     "id": "urlfield",
     "title": "Bit from - URLfield",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Emailfield",
+    "title": "Email field",
     "permalink": "/docs/wpbitform-emailfield"
   },
   "next": {
-    "title": "Bit from - File Upload field",
+    "title": "File Upload field",
     "permalink": "/docs/wpbitform-fileuploadfield"
   }
 }

@@ -8,18 +8,17 @@
   "sourceDirName": "changelog",
   "slug": "/changelog/BitForm-version-1.4-changelog",
   "permalink": "/docs/changelog/BitForm-version-1.4-changelog",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/changelog/1.4.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/1.4.mdx",
   "version": "current",
-  "sidebar_label": "BitForm v-1.4",
   "frontMatter": {
     "id": "1.4",
     "title": "BitForm Changelog version 1.4",
     "sidebar_label": "BitForm v-1.4",
     "slug": "/changelog/BitForm-version-1.4-changelog"
   },
-  "sidebar": "changelogSidebar",
+  "sidebar": "changelog",
   "previous": {
-    "title": "dsfsdfsdf",
+    "title": "BitForm v-1.3",
     "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
   }
 }

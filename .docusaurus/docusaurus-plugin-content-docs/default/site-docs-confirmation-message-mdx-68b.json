@@ -8,9 +8,8 @@
   "sourceDirName": ".",
   "slug": "/wpbitform- confirmation-massage",
   "permalink": "/docs/wpbitform- confirmation-massage",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Confirmation Message.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Confirmation Message.mdx",
   "version": "current",
-  "sidebar_label": "Confirmation Message",
   "frontMatter": {
     "id": "confirmation-massage",
     "title": "Bit from - Confirmation Message",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Conditional Logic",
+    "title": "Conditional Logic",
     "permalink": "/docs/wpbitform-conditional-logic"
   },
   "next": {
-    "title": "Bit from - Email Tempalate",
+    "title": "Email Tempalate",
     "permalink": "/docs/wpbitform- email-template"
   }
 }

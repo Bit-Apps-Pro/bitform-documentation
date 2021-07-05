@@ -8,9 +8,8 @@
   "sourceDirName": "StyleEditor",
   "slug": "/wpbitform-form-customize",
   "permalink": "/docs/wpbitform-form-customize",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/StyleEditor/FormCustomize.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FormCustomize.mdx",
   "version": "current",
-  "sidebar_label": "Form Customize",
   "frontMatter": {
     "id": "form-customize",
     "title": "Bit from - Form Customize",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Background Customize",
+    "title": "Background Customize",
     "permalink": "/docs/wpbitform-background-customize"
   },
   "next": {
-    "title": "Bit from - Form Block Customize",
+    "title": "Form Block Customize",
     "permalink": "/docs/wpbitform-form-block-customize"
   }
 }

@@ -8,9 +8,8 @@
   "sourceDirName": "Getting Started",
   "slug": "/How-to-create-a-WordPress-from-using-BitForm",
   "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Getting Started/CreateNewForm.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/CreateNewForm.mdx",
   "version": "current",
-  "sidebar_label": "Create First Form",
   "frontMatter": {
     "id": "create-new-form",
     "title": "How to create a WordPress form using BitForm",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Installation, Activate and Upgrade of Bitform",
+    "title": "Install, Active & Update",
     "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
   },
   "next": {
-    "title": "Bit form-Field Types",
+    "title": "Overview",
     "permalink": "/docs/wpbitform-field-types"
   }
 }

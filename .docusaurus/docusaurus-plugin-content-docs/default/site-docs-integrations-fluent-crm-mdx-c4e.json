@@ -8,9 +8,8 @@
   "sourceDirName": "Integrations",
   "slug": "/wpbitform-fluentcrm",
   "permalink": "/docs/wpbitform-fluentcrm",
-  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Fluent-CRM.mdx",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Fluent-CRM.mdx",
   "version": "current",
-  "sidebar_label": "FluentCRM",
   "frontMatter": {
     "id": "fluentcrm",
     "title": "Bit from Integration With FluentCRM",
@@ -19,7 +18,7 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Sendinblue",
+    "title": "Sendinblue",
     "permalink": "/docs/wpbitform-sendinblue"
   }
 }
