@@ -44,52 +44,52 @@ export default [
 },
 {
   path: '/blog',
-  component: ComponentCreator('/blog','e08'),
+  component: ComponentCreator('/blog','569'),
   exact: true,
 },
 {
   path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','d57'),
+  component: ComponentCreator('/blog/hello-world','07a'),
   exact: true,
 },
 {
   path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','36e'),
+  component: ComponentCreator('/blog/hola','6e6'),
   exact: true,
 },
 {
   path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','14a'),
+  component: ComponentCreator('/blog/tags','e13'),
   exact: true,
 },
 {
   path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','b8d'),
+  component: ComponentCreator('/blog/tags/docusaurus','738'),
   exact: true,
 },
 {
   path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','e3d'),
+  component: ComponentCreator('/blog/tags/facebook','2fe'),
   exact: true,
 },
 {
   path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','af1'),
+  component: ComponentCreator('/blog/tags/hello','263'),
   exact: true,
 },
 {
   path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','7bf'),
+  component: ComponentCreator('/blog/tags/hola','8b3'),
   exact: true,
 },
 {
   path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','c63'),
+  component: ComponentCreator('/blog/welcome','015'),
   exact: true,
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','171'),
+  component: ComponentCreator('/docs','80b'),
   
   routes: [
 {
@@ -380,6 +380,16 @@ export default [
 {
   path: '/docs/wpbitform-zapier',
   component: ComponentCreator('/docs/wpbitform-zapier','73a'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-analytics',
+  component: ComponentCreator('/docs/wpbitform-zoho-analytics','8ea'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-crm',
+  component: ComponentCreator('/docs/wpbitform-zoho-crm','aa5'),
   exact: true,
 },
 {

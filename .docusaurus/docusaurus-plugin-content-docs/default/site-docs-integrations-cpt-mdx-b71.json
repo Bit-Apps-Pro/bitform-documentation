@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-customposttype",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/CPT.mdx",
   "version": "current",
-  "sidebar_label": "Custom Post Type (CPT)",
   "frontMatter": {
     "id": "customposttype",
     "title": "Bit from - Custom Post Type (CPT)",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With FluentCRM",
+    "title": "FluentCRM",
     "permalink": "/docs/wpbitform-fluentcrm"
   },
   "next": {
-    "title": "Bit from Integration With reCAPTCHA V3",
+    "title": "reCAPTCHA V3",
     "permalink": "/docs/wpbitform-recaptchav3"
   }
 }

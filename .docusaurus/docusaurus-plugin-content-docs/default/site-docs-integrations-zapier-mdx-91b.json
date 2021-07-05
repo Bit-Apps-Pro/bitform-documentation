@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-zapier",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zapier.mdx",
   "version": "current",
-  "sidebar_label": "Zapier",
   "frontMatter": {
     "id": "zapier",
     "title": "Bit from Integration With Zapier",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With reCAPTCHA V3",
+    "title": "reCAPTCHA V3",
     "permalink": "/docs/wpbitform-recaptchav3"
   },
   "next": {
-    "title": "Bit from Integration With Pabbly",
+    "title": "Pabbly",
     "permalink": "/docs/wpbitform-pabbly"
   }
 }

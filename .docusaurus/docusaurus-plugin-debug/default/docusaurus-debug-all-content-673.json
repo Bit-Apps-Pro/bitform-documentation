@@ -8,6 +8,7 @@
           "versionPath": "/docs",
           "versionEditUrl": "https://github.com/Bit-Press/bitform-documentation/docs",
           "versionEditUrlLocalized": "https://github.com/Bit-Press/bitform-documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "E:\\bitform-documentation\\sidebars.js",
@@ -245,6 +246,14 @@
                   {
                     "type": "doc",
                     "id": "Integrations/zoho-flow"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-analytics"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-crm"
                   }
                 ]
               }
@@ -320,6 +329,8 @@
             "/docs/wpbitform-sendinblue": "someSidebar",
             "/docs/wpbitform-telegram": "someSidebar",
             "/docs/wpbitform-zapier": "someSidebar",
+            "/docs/wpbitform-zoho-analytics": "someSidebar",
+            "/docs/wpbitform-zoho-crm": "someSidebar",
             "/docs/wpbitform-zoho-flow": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
@@ -332,7 +343,7 @@
               "unversionedId": "changelog/1.3",
               "id": "changelog/1.3",
               "isDocsHomePage": false,
-              "title": "dsfsdfsdf",
+              "title": "BitForm Changelog version 1.3",
               "description": "",
               "source": "@site/docs/changelog/1.3.mdx",
               "sourceDirName": "changelog",
@@ -340,7 +351,6 @@
               "permalink": "/docs/changelog/BitForm-version-1.3-changelog",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/1.3.mdx",
               "version": "current",
-              "sidebar_label": "BitForm v-1.3",
               "frontMatter": {
                 "id": "1.3",
                 "title": "BitForm Changelog version 1.3",
@@ -349,11 +359,11 @@
               },
               "sidebar": "changelog",
               "previous": {
-                "title": "BitForm Changelogs Timeline",
+                "title": "Bit Form Chagelog",
                 "permalink": "/docs/changelog/BitForm-changelog-timeline"
               },
               "next": {
-                "title": "BitForm Changelog version 1.4",
+                "title": "BitForm v-1.4",
                 "permalink": "/docs/changelog/BitForm-version-1.4-changelog"
               }
             },
@@ -369,7 +379,6 @@
               "permalink": "/docs/changelog/BitForm-version-1.4-changelog",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/1.4.mdx",
               "version": "current",
-              "sidebar_label": "BitForm v-1.4",
               "frontMatter": {
                 "id": "1.4",
                 "title": "BitForm Changelog version 1.4",
@@ -378,7 +387,7 @@
               },
               "sidebar": "changelog",
               "previous": {
-                "title": "dsfsdfsdf",
+                "title": "BitForm v-1.3",
                 "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
               }
             },
@@ -394,7 +403,6 @@
               "permalink": "/docs/changelog/BitForm-changelog-timeline",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/overview.mdx",
               "version": "current",
-              "sidebar_label": "Bit Form Chagelog",
               "frontMatter": {
                 "id": "overview",
                 "title": "BitForm Changelogs Timeline",
@@ -403,7 +411,7 @@
               },
               "sidebar": "changelog",
               "next": {
-                "title": "dsfsdfsdf",
+                "title": "BitForm v-1.3",
                 "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
               }
             },
@@ -419,7 +427,6 @@
               "permalink": "/docs/wpbitform-conditional-logic",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Conditional Logic.mdx",
               "version": "current",
-              "sidebar_label": "Conditional Logic",
               "frontMatter": {
                 "id": "conditional-logic",
                 "title": "Bit from - Conditional Logic",
@@ -428,11 +435,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Form Settings",
+                "title": "Form Settings",
                 "permalink": "/docs/wpbitform-form-settings"
               },
               "next": {
-                "title": "Bit from - Confirmation Message",
+                "title": "Confirmation Message",
                 "permalink": "/docs/wpbitform- confirmation-massage"
               }
             },
@@ -448,7 +455,6 @@
               "permalink": "/docs/wpbitform- confirmation-massage",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Confirmation Message.mdx",
               "version": "current",
-              "sidebar_label": "Confirmation Message",
               "frontMatter": {
                 "id": "confirmation-massage",
                 "title": "Bit from - Confirmation Message",
@@ -457,11 +463,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Conditional Logic",
+                "title": "Conditional Logic",
                 "permalink": "/docs/wpbitform-conditional-logic"
               },
               "next": {
-                "title": "Bit from - Email Tempalate",
+                "title": "Email Tempalate",
                 "permalink": "/docs/wpbitform- email-template"
               }
             },
@@ -477,7 +483,6 @@
               "permalink": "/docs/doc1",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/doc1.md",
               "version": "current",
-              "sidebar_label": "Style Guide",
               "frontMatter": {
                 "id": "doc1",
                 "title": "Style Guide",
@@ -530,7 +535,6 @@
               "permalink": "/docs/wpbitform- email-template",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Email-Template.mdx",
               "version": "current",
-              "sidebar_label": "Email Tempalate",
               "frontMatter": {
                 "id": "email-template",
                 "title": "Bit from - Email Tempalate",
@@ -539,11 +543,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Confirmation Message",
+                "title": "Confirmation Message",
                 "permalink": "/docs/wpbitform- confirmation-massage"
               },
               "next": {
-                "title": "Bit from Integration With Pods",
+                "title": "Pods",
                 "permalink": "/docs/wpbitform-pods"
               }
             },
@@ -559,7 +563,6 @@
               "permalink": "/docs/wpbitform-buttonfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Buttonfield.mdx",
               "version": "current",
-              "sidebar_label": "Button field",
               "frontMatter": {
                 "id": "buttonfield",
                 "title": "Bit from - Button field",
@@ -568,11 +571,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Decision Box field",
+                "title": "Decision Box field",
                 "permalink": "/docs/wpbitform-decisionboxfield"
               },
               "next": {
-                "title": "Bit from - PayPal field",
+                "title": "PayPal field",
                 "permalink": "/docs/wpbitform-paypalfield"
               }
             },
@@ -588,7 +591,6 @@
               "permalink": "/docs/wpbitform-checkboxfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Checkbox.mdx",
               "version": "current",
-              "sidebar_label": "Checkbox field",
               "frontMatter": {
                 "id": "checkboxfield",
                 "title": "Bit from - Checkbox field",
@@ -597,11 +599,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Multi-Line Text field",
+                "title": "Multi-Line Text field",
                 "permalink": "/docs/wpbitform-multilinetextfield"
               },
               "next": {
-                "title": "Bit from - Radio Button field",
+                "title": "Radio Button field",
                 "permalink": "/docs/wpbitform-radiobuttonfield"
               }
             },
@@ -617,7 +619,6 @@
               "permalink": "/docs/wpbitform-colorpickerfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Colorpicker.mdx",
               "version": "current",
-              "sidebar_label": "Color Picker field",
               "frontMatter": {
                 "id": "colorpickerfield",
                 "title": "Bit from - Color Picker field",
@@ -626,11 +627,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Month field",
+                "title": "Month field",
                 "permalink": "/docs/wpbitform-monthfield"
               },
               "next": {
-                "title": "Bit from - reCAPTCHA v2 field",
+                "title": "reCAPTCHA v2 field",
                 "permalink": "/docs/wpbitform-recaptchav2field"
               }
             },
@@ -646,7 +647,6 @@
               "permalink": "/docs/wpbitform-countryfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/CountryField.mdx",
               "version": "current",
-              "sidebar_label": "Country field",
               "frontMatter": {
                 "id": "countryfield",
                 "title": "Bit from - Country field",
@@ -655,11 +655,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Drop-Down field",
+                "title": "Drop-Down field",
                 "permalink": "/docs/wpbitform-drop-downfield"
               },
               "next": {
-                "title": "Bit from - Password field",
+                "title": "Password field",
                 "permalink": "/docs/wpbitform-passwordfield"
               }
             },
@@ -675,7 +675,6 @@
               "permalink": "/docs/wpbitform-date-timefield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Date-Time.mdx",
               "version": "current",
-              "sidebar_label": "Date-Time field",
               "frontMatter": {
                 "id": "date-timefield",
                 "title": "Bit from - Date-Time field",
@@ -684,11 +683,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Timefield",
+                "title": "Time field",
                 "permalink": "/docs/wpbitform-timefield"
               },
               "next": {
-                "title": "Bit from - Month field",
+                "title": "Month field",
                 "permalink": "/docs/wpbitform-monthfield"
               }
             },
@@ -704,7 +703,6 @@
               "permalink": "/docs/wpbitform-datefield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Datefield.mdx",
               "version": "current",
-              "sidebar_label": "Date field",
               "frontMatter": {
                 "id": "datefield",
                 "title": "Bit from - Datefield",
@@ -713,11 +711,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - File Upload field",
+                "title": "File Upload field",
                 "permalink": "/docs/wpbitform-fileuploadfield"
               },
               "next": {
-                "title": "Bit from - Timefield",
+                "title": "Time field",
                 "permalink": "/docs/wpbitform-timefield"
               }
             },
@@ -733,7 +731,6 @@
               "permalink": "/docs/wpbitform-decisionboxfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Decisionboxfield.mdx",
               "version": "current",
-              "sidebar_label": "Decision Box field",
               "frontMatter": {
                 "id": "decisionboxfield",
                 "title": "Bit from - Decision Box field",
@@ -742,11 +739,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - reCAPTCHA v2 field",
+                "title": "reCAPTCHA v2 field",
                 "permalink": "/docs/wpbitform-recaptchav2field"
               },
               "next": {
-                "title": "Bit from - Button field",
+                "title": "Button field",
                 "permalink": "/docs/wpbitform-buttonfield"
               }
             },
@@ -762,7 +759,6 @@
               "permalink": "/docs/wpbitform-drop-downfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Drop-Down.mdx",
               "version": "current",
-              "sidebar_label": "Drop-Down field",
               "frontMatter": {
                 "id": "drop-downfield",
                 "title": "Bit from - Drop-Down field",
@@ -771,11 +767,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Number field",
+                "title": "Number field",
                 "permalink": "/docs/wpbitform-numberfield"
               },
               "next": {
-                "title": "Bit from - Country field",
+                "title": "Country field",
                 "permalink": "/docs/wpbitform-countryfield"
               }
             },
@@ -791,7 +787,6 @@
               "permalink": "/docs/wpbitform-emailfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Emailfield.mdx",
               "version": "current",
-              "sidebar_label": "Email field",
               "frontMatter": {
                 "id": "emailfield",
                 "title": "Bit from - Emailfield",
@@ -800,11 +795,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Password field",
+                "title": "Password field",
                 "permalink": "/docs/wpbitform-passwordfield"
               },
               "next": {
-                "title": "Bit from - URLfield",
+                "title": "URL field",
                 "permalink": "/docs/wpbitform-urlfield"
               }
             },
@@ -820,7 +815,6 @@
               "permalink": "/docs/wpbitform-field-types",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Overview.mdx",
               "version": "current",
-              "sidebar_label": "Overview",
               "frontMatter": {
                 "id": "fields-overview",
                 "title": "Bit form-Field Types",
@@ -829,11 +823,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "How to create a WordPress form using BitForm",
+                "title": "Create First Form",
                 "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
               },
               "next": {
-                "title": "Bit from - Textfield",
+                "title": "Text field",
                 "permalink": "/docs/wpbitform-textfield"
               }
             },
@@ -849,7 +843,6 @@
               "permalink": "/docs/wpbitform-fileuploadfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/FileUpload.mdx",
               "version": "current",
-              "sidebar_label": "File Upload field",
               "frontMatter": {
                 "id": "fileuploadfield",
                 "title": "Bit from - File Upload field",
@@ -858,11 +851,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - URLfield",
+                "title": "URL field",
                 "permalink": "/docs/wpbitform-urlfield"
               },
               "next": {
-                "title": "Bit from - Datefield",
+                "title": "Date field",
                 "permalink": "/docs/wpbitform-datefield"
               }
             },
@@ -878,7 +871,6 @@
               "permalink": "/docs/wpbitform-monthfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Monthfield.mdx",
               "version": "current",
-              "sidebar_label": "Month field",
               "frontMatter": {
                 "id": "monthfield",
                 "title": "Bit from - Month field",
@@ -887,11 +879,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Date-Time field",
+                "title": "Date-Time field",
                 "permalink": "/docs/wpbitform-date-timefield"
               },
               "next": {
-                "title": "Bit from - Color Picker field",
+                "title": "Color Picker field",
                 "permalink": "/docs/wpbitform-colorpickerfield"
               }
             },
@@ -907,7 +899,6 @@
               "permalink": "/docs/wpbitform-multilinetextfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Multilinetextfield.mdx",
               "version": "current",
-              "sidebar_label": "Multi-Line Text field",
               "frontMatter": {
                 "id": "multilinetextfield",
                 "title": "Bit from - Multi-Line Text field",
@@ -916,11 +907,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Textfield",
+                "title": "Text field",
                 "permalink": "/docs/wpbitform-textfield"
               },
               "next": {
-                "title": "Bit from - Checkbox field",
+                "title": "Checkbox field",
                 "permalink": "/docs/wpbitform-checkboxfield"
               }
             },
@@ -936,7 +927,6 @@
               "permalink": "/docs/wpbitform-numberfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Numberfield.mdx",
               "version": "current",
-              "sidebar_label": "Number field",
               "frontMatter": {
                 "id": "numberfield",
                 "title": "Bit from - Number field",
@@ -945,11 +935,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Radio Button field",
+                "title": "Radio Button field",
                 "permalink": "/docs/wpbitform-radiobuttonfield"
               },
               "next": {
-                "title": "Bit from - Drop-Down field",
+                "title": "Drop-Down field",
                 "permalink": "/docs/wpbitform-drop-downfield"
               }
             },
@@ -965,7 +955,6 @@
               "permalink": "/docs/wpbitform-passwordfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/PasswordField.mdx",
               "version": "current",
-              "sidebar_label": "Password field",
               "frontMatter": {
                 "id": "passwordfield",
                 "title": "Bit from - Password field",
@@ -974,11 +963,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Country field",
+                "title": "Country field",
                 "permalink": "/docs/wpbitform-countryfield"
               },
               "next": {
-                "title": "Bit from - Emailfield",
+                "title": "Email field",
                 "permalink": "/docs/wpbitform-emailfield"
               }
             },
@@ -994,7 +983,6 @@
               "permalink": "/docs/wpbitform-paypalfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/PayPal.mdx",
               "version": "current",
-              "sidebar_label": "PayPal field",
               "frontMatter": {
                 "id": "paypalfield",
                 "title": "Bit from - PayPal field",
@@ -1003,11 +991,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Button field",
+                "title": "Button field",
                 "permalink": "/docs/wpbitform-buttonfield"
               },
               "next": {
-                "title": "Bit from - Razorpay field",
+                "title": "Razorpay field",
                 "permalink": "/docs/wpbitform-razorpayfield"
               }
             },
@@ -1023,7 +1011,6 @@
               "permalink": "/docs/wpbitform-radiobuttonfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Radiobuttonfield.mdx",
               "version": "current",
-              "sidebar_label": "Radio Button field",
               "frontMatter": {
                 "id": "radiobuttonfield",
                 "title": "Bit from - Radio Button field",
@@ -1032,11 +1019,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Checkbox field",
+                "title": "Checkbox field",
                 "permalink": "/docs/wpbitform-checkboxfield"
               },
               "next": {
-                "title": "Bit from - Number field",
+                "title": "Number field",
                 "permalink": "/docs/wpbitform-numberfield"
               }
             },
@@ -1052,7 +1039,6 @@
               "permalink": "/docs/wpbitform-razorpayfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Razorpay.mdx",
               "version": "current",
-              "sidebar_label": "Razorpay field",
               "frontMatter": {
                 "id": "razorpayfield",
                 "title": "Bit from - Razorpay field",
@@ -1061,11 +1047,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - PayPal field",
+                "title": "PayPal field",
                 "permalink": "/docs/wpbitform-paypalfield"
               },
               "next": {
-                "title": "Bit from - Background Customize",
+                "title": "Background Customize",
                 "permalink": "/docs/wpbitform-background-customize"
               }
             },
@@ -1081,7 +1067,6 @@
               "permalink": "/docs/wpbitform-recaptchav2field",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/reCAPTCHAfield.mdx",
               "version": "current",
-              "sidebar_label": "reCAPTCHA v2 field",
               "frontMatter": {
                 "id": "recaptchav2field",
                 "title": "Bit from - reCAPTCHA v2 field",
@@ -1090,11 +1075,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Color Picker field",
+                "title": "Color Picker field",
                 "permalink": "/docs/wpbitform-colorpickerfield"
               },
               "next": {
-                "title": "Bit from - Decision Box field",
+                "title": "Decision Box field",
                 "permalink": "/docs/wpbitform-decisionboxfield"
               }
             },
@@ -1110,7 +1095,6 @@
               "permalink": "/docs/wpbitform-textfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Textfield.mdx",
               "version": "current",
-              "sidebar_label": "Text field",
               "frontMatter": {
                 "id": "textfield",
                 "title": "Bit from - Textfield",
@@ -1119,11 +1103,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit form-Field Types",
+                "title": "Overview",
                 "permalink": "/docs/wpbitform-field-types"
               },
               "next": {
-                "title": "Bit from - Multi-Line Text field",
+                "title": "Multi-Line Text field",
                 "permalink": "/docs/wpbitform-multilinetextfield"
               }
             },
@@ -1139,7 +1123,6 @@
               "permalink": "/docs/wpbitform-timefield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/TimeFields.mdx",
               "version": "current",
-              "sidebar_label": "Time field",
               "frontMatter": {
                 "id": "timefield",
                 "title": "Bit from - Timefield",
@@ -1148,11 +1131,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Datefield",
+                "title": "Date field",
                 "permalink": "/docs/wpbitform-datefield"
               },
               "next": {
-                "title": "Bit from - Date-Time field",
+                "title": "Date-Time field",
                 "permalink": "/docs/wpbitform-date-timefield"
               }
             },
@@ -1168,7 +1151,6 @@
               "permalink": "/docs/wpbitform-urlfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/URLfield.mdx",
               "version": "current",
-              "sidebar_label": "URL field",
               "frontMatter": {
                 "id": "urlfield",
                 "title": "Bit from - URLfield",
@@ -1177,11 +1159,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Emailfield",
+                "title": "Email field",
                 "permalink": "/docs/wpbitform-emailfield"
               },
               "next": {
-                "title": "Bit from - File Upload field",
+                "title": "File Upload field",
                 "permalink": "/docs/wpbitform-fileuploadfield"
               }
             },
@@ -1197,7 +1179,6 @@
               "permalink": "/docs/wpbitform-weekfield",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Weekfield.mdx",
               "version": "current",
-              "sidebar_label": "Week field",
               "frontMatter": {
                 "id": "weekfield",
                 "title": "Bit from - Week field",
@@ -1217,7 +1198,6 @@
               "permalink": "/docs/wpbitform-form-settings",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Form-Settings.mdx",
               "version": "current",
-              "sidebar_label": "Form Settings",
               "frontMatter": {
                 "id": "form-settings",
                 "title": "Bit from - Form Settings",
@@ -1226,11 +1206,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Response Management",
+                "title": "Response Management",
                 "permalink": "/docs/wpbitform-overview"
               },
               "next": {
-                "title": "Bit from - Conditional Logic",
+                "title": "Conditional Logic",
                 "permalink": "/docs/wpbitform-conditional-logic"
               }
             },
@@ -1246,7 +1226,6 @@
               "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/CreateNewForm.mdx",
               "version": "current",
-              "sidebar_label": "Create First Form",
               "frontMatter": {
                 "id": "create-new-form",
                 "title": "How to create a WordPress form using BitForm",
@@ -1255,11 +1234,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Installation, Activate and Upgrade of Bitform",
+                "title": "Install, Active & Update",
                 "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
               },
               "next": {
-                "title": "Bit form-Field Types",
+                "title": "Overview",
                 "permalink": "/docs/wpbitform-field-types"
               }
             },
@@ -1275,7 +1254,6 @@
               "permalink": "/docs/install-activate-wordpress-frombuilder-bitform",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/install.mdx",
               "version": "current",
-              "sidebar_label": "Install, Active & Update",
               "frontMatter": {
                 "id": "install",
                 "title": "Installation, Activate and Upgrade of Bitform",
@@ -1284,11 +1262,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Welcome to Bitform",
+                "title": "Welcome",
                 "permalink": "/docs/"
               },
               "next": {
-                "title": "How to create a WordPress form using BitForm",
+                "title": "Create First Form",
                 "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
               }
             },
@@ -1304,7 +1282,6 @@
               "permalink": "/docs/",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/welcome.mdx",
               "version": "current",
-              "sidebar_label": "Welcome",
               "frontMatter": {
                 "id": "welcome",
                 "title": "Welcome to Bitform",
@@ -1313,7 +1290,7 @@
               },
               "sidebar": "someSidebar",
               "next": {
-                "title": "Installation, Activate and Upgrade of Bitform",
+                "title": "Install, Active & Update",
                 "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
               }
             },
@@ -1329,7 +1306,6 @@
               "permalink": "/docs/wpbitform-activecampaign",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Active-Campaign.mdx",
               "version": "current",
-              "sidebar_label": "Active Campaign",
               "frontMatter": {
                 "id": "activecampaign",
                 "title": "Bit from Integration With Active Campaign",
@@ -1338,11 +1314,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Telegram",
+                "title": "Telegram",
                 "permalink": "/docs/wpbitform-telegram"
               },
               "next": {
-                "title": "Bit from Integration With Mailchimp",
+                "title": "Mailchimp",
                 "permalink": "/docs/wpbitform-mailchimp"
               }
             },
@@ -1358,7 +1334,6 @@
               "permalink": "/docs/wpbitform-customposttype",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/CPT.mdx",
               "version": "current",
-              "sidebar_label": "Custom Post Type (CPT)",
               "frontMatter": {
                 "id": "customposttype",
                 "title": "Bit from - Custom Post Type (CPT)",
@@ -1367,11 +1342,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With FluentCRM",
+                "title": "FluentCRM",
                 "permalink": "/docs/wpbitform-fluentcrm"
               },
               "next": {
-                "title": "Bit from Integration With reCAPTCHA V3",
+                "title": "reCAPTCHA V3",
                 "permalink": "/docs/wpbitform-recaptchav3"
               }
             },
@@ -1387,7 +1362,6 @@
               "permalink": "/docs/wpbitform-encharge",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Encharge.mdx",
               "version": "current",
-              "sidebar_label": "Encharge",
               "frontMatter": {
                 "id": "encharge",
                 "title": "Bit from Integration With Encharge",
@@ -1396,11 +1370,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With MailPoet",
+                "title": "MailPoet",
                 "permalink": "/docs/wpbitform-mailpoet"
               },
               "next": {
-                "title": "Bit from Integration With Sendinblue",
+                "title": "Sendinblue",
                 "permalink": "/docs/wpbitform-sendinblue"
               }
             },
@@ -1416,7 +1390,6 @@
               "permalink": "/docs/wpbitform-fluentcrm",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Fluent-CRM.mdx",
               "version": "current",
-              "sidebar_label": "FluentCRM",
               "frontMatter": {
                 "id": "fluentcrm",
                 "title": "Bit from Integration With FluentCRM",
@@ -1425,11 +1398,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Sendinblue",
+                "title": "Sendinblue",
                 "permalink": "/docs/wpbitform-sendinblue"
               },
               "next": {
-                "title": "Bit from - Custom Post Type (CPT)",
+                "title": "Custom Post Type (CPT)",
                 "permalink": "/docs/wpbitform-customposttype"
               }
             },
@@ -1445,7 +1418,6 @@
               "permalink": "/docs/wpbitform-googleads",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Google-Ads.mdx",
               "version": "current",
-              "sidebar_label": "Google Ads",
               "frontMatter": {
                 "id": "googleads",
                 "title": "Bit from Integration With Google Ads",
@@ -1454,11 +1426,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Google Sheet",
+                "title": "Google Sheet",
                 "permalink": "/docs/wpbitform-googlesheet"
               },
               "next": {
-                "title": "Bit from Integration With Telegram",
+                "title": "Telegram",
                 "permalink": "/docs/wpbitform-telegram"
               }
             },
@@ -1474,7 +1446,6 @@
               "permalink": "/docs/wpbitform-googlesheet",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Google-Sheet.mdx",
               "version": "current",
-              "sidebar_label": "Google Sheet",
               "frontMatter": {
                 "id": "googlesheet",
                 "title": "Bit from Integration With Google Sheet",
@@ -1483,11 +1454,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Pods",
+                "title": "Pods",
                 "permalink": "/docs/wpbitform-pods"
               },
               "next": {
-                "title": "Bit from Integration With Google Ads",
+                "title": "Google Ads",
                 "permalink": "/docs/wpbitform-googleads"
               }
             },
@@ -1503,7 +1474,6 @@
               "permalink": "/docs/wpbitform-integrately",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Integrately.mdx",
               "version": "current",
-              "sidebar_label": "Integrately",
               "frontMatter": {
                 "id": "integrately",
                 "title": "Bit from Integration With Integrately",
@@ -1512,11 +1482,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Integromat",
+                "title": "Integromat",
                 "permalink": "/docs/wpbitform-integromat"
               },
               "next": {
-                "title": "Bit from Integration With Zoho Flow",
+                "title": "Zoho Flow",
                 "permalink": "/docs/wpbitform-zoho-flow"
               }
             },
@@ -1532,7 +1502,6 @@
               "permalink": "/docs/wpbitform-integromat",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Integromat.mdx",
               "version": "current",
-              "sidebar_label": "Integromat",
               "frontMatter": {
                 "id": "integromat",
                 "title": "Bit from Integration With Integromat",
@@ -1541,11 +1510,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Pabbly",
+                "title": "Pabbly",
                 "permalink": "/docs/wpbitform-pabbly"
               },
               "next": {
-                "title": "Bit from Integration With Integrately",
+                "title": "Integrately",
                 "permalink": "/docs/wpbitform-integrately"
               }
             },
@@ -1561,7 +1530,6 @@
               "permalink": "/docs/wpbitform-mailchimp",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/MailChimp.mdx",
               "version": "current",
-              "sidebar_label": "Mailchimp",
               "frontMatter": {
                 "id": "mailchimp",
                 "title": "Bit from Integration With Mailchimp",
@@ -1570,11 +1538,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Active Campaign",
+                "title": "Active Campaign",
                 "permalink": "/docs/wpbitform-activecampaign"
               },
               "next": {
-                "title": "Bit from Integration With MailPoet",
+                "title": "MailPoet",
                 "permalink": "/docs/wpbitform-mailpoet"
               }
             },
@@ -1590,7 +1558,6 @@
               "permalink": "/docs/wpbitform-mailpoet",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/MailPoet.mdx",
               "version": "current",
-              "sidebar_label": "MailPoet",
               "frontMatter": {
                 "id": "mailpoet",
                 "title": "Bit from Integration With MailPoet",
@@ -1599,11 +1566,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Mailchimp",
+                "title": "Mailchimp",
                 "permalink": "/docs/wpbitform-mailchimp"
               },
               "next": {
-                "title": "Bit from Integration With Encharge",
+                "title": "Encharge",
                 "permalink": "/docs/wpbitform-encharge"
               }
             },
@@ -1619,7 +1586,6 @@
               "permalink": "/docs/wpbitform-pabbly",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Pabbly.mdx",
               "version": "current",
-              "sidebar_label": "Pabbly",
               "frontMatter": {
                 "id": "pabbly",
                 "title": "Bit from Integration With Pabbly",
@@ -1628,11 +1594,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Zapier",
+                "title": "Zapier",
                 "permalink": "/docs/wpbitform-zapier"
               },
               "next": {
-                "title": "Bit from Integration With Integromat",
+                "title": "Integromat",
                 "permalink": "/docs/wpbitform-integromat"
               }
             },
@@ -1648,7 +1614,6 @@
               "permalink": "/docs/wpbitform-pods",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Pods.mdx",
               "version": "current",
-              "sidebar_label": "Pods",
               "frontMatter": {
                 "id": "pods",
                 "title": "Bit from Integration With Pods",
@@ -1657,11 +1622,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Email Tempalate",
+                "title": "Email Tempalate",
                 "permalink": "/docs/wpbitform- email-template"
               },
               "next": {
-                "title": "Bit from Integration With Google Sheet",
+                "title": "Google Sheet",
                 "permalink": "/docs/wpbitform-googlesheet"
               }
             },
@@ -1677,7 +1642,6 @@
               "permalink": "/docs/wpbitform-recaptchav3",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/recaptchav3.mdx",
               "version": "current",
-              "sidebar_label": "reCAPTCHA V3",
               "frontMatter": {
                 "id": "recaptchav3",
                 "title": "Bit from Integration With reCAPTCHA V3",
@@ -1686,11 +1650,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Custom Post Type (CPT)",
+                "title": "Custom Post Type (CPT)",
                 "permalink": "/docs/wpbitform-customposttype"
               },
               "next": {
-                "title": "Bit from Integration With Zapier",
+                "title": "Zapier",
                 "permalink": "/docs/wpbitform-zapier"
               }
             },
@@ -1706,7 +1670,6 @@
               "permalink": "/docs/wpbitform-sendinblue",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Sendinblue.mdx",
               "version": "current",
-              "sidebar_label": "Sendinblue",
               "frontMatter": {
                 "id": "sendinblue",
                 "title": "Bit from Integration With Sendinblue",
@@ -1715,11 +1678,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Encharge",
+                "title": "Encharge",
                 "permalink": "/docs/wpbitform-encharge"
               },
               "next": {
-                "title": "Bit from Integration With FluentCRM",
+                "title": "FluentCRM",
                 "permalink": "/docs/wpbitform-fluentcrm"
               }
             },
@@ -1735,7 +1698,6 @@
               "permalink": "/docs/wpbitform-telegram",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Telegram.mdx",
               "version": "current",
-              "sidebar_label": "Telegram",
               "frontMatter": {
                 "id": "telegram",
                 "title": "Bit from Integration With Telegram",
@@ -1744,11 +1706,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Google Ads",
+                "title": "Google Ads",
                 "permalink": "/docs/wpbitform-googleads"
               },
               "next": {
-                "title": "Bit from Integration With Active Campaign",
+                "title": "Active Campaign",
                 "permalink": "/docs/wpbitform-activecampaign"
               }
             },
@@ -1764,7 +1726,6 @@
               "permalink": "/docs/wpbitform-zapier",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zapier.mdx",
               "version": "current",
-              "sidebar_label": "Zapier",
               "frontMatter": {
                 "id": "zapier",
                 "title": "Bit from Integration With Zapier",
@@ -1773,12 +1734,64 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With reCAPTCHA V3",
+                "title": "reCAPTCHA V3",
                 "permalink": "/docs/wpbitform-recaptchav3"
               },
               "next": {
-                "title": "Bit from Integration With Pabbly",
+                "title": "Pabbly",
                 "permalink": "/docs/wpbitform-pabbly"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-analytics",
+              "id": "Integrations/zoho-analytics",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Analytics",
+              "description": "Using Zoho Analytics integration with WordPress form builder, you can analyze your data in a much efficient way. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+              "source": "@site/docs/Integrations/Zoho-Analytics.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-analytics",
+              "permalink": "/docs/wpbitform-zoho-analytics",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Analytics.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-analytics",
+                "title": "Bit from Integration With Zoho Analytics",
+                "sidebar_label": "Zoho Analytics",
+                "slug": "/wpbitform-zoho-analytics"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Flow",
+                "permalink": "/docs/wpbitform-zoho-flow"
+              },
+              "next": {
+                "title": "Zoho CRM",
+                "permalink": "/docs/wpbitform-zoho-crm"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-crm",
+              "id": "Integrations/zoho-crm",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho CRM",
+              "description": "Using  Zoho CRM integration with WordPress form builder, you can automatically push your WordPress form data in CRM modules. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+              "source": "@site/docs/Integrations/Zoho-CRM.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-crm",
+              "permalink": "/docs/wpbitform-zoho-crm",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-CRM.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-crm",
+                "title": "Bit from Integration With Zoho CRM",
+                "sidebar_label": "Zoho CRM",
+                "slug": "/wpbitform-zoho-crm"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Analytics",
+                "permalink": "/docs/wpbitform-zoho-analytics"
               }
             },
             {
@@ -1786,14 +1799,13 @@
               "id": "Integrations/zoho-flow",
               "isDocsHomePage": false,
               "title": "Bit from Integration With Zoho Flow",
-              "description": "",
+              "description": "Zoho is one of the best and most used web applications for business. Zoho Flow integration on form builder application is used to collect information or data from people or customers. The process starts by creating a new flow in Zoho flow, which will consist of different steps. Using this integration you can easily integrate with any web service out there. This documentation gives a quick overview of how to integrate Zoho flow with form builder.",
               "source": "@site/docs/Integrations/Zoho-Flow.mdx",
               "sourceDirName": "Integrations",
               "slug": "/wpbitform-zoho-flow",
               "permalink": "/docs/wpbitform-zoho-flow",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Flow.mdx",
               "version": "current",
-              "sidebar_label": "Zoho Flow",
               "frontMatter": {
                 "id": "zoho-flow",
                 "title": "Bit from Integration With Zoho Flow",
@@ -1802,8 +1814,12 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from Integration With Integrately",
+                "title": "Integrately",
                 "permalink": "/docs/wpbitform-integrately"
+              },
+              "next": {
+                "title": "Zoho Analytics",
+                "permalink": "/docs/wpbitform-zoho-analytics"
               }
             },
             {
@@ -1835,7 +1851,6 @@
               "permalink": "/docs/wpbitform-overview",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Response Management/response-management.mdx",
               "version": "current",
-              "sidebar_label": "Response Management",
               "frontMatter": {
                 "id": "response-management",
                 "title": "Bit from - Response Management",
@@ -1844,11 +1859,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Field Customize",
+                "title": "Field Customize",
                 "permalink": "/docs/wpbitform-field-customize"
               },
               "next": {
-                "title": "Bit from - Form Settings",
+                "title": "Form Settings",
                 "permalink": "/docs/wpbitform-form-settings"
               }
             },
@@ -1864,7 +1879,6 @@
               "permalink": "/docs/wpbitform-background-customize",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/BackgroundCustomize.mdx",
               "version": "current",
-              "sidebar_label": "Background Customize",
               "frontMatter": {
                 "id": "background-customize",
                 "title": "Bit from - Background Customize",
@@ -1873,11 +1887,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Razorpay field",
+                "title": "Razorpay field",
                 "permalink": "/docs/wpbitform-razorpayfield"
               },
               "next": {
-                "title": "Bit from - Form Customize",
+                "title": "Form Customize",
                 "permalink": "/docs/wpbitform-form-customize"
               }
             },
@@ -1893,7 +1907,6 @@
               "permalink": "/docs/wpbitform-field-customize",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FieldCustomize.mdx",
               "version": "current",
-              "sidebar_label": "Field Customize",
               "frontMatter": {
                 "id": "field-customize",
                 "title": "Bit from - Field Customize",
@@ -1902,11 +1915,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Form Block Customize",
+                "title": "Form Block Customize",
                 "permalink": "/docs/wpbitform-form-block-customize"
               },
               "next": {
-                "title": "Bit from - Response Management",
+                "title": "Response Management",
                 "permalink": "/docs/wpbitform-overview"
               }
             },
@@ -1922,7 +1935,6 @@
               "permalink": "/docs/wpbitform-form-block-customize",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FormBlockCustomize.mdx",
               "version": "current",
-              "sidebar_label": "Form Block Customize",
               "frontMatter": {
                 "id": "form-block-customize",
                 "title": "Bit from - Form Block Customize",
@@ -1931,11 +1943,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Form Customize",
+                "title": "Form Customize",
                 "permalink": "/docs/wpbitform-form-customize"
               },
               "next": {
-                "title": "Bit from - Field Customize",
+                "title": "Field Customize",
                 "permalink": "/docs/wpbitform-field-customize"
               }
             },
@@ -1951,7 +1963,6 @@
               "permalink": "/docs/wpbitform-form-customize",
               "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FormCustomize.mdx",
               "version": "current",
-              "sidebar_label": "Form Customize",
               "frontMatter": {
                 "id": "form-customize",
                 "title": "Bit from - Form Customize",
@@ -1960,11 +1971,11 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Bit from - Background Customize",
+                "title": "Background Customize",
                 "permalink": "/docs/wpbitform-background-customize"
               },
               "next": {
-                "title": "Bit from - Form Block Customize",
+                "title": "Form Block Customize",
                 "permalink": "/docs/wpbitform-form-block-customize"
               }
             }

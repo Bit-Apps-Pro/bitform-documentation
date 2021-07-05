@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-monthfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Monthfield.mdx",
   "version": "current",
-  "sidebar_label": "Month field",
   "frontMatter": {
     "id": "monthfield",
     "title": "Bit from - Month field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Date-Time field",
+    "title": "Date-Time field",
     "permalink": "/docs/wpbitform-date-timefield"
   },
   "next": {
-    "title": "Bit from - Color Picker field",
+    "title": "Color Picker field",
     "permalink": "/docs/wpbitform-colorpickerfield"
   }
 }

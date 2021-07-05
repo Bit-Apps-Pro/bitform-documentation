@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-sendinblue",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Sendinblue.mdx",
   "version": "current",
-  "sidebar_label": "Sendinblue",
   "frontMatter": {
     "id": "sendinblue",
     "title": "Bit from Integration With Sendinblue",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Encharge",
+    "title": "Encharge",
     "permalink": "/docs/wpbitform-encharge"
   },
   "next": {
-    "title": "Bit from Integration With FluentCRM",
+    "title": "FluentCRM",
     "permalink": "/docs/wpbitform-fluentcrm"
   }
 }

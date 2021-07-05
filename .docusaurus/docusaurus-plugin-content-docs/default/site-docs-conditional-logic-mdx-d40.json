@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-conditional-logic",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Conditional Logic.mdx",
   "version": "current",
-  "sidebar_label": "Conditional Logic",
   "frontMatter": {
     "id": "conditional-logic",
     "title": "Bit from - Conditional Logic",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Form Settings",
+    "title": "Form Settings",
     "permalink": "/docs/wpbitform-form-settings"
   },
   "next": {
-    "title": "Bit from - Confirmation Message",
+    "title": "Confirmation Message",
     "permalink": "/docs/wpbitform- confirmation-massage"
   }
 }

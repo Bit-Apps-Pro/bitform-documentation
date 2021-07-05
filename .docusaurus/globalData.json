@@ -267,6 +267,16 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/zoho-analytics",
+              "path": "/docs/wpbitform-zoho-analytics",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-crm",
+              "path": "/docs/wpbitform-zoho-crm",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/zoho-flow",
               "path": "/docs/wpbitform-zoho-flow",
               "sidebar": "someSidebar"

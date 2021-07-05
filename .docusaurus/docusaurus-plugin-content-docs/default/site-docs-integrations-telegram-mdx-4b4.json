@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-telegram",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Telegram.mdx",
   "version": "current",
-  "sidebar_label": "Telegram",
   "frontMatter": {
     "id": "telegram",
     "title": "Bit from Integration With Telegram",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Google Ads",
+    "title": "Google Ads",
     "permalink": "/docs/wpbitform-googleads"
   },
   "next": {
-    "title": "Bit from Integration With Active Campaign",
+    "title": "Active Campaign",
     "permalink": "/docs/wpbitform-activecampaign"
   }
 }

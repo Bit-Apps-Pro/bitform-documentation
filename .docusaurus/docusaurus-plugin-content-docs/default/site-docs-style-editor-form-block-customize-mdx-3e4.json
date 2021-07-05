@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-form-block-customize",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/StyleEditor/FormBlockCustomize.mdx",
   "version": "current",
-  "sidebar_label": "Form Block Customize",
   "frontMatter": {
     "id": "form-block-customize",
     "title": "Bit from - Form Block Customize",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Form Customize",
+    "title": "Form Customize",
     "permalink": "/docs/wpbitform-form-customize"
   },
   "next": {
-    "title": "Bit from - Field Customize",
+    "title": "Field Customize",
     "permalink": "/docs/wpbitform-field-customize"
   }
 }

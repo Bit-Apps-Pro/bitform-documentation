@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-encharge",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Encharge.mdx",
   "version": "current",
-  "sidebar_label": "Encharge",
   "frontMatter": {
     "id": "encharge",
     "title": "Bit from Integration With Encharge",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With MailPoet",
+    "title": "MailPoet",
     "permalink": "/docs/wpbitform-mailpoet"
   },
   "next": {
-    "title": "Bit from Integration With Sendinblue",
+    "title": "Sendinblue",
     "permalink": "/docs/wpbitform-sendinblue"
   }
 }

@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-colorpickerfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Colorpicker.mdx",
   "version": "current",
-  "sidebar_label": "Color Picker field",
   "frontMatter": {
     "id": "colorpickerfield",
     "title": "Bit from - Color Picker field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Month field",
+    "title": "Month field",
     "permalink": "/docs/wpbitform-monthfield"
   },
   "next": {
-    "title": "Bit from - reCAPTCHA v2 field",
+    "title": "reCAPTCHA v2 field",
     "permalink": "/docs/wpbitform-recaptchav2field"
   }
 }

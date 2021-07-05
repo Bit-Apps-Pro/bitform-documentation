@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-integromat",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Integromat.mdx",
   "version": "current",
-  "sidebar_label": "Integromat",
   "frontMatter": {
     "id": "integromat",
     "title": "Bit from Integration With Integromat",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Pabbly",
+    "title": "Pabbly",
     "permalink": "/docs/wpbitform-pabbly"
   },
   "next": {
-    "title": "Bit from Integration With Integrately",
+    "title": "Integrately",
     "permalink": "/docs/wpbitform-integrately"
   }
 }

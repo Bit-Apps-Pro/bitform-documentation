@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-emailfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Emailfield.mdx",
   "version": "current",
-  "sidebar_label": "Email field",
   "frontMatter": {
     "id": "emailfield",
     "title": "Bit from - Emailfield",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Password field",
+    "title": "Password field",
     "permalink": "/docs/wpbitform-passwordfield"
   },
   "next": {
-    "title": "Bit from - URLfield",
+    "title": "URL field",
     "permalink": "/docs/wpbitform-urlfield"
   }
 }

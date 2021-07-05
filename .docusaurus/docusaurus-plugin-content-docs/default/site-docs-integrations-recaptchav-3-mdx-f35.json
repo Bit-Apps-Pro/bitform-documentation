@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-recaptchav3",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/recaptchav3.mdx",
   "version": "current",
-  "sidebar_label": "reCAPTCHA V3",
   "frontMatter": {
     "id": "recaptchav3",
     "title": "Bit from Integration With reCAPTCHA V3",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Custom Post Type (CPT)",
+    "title": "Custom Post Type (CPT)",
     "permalink": "/docs/wpbitform-customposttype"
   },
   "next": {
-    "title": "Bit from Integration With Zapier",
+    "title": "Zapier",
     "permalink": "/docs/wpbitform-zapier"
   }
 }

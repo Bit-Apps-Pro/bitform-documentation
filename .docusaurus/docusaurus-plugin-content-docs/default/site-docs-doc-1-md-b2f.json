@@ -10,7 +10,6 @@
   "permalink": "/docs/doc1",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/doc1.md",
   "version": "current",
-  "sidebar_label": "Style Guide",
   "frontMatter": {
     "id": "doc1",
     "title": "Style Guide",

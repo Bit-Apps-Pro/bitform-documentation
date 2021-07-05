@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-pods",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Pods.mdx",
   "version": "current",
-  "sidebar_label": "Pods",
   "frontMatter": {
     "id": "pods",
     "title": "Bit from Integration With Pods",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Email Tempalate",
+    "title": "Email Tempalate",
     "permalink": "/docs/wpbitform- email-template"
   },
   "next": {
-    "title": "Bit from Integration With Google Sheet",
+    "title": "Google Sheet",
     "permalink": "/docs/wpbitform-googlesheet"
   }
 }

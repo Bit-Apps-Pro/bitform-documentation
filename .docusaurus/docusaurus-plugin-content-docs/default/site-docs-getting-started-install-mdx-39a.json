@@ -10,7 +10,6 @@
   "permalink": "/docs/install-activate-wordpress-frombuilder-bitform",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/install.mdx",
   "version": "current",
-  "sidebar_label": "Install, Active & Update",
   "frontMatter": {
     "id": "install",
     "title": "Installation, Activate and Upgrade of Bitform",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Welcome to Bitform",
+    "title": "Welcome",
     "permalink": "/docs/"
   },
   "next": {
-    "title": "How to create a WordPress form using BitForm",
+    "title": "Create First Form",
     "permalink": "/docs/How-to-create-a-WordPress-from-using-BitForm"
   }
 }

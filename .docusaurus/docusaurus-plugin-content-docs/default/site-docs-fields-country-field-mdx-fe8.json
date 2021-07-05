@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-countryfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/CountryField.mdx",
   "version": "current",
-  "sidebar_label": "Country field",
   "frontMatter": {
     "id": "countryfield",
     "title": "Bit from - Country field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Drop-Down field",
+    "title": "Drop-Down field",
     "permalink": "/docs/wpbitform-drop-downfield"
   },
   "next": {
-    "title": "Bit from - Password field",
+    "title": "Password field",
     "permalink": "/docs/wpbitform-passwordfield"
   }
 }

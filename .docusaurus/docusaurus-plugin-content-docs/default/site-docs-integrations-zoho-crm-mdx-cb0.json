@@ -1,0 +1,24 @@
+{
+  "unversionedId": "Integrations/zoho-crm",
+  "id": "Integrations/zoho-crm",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho CRM",
+  "description": "Using  Zoho CRM integration with WordPress form builder, you can automatically push your WordPress form data in CRM modules. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+  "source": "@site/docs/Integrations/Zoho-CRM.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-crm",
+  "permalink": "/docs/wpbitform-zoho-crm",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-CRM.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-crm",
+    "title": "Bit from Integration With Zoho CRM",
+    "sidebar_label": "Zoho CRM",
+    "slug": "/wpbitform-zoho-crm"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Analytics",
+    "permalink": "/docs/wpbitform-zoho-analytics"
+  }
+}

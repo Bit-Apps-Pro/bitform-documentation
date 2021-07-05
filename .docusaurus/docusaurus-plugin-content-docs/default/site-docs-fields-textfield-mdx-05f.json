@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-textfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Textfield.mdx",
   "version": "current",
-  "sidebar_label": "Text field",
   "frontMatter": {
     "id": "textfield",
     "title": "Bit from - Textfield",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit form-Field Types",
+    "title": "Overview",
     "permalink": "/docs/wpbitform-field-types"
   },
   "next": {
-    "title": "Bit from - Multi-Line Text field",
+    "title": "Multi-Line Text field",
     "permalink": "/docs/wpbitform-multilinetextfield"
   }
 }

@@ -1,0 +1,73 @@
+---
+id: zoho-analytics
+title: Bit from Integration With Zoho Analytics 
+sidebar_label: Zoho Analytics
+slug: /wpbitform-zoho-analytics
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+Using Zoho Analytics integration with WordPress form builder, you can analyze your data in a much efficient way. You can easily integrate without any coding. This Documentation goes through the configuration process.
+
+First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Analytics if you don’t have any form please create a new form. Please follow the screenshots below:
+
+ <Image src="Zoho-Analytics/1.create_form" alt="Zoho-Analytics" w="1020" h="400" />
+
+Then click on the Settings menu from the top navigation bar. Navigate to Settings->Integrations->Click on (+) ->Select Zoho Analytics. Please follow the screenshots below:
+
+ <Image src="Zoho-Analytics/2. Homepage" alt="Zoho-Analytics" w="1020" h="400" />
+
+ <Image src="Zoho-Analytics/3.analytics-integration-3" alt="Zoho-Analytics" w="1020" h="400" /> 
+
+Select a data center from the dropdown. Then click on the Zoho API Console. Navigate to API Console->Get Started->Server-based Applications. Please follow the screenshots below
+
+ <Image src="Zoho-Analytics/4. api-console-1" alt="Zoho-Analytics" w="1020" h="400" /> 
+
+ <Image src="Zoho-Analytics/5.GetStarted" alt="Zoho-Analytics" w="1020" h="400" />
+
+ <Image src="Zoho-Analytics/6.api-console-server-based" alt="Zoho-Analytics" w="1020" h="400" />
+
+Fill those fields (Homepage URL and Authorized Redirect URLs) the same as your Integration Homepage. Then click UPDATE.
+
+ <Image src="Zoho-Analytics/7. api-console-client-details-3" alt="Zoho-Analytics" w="1020" h="400" />
+
+Then copy the Client ID and Client Secret and paste it to the Bit Form integration page. Then click on the Authorize button (wait for a few seconds). After the successful authorization click on the Next button.
+
+ <Image src="Zoho-Analytics/8. client-secret-4" alt="Zoho-Analytics" w="1020" h="400" />
+
+ <Image src="Zoho-Analytics/9. authorization-1" alt="Zoho-Analytics" w="1020" h="400" /> 
+
+> **Notice: Zoho Analytics only works with the main admin owner(Super admin) of the Zoho analytics account. For Zoho Analytics update criteria, follow this link: https://www.zoho.com/analytics/api/#applying-filter-criteria**
+
+Select the workspace and table from the dropdown. Then map Bit Form fields with Zoho Analytics fields in which you want to send/update data.
+
+**Zoho Analytics doesn’t support data INSERT/UPDATE in integration table**
+
+<Video src="Bit-Form-to-Zoho-analytics-field-select" alt="Zoho-Analytics" w="800" h="400" />
+
+> **Notice: If you select Update Row action without any criteria, when you click on the save button a warning message will be shown. All data of the above-selected table will get replaced**
+
+<Video src="2. Bit-Form-to-Zoho-analytics-without-criteria-warning-message" alt="Zoho-Analytics" w="800" h="400" />
+
+You can update Zoho Analytics records via using criteria.
+
+<Image src="Zoho-Analytics/10. Bit-Form-to-Zoho-analytics-criteria-1024x500" alt="Zoho-Analytics" w="1020" h="400" />
+
+***Example criteria: (“Table Name”.”Department”=’Finance’ and “Table Name”.”Salary” => 9000)***
+
+<Image src="Zoho-Analytics/Criteria" alt="Zoho-Analytics" w="1020" h="700" /> 
+
+There has another feature name Update Preference. If you select “Yes” when the criteria don’t meet a new row will be inserted in Zoho Analytics.
+
+When “No” is selected then a new row won’t be inserted if the criteria don’t meet.
+
+<Image src="Zoho-Analytics/11. update-row" alt="Zoho-Analytics" w="1020" h="400" />
+
+In the end, create a Workflow for triggering the integration. Select the integration which you created before.
+
+<Image src="Zoho-Analytics/12. workflow-3" alt="Zoho-Analytics" w="1020" h="400" />
+
+
+**Watch the full video here!**
+
+<Video youtube src="Eoxxu3U_3_s" />  

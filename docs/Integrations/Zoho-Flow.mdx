@@ -6,3 +6,89 @@ slug: /wpbitform-zoho-flow
 ---
 import Image from "../../src/components/Image";
 import Video from "../../src/components/Image";
+
+
+Zoho is one of the best and most used web applications for business. Zoho Flow integration on form builder application is used to collect information or data from people or customers. The process starts by creating a new flow in Zoho flow, which will consist of different steps. Using this integration you can easily integrate with any web service out there. This documentation gives a quick overview of how to integrate Zoho flow with form builder.
+
+## Integration Settings:  
+1. At first, select any existing form or create any form to use the webhook integration.
+
+ <Image src="Zoho Flow/1_Create Form- Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+2. Follow the path: ***Settings => Integration => Select Zoho Flow***. Then set a suitable name of the integration.
+
+ <Image src="Zoho Flow/2_Integration to Settings- Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/3_Select Zoho Flow-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/4_Set Integration name -Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+3. Now, go to the Zoho Flow dashboard & click on the ‘ +(Create Flow)‘ option. Give a related “Name” & “Description” to create a flow.
+
+ <Image src="Zoho Flow/5_Zoho Flow dashboard-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/6_Set flow name-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+4. After creating a new flow, you have to configure the webhook to connect with Bit Form.
+
+ <Image src="Zoho Flow/7_Configure Webhook-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+5. You have to choose the format “Form Data“. Now copy the auto-generated URL to connect Bit Form with Zoho Flow and paste it on the “Link” field on the integration settings page. Now set the method option. Then add URL parameter as key & value pair. In the parameter option, select the form field name to send data.
+
+ <Image src="Zoho Flow/8_Copy URL-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/9_Paste URL & Set parameters-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+6. Now, test the webhook on both the Zoho flow & Bit Form integration settings page to see if the webhook is connected or not. If the connection is successful, you will see “webhook executed successfully” on Bit Form and you will see the created field names on Zoho flow. See the attached pictures below.
+
+ <Image src="Zoho Flow/10_Click Next-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/11_Test -Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/12_Test Webhook-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/13_Payload-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+## Connecting Apps: 
+1. After a successful configuration, add the module you want to integrate with Bit Form. For example – we have chosen Google Sheet. 
+
+ <Image src="Zoho Flow/14_Search google sheet & set action-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+2. Select any action by drag & drop that will be performed on the sheet & configure it. Select the spreadsheet & sheet name you have already created on your google sheet account.  
+
+3. Select the value field you have fetched from Bit Form using the webhook & click on the “Done” option.
+
+ <Image src="Zoho Flow/15_Set Credentials-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+4. After finishing the settings on Zoho Flow, go back to your Bit Form integration settings page & click on “Finish & Save“.
+
+ <Image src="Zoho Flow/16" alt="Zoho Flow" w="1020" h="400" /> 
+
+ <Image src="Zoho Flow/17_Next-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+ <Image src="Zoho Flow/18_Finish & Save-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+ <Image src="Zoho Flow/19_Created integration" alt="Zoho Flow" w="1020" h="400" /> 
+
+5. However, you have to remember that how many integration you have created on BitForm. For the multiple integration, you have to set conditions logic to run them properly. Select your desired webhooks and test them on Bit Form.
+
+ <Image src="Zoho Flow/20_Conditional logic-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+6. Now, you are ready to transfer Bit Form data to google sheets via Zoho Flow integration. After a submission user can view the data both on responses of Bit Form & Google Sheet.
+
+ <Image src="Zoho Flow/21_Input-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/22_Responses-Bit Form" alt="Zoho Flow" w="1020" h="400" />
+
+ <Image src="Zoho Flow/23_Google sheet-Bit Form" alt="Zoho Flow" w="1020" h="400" /> 
+
+**Watch the full video here!**
+
+<Video youtube src="https://youtu.be/lbRiwN7J97Q" />  
+
+ 
+
+
+
+ 
+

@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-drop-downfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Drop-Down.mdx",
   "version": "current",
-  "sidebar_label": "Drop-Down field",
   "frontMatter": {
     "id": "drop-downfield",
     "title": "Bit from - Drop-Down field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Number field",
+    "title": "Number field",
     "permalink": "/docs/wpbitform-numberfield"
   },
   "next": {
-    "title": "Bit from - Country field",
+    "title": "Country field",
     "permalink": "/docs/wpbitform-countryfield"
   }
 }

@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-overview",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Response Management/response-management.mdx",
   "version": "current",
-  "sidebar_label": "Response Management",
   "frontMatter": {
     "id": "response-management",
     "title": "Bit from - Response Management",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Field Customize",
+    "title": "Field Customize",
     "permalink": "/docs/wpbitform-field-customize"
   },
   "next": {
-    "title": "Bit from - Form Settings",
+    "title": "Form Settings",
     "permalink": "/docs/wpbitform-form-settings"
   }
 }

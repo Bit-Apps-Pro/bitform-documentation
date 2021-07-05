@@ -65,6 +65,8 @@ module.exports = {
         "Integrations/integromat",
         "Integrations/integrately",
         "Integrations/zoho-flow",
+        "Integrations/zoho-analytics",
+        "Integrations/zoho-crm",
       ],
     },
   ],

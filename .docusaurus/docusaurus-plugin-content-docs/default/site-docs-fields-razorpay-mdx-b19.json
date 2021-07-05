@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-razorpayfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Razorpay.mdx",
   "version": "current",
-  "sidebar_label": "Razorpay field",
   "frontMatter": {
     "id": "razorpayfield",
     "title": "Bit from - Razorpay field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - PayPal field",
+    "title": "PayPal field",
     "permalink": "/docs/wpbitform-paypalfield"
   },
   "next": {
-    "title": "Bit from - Background Customize",
+    "title": "Background Customize",
     "permalink": "/docs/wpbitform-background-customize"
   }
 }

@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-integrately",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Integrately.mdx",
   "version": "current",
-  "sidebar_label": "Integrately",
   "frontMatter": {
     "id": "integrately",
     "title": "Bit from Integration With Integrately",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Integromat",
+    "title": "Integromat",
     "permalink": "/docs/wpbitform-integromat"
   },
   "next": {
-    "title": "Bit from Integration With Zoho Flow",
+    "title": "Zoho Flow",
     "permalink": "/docs/wpbitform-zoho-flow"
   }
 }

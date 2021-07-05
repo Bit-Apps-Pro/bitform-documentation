@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform- email-template",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Email-Template.mdx",
   "version": "current",
-  "sidebar_label": "Email Tempalate",
   "frontMatter": {
     "id": "email-template",
     "title": "Bit from - Email Tempalate",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Confirmation Message",
+    "title": "Confirmation Message",
     "permalink": "/docs/wpbitform- confirmation-massage"
   },
   "next": {
-    "title": "Bit from Integration With Pods",
+    "title": "Pods",
     "permalink": "/docs/wpbitform-pods"
   }
 }

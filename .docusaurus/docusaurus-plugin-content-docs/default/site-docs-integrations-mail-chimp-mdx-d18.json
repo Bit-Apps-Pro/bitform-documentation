@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-mailchimp",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/MailChimp.mdx",
   "version": "current",
-  "sidebar_label": "Mailchimp",
   "frontMatter": {
     "id": "mailchimp",
     "title": "Bit from Integration With Mailchimp",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Active Campaign",
+    "title": "Active Campaign",
     "permalink": "/docs/wpbitform-activecampaign"
   },
   "next": {
-    "title": "Bit from Integration With MailPoet",
+    "title": "MailPoet",
     "permalink": "/docs/wpbitform-mailpoet"
   }
 }

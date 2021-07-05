@@ -10,7 +10,6 @@
   "permalink": "/docs/changelog/BitForm-changelog-timeline",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/overview.mdx",
   "version": "current",
-  "sidebar_label": "Bit Form Chagelog",
   "frontMatter": {
     "id": "overview",
     "title": "BitForm Changelogs Timeline",
@@ -19,7 +18,7 @@
   },
   "sidebar": "changelog",
   "next": {
-    "title": "dsfsdfsdf",
+    "title": "BitForm v-1.3",
     "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
   }
 }

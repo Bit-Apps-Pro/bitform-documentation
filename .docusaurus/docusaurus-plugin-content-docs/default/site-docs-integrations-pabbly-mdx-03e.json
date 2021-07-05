@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-pabbly",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Pabbly.mdx",
   "version": "current",
-  "sidebar_label": "Pabbly",
   "frontMatter": {
     "id": "pabbly",
     "title": "Bit from Integration With Pabbly",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from Integration With Zapier",
+    "title": "Zapier",
     "permalink": "/docs/wpbitform-zapier"
   },
   "next": {
-    "title": "Bit from Integration With Integromat",
+    "title": "Integromat",
     "permalink": "/docs/wpbitform-integromat"
   }
 }

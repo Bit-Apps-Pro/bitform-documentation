@@ -10,7 +10,6 @@
   "permalink": "/docs/wpbitform-multilinetextfield",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Fields/Multilinetextfield.mdx",
   "version": "current",
-  "sidebar_label": "Multi-Line Text field",
   "frontMatter": {
     "id": "multilinetextfield",
     "title": "Bit from - Multi-Line Text field",
@@ -19,11 +18,11 @@
   },
   "sidebar": "someSidebar",
   "previous": {
-    "title": "Bit from - Textfield",
+    "title": "Text field",
     "permalink": "/docs/wpbitform-textfield"
   },
   "next": {
-    "title": "Bit from - Checkbox field",
+    "title": "Checkbox field",
     "permalink": "/docs/wpbitform-checkboxfield"
   }
 }

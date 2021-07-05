@@ -10,7 +10,6 @@
   "permalink": "/docs/",
   "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Getting Started/welcome.mdx",
   "version": "current",
-  "sidebar_label": "Welcome",
   "frontMatter": {
     "id": "welcome",
     "title": "Welcome to Bitform",
@@ -19,7 +18,7 @@
   },
   "sidebar": "someSidebar",
   "next": {
-    "title": "Installation, Activate and Upgrade of Bitform",
+    "title": "Install, Active & Update",
     "permalink": "/docs/install-activate-wordpress-frombuilder-bitform"
   }
 }
