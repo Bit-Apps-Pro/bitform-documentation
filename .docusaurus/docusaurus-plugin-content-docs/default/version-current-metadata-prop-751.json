@@ -250,6 +250,41 @@
             "type": "link",
             "label": "FluentCRM",
             "href": "/docs/wpbitform-fluentcrm"
+          },
+          {
+            "type": "link",
+            "label": "Custom Post Type (CPT)",
+            "href": "/docs/wpbitform-customposttype"
+          },
+          {
+            "type": "link",
+            "label": "reCAPTCHA V3",
+            "href": "/docs/wpbitform-recaptchav3"
+          },
+          {
+            "type": "link",
+            "label": "Zapier",
+            "href": "/docs/wpbitform-zapier"
+          },
+          {
+            "type": "link",
+            "label": "Pabbly",
+            "href": "/docs/wpbitform-pabbly"
+          },
+          {
+            "type": "link",
+            "label": "Integromat",
+            "href": "/docs/wpbitform-integromat"
+          },
+          {
+            "type": "link",
+            "label": "Integrately",
+            "href": "/docs/wpbitform-integrately"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Flow",
+            "href": "/docs/wpbitform-zoho-flow"
           }
         ]
       }
@@ -313,15 +348,22 @@
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
     "/docs/wpbitform-activecampaign": "someSidebar",
+    "/docs/wpbitform-customposttype": "someSidebar",
     "/docs/wpbitform-encharge": "someSidebar",
     "/docs/wpbitform-fluentcrm": "someSidebar",
     "/docs/wpbitform-googleads": "someSidebar",
     "/docs/wpbitform-googlesheet": "someSidebar",
+    "/docs/wpbitform-integrately": "someSidebar",
+    "/docs/wpbitform-integromat": "someSidebar",
     "/docs/wpbitform-mailchimp": "someSidebar",
     "/docs/wpbitform-mailpoet": "someSidebar",
+    "/docs/wpbitform-pabbly": "someSidebar",
     "/docs/wpbitform-pods": "someSidebar",
+    "/docs/wpbitform-recaptchav3": "someSidebar",
     "/docs/wpbitform-sendinblue": "someSidebar",
     "/docs/wpbitform-telegram": "someSidebar",
+    "/docs/wpbitform-zapier": "someSidebar",
+    "/docs/wpbitform-zoho-flow": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",
     "/docs/wpbitform-field-customize": "someSidebar",

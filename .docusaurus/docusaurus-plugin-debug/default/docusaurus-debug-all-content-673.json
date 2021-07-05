@@ -217,6 +217,34 @@
                   {
                     "type": "doc",
                     "id": "Integrations/fluentcrm"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/customposttype"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/recaptchav3"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zapier"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/pabbly"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/integromat"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/integrately"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-flow"
                   }
                 ]
               }
@@ -277,15 +305,22 @@
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
             "/docs/wpbitform-activecampaign": "someSidebar",
+            "/docs/wpbitform-customposttype": "someSidebar",
             "/docs/wpbitform-encharge": "someSidebar",
             "/docs/wpbitform-fluentcrm": "someSidebar",
             "/docs/wpbitform-googleads": "someSidebar",
             "/docs/wpbitform-googlesheet": "someSidebar",
+            "/docs/wpbitform-integrately": "someSidebar",
+            "/docs/wpbitform-integromat": "someSidebar",
             "/docs/wpbitform-mailchimp": "someSidebar",
             "/docs/wpbitform-mailpoet": "someSidebar",
+            "/docs/wpbitform-pabbly": "someSidebar",
             "/docs/wpbitform-pods": "someSidebar",
+            "/docs/wpbitform-recaptchav3": "someSidebar",
             "/docs/wpbitform-sendinblue": "someSidebar",
             "/docs/wpbitform-telegram": "someSidebar",
+            "/docs/wpbitform-zapier": "someSidebar",
+            "/docs/wpbitform-zoho-flow": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
             "/docs/wpbitform-field-customize": "someSidebar",
@@ -1312,6 +1347,35 @@
               }
             },
             {
+              "unversionedId": "Integrations/customposttype",
+              "id": "Integrations/customposttype",
+              "isDocsHomePage": false,
+              "title": "Bit from - Custom Post Type (CPT)",
+              "description": "Sometimes, it is difficult for WordPress default post types to satisfy all the website owner’s requirements regarding the content management system. Here comes Custom post type(CPT) handy. CPT allows you to create ‘posttypes’ beyond traditional WordPress ‘posttypes'(Post, Page, Attachment, Revision, Navigation Menu, Custom, ChangeSets).  CPT makes your website truly a ‘Content Management System.’",
+              "source": "@site/docs/Integrations/CPT.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-customposttype",
+              "permalink": "/docs/wpbitform-customposttype",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/CPT.mdx",
+              "version": "current",
+              "sidebar_label": "Custom Post Type (CPT)",
+              "frontMatter": {
+                "id": "customposttype",
+                "title": "Bit from - Custom Post Type (CPT)",
+                "sidebar_label": "Custom Post Type (CPT)",
+                "slug": "/wpbitform-customposttype"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With FluentCRM",
+                "permalink": "/docs/wpbitform-fluentcrm"
+              },
+              "next": {
+                "title": "Bit from Integration With reCAPTCHA V3",
+                "permalink": "/docs/wpbitform-recaptchav3"
+              }
+            },
+            {
               "unversionedId": "Integrations/encharge",
               "id": "Integrations/encharge",
               "isDocsHomePage": false,
@@ -1363,6 +1427,10 @@
               "previous": {
                 "title": "Bit from Integration With Sendinblue",
                 "permalink": "/docs/wpbitform-sendinblue"
+              },
+              "next": {
+                "title": "Bit from - Custom Post Type (CPT)",
+                "permalink": "/docs/wpbitform-customposttype"
               }
             },
             {
@@ -1424,6 +1492,64 @@
               }
             },
             {
+              "unversionedId": "Integrations/integrately",
+              "id": "Integrations/integrately",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Integrately",
+              "description": "Bit Form allows you to connect the form with other applications through a third party app called Integrately. It helps our Bit Form users to integrate with multiple apps & control the workflow in just one click.",
+              "source": "@site/docs/Integrations/Integrately.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-integrately",
+              "permalink": "/docs/wpbitform-integrately",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Integrately.mdx",
+              "version": "current",
+              "sidebar_label": "Integrately",
+              "frontMatter": {
+                "id": "integrately",
+                "title": "Bit from Integration With Integrately",
+                "sidebar_label": "Integrately",
+                "slug": "/wpbitform-integrately"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Integromat",
+                "permalink": "/docs/wpbitform-integromat"
+              },
+              "next": {
+                "title": "Bit from Integration With Zoho Flow",
+                "permalink": "/docs/wpbitform-zoho-flow"
+              }
+            },
+            {
+              "unversionedId": "Integrations/integromat",
+              "id": "Integrations/integromat",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Integromat",
+              "description": "Integromat is the 3rd party app that allows Bit Form to connect with different kinds of apps to transfer data in no matter of time. Creating a new scenario, you are capable of controlling the entire workflow. You have to configure Integromat with Bit Form & the rest of the work will be done when any submission occurs.",
+              "source": "@site/docs/Integrations/Integromat.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-integromat",
+              "permalink": "/docs/wpbitform-integromat",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Integromat.mdx",
+              "version": "current",
+              "sidebar_label": "Integromat",
+              "frontMatter": {
+                "id": "integromat",
+                "title": "Bit from Integration With Integromat",
+                "sidebar_label": "Integromat",
+                "slug": "/wpbitform-integromat"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Pabbly",
+                "permalink": "/docs/wpbitform-pabbly"
+              },
+              "next": {
+                "title": "Bit from Integration With Integrately",
+                "permalink": "/docs/wpbitform-integrately"
+              }
+            },
+            {
               "unversionedId": "Integrations/mailchimp",
               "id": "Integrations/mailchimp",
               "isDocsHomePage": false,
@@ -1482,6 +1608,35 @@
               }
             },
             {
+              "unversionedId": "Integrations/pabbly",
+              "id": "Integrations/pabbly",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Pabbly",
+              "description": "Forms are essential to any website. They are the gateways to information that is required to be collected from the user. Pabbly is an open-source tool for web application workflow automation, integrated with popular apps. Using Bit Form integration with pabbly you can transfer Bit Form submission data to the 3rd party apps creating a workflow in a matter of time.",
+              "source": "@site/docs/Integrations/Pabbly.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-pabbly",
+              "permalink": "/docs/wpbitform-pabbly",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Pabbly.mdx",
+              "version": "current",
+              "sidebar_label": "Pabbly",
+              "frontMatter": {
+                "id": "pabbly",
+                "title": "Bit from Integration With Pabbly",
+                "sidebar_label": "Pabbly",
+                "slug": "/wpbitform-pabbly"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Zapier",
+                "permalink": "/docs/wpbitform-zapier"
+              },
+              "next": {
+                "title": "Bit from Integration With Integromat",
+                "permalink": "/docs/wpbitform-integromat"
+              }
+            },
+            {
               "unversionedId": "Integrations/pods",
               "id": "Integrations/pods",
               "isDocsHomePage": false,
@@ -1508,6 +1663,35 @@
               "next": {
                 "title": "Bit from Integration With Google Sheet",
                 "permalink": "/docs/wpbitform-googlesheet"
+              }
+            },
+            {
+              "unversionedId": "Integrations/recaptchav3",
+              "id": "Integrations/recaptchav3",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With reCAPTCHA V3",
+              "description": "Google’s popular anti-spam service, Google reCAPTCHA, has been updated to v3, making it easier for humans to use while protecting against bots more effectively than ever. The new Re captcha v3 works differently from the older version. It no longer relies on the 2D images displayed in an annoying box but instead, based on some factors like the user’s IP address & other previous interaction on the browser, it determines whether it’s human or bot.",
+              "source": "@site/docs/Integrations/recaptchav3.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-recaptchav3",
+              "permalink": "/docs/wpbitform-recaptchav3",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/recaptchav3.mdx",
+              "version": "current",
+              "sidebar_label": "reCAPTCHA V3",
+              "frontMatter": {
+                "id": "recaptchav3",
+                "title": "Bit from Integration With reCAPTCHA V3",
+                "sidebar_label": "reCAPTCHA V3",
+                "slug": "/wpbitform-recaptchav3"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from - Custom Post Type (CPT)",
+                "permalink": "/docs/wpbitform-customposttype"
+              },
+              "next": {
+                "title": "Bit from Integration With Zapier",
+                "permalink": "/docs/wpbitform-zapier"
               }
             },
             {
@@ -1566,6 +1750,60 @@
               "next": {
                 "title": "Bit from Integration With Active Campaign",
                 "permalink": "/docs/wpbitform-activecampaign"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zapier",
+              "id": "Integrations/zapier",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zapier",
+              "description": "Zapier is a web-based automation tool that allows you to connect different web applications and services. Bit Form allows you to create online forms for your website and receive real-time webhooks on successful form submission. With Zapier you can trigger a Zap from the submission of a form on your website, and once you do that, you can choose which of your connected applications or services you want to get notified about.",
+              "source": "@site/docs/Integrations/Zapier.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zapier",
+              "permalink": "/docs/wpbitform-zapier",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Zapier.mdx",
+              "version": "current",
+              "sidebar_label": "Zapier",
+              "frontMatter": {
+                "id": "zapier",
+                "title": "Bit from Integration With Zapier",
+                "sidebar_label": "Zapier",
+                "slug": "/wpbitform-zapier"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With reCAPTCHA V3",
+                "permalink": "/docs/wpbitform-recaptchav3"
+              },
+              "next": {
+                "title": "Bit from Integration With Pabbly",
+                "permalink": "/docs/wpbitform-pabbly"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-flow",
+              "id": "Integrations/zoho-flow",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Flow",
+              "description": "",
+              "source": "@site/docs/Integrations/Zoho-Flow.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-flow",
+              "permalink": "/docs/wpbitform-zoho-flow",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Zoho-Flow.mdx",
+              "version": "current",
+              "sidebar_label": "Zoho Flow",
+              "frontMatter": {
+                "id": "zoho-flow",
+                "title": "Bit from Integration With Zoho Flow",
+                "sidebar_label": "Zoho Flow",
+                "slug": "/wpbitform-zoho-flow"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Bit from Integration With Integrately",
+                "permalink": "/docs/wpbitform-integrately"
               }
             },
             {

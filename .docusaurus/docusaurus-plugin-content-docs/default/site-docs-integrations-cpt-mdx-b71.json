@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/customposttype",
+  "id": "Integrations/customposttype",
+  "isDocsHomePage": false,
+  "title": "Bit from - Custom Post Type (CPT)",
+  "description": "Sometimes, it is difficult for WordPress default post types to satisfy all the website owner’s requirements regarding the content management system. Here comes Custom post type(CPT) handy. CPT allows you to create ‘posttypes’ beyond traditional WordPress ‘posttypes'(Post, Page, Attachment, Revision, Navigation Menu, Custom, ChangeSets).  CPT makes your website truly a ‘Content Management System.’",
+  "source": "@site/docs/Integrations/CPT.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-customposttype",
+  "permalink": "/docs/wpbitform-customposttype",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/CPT.mdx",
+  "version": "current",
+  "sidebar_label": "Custom Post Type (CPT)",
+  "frontMatter": {
+    "id": "customposttype",
+    "title": "Bit from - Custom Post Type (CPT)",
+    "sidebar_label": "Custom Post Type (CPT)",
+    "slug": "/wpbitform-customposttype"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With FluentCRM",
+    "permalink": "/docs/wpbitform-fluentcrm"
+  },
+  "next": {
+    "title": "Bit from Integration With reCAPTCHA V3",
+    "permalink": "/docs/wpbitform-recaptchav3"
+  }
+}

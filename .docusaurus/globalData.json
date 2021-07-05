@@ -192,6 +192,11 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/customposttype",
+              "path": "/docs/wpbitform-customposttype",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/encharge",
               "path": "/docs/wpbitform-encharge",
               "sidebar": "someSidebar"
@@ -212,6 +217,16 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/integrately",
+              "path": "/docs/wpbitform-integrately",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/integromat",
+              "path": "/docs/wpbitform-integromat",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/mailchimp",
               "path": "/docs/wpbitform-mailchimp",
               "sidebar": "someSidebar"
@@ -222,8 +237,18 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/pabbly",
+              "path": "/docs/wpbitform-pabbly",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/pods",
               "path": "/docs/wpbitform-pods",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/recaptchav3",
+              "path": "/docs/wpbitform-recaptchav3",
               "sidebar": "someSidebar"
             },
             {
@@ -234,6 +259,16 @@
             {
               "id": "Integrations/telegram",
               "path": "/docs/wpbitform-telegram",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zapier",
+              "path": "/docs/wpbitform-zapier",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-flow",
+              "path": "/docs/wpbitform-zoho-flow",
               "sidebar": "someSidebar"
             },
             {

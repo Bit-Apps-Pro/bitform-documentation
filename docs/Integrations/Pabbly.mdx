@@ -1,0 +1,87 @@
+---
+id: pabbly
+title: Bit from Integration With Pabbly 
+sidebar_label: Pabbly
+slug: /wpbitform-pabbly
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+Forms are essential to any website. They are the gateways to information that is required to be collected from the user. Pabbly is an open-source tool for web application workflow automation, integrated with popular apps. Using Bit Form integration with pabbly you can transfer Bit Form submission data to the 3rd party apps creating a workflow in a matter of time.
+
+## Integration Settings:  
+1. At first, select any existing form or create any form to use the webhook integration.
+
+ <Image src="Pabbly/1_Create Form- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+2. Follow the path: ***Settings => Integration => Select Pabbly***. Give a suitable name for the integration.
+
+ <Image src="Pabbly/2_Integration to Settings- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/3_Select Integration -Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/4_Set Integration Name- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ 3. Now, go to Pabbly dashboard & click on  ‘Create Workflow‘ & create your workflow by setting a suitable name.
+
+ <Image src="Pabbly/5_Pabbly Dashboard- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/6_Set Workflow name- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+4. Search & select webhook. You have to configure the webhook to connect with Bit Form.
+
+ <Image src="Pabbly/6_Set Workflow name- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/7_Search webhook & copy url- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+5. Pabbly will automatically generate a URL & you have to copy that link & paste it on the “Link” field on the Bit Form integration settings page. Now set the method option. Then add URL parameter as key & value pair. In the parameter option, select the form field name to send data.
+
+ <Image src="Pabbly/8_Paste URL & URL parameter- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+6. Now, click on “Capture Webhook Response” on Pabbly to test if the Bit Form is connected or not. Also, test the webhook on Bit Form.  If the connection is successful, you will see “Webhook executed successfully“. You can see the mapped form fields on the Pabbly dashboard.
+
+ <Image src="Pabbly/9_Capture Webhook Response- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/10_Test Webhook- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+## Connecting Apps: 
+1. After a successful configuration, add the app you want to integrate with Bit Form. For example – we have chosen Google Sheet.
+
+2. Select the action event that will be performed on the sheet & configure it. 
+
+ <Image src="Pabbly/11_Choose App & Action event- Bit Form " alt="Pabbly" w="1020" h="400" />
+
+3. Select the spreadsheet & worksheet name you have already created on your google sheet account. In the value section, select the key value name you have made on Bit Form.
+
+ <Image src="Pabbly/12_Select Existing Google sheet- Bit Form " alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/13_Set credentials- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+4. Click on the “Save” to activate the workflow & ensure the workflow status is on. Now save the full integration on the Bit Form integration setting page.
+
+ <Image src="Pabbly/14_Enable Workflow status on- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/15_Finish & Save- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/116_Created Workflow- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+5. However, you have to remember that how many integrations you have created on BitForm. For the multiple integrations, you have to set conditions logic to run integration properly. Please select your desired integration and test them on Bit Form.
+
+ <Image src="Pabbly/17_Conditional logic- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+6. Now, when the user will submit any form via Bit Form it will be stored on the responses page as well as the google sheet you have selected.
+
+ <Image src="Pabbly/18_Input- Bit Form" alt="Pabbly" w="1020" h="400" />
+ 
+ <Image src="Pabbly/19_Responses- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+ <Image src="Pabbly/20_Google Sheet- Bit Form" alt="Pabbly" w="1020" h="400" />
+
+**Watch the full video here!**
+
+<Video youtube src="https://youtu.be/SE_ncIRtv7Q" /> 
+
+ 
+
+ 
+

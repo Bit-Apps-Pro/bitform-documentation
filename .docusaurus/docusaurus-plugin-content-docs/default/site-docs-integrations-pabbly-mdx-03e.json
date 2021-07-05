@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/pabbly",
+  "id": "Integrations/pabbly",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Pabbly",
+  "description": "Forms are essential to any website. They are the gateways to information that is required to be collected from the user. Pabbly is an open-source tool for web application workflow automation, integrated with popular apps. Using Bit Form integration with pabbly you can transfer Bit Form submission data to the 3rd party apps creating a workflow in a matter of time.",
+  "source": "@site/docs/Integrations/Pabbly.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-pabbly",
+  "permalink": "/docs/wpbitform-pabbly",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/Pabbly.mdx",
+  "version": "current",
+  "sidebar_label": "Pabbly",
+  "frontMatter": {
+    "id": "pabbly",
+    "title": "Bit from Integration With Pabbly",
+    "sidebar_label": "Pabbly",
+    "slug": "/wpbitform-pabbly"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from Integration With Zapier",
+    "permalink": "/docs/wpbitform-zapier"
+  },
+  "next": {
+    "title": "Bit from Integration With Integromat",
+    "permalink": "/docs/wpbitform-integromat"
+  }
+}

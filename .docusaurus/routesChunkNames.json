@@ -110,7 +110,7 @@
     "sidebar": "sidebar---bloge-1-e-521",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-520": {
+  "/docs-171": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -190,6 +190,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-countryfieldfe-8-950"
   },
+  "/docs/wpbitform-customposttype-bdc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-customposttypeb-71-db0"
+  },
   "/docs/wpbitform-date-timefield-5f9": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-date-timefieldb-05-04d"
@@ -212,7 +216,7 @@
   },
   "/docs/wpbitform-encharge-0fb": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-encharge-4-d-9-ecb"
+    "content": "content---docs-wpbitform-encharge-4-d-9-3a9"
   },
   "/docs/wpbitform-field-customize-ef6": {
     "component": "component---theme-doc-item-178-a40",
@@ -228,7 +232,7 @@
   },
   "/docs/wpbitform-fluentcrm-520": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-fluent-cr-mc-4-e-648"
+    "content": "content---docs-wpbitform-fluentcrmc-4-e-738"
   },
   "/docs/wpbitform-form-block-customize-36a": {
     "component": "component---theme-doc-item-178-a40",
@@ -250,13 +254,21 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-googlesheetb-32-05f"
   },
+  "/docs/wpbitform-integrately-693": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-integratelyed-4-383"
+  },
+  "/docs/wpbitform-integromat-3b6": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-integromate-54-bec"
+  },
   "/docs/wpbitform-mailchimp-a37": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-mailchimpd-18-cc7"
   },
   "/docs/wpbitform-mailpoet-86e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-mail-poet-3-da-762"
+    "content": "content---docs-wpbitform-mailpoet-3-da-f52"
   },
   "/docs/wpbitform-monthfield-feb": {
     "component": "component---theme-doc-item-178-a40",
@@ -273,6 +285,10 @@
   "/docs/wpbitform-overview-19e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-overview-026-0bd"
+  },
+  "/docs/wpbitform-pabbly-4e0": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-pabbly-03-e-940"
   },
   "/docs/wpbitform-passwordfield-d8c": {
     "component": "component---theme-doc-item-178-a40",
@@ -298,9 +314,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-recaptchav-2-field-86-a-324"
   },
+  "/docs/wpbitform-recaptchav3-d81": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-recaptchav-3-f-35-4cd"
+  },
   "/docs/wpbitform-sendinblue-1af": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-sendinblue-9-e-5-2c8"
+    "content": "content---docs-wpbitform-sendinblue-9-e-5-b65"
   },
   "/docs/wpbitform-telegram-d89": {
     "component": "component---theme-doc-item-178-a40",
@@ -321,5 +341,13 @@
   "/docs/wpbitform-weekfield-251": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-weekfield-08-e-e63"
+  },
+  "/docs/wpbitform-zapier-73a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zapier-91-b-a6b"
+  },
+  "/docs/wpbitform-zoho-flow-b0e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-integrations-zoho-flow-0-b-8-84a"
   }
 }

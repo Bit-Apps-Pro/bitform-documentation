@@ -1,0 +1,29 @@
+{
+  "unversionedId": "Integrations/recaptchav3",
+  "id": "Integrations/recaptchav3",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With reCAPTCHA V3",
+  "description": "Google’s popular anti-spam service, Google reCAPTCHA, has been updated to v3, making it easier for humans to use while protecting against bots more effectively than ever. The new Re captcha v3 works differently from the older version. It no longer relies on the 2D images displayed in an annoying box but instead, based on some factors like the user’s IP address & other previous interaction on the browser, it determines whether it’s human or bot.",
+  "source": "@site/docs/Integrations/recaptchav3.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-recaptchav3",
+  "permalink": "/docs/wpbitform-recaptchav3",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/Integrations/recaptchav3.mdx",
+  "version": "current",
+  "sidebar_label": "reCAPTCHA V3",
+  "frontMatter": {
+    "id": "recaptchav3",
+    "title": "Bit from Integration With reCAPTCHA V3",
+    "sidebar_label": "reCAPTCHA V3",
+    "slug": "/wpbitform-recaptchav3"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Bit from - Custom Post Type (CPT)",
+    "permalink": "/docs/wpbitform-customposttype"
+  },
+  "next": {
+    "title": "Bit from Integration With Zapier",
+    "permalink": "/docs/wpbitform-zapier"
+  }
+}

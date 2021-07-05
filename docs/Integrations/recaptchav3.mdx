@@ -1,0 +1,66 @@
+---
+id: recaptchav3
+title: Bit from Integration With reCAPTCHA V3 
+sidebar_label: reCAPTCHA V3 
+slug: /wpbitform-recaptchav3
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Image";
+
+Google’s popular anti-spam service, Google reCAPTCHA, has been updated to v3, making it easier for humans to use while protecting against bots more effectively than ever. The new Re captcha v3 works differently from the older version. It no longer relies on the 2D images displayed in an annoying box but instead, based on some factors like the user’s IP address & other previous interaction on the browser, it determines whether it’s human or bot.
+
+## Authorize your site: .
+⇛ ***Follow the path: App Settings => reCAPTCHA => reCaptchav3 => Google reCAPTCHA Admin.***
+
+<Image src="recaptchav3/App Settings-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ After navigating to the admin dashboard, select the (+) icon to configure your WordPress site.
+
+<Image src="recaptchav3/reCAPTCH Admin-Bit Form" alt="reCAPTCHAV3" w="1020" h="300" />
+
+⇛ Now set a “Label” to identify it later. Example: Bit Form reCAPTCHA V3. Select the reCAPTCH V3 as reCAPTCH type.
+
+<Image src="recaptchav3/Register site1-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ Then copy the domain name from Bit Form & paste it on the “Domains” field of the admin dashboard of Google reCAPTCHA. Select the terms of service & press the “Submit” button to continue.
+
+<Image src="recaptchav3/Copy Domain URL-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+<Image src="recaptchav3/Submit-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ Now, copy the Site key & Secret key, then paste these on the related fields of Bit Form. Save the whole configuration & you are done with registering your website!
+
+<Image src="recaptchav3/Copy Site&Secret key-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+<Image src="recaptchav3/Paste key-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+## Configure reCAPTCHA V3 on Bit Form:
+⇛ After finishing reCAPTCHA V3 setting, create a new form or select an existing form to set up reCAPTCHA to see how it works.
+
+<Image src="recaptchav3/Create Form-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ To set reCAPTCHA on the form, follow the path: Settings => Form Settings => Enable reCAPTCHA V3 .
+
+> **Note:  reCAPTCHA V2 & V3 don’t work together. Suppose you enable reCAPTCHA V2 from form field than Bit Form doesn’t allow you to use Version 3 at the same time.**
+
+<Image src="recaptchav3/Form Settings" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ Now copy the shortcode of the created form & paste it on any page as your preference. Go to the front end of the page & if you see the reCAPTCHA badge at the right bottom of the page, then the configuration is success full.
+
+> **Note: The reCAPTCHA V3 will work only on the page where you will configure it.**
+
+<Image src="recaptchav3/See reCAPTCHA badge-Bit Form" alt="reCAPTCHAV3" w="1020" h="350" />
+
+⇛ If you want, you can hide the reCAPTCHA badge by toggle the option “Hide ReCaptcha badge” from settings.
+
+<Image src="recaptchav3/Hide badge-Bit Form" alt="reCAPTCHAV3" w="1020" h="300" />
+
+⇛ From the “Advanced Settings” option, you have to set the “Tolerance level” which we can denote as a threshold value. The tolerance score is divided by – Low (0.3), Medium (0.6) & High (0.9). Basically, reCAPTCHA sends a score that helps to detect spam bot. When the score sent by reCAPTCHA is less than the tolerance score, you set earlier, the submission will be considered as spamming & there will be shown an error message. You can edit the score message option. As much as the tolerance level number gets closer to 1 reCAPTCHA will identify the activity as “Human Activity“. Now update the form.
+
+<Image src="recaptchav3/Advanced Settings" alt="reCAPTCHAV3" w="1020" h="350" />
+
+Hence your website will be protected from unwanted form submission by a spam bot!
+
+Watch the full tutorial here!
+
+<Video youtube src="https://youtu.be/zS8QXxy6U-g" />
