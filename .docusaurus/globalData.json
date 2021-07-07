@@ -272,8 +272,18 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/zoho-bigin",
+              "path": "/docs/wpbitform-zoho-bigin",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/zoho-campaign",
               "path": "/docs/wpbitform-zoho-campaign",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-creator",
+              "path": "/docs/wpbitform-zoho-creator",
               "sidebar": "someSidebar"
             },
             {
@@ -297,8 +307,23 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/zoho-project",
+              "path": "/docs/wpbitform-zoho-project",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/zoho-recruit",
               "path": "/docs/wpbitform-zoho-recruit",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-sheet",
+              "path": "/docs/wpbitform-zoho-sheet",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-sign",
+              "path": "/docs/wpbitform-zoho-sign",
               "sidebar": "someSidebar"
             },
             {

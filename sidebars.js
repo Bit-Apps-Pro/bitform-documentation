@@ -71,7 +71,12 @@ module.exports = {
         "Integrations/zoho-workdrive",
         "Integrations/zoho-desk",
         "Integrations/zoho-campaign",
-        "Integrations/zoho-mail"
+        "Integrations/zoho-mail",
+        "Integrations/zoho-project",
+        "Integrations/zoho-sheet",
+        "Integrations/zoho-sign",
+        "Integrations/zoho-creator",
+        "Integrations/zoho-bigin"
       ],
     },
     {

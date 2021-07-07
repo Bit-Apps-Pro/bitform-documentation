@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-bigin",
+  "id": "Integrations/zoho-bigin",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Bigin",
+  "description": "Using integration from Bit Form to Zoho Bigin, now you can manage your customers ‘ details in a significant way. You can push all the contact details, upload photos, send attachments, trigger workflow to your Zoho Bigin account without any coding skill. This documentation goes through the configuration.",
+  "source": "@site/docs/Integrations/Zoho Bigin.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-bigin",
+  "permalink": "/docs/wpbitform-zoho-bigin",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Bigin.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-bigin",
+    "title": "Bit from Integration With Zoho Bigin",
+    "sidebar_label": "Zoho Bigin",
+    "slug": "/wpbitform-zoho-bigin"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Creator",
+    "permalink": "/docs/wpbitform-zoho-creator"
+  },
+  "next": {
+    "title": "prevent a bot from the form submission",
+    "permalink": "/docs/wpbitform-prevent-bot"
+  }
+}

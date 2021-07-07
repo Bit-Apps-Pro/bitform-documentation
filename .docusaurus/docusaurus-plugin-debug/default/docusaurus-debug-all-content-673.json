@@ -274,6 +274,26 @@
                   {
                     "type": "doc",
                     "id": "Integrations/zoho-mail"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-project"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-sheet"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-sign"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-creator"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Integrations/zoho-bigin"
                   }
                 ]
               },
@@ -361,12 +381,17 @@
             "/docs/wpbitform-telegram": "someSidebar",
             "/docs/wpbitform-zapier": "someSidebar",
             "/docs/wpbitform-zoho-analytics": "someSidebar",
+            "/docs/wpbitform-zoho-bigin": "someSidebar",
             "/docs/wpbitform-zoho-campaign": "someSidebar",
+            "/docs/wpbitform-zoho-creator": "someSidebar",
             "/docs/wpbitform-zoho-crm": "someSidebar",
             "/docs/wpbitform-zoho-desk": "someSidebar",
             "/docs/wpbitform-zoho-flow": "someSidebar",
             "/docs/wpbitform-zoho-mail": "someSidebar",
+            "/docs/wpbitform-zoho-project": "someSidebar",
             "/docs/wpbitform-zoho-recruit": "someSidebar",
+            "/docs/wpbitform-zoho-sheet": "someSidebar",
+            "/docs/wpbitform-zoho-sign": "someSidebar",
             "/docs/wpbitform-zoho-workdrive": "someSidebar",
             "/docs/wpbitform-prevent-bot": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
@@ -1808,6 +1833,34 @@
               }
             },
             {
+              "unversionedId": "Integrations/zoho-bigin",
+              "id": "Integrations/zoho-bigin",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Bigin",
+              "description": "Using integration from Bit Form to Zoho Bigin, now you can manage your customers ‘ details in a significant way. You can push all the contact details, upload photos, send attachments, trigger workflow to your Zoho Bigin account without any coding skill. This documentation goes through the configuration.",
+              "source": "@site/docs/Integrations/Zoho Bigin.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-bigin",
+              "permalink": "/docs/wpbitform-zoho-bigin",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Bigin.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-bigin",
+                "title": "Bit from Integration With Zoho Bigin",
+                "sidebar_label": "Zoho Bigin",
+                "slug": "/wpbitform-zoho-bigin"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Creator",
+                "permalink": "/docs/wpbitform-zoho-creator"
+              },
+              "next": {
+                "title": "prevent a bot from the form submission",
+                "permalink": "/docs/wpbitform-prevent-bot"
+              }
+            },
+            {
               "unversionedId": "Integrations/zoho-campaign",
               "id": "Integrations/zoho-campaign",
               "isDocsHomePage": false,
@@ -1833,6 +1886,34 @@
               "next": {
                 "title": "Zoho Mail",
                 "permalink": "/docs/wpbitform-zoho-mail"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-creator",
+              "id": "Integrations/zoho-creator",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Creator",
+              "description": "Using Zoho Creator integration with WordPress form builder- Bit Form, you can add records, update rows & upload files on Zoho Creator. You can easily integrate without any coding. This documentation goes through the configuration process.",
+              "source": "@site/docs/Integrations/Zoho Creator.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-creator",
+              "permalink": "/docs/wpbitform-zoho-creator",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Creator.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-creator",
+                "title": "Bit from Integration With Zoho Creator",
+                "sidebar_label": "Zoho Creator",
+                "slug": "/wpbitform-zoho-creator"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Sign",
+                "permalink": "/docs/wpbitform-zoho-sign"
+              },
+              "next": {
+                "title": "Zoho Bigin",
+                "permalink": "/docs/wpbitform-zoho-bigin"
               }
             },
             {
@@ -1943,8 +2024,36 @@
                 "permalink": "/docs/wpbitform-zoho-campaign"
               },
               "next": {
-                "title": "prevent a bot from the form submission",
-                "permalink": "/docs/wpbitform-prevent-bot"
+                "title": "Zoho Project",
+                "permalink": "/docs/wpbitform-zoho-project"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-project",
+              "id": "Integrations/zoho-project",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Project",
+              "description": "Using Zoho Project integration with WordPress form builder, you can create (project, milestone, task list, task, subtask) in Zoho Project. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+              "source": "@site/docs/Integrations/Zoho-Project.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-project",
+              "permalink": "/docs/wpbitform-zoho-project",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Project.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-project",
+                "title": "Bit from Integration With Zoho Project",
+                "sidebar_label": "Zoho Project",
+                "slug": "/wpbitform-zoho-project"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Mail",
+                "permalink": "/docs/wpbitform-zoho-mail"
+              },
+              "next": {
+                "title": "Zoho Sheet",
+                "permalink": "/docs/wpbitform-zoho-sheet"
               }
             },
             {
@@ -1973,6 +2082,62 @@
               "next": {
                 "title": "Zoho Workdrive",
                 "permalink": "/docs/wpbitform-zoho-workdrive"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-sheet",
+              "id": "Integrations/zoho-sheet",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Sheet",
+              "description": "Using Zoho Sheet integration with WordPress form builder, you can automatically push your WordPress form data in Zoho Sheet. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+              "source": "@site/docs/Integrations/Zoho Sheet.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-sheet",
+              "permalink": "/docs/wpbitform-zoho-sheet",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Sheet.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-sheet",
+                "title": "Bit from Integration With Zoho Sheet",
+                "sidebar_label": "Zoho Sheet",
+                "slug": "/wpbitform-zoho-sheet"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Project",
+                "permalink": "/docs/wpbitform-zoho-project"
+              },
+              "next": {
+                "title": "Zoho Sign",
+                "permalink": "/docs/wpbitform-zoho-sign"
+              }
+            },
+            {
+              "unversionedId": "Integrations/zoho-sign",
+              "id": "Integrations/zoho-sign",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With Zoho Sign",
+              "description": "Using Zoho Sign integration with WordPress form builder,  you can directly receive  responses from your forms with Zoho Sign templates, as well as automate the entire document signing workflow.",
+              "source": "@site/docs/Integrations/Zoho Sign.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-zoho-sign",
+              "permalink": "/docs/wpbitform-zoho-sign",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Sign.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "zoho-sign",
+                "title": "Bit from Integration With Zoho Sign",
+                "sidebar_label": "Zoho Sign",
+                "slug": "/wpbitform-zoho-sign"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Zoho Sheet",
+                "permalink": "/docs/wpbitform-zoho-sheet"
+              },
+              "next": {
+                "title": "Zoho Creator",
+                "permalink": "/docs/wpbitform-zoho-creator"
               }
             },
             {
@@ -2040,8 +2205,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Zoho Mail",
-                "permalink": "/docs/wpbitform-zoho-mail"
+                "title": "Zoho Bigin",
+                "permalink": "/docs/wpbitform-zoho-bigin"
               }
             },
             {

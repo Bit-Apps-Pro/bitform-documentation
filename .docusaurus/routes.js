@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','50f'),
+  component: ComponentCreator('/docs','454'),
   
   routes: [
 {
@@ -393,8 +393,18 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-zoho-bigin',
+  component: ComponentCreator('/docs/wpbitform-zoho-bigin','87e'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-zoho-campaign',
   component: ComponentCreator('/docs/wpbitform-zoho-campaign','41a'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-creator',
+  component: ComponentCreator('/docs/wpbitform-zoho-creator','efa'),
   exact: true,
 },
 {
@@ -418,8 +428,23 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-zoho-project',
+  component: ComponentCreator('/docs/wpbitform-zoho-project','8dc'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-zoho-recruit',
   component: ComponentCreator('/docs/wpbitform-zoho-recruit','726'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-sheet',
+  component: ComponentCreator('/docs/wpbitform-zoho-sheet','4ec'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-sign',
+  component: ComponentCreator('/docs/wpbitform-zoho-sign','578'),
   exact: true,
 },
 {

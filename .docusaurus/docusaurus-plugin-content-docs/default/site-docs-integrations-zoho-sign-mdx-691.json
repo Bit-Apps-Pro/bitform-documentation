@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-sign",
+  "id": "Integrations/zoho-sign",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Sign",
+  "description": "Using Zoho Sign integration with WordPress form builder,  you can directly receive  responses from your forms with Zoho Sign templates, as well as automate the entire document signing workflow.",
+  "source": "@site/docs/Integrations/Zoho Sign.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-sign",
+  "permalink": "/docs/wpbitform-zoho-sign",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Sign.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-sign",
+    "title": "Bit from Integration With Zoho Sign",
+    "sidebar_label": "Zoho Sign",
+    "slug": "/wpbitform-zoho-sign"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Sheet",
+    "permalink": "/docs/wpbitform-zoho-sheet"
+  },
+  "next": {
+    "title": "Zoho Creator",
+    "permalink": "/docs/wpbitform-zoho-creator"
+  }
+}

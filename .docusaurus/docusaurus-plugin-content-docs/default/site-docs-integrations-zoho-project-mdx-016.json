@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-project",
+  "id": "Integrations/zoho-project",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Project",
+  "description": "Using Zoho Project integration with WordPress form builder, you can create (project, milestone, task list, task, subtask) in Zoho Project. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+  "source": "@site/docs/Integrations/Zoho-Project.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-project",
+  "permalink": "/docs/wpbitform-zoho-project",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Project.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-project",
+    "title": "Bit from Integration With Zoho Project",
+    "sidebar_label": "Zoho Project",
+    "slug": "/wpbitform-zoho-project"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Mail",
+    "permalink": "/docs/wpbitform-zoho-mail"
+  },
+  "next": {
+    "title": "Zoho Sheet",
+    "permalink": "/docs/wpbitform-zoho-sheet"
+  }
+}

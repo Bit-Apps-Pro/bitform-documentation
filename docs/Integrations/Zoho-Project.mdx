@@ -1,0 +1,175 @@
+---
+id: zoho-project
+title: Bit from Integration With Zoho Project 
+sidebar_label: Zoho Project
+slug: /wpbitform-zoho-project
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+Using Zoho Project integration with WordPress form builder, you can create (project, milestone, task list, task, subtask) in Zoho Project. You can easily integrate without any coding. This Documentation goes through the configuration process. 
+
+First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Project. If you don’t have any form please create a new form. Please follow the screenshots below:
+
+<Image src="Zoho Project/1.create_form" alt="Zoho Project" w="1020" h="400" />
+
+Then click on the Settings menu from the top navigation bar.Navigate to Settings->Integrations->Click on (+) ->Select Zoho Project. Please follow the screenshots below:
+
+<Image src="Zoho Project/2.Homepage" alt="Zoho Project" w="1020" h="400" />
+
+<Image src="Zoho Project/3.Bit-Form-to-Zoho-Project-integration-select" alt="Zoho Project" w="1020" h="400" />
+
+Select a data center from the dropdown. Then click on the Zoho API Console. Navigate to API Console->Get Started->Server-based Applications. Please follow the screenshots below
+
+<Image src="Zoho Project/4.Bit-Form-to-Zoho-Project-api-console" alt="Zoho Project" w="1020" h="400" />
+
+<Image src="Zoho Project/5.GetStarted" alt="Zoho Project" w="1020" h="400" />
+
+<Image src="Zoho Project/6.api-console-server-based"  alt="Zoho Project" w="1020" h="400" />
+
+Fill those fields (Homepage URL and Authorized Redirect URLs) the same as your Integration Homepage. Then click UPDATE.
+
+<Image src="Zoho Project/7.Bit-Form-to-Zoho-Project-client-details"  alt="Zoho Project" w="1020" h="400" />
+
+A Client ID and a Client Secret will be generated. Then go to the Client Secret tab.
+
+<Image src="Zoho Project/8.Bit-Form-to-Zoho-Project-client-secret"  alt="Zoho Project" w="1020" h="400" />
+
+Then copy the Client ID and Client Secret and paste them to the Bit Form integration page. Then click on the Authorize button (wait for a few seconds). After the successful authorization click on the Next button.
+
+<Image src="Zoho Project/9.Bit-Form-to-Zoho-Project-integration-homepage"  alt="Zoho Project" w="1020" h="400" />
+
+<Image src="Zoho Project/10.Bit-Form-to-Zoho-Project-select"  alt="Zoho Project" w="1020" h="400" />
+
+<Image src="Zoho Project/11.Bit-Form-to-Zoho-Project-integration-authorization"  alt="Zoho Project" w="1020" h="400" />
+
+Select the required (Portal and Event) from the dropdown. There have six kinds of events. Such as Create Project, Create Milestone, Create Tasklist, Create Task, Create Subtask, Create Issue.  
+
+<Video src="12.Bit-Form-to-Zoho-project-field-map" alt="Zoho Project" w="1020" h="400" />
+
+Event->
+
+1.Create Project: Select the Create Project event from the dropdown. Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+ - Project Actions:
+
+ - Project Owner-> By selecting this option you can add a project owner to your project. It’s mandatory to select a project owner for creating a project in the Zoho project.
+
+ - Notice: Do not assign project owners as project users.
+
+ - Task Layout-> Select a layout for your project. It’s a mandatory action.
+ - Project Access-> By selecting this option you can change the access control of your project. There are two types of project access. One is Private and the other one is Public. Set the project access to Private if you want the project can be accessed only by the project users in the selected project. If you set it to the Public, the project will be followed and viewed by all the portal users.
+
+ - Project User-> You can assign users for your project.
+
+ - Group Name-> You can assign a group for your project.
+
+ - Project Tags->  You can assign tags name with your project.
+
+2. Create Milestone: Select the Create Milestone event from the dropdown. Then select a project from the dropdown if you had already an existing project. If you don’t have any existing projects, you have to create a new project. To create a new project please follow the above create project actions.
+
+Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+Milestone Actions:
+
+ - Milestone Owner-> By selecting this option you can add a milestone owner to your project. It’s mandatory to select a milestone owner for creating a milestone in your project.
+
+ - Milestone Flag-> Add a Milestone Flag for your milestone. There are two types of milestone flag. One is External and the other is Internal. External milestone will be visible to both the client and project users. Internal milestone will be visible only to the project users. It’s a mandatory action.
+
+ - Milestone Tags-> Add a tag for milestone. 
+
+3. Create Tasklist-> Select the Create Tasklist event from the dropdown. Then select a project from the dropdown if you have already an existing project. If you don’t have any existing projects, you have to create a new project. To create a new project please follow the above create project actions.
+
+You can also assign a tasklist under a milestone. For this, you have to select a milestone from the dropdown if you had already existing milestone. If you don’t have any existing milestones, you have to create a new milestone. To create a new milestone please follow the above create milestone actions.
+
+Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+Tasklist Actions:
+
+ - Tasklist Flag-> Add a Tasklist Flag for your milestone. There are two types of tasklist flags. One is External and the other is Internal. The external tasklist will be visible to both the client and project users. The internal tasklist will be visible only to the project users. It’s a mandatory action.
+
+ - Tasklist Tag->  Add  tags for tasklist. 
+
+4. Create Task-> Select the Create Task event from the dropdown. Then select a project from the dropdown if you had already existing project. If you don’t have any existing projects, you have to create a new project. To create a new project please follow the above Create Project actions.
+
+You can also assign a task under a milestone. For this, you have to select a milestone from the dropdown if you had already existing milestone. If you don’t have any existing milestones, you have to create a new milestone. To create a new milestone please follow the above Create Milestone actions.
+
+You can also assign a task under a tasklist. For this, at first, you have to select a tasklist flag. Then you have to select a tasklist if you had already existing tasklist. If you don’t have any existing tasklist, you have to create a new tasklist. To create a new tasklist please follow the above Create Tasklist actions.
+
+Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+Task Actions:
+
+ - Task Owner-> Add a Task Owner by selecting this action. It’s a mandatory action.
+
+ - Task Attachments-> Add attachments for task.
+
+ - Task Time log-> 
+   Select Date: 
+   Billing Status:
+   Enter Hours:
+   Set Start & End Time:
+   User:
+   Notes:       
+ - Task Recurrence-> You can create a task and recreate it anytime using the Recurring functionality in Zoho Projects. When the same set of tasks are repeated after a couple of days, months and year, you can set it as a recurring task so that it automatically gets recreated after a designated period of time. You can set recurring details for a task while creating or editing a task.
+ - Task Remainder-> Working on multiple tasks can be tedious and you can lose track of your work. Task reminders can help you stay on top of your work by sending timely emails. With task reminders in Zoho Projects, you don’t miss a single task.
+   Daily: The reminder mail will be sent to task owners daily till the due date.
+   On due date:A reminder mail will be sent to the specified users on or before the due date.
+   Day(s) before due date:A reminder mail will be sent before the due date based on the day(s) specified.
+ - Task Tags-> Add tags with task. 
+
+5. Create Subtask-> Select the Create Subtask event from the dropdown. Then select a project from the dropdown if you had already existed project. If you don’t have any existing projects, you have to create a new project. To create a new project please follow the above Create Project actions.
+
+To create a subtask you have to select a task from the dropdown if you had already existed task. If you don’t have any existing tasks, you have to create a new task. To create a new task please follow the above Create Task actions.
+
+You can also assign a subtask under a task milestone. For this, you have to select a milestone from the dropdown if you had already existed milestone. If you don’t have any existing milestones, you have to create a new milestone. To create a new milestone please follow the above Create Milestone actions.
+
+ - You can also assign a subtask under the task of tasklist. For this, at first, you have to select a tasklist flag. There are two types of tasklist flags. One is External and the other is Internal. When you select External if any task remains under this flag all task list will be shown in the below dropdown. Then you have to select a task list if you had already existed tasklist. If you don’t have any existing tasklist, you have to create a new tasklist. To create a new tasklist please follow the above Create Tasklist actions.
+
+ - Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+Subtask Actions:
+
+ - Subtask Owner-> Add a Subtask Owner by selecting this action. It’s a mandatory action.
+
+ - Subtask Attachments-> Add assignments for subtask.
+
+ - Subtask Tags-> Add tags for subtask. 
+
+6. Create Issue: Select the Create Issue event from the dropdown. Then select a project from the dropdown if you had already an existing project. If you don’t have any existing projects, you have to create a new project. To create a new project please follow the above create project actions.
+
+Then map the mandatory field.
+
+You can also create a task under a milestone. For this, you have to select a milestone from the dropdown if you had already existed milestone. If you don’t have any existing milestones, you have to create a new milestone. To create a new milestone please follow the above Create Milestone actions.
+
+Then map the mandatory field. Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+Issue Actions:
+
+ - Issue Owner-> By selecting this option you can add an issue owner. It’s mandatory to select an issue owner for creating an issue.
+
+ - Issue Flag-> Add an issue Flag for your milestone. There are two types of issue flag. One is External and the other is Internal. The external issue will be visible to both the client and project users. The internal issue will be visible only to the project users. It’s a mandatory action.
+
+ - Issue Followers-> Select Issue Followers to add project users to the issue.
+
+ - Issue Severity->  
+
+ - Issue Classification->
+
+ - Issue Module->
+
+ - Issue Priority->
+
+ - Issue Attachments->
+
+ - Issue Tags->
+
+Map all the fields, select the necessary Actions to be performed on integration, and then click on the Save button to save your settings.
+
+In the end, create a Workflow for triggering the integration. Select the integration which you created before.
+
+<Video src="13.Bit-Form-to-Zoho-project-workflow" alt="Zoho Desk" w="1020" h="400" />
+
+**Watch the full video here!**
+
+<Video youtube src="https://www.youtube.com/playlist?list=PL7c6CDwwm-AJoFFks8-X5HhaM19_W9y3j" />

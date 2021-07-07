@@ -321,6 +321,31 @@
             "type": "link",
             "label": "Zoho Mail",
             "href": "/docs/wpbitform-zoho-mail"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Project",
+            "href": "/docs/wpbitform-zoho-project"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Sheet",
+            "href": "/docs/wpbitform-zoho-sheet"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Sign",
+            "href": "/docs/wpbitform-zoho-sign"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Creator",
+            "href": "/docs/wpbitform-zoho-creator"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Bigin",
+            "href": "/docs/wpbitform-zoho-bigin"
           }
         ]
       },
@@ -412,12 +437,17 @@
     "/docs/wpbitform-telegram": "someSidebar",
     "/docs/wpbitform-zapier": "someSidebar",
     "/docs/wpbitform-zoho-analytics": "someSidebar",
+    "/docs/wpbitform-zoho-bigin": "someSidebar",
     "/docs/wpbitform-zoho-campaign": "someSidebar",
+    "/docs/wpbitform-zoho-creator": "someSidebar",
     "/docs/wpbitform-zoho-crm": "someSidebar",
     "/docs/wpbitform-zoho-desk": "someSidebar",
     "/docs/wpbitform-zoho-flow": "someSidebar",
     "/docs/wpbitform-zoho-mail": "someSidebar",
+    "/docs/wpbitform-zoho-project": "someSidebar",
     "/docs/wpbitform-zoho-recruit": "someSidebar",
+    "/docs/wpbitform-zoho-sheet": "someSidebar",
+    "/docs/wpbitform-zoho-sign": "someSidebar",
     "/docs/wpbitform-zoho-workdrive": "someSidebar",
     "/docs/wpbitform-prevent-bot": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",

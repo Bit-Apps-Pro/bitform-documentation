@@ -1,0 +1,108 @@
+---
+id: zoho-sheet
+title: Bit from Integration With Zoho Sheet 
+sidebar_label: Zoho Sheet
+slug: /wpbitform-zoho-sheet
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+Using Zoho Sheet integration with WordPress form builder, you can automatically push your WordPress form data in Zoho Sheet. You can easily integrate without any coding. This Documentation goes through the configuration process.
+
+First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Zoho Sheet if you don’t have any form please create a new form. Please follow the screenshots below:
+
+<Image src="Zoho Sheet/1.create_form" alt="Zoho Sheet" w="1020" h="400" />
+
+Then click on the Settings menu from the top navigation bar. Navigate to Settings->Integrations->Click on (+) ->Select Zoho Sheet. Please follow the screenshots below:
+
+<Image src="Zoho Sheet/2.Homepage" alt="Zoho Sheet" w="1020" h="400" />
+
+<Image src="Zoho Sheet/3.Bit-Form-to-Zoho-Sheet-integration-select" alt="Zoho Sheet" w="1020" h="400" />
+
+Select a data center from the dropdown. Then click on the Zoho API Console. Navigate to API Console->Get Started->Server-based Applications. Please follow the screenshots below
+
+<Image src="Zoho Sheet/4.Bit-Form-to-Zoho-Sheet-api-console" alt="Zoho Sheet" w="1020" h="400" />
+
+<Image src="Zoho Sheet/5.GetStarted" alt="Zoho Sheet" w="1020" h="400" />
+
+<Image src="Zoho Sheet/6.api-console-server-based" alt="Zoho Sheet" w="1020" h="400" />
+
+Fill those fields (Homepage URL and Authorized Redirect URLs) the same as your Integration Homepage. Then click UPDATE.
+
+<Image src="Zoho Sheet/7.Bit-Form-to-Zoho-Sheet-client-details" alt="Zoho Sheet" w="1020" h="400" />
+
+A Client ID and a Client Secret will be generated. Then go to the Client Secret tab.
+
+<Image src="Zoho Sheet/8.Bit-Form-to-Zoho-Sheet-client-secret" alt="Zoho Sheet" w="1020" h="400" />
+
+Then copy the Client ID and Client Secret and paste it to the Bit Form integration page. Then click on the Authorize button (wait for a few seconds). After the successful authorization click on the Next button.
+
+<Image src="Zoho Sheet/9.Bit-Form-to-Zoho-Sheet-integration-homepage" alt="Zoho Sheet" w="1020" h="400" />
+
+<Image src="Zoho Sheet/10.Bit-Form-to-Zoho-Sheet-accept" alt="Zoho Sheet" w="1020" h="400" />
+
+<Image src="Zoho Sheet/11.Bit-Form-to-Zoho-Sheet-authorizations" alt="Zoho Sheet" w="1020" h="400" />
+
+Select the all required (Workbook, Worksheet, Header Row) from the dropdown.
+
+<Video src="12.Bit-Form-to-Zoho-Sheet-workbook-map" alt="Zoho Desk" w="1020" h="400" />
+
+Here’s Workbook means spreadsheets, Worksheet means sheet name and Header Row means the first row of the Zoho Sheet.
+
+> Notice :
+
+ 1. By default, the first row of the worksheet is considered as a header row. This can be used if tabular data starts from any row other than the first row. 
+
+ 2. Must have at least one record in your Zoho Sheet spreadsheets otherwise Map Fields will not appear.
+
+Map all the needed fields to the corresponding fields in your form. To map more fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+<Video src="13.Bit-Form-to-Zoho-Sheet-fields-map" alt="Zoho Desk" w="1020" h="400" />
+
+1.Update Row: Select this action to update Zoho Sheet records based on criteria->
+
+ The criteria should be in the following format.
+
+(=, !=, >, <,>=,<=, contains)
+
+Consider the following table :
+
+<Image src="Zoho Sheet/Example" alt="Zoho Sheet" w="1020" h="400" />
+
+Example criteria :
+
+1. “Name”=”Shakhawat”
+
+2. “Name” contains “Arif”
+
+3. “Name”=”Rubel” and “Age”<18
+
+4. (“Name”=”Rubel” or “Name”=”Arif”) and “Age”<18
+
+A maximum of 5 nested criteria can be used.
+
+<Video src="14.Bit Form to Zoho Sheet update row" alt="Zoho Desk" w="1020" h="400" />
+
+n the above example, If “Age” less than 18 and “Name” equal “Rubel” then Category will be “Teenager“.
+
+Update preference:
+
+1.update row for the first match only?
+
+If you select Yes, the criteria will be work for the first match only or if you select No the criteria will be work for all the match. Follow the example below:
+
+<Video src="15.Bit-Form-to-Zoho-Sheet-update-preference1" alt="Zoho Desk" w="1020" h="400" />
+
+2. Insert a new row if the above criteria don’t meet?
+
+If you select Yes, insert a new row if the criteria don’t meet.
+
+Map all the fields, select the necessary Actions to be performed on integration, and then click on the Save button to save your settings.
+
+In the end, create a Workflow for triggering the integration. Select the integration which you created before.
+
+<Video src="16.Bit-Form-to-Zoho-Sheet-workflow" alt="Zoho Desk" w="1020" h="400" />
+
+**Watch the full video here!**
+
+<Video youtube src="uIdOUW-7SYA" />

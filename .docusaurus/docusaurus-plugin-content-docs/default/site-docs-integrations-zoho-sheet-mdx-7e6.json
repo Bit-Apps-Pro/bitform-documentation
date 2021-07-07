@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-sheet",
+  "id": "Integrations/zoho-sheet",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Sheet",
+  "description": "Using Zoho Sheet integration with WordPress form builder, you can automatically push your WordPress form data in Zoho Sheet. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+  "source": "@site/docs/Integrations/Zoho Sheet.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-sheet",
+  "permalink": "/docs/wpbitform-zoho-sheet",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho Sheet.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-sheet",
+    "title": "Bit from Integration With Zoho Sheet",
+    "sidebar_label": "Zoho Sheet",
+    "slug": "/wpbitform-zoho-sheet"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Project",
+    "permalink": "/docs/wpbitform-zoho-project"
+  },
+  "next": {
+    "title": "Zoho Sign",
+    "permalink": "/docs/wpbitform-zoho-sign"
+  }
+}
