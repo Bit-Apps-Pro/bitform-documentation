@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-recruit",
+  "id": "Integrations/zoho-recruit",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Recruit",
+  "description": "Using Zoho Recruit integration with WordPress form builder, you can automatically push your WordPress form data in Recruit modules. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+  "source": "@site/docs/Integrations/Zoho-Recruit.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-recruit",
+  "permalink": "/docs/wpbitform-zoho-recruit",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Recruit.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-recruit",
+    "title": "Bit from Integration With Zoho Recruit",
+    "sidebar_label": "Zoho Recruit",
+    "slug": "/wpbitform-zoho-recruit"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho CRM",
+    "permalink": "/docs/wpbitform-zoho-crm"
+  },
+  "next": {
+    "title": "Zoho Workdrive",
+    "permalink": "/docs/wpbitform-zoho-workdrive"
+  }
+}

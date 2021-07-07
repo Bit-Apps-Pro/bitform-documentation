@@ -272,8 +272,18 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/zoho-campaign",
+              "path": "/docs/wpbitform-zoho-campaign",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/zoho-crm",
               "path": "/docs/wpbitform-zoho-crm",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-desk",
+              "path": "/docs/wpbitform-zoho-desk",
               "sidebar": "someSidebar"
             },
             {
@@ -282,8 +292,28 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/zoho-mail",
+              "path": "/docs/wpbitform-zoho-mail",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-recruit",
+              "path": "/docs/wpbitform-zoho-recruit",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Integrations/zoho-workdrive",
+              "path": "/docs/wpbitform-zoho-workdrive",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "mdx",
               "path": "/docs/mdx"
+            },
+            {
+              "id": "Others/prevent-bot",
+              "path": "/docs/wpbitform-prevent-bot",
+              "sidebar": "someSidebar"
             },
             {
               "id": "Response Management/response-management",

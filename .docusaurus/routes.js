@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','80b'),
+  component: ComponentCreator('/docs','50f'),
   
   routes: [
 {
@@ -328,6 +328,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-prevent-bot',
+  component: ComponentCreator('/docs/wpbitform-prevent-bot','37e'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-radiobuttonfield',
   component: ComponentCreator('/docs/wpbitform-radiobuttonfield','a74'),
   exact: true,
@@ -388,13 +393,38 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-zoho-campaign',
+  component: ComponentCreator('/docs/wpbitform-zoho-campaign','41a'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-zoho-crm',
   component: ComponentCreator('/docs/wpbitform-zoho-crm','aa5'),
   exact: true,
 },
 {
+  path: '/docs/wpbitform-zoho-desk',
+  component: ComponentCreator('/docs/wpbitform-zoho-desk','a39'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-zoho-flow',
   component: ComponentCreator('/docs/wpbitform-zoho-flow','b0e'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-mail',
+  component: ComponentCreator('/docs/wpbitform-zoho-mail','ab9'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-recruit',
+  component: ComponentCreator('/docs/wpbitform-zoho-recruit','726'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-zoho-workdrive',
+  component: ComponentCreator('/docs/wpbitform-zoho-workdrive','d94'),
   exact: true,
 },
 ]

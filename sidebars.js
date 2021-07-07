@@ -67,7 +67,15 @@ module.exports = {
         "Integrations/zoho-flow",
         "Integrations/zoho-analytics",
         "Integrations/zoho-crm",
+        "Integrations/zoho-recruit",
+        "Integrations/zoho-workdrive",
+        "Integrations/zoho-desk",
+        "Integrations/zoho-campaign",
+        "Integrations/zoho-mail"
       ],
+    },
+    {
+      Others: ["Others/prevent-bot"]
     },
   ],
   changelog: [

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "Integrations/zoho-desk",
+  "id": "Integrations/zoho-desk",
+  "isDocsHomePage": false,
+  "title": "Bit from Integration With Zoho Desk",
+  "description": "By the Zoho Desk integration with WordPress form builder, you can automatically create tickets in Zoho Desk. You can easily integrate without any coding. This Documentation goes through the configuration process.",
+  "source": "@site/docs/Integrations/Zoho-Desk.mdx",
+  "sourceDirName": "Integrations",
+  "slug": "/wpbitform-zoho-desk",
+  "permalink": "/docs/wpbitform-zoho-desk",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/Zoho-Desk.mdx",
+  "version": "current",
+  "frontMatter": {
+    "id": "zoho-desk",
+    "title": "Bit from Integration With Zoho Desk",
+    "sidebar_label": "Zoho Desk",
+    "slug": "/wpbitform-zoho-desk"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Zoho Workdrive",
+    "permalink": "/docs/wpbitform-zoho-workdrive"
+  },
+  "next": {
+    "title": "Zoho Campaign",
+    "permalink": "/docs/wpbitform-zoho-campaign"
+  }
+}

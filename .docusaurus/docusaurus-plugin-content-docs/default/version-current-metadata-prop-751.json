@@ -296,6 +296,43 @@
             "type": "link",
             "label": "Zoho CRM",
             "href": "/docs/wpbitform-zoho-crm"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Recruit",
+            "href": "/docs/wpbitform-zoho-recruit"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Workdrive",
+            "href": "/docs/wpbitform-zoho-workdrive"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Desk",
+            "href": "/docs/wpbitform-zoho-desk"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Campaign",
+            "href": "/docs/wpbitform-zoho-campaign"
+          },
+          {
+            "type": "link",
+            "label": "Zoho Mail",
+            "href": "/docs/wpbitform-zoho-mail"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Others",
+        "items": [
+          {
+            "type": "link",
+            "label": "prevent a bot from the form submission",
+            "href": "/docs/wpbitform-prevent-bot"
           }
         ]
       }
@@ -375,8 +412,14 @@
     "/docs/wpbitform-telegram": "someSidebar",
     "/docs/wpbitform-zapier": "someSidebar",
     "/docs/wpbitform-zoho-analytics": "someSidebar",
+    "/docs/wpbitform-zoho-campaign": "someSidebar",
     "/docs/wpbitform-zoho-crm": "someSidebar",
+    "/docs/wpbitform-zoho-desk": "someSidebar",
     "/docs/wpbitform-zoho-flow": "someSidebar",
+    "/docs/wpbitform-zoho-mail": "someSidebar",
+    "/docs/wpbitform-zoho-recruit": "someSidebar",
+    "/docs/wpbitform-zoho-workdrive": "someSidebar",
+    "/docs/wpbitform-prevent-bot": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",
     "/docs/wpbitform-field-customize": "someSidebar",

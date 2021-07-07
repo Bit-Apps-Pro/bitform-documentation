@@ -1,0 +1,64 @@
+---
+id: zoho-campaign
+title: Bit from Integration With Zoho Campaign 
+sidebar_label: Zoho Campaign
+slug: /wpbitform-zoho-campaign
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+Using Zoho Campaign integration with WordPress form builder, you can automatically push your WordPress form data in Zoho Campaign. You can easily integrate without any coding. This Documentation goes through the configuration process.
+
+First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Campaign if you don’t have any form please create a new form. Please follow the screenshots below:
+
+<Image src="Zoho Campaign/1.create_form" alt="Zoho Campaign" w="1020" h="400" />
+
+Then click on the Settings menu from the top navigation bar. Navigate to Settings->Integrations->Click on (+) ->Select Zoho Campaign. Please follow the screenshots below:
+
+<Image src="Zoho Campaign/2.Homepage" alt="Zoho Campaign" w="1020" h="400" />
+
+<Image src="Zoho Campaign/3.Bit-Form-to-Zoho-Campaign-integration-select" alt="Zoho Campaign" w="1020" h="400" />
+
+Select a data center from the dropdown. Then click on the Zoho API Console. Navigate to API Console->Get Started->Server-based Applications. Please follow the screenshots below
+
+<Image src="Zoho Campaign/4.Campaign-768x370" alt="Zoho Campaign" w="1020" h="400" />
+
+<Image src="Zoho Campaign/5.GetStarted" alt="Zoho Campaign" w="1020" h="400" />
+
+<Image src="Zoho Campaign/6.api-console-server-based" alt="Zoho Campaign" w="1020" h="400" />
+
+Fill those fields (Homepage URL and Authorized Redirect URLs) the same as your Integration Homepage. Then click UPDATE.
+
+<Image src="Zoho Campaign/7.Client-Details" alt="Zoho Campaign" w="1020" h="400" />
+
+A Client ID and a Client Secret will be generated. Then go to the Client Secret tab.
+
+<Image src="Zoho Campaign/8.Bit-Form-to-Zoho-Campaign-client-secret" alt="Zoho Campaign" w="1020" h="400" />
+
+Then copy the Client ID and Client Secret and paste it to the Bit Form integration page. Then click on the Authorize button (wait for a few seconds). After the successful authorization click on the Next button
+
+<Image src="Zoho Campaign/9.Bit-Form-to-Zoho-Campaign-integration-homepage" alt="Zoho Campaign" w="1020" h="400" />
+
+<Image src="Zoho Campaign/10.Bit-form-to-zoho-campaing-authorization" alt="Zoho Campaign" w="1020" h="400" />
+
+Select the required contact List and the mandatory field from the dropdown.
+
+<Video src="11.Bit Form to Zoho Campaing map field" alt="Zoho Desk" w="1020" h="400" />
+
+To map more form fields to Campaign fields, click on the (+). The form fields that are relevant to the selected field would be listed in the drop-down under Bit Forms.
+
+<Video src="12.Bit Form to Campaign  map extra field" alt="Zoho Desk" w="1020" h="400" />
+
+Map all the fields and then click on the Save button to save your settings.
+
+> **Notice: When you send data in Zoho Campaign an email confirmation message will go to the typed email. The data will not insert before the confirmation. If you want to send data without email confirmation, you have to change some settings in the Zoho Campaign. Have to disable SIGNUP FORM.**
+
+<Video src="13.Zoho Campaign sign up disabled" alt="Zoho Desk" w="1020" h="400" />
+
+In the end, create a Workflow for triggering the integration. Select the integration which you created before.
+
+<Video src="14.Bit Form to Zoho Campaign integration Workflow" alt="Zoho Desk" w="1020" h="400" />
+
+**Watch the full video here!**
+
+<Video youtube src="uGzD8vLzdeQ" />

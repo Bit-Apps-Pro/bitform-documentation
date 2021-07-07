@@ -110,7 +110,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-80b": {
+  "/docs-50f": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -302,6 +302,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-podsc-0-c-15f"
   },
+  "/docs/wpbitform-prevent-bot-37e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-prevent-bot-333-56f"
+  },
   "/docs/wpbitform-radiobuttonfield-a74": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-radiobuttonfield-0-c-4-1f6"
@@ -350,12 +354,32 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-zoho-analytics-286-176"
   },
+  "/docs/wpbitform-zoho-campaign-41a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zoho-campaignbea-b83"
+  },
   "/docs/wpbitform-zoho-crm-aa5": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-zoho-crmcb-0-b51"
   },
+  "/docs/wpbitform-zoho-desk-a39": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zoho-desk-349-ef2"
+  },
   "/docs/wpbitform-zoho-flow-b0e": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-zoho-flow-0-b-8-584"
+  },
+  "/docs/wpbitform-zoho-mail-ab9": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zoho-maild-19-bdd"
+  },
+  "/docs/wpbitform-zoho-recruit-726": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zoho-recruit-934-c86"
+  },
+  "/docs/wpbitform-zoho-workdrive-d94": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-wpbitform-zoho-workdrive-410-7ef"
   }
 }
