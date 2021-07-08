@@ -110,7 +110,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcome-286-e55"
   },
-  "/docs-454": {
+  "/docs-fda": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398"
   },
@@ -129,6 +129,10 @@
   "/docs/changelog/BitForm-version-1.4-changelog-7fc": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-changelog-bit-form-version-1-4-changelog-0-cc-ff9"
+  },
+  "/docs/changelog/syntex-c8a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-changelog-syntexced-529"
   },
   "/docs/doc1-392": {
     "component": "component---theme-doc-item-178-a40",
@@ -210,6 +214,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-drop-downfield-903-1c0"
   },
+  "/docs/wpbitform-email-autoresponder-5c1": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-others-email-autoresponder-4-de-f40"
+  },
   "/docs/wpbitform-emailfield-9ef": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-emailfielde-39-c96"
@@ -245,6 +253,10 @@
   "/docs/wpbitform-form-settings-96d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-wpbitform-form-settings-467-f1c"
+  },
+  "/docs/wpbitform-get-url-parameter-03d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-others-fetch-data-8-ba-6d7"
   },
   "/docs/wpbitform-googleads-710": {
     "component": "component---theme-doc-item-178-a40",
@@ -356,7 +368,7 @@
   },
   "/docs/wpbitform-zoho-bigin-87e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-zoho-bigin-538-950"
+    "content": "content---docs-wpbitform-zoho-bigin-538-02f"
   },
   "/docs/wpbitform-zoho-campaign-41a": {
     "component": "component---theme-doc-item-178-a40",
@@ -364,7 +376,7 @@
   },
   "/docs/wpbitform-zoho-creator-efa": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-zoho-creatora-18-cdc"
+    "content": "content---docs-wpbitform-zoho-creatora-18-0a2"
   },
   "/docs/wpbitform-zoho-crm-aa5": {
     "component": "component---theme-doc-item-178-a40",
@@ -384,7 +396,7 @@
   },
   "/docs/wpbitform-zoho-project-8dc": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-zoho-project-016-293"
+    "content": "content---docs-wpbitform-zoho-project-016-fbb"
   },
   "/docs/wpbitform-zoho-recruit-726": {
     "component": "component---theme-doc-item-178-a40",
@@ -392,11 +404,11 @@
   },
   "/docs/wpbitform-zoho-sheet-4ec": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-zoho-sheet-7-e-6-329"
+    "content": "content---docs-wpbitform-zoho-sheet-7-e-6-c22"
   },
   "/docs/wpbitform-zoho-sign-578": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-integrations-zoho-sign-691-995"
+    "content": "content---docs-wpbitform-zoho-sign-691-f3f"
   },
   "/docs/wpbitform-zoho-workdrive-d94": {
     "component": "component---theme-doc-item-178-a40",

@@ -1,0 +1,14 @@
+{
+  "unversionedId": "changelog/syntex",
+  "id": "changelog/syntex",
+  "isDocsHomePage": false,
+  "title": "syntex",
+  "description": "Version 1.24",
+  "source": "@site/docs/changelog/syntex.md",
+  "sourceDirName": "changelog",
+  "slug": "/changelog/syntex",
+  "permalink": "/docs/changelog/syntex",
+  "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/syntex.md",
+  "version": "current",
+  "frontMatter": {}
+}

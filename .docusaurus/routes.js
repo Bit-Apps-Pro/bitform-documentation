@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','454'),
+  component: ComponentCreator('/docs','fda'),
   
   routes: [
 {
@@ -110,6 +110,11 @@ export default [
 {
   path: '/docs/changelog/BitForm-version-1.4-changelog',
   component: ComponentCreator('/docs/changelog/BitForm-version-1.4-changelog','7fc'),
+  exact: true,
+},
+{
+  path: '/docs/changelog/syntex',
+  component: ComponentCreator('/docs/changelog/syntex','c8a'),
   exact: true,
 },
 {
@@ -213,6 +218,11 @@ export default [
   exact: true,
 },
 {
+  path: '/docs/wpbitform-email-autoresponder',
+  component: ComponentCreator('/docs/wpbitform-email-autoresponder','5c1'),
+  exact: true,
+},
+{
   path: '/docs/wpbitform-emailfield',
   component: ComponentCreator('/docs/wpbitform-emailfield','9ef'),
   exact: true,
@@ -255,6 +265,11 @@ export default [
 {
   path: '/docs/wpbitform-form-settings',
   component: ComponentCreator('/docs/wpbitform-form-settings','96d'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-get-url-parameter',
+  component: ComponentCreator('/docs/wpbitform-get-url-parameter','03d'),
   exact: true,
 },
 {

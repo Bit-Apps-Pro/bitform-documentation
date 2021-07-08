@@ -305,6 +305,14 @@
                   {
                     "type": "doc",
                     "id": "Others/prevent-bot"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Others/get-url-parameter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Others/email-autoresponder"
                   }
                 ]
               }
@@ -393,6 +401,8 @@
             "/docs/wpbitform-zoho-sheet": "someSidebar",
             "/docs/wpbitform-zoho-sign": "someSidebar",
             "/docs/wpbitform-zoho-workdrive": "someSidebar",
+            "/docs/wpbitform-email-autoresponder": "someSidebar",
+            "/docs/wpbitform-get-url-parameter": "someSidebar",
             "/docs/wpbitform-prevent-bot": "someSidebar",
             "/docs/wpbitform-overview": "someSidebar",
             "/docs/wpbitform-background-customize": "someSidebar",
@@ -458,7 +468,7 @@
               "id": "changelog/overview",
               "isDocsHomePage": false,
               "title": "BitForm Changelogs Timeline",
-              "description": "Version 1.24",
+              "description": "Version 1.4.12.1",
               "source": "@site/docs/changelog/overview.mdx",
               "sourceDirName": "changelog",
               "slug": "/changelog/BitForm-changelog-timeline",
@@ -476,6 +486,20 @@
                 "title": "BitForm v-1.3",
                 "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
               }
+            },
+            {
+              "unversionedId": "changelog/syntex",
+              "id": "changelog/syntex",
+              "isDocsHomePage": false,
+              "title": "syntex",
+              "description": "Version 1.24",
+              "source": "@site/docs/changelog/syntex.md",
+              "sourceDirName": "changelog",
+              "slug": "/changelog/syntex",
+              "permalink": "/docs/changelog/syntex",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/syntex.md",
+              "version": "current",
+              "frontMatter": {}
             },
             {
               "unversionedId": "conditional-logic",
@@ -2186,6 +2210,58 @@
               }
             },
             {
+              "unversionedId": "Others/email-autoresponder",
+              "id": "Others/email-autoresponder",
+              "isDocsHomePage": false,
+              "title": "Bit Form email notification",
+              "description": "The function of an email autoresponder or email notification is to notify the user that the form has been submitted successfully.",
+              "source": "@site/docs/Others/Email-autoresponder.mdx",
+              "sourceDirName": "Others",
+              "slug": "/wpbitform-email-autoresponder",
+              "permalink": "/docs/wpbitform-email-autoresponder",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Others/Email-autoresponder.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "email-autoresponder",
+                "title": "Bit Form email notification",
+                "sidebar_label": "How to set up an autoresponder Email",
+                "slug": "/wpbitform-email-autoresponder"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Fetch data from url parameter",
+                "permalink": "/docs/wpbitform-get-url-parameter"
+              }
+            },
+            {
+              "unversionedId": "Others/get-url-parameter",
+              "id": "Others/get-url-parameter",
+              "isDocsHomePage": false,
+              "title": "How to get data from url parameter in WP form",
+              "description": "When filling in a form on a website, the admin would like to include pre-defined specific values in the fields. The solution to this problem is to embed the data from the URL parameter. This field’s value will then be populated with the result of the URL parameter redirect. Bit Form lets you autofill the field value by setting URL parameters. This feature is helpful regarding kinds of use cases. In this section, we will show you how you can set URL parameters to automatically fill the Bit Form fields’ values.",
+              "source": "@site/docs/Others/Fetch Data.mdx",
+              "sourceDirName": "Others",
+              "slug": "/wpbitform-get-url-parameter",
+              "permalink": "/docs/wpbitform-get-url-parameter",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Others/Fetch Data.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "get-url-parameter",
+                "title": "How to get data from url parameter in WP form",
+                "sidebar_label": "Fetch data from url parameter",
+                "slug": "/wpbitform-get-url-parameter"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "prevent a bot from the form submission",
+                "permalink": "/docs/wpbitform-prevent-bot"
+              },
+              "next": {
+                "title": "How to set up an autoresponder Email",
+                "permalink": "/docs/wpbitform-email-autoresponder"
+              }
+            },
+            {
               "unversionedId": "Others/prevent-bot",
               "id": "Others/prevent-bot",
               "isDocsHomePage": false,
@@ -2207,6 +2283,10 @@
               "previous": {
                 "title": "Zoho Bigin",
                 "permalink": "/docs/wpbitform-zoho-bigin"
+              },
+              "next": {
+                "title": "Fetch data from url parameter",
+                "permalink": "/docs/wpbitform-get-url-parameter"
               }
             },
             {

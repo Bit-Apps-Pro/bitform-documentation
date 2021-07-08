@@ -26,6 +26,10 @@
               "sidebar": "changelog"
             },
             {
+              "id": "changelog/syntex",
+              "path": "/docs/changelog/syntex"
+            },
+            {
               "id": "conditional-logic",
               "path": "/docs/wpbitform-conditional-logic",
               "sidebar": "someSidebar"
@@ -334,6 +338,16 @@
             {
               "id": "mdx",
               "path": "/docs/mdx"
+            },
+            {
+              "id": "Others/email-autoresponder",
+              "path": "/docs/wpbitform-email-autoresponder",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "Others/get-url-parameter",
+              "path": "/docs/wpbitform-get-url-parameter",
+              "sidebar": "someSidebar"
             },
             {
               "id": "Others/prevent-bot",

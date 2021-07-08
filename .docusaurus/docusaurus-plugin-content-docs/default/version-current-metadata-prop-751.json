@@ -358,6 +358,16 @@
             "type": "link",
             "label": "prevent a bot from the form submission",
             "href": "/docs/wpbitform-prevent-bot"
+          },
+          {
+            "type": "link",
+            "label": "Fetch data from url parameter",
+            "href": "/docs/wpbitform-get-url-parameter"
+          },
+          {
+            "type": "link",
+            "label": "How to set up an autoresponder Email",
+            "href": "/docs/wpbitform-email-autoresponder"
           }
         ]
       }
@@ -449,6 +459,8 @@
     "/docs/wpbitform-zoho-sheet": "someSidebar",
     "/docs/wpbitform-zoho-sign": "someSidebar",
     "/docs/wpbitform-zoho-workdrive": "someSidebar",
+    "/docs/wpbitform-email-autoresponder": "someSidebar",
+    "/docs/wpbitform-get-url-parameter": "someSidebar",
     "/docs/wpbitform-prevent-bot": "someSidebar",
     "/docs/wpbitform-overview": "someSidebar",
     "/docs/wpbitform-background-customize": "someSidebar",

@@ -1,0 +1,51 @@
+---
+id: email-autoresponder
+title: Bit Form email notification
+sidebar_label: How to set up an autoresponder Email
+slug: /wpbitform-email-autoresponder
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+The function of an email autoresponder or email notification is to notify the user that the form has been submitted successfully.
+
+To set up the email notification feature follow the below steps-
+
+ - Go to the “Settings” option of the builder.
+ - Navigate to the “Email Templates” option. Create a template that you want to send as a notification to your user. From the “Email Templates” set the following option – 
+        
+    ✔Template Name
+
+    ✔Email subject
+
+    ✔Email body –  On the email body Admin can fetch the data directly from the form fields.   
+
+ <Image src="Email Autoresponder/Email-Template-Bit-Form" alt="Email Autoresponder" w="1020" h="400" />
+
+ - After creating the “Templates ” for the notification you have to set the conditional logic for when the email notification will be sent to the user. Here, you have to set the action “Email Notification” & also have to specify when this action will run.
+
+ <Image src="Email Autoresponder/Set-Action-Bit-Form" alt="Email Autoresponder" w="1020" h="300" />
+
+Other fields you have to set are:
+
+  ✔ Email Notification: You have to select the email template here which you have created earlier
+
+  ✔ To: Here you have to input the email address where you want to send the email notification. Also you can select the “Form Fields” to fetch the data directly from the frontend.
+
+  ✔ From: Set the email address from where you want to send mail to recipients.
+
+  ✔ CC & BCC field: Then you have chosen the CC & BCC field if you want to send the notification to multiple email addresses.
+
+  ✔ Reply To: Set the email address where the user will send the reply message in response to your email notification.
+
+  ✔ Attachment: You can send an attachment if you have any file upload field on the form
+
+  <Image src="Email Autoresponder/Set-Condition-Bit-Form" alt="Email Autoresponder" w="1020" h="350" />
+
+Apart from all these fields, the admin can set another value of the fields by setting the form fields from the drop-down menu. Admin can run this action based on Action Behaviour – “Always” & “Condition“.
+
+<Image src="Email Autoresponder/Set-another-value-Bit-Form" alt="Email Autoresponder" w="1020" h="350" />
+
+As an example here we have set the value of the “Text Field = User for email autoresponder” So,  while the user will submit any form the input value of the “Text Field” will be replaced as “User for email autoresponder” based on the action behavior
+
+At last, you have to configure the SMTP from the “App Settings” option to make sure that the email will be sent without any spamming. To set the SMTP  read the **SMTP documentation**.

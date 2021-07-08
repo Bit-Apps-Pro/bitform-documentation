@@ -20,5 +20,9 @@
   "previous": {
     "title": "Zoho Bigin",
     "permalink": "/docs/wpbitform-zoho-bigin"
+  },
+  "next": {
+    "title": "Fetch data from url parameter",
+    "permalink": "/docs/wpbitform-get-url-parameter"
   }
 }

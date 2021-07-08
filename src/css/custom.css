@@ -102,3 +102,7 @@ body {
 video, .youtube-vdo{
   border-radius: 10px;
 }
+.new{
+  background:#00ffc8;
+  border-radius: 5px;
+}

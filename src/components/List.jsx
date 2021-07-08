@@ -4,7 +4,7 @@ export default function List({ type, children }) {
     <>
       <div className={`bdg ${type}`}>{type}</div>
       <ul>
-        {children.map(list => list)}
+        {children}
       </ul>
     </>
   )
