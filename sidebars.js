@@ -80,7 +80,7 @@ module.exports = {
       ],
     },
     {
-      Others: ["Others/prevent-bot","Others/get-url-parameter","Others/email-autoresponder"]
+      Others: ["Others/prevent-bot", "Others/get-url-parameter", "Others/email-autoresponder"]
     },
   ],
   changelog: [

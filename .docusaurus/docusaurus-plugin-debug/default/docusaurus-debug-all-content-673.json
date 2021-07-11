@@ -11,9 +11,9 @@
           "versionBanner": "none",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "E:\\bitform-documentation\\sidebars.js",
-          "contentPath": "E:\\bitform-documentation\\docs",
-          "contentPathLocalized": "E:\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
+          "contentPath": "E:\\RF\\laragon\\www\\bitform-documentation\\docs",
+          "contentPathLocalized": "E:\\RF\\laragon\\www\\bitform-documentation\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "mainDocId": "Getting Started/welcome",
           "sidebars": {
             "someSidebar": [
@@ -486,20 +486,6 @@
                 "title": "BitForm v-1.3",
                 "permalink": "/docs/changelog/BitForm-version-1.3-changelog"
               }
-            },
-            {
-              "unversionedId": "changelog/syntex",
-              "id": "changelog/syntex",
-              "isDocsHomePage": false,
-              "title": "syntex",
-              "description": "Version 1.24",
-              "source": "@site/docs/changelog/syntex.md",
-              "sourceDirName": "changelog",
-              "slug": "/changelog/syntex",
-              "permalink": "/docs/changelog/syntex",
-              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/changelog/syntex.md",
-              "version": "current",
-              "frontMatter": {}
             },
             {
               "unversionedId": "conditional-logic",

@@ -106,20 +106,16 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "path": "docs",
-          "sidebarPath": "E:\\bitform-documentation\\sidebars.js",
+          "path": "./docs",
+          "sidebarPath": "E:\\RF\\laragon\\www\\bitform-documentation\\sidebars.js",
           "editUrl": "https://github.com/Bit-Press/bitform-documentation"
-        },
-        "changelog": {
-          "path": "changelog",
-          "sidebarPath": "E:\\bitform-documentation\\sidebars.clog.js"
         },
         "blog": {
           "showReadingTime": true,
           "editUrl": "https://github.com/Bit-Press/bitform-documentation"
         },
         "theme": {
-          "customCss": "E:\\bitform-documentation\\src\\css\\custom.css"
+          "customCss": "E:\\RF\\laragon\\www\\bitform-documentation\\src\\css\\custom.css"
         }
       }
     ]
@@ -129,12 +125,18 @@ export default {
   ],
   "stylesheets": [
     "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
-    "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap",
+    {
+      "href": "/css/lite-yt-embed.css"
+    }
   ],
   "scripts": [
     {
       "src": "/scripts/tawk.to.js",
       "defer": true
+    },
+    {
+      "src": "/scripts/lite-yt-embed.js"
     }
   ],
   "baseUrlIssueBanner": true,

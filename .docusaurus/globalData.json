@@ -26,10 +26,6 @@
               "sidebar": "changelog"
             },
             {
-              "id": "changelog/syntex",
-              "path": "/docs/changelog/syntex"
-            },
-            {
               "id": "conditional-logic",
               "path": "/docs/wpbitform-conditional-logic",
               "sidebar": "someSidebar"

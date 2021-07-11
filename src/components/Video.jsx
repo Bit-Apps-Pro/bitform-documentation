@@ -1,9 +1,13 @@
 import React from 'react'
-import 'lite-youtube-embed/src/lite-yt-embed.js'
-import 'lite-youtube-embed/src/lite-yt-embed.css'
+// import 'lite-youtube-embed/src/lite-yt-embed.js'
+// import 'lite-youtube-embed/src/lite-yt-embed.css'
 export default function Video({ src, w, h, alt, youtube }) {
     if (youtube) {
-        return <lite-youtube class="youtube-vdo" videoid={src} />
+        if (typeof window !== 'undefined') {
+            return <lite-youtube class="youtube-vdo" videoid={src} />
+        } else {
+            return <></>
+        }
     }
 
     return (
