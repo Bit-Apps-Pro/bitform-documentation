@@ -185,6 +185,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Integrations/acf"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Integrations/googlesheet"
                   },
                   {
@@ -372,6 +376,7 @@
             "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
             "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
             "/docs/": "someSidebar",
+            "/docs/wpbitform-acf": "someSidebar",
             "/docs/wpbitform-activecampaign": "someSidebar",
             "/docs/wpbitform-customposttype": "someSidebar",
             "/docs/wpbitform-encharge": "someSidebar",
@@ -1367,6 +1372,34 @@
               }
             },
             {
+              "unversionedId": "Integrations/acf",
+              "id": "Integrations/acf",
+              "isDocsHomePage": false,
+              "title": "Bit from Integration With ACF",
+              "description": "ACF Integration allows you to easily add advance custom fields to your website & integrate them with Bit Form fields. This ACF integration makes it possible to create custom post types & custom fields & let us collect data & manage those with Bit Form. Using a simple ACF setup you can now create any post via Bit Form submission.This integrations makes it convenient for the admin panel to visualize large amount of data more preciously. The possibilities are endless, and we are sure that you will find this documentation useful.",
+              "source": "@site/docs/Integrations/ACF.mdx",
+              "sourceDirName": "Integrations",
+              "slug": "/wpbitform-acf",
+              "permalink": "/docs/wpbitform-acf",
+              "editUrl": "https://github.com/Bit-Press/bitform-documentation/docs/Integrations/ACF.mdx",
+              "version": "current",
+              "frontMatter": {
+                "id": "acf",
+                "title": "Bit from Integration With ACF",
+                "sidebar_label": "Advanced Custom Fields",
+                "slug": "/wpbitform-acf"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Pods",
+                "permalink": "/docs/wpbitform-pods"
+              },
+              "next": {
+                "title": "Google Sheet",
+                "permalink": "/docs/wpbitform-googlesheet"
+              }
+            },
+            {
               "unversionedId": "Integrations/activecampaign",
               "id": "Integrations/activecampaign",
               "isDocsHomePage": false,
@@ -1526,8 +1559,8 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Pods",
-                "permalink": "/docs/wpbitform-pods"
+                "title": "Advanced Custom Fields",
+                "permalink": "/docs/wpbitform-acf"
               },
               "next": {
                 "title": "Google Ads",
@@ -1698,8 +1731,8 @@
                 "permalink": "/docs/wpbitform- email-template"
               },
               "next": {
-                "title": "Google Sheet",
-                "permalink": "/docs/wpbitform-googlesheet"
+                "title": "Advanced Custom Fields",
+                "permalink": "/docs/wpbitform-acf"
               }
             },
             {

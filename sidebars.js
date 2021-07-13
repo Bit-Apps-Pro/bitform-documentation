@@ -49,6 +49,7 @@ module.exports = {
     {
       Integrations: [
         "Integrations/pods",
+        "Integrations/acf",
         "Integrations/googlesheet",
         "Integrations/googleads",
         "Integrations/telegram",

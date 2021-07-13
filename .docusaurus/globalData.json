@@ -187,6 +187,11 @@
               "sidebar": "someSidebar"
             },
             {
+              "id": "Integrations/acf",
+              "path": "/docs/wpbitform-acf",
+              "sidebar": "someSidebar"
+            },
+            {
               "id": "Integrations/activecampaign",
               "path": "/docs/wpbitform-activecampaign",
               "sidebar": "someSidebar"
