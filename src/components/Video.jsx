@@ -1,6 +1,6 @@
 import React from 'react'
 
-Fexport default function Video({ src, w, h, alt, youtube }) {
+export default function Video({ src, w, h, alt, youtube }) {
     if (youtube) {
         if (typeof window !== 'undefined') {
             return <lite-youtube class="youtube-vdo" videoid={src} />
