@@ -81,11 +81,15 @@ module.exports = {
       ],
     },
     {
-      Others: ["Others/prevent-bot", "Others/get-url-parameter", "Others/email-autoresponder"]
+      Others: [
+        "Others/prevent-bot",
+        "Others/get-url-parameter",
+        "Others/email-autoresponder"
+      ]
     },
   ],
   changelog: [
     "changelog/overview",
-    { "Log Details": ["changelog/1.3", "changelog/1.4"] },
+    // { "Log Details": ["changelog/1.3", "changelog/1.4"] },
   ],
 };

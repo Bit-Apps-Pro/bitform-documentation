@@ -39,18 +39,17 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs',
-          // activeBasePath: 'docs',
-          // activeBaseRegex:'docs\/\b(?!changelog\b).+|docs',
+          to: '/',
+          activeBaseRegex: '^((?!changelog).)*$',
           label: 'Docs',
           position: 'left',
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          to: '/docs/changelog/BitForm-changelog-timeline',
+          to: '/changelog/BitForm-changelog-timeline',
           label: 'Changelogs',
           position: 'left',
-          activeBasePath: '/docs/changelog'
+          activeBasePath: '/changelog'
         },
         {
           href: 'https://downloads.wordpress.org/plugin/bit-form.zip',
@@ -109,9 +108,9 @@ module.exports = {
         docs: {
           // path: 'docs',
           path: './docs',
-          // routeBasePath: '/',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+          editUrl: 'https://github.com/Bit-Press/bitform-documentation/blob/main',
         },
         // changelog: {
         //   path: 'changelog',
@@ -123,7 +122,10 @@ module.exports = {
           editUrl: 'https://github.com/Bit-Press/bitform-documentation',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/utility.css'),
+          ]
         },
       },
     ],
