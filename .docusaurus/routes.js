@@ -89,7 +89,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','fda'),
+  component: ComponentCreator('/docs','e6d'),
   
   routes: [
 {
@@ -155,6 +155,11 @@ export default [
 {
   path: '/docs/wpbitform- email-template',
   component: ComponentCreator('/docs/wpbitform- email-template','f43'),
+  exact: true,
+},
+{
+  path: '/docs/wpbitform-acf',
+  component: ComponentCreator('/docs/wpbitform-acf','b70'),
   exact: true,
 },
 {

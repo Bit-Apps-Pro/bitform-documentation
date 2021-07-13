@@ -209,6 +209,11 @@
           },
           {
             "type": "link",
+            "label": "Advanced Custom Fields",
+            "href": "/docs/wpbitform-acf"
+          },
+          {
+            "type": "link",
             "label": "Google Sheet",
             "href": "/docs/wpbitform-googlesheet"
           },
@@ -430,6 +435,7 @@
     "/docs/How-to-create-a-WordPress-from-using-BitForm": "someSidebar",
     "/docs/install-activate-wordpress-frombuilder-bitform": "someSidebar",
     "/docs/": "someSidebar",
+    "/docs/wpbitform-acf": "someSidebar",
     "/docs/wpbitform-activecampaign": "someSidebar",
     "/docs/wpbitform-customposttype": "someSidebar",
     "/docs/wpbitform-encharge": "someSidebar",
