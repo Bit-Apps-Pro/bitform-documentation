@@ -30,7 +30,7 @@ body {
 .menu__link{
   border-radius: 0.5rem;
 }
-.navbar-sidebar{backdrop-filter:blur(10px);}
+ .navbar-sidebar{backdrop-filter:blur(10px);}
 
 .docusaurus-highlight-code-line {
   display: block;
@@ -44,6 +44,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  overflow: hidden;
 }
 .download-btn{
   background: #0089ff;
@@ -51,7 +52,7 @@ body {
   border-radius: 30px;
   margin-right: 10px;
   padding: 7px 22px;
-  transition: box-shadow 300ms background 200ms;
+  transition: box-shadow 300ms, background 200ms;
 }
 .download-btn:hover{
   background: #007eec;
@@ -124,7 +125,7 @@ video, .youtube-vdo{
   content: '';
   width:0px;
   height:0px;
-}
+} 
 
 @media (min-width: 996px) {
   .navbar{backdrop-filter: blur(10px);}

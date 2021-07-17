@@ -67,11 +67,11 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: 'docs/install-activate-wordpress-frombuilder-bitform',
+              to: '/install-activate-wordpress-frombuilder-bitform',
             },
             {
               label: 'Form Fields',
-              to: 'docs/wpbitform-field-types',
+              to: '/wpbitform-field-types',
             },
           ],
         },
@@ -81,6 +81,10 @@ module.exports = {
             {
               label: 'Facebook',
               href: 'https://www.facebook.com/groups/bitcommunityusers',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCjUl8UGn-G6zXZ-Wpd7Sc3g',
             }
           ],
         },
@@ -88,8 +92,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'How tos',
-              to: 'blog',
+              label: 'Changelog',
+              to: '/changelog/BitForm-changelog-timeline',
             },
             {
               label: 'GitHub',
@@ -98,7 +102,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BitApps.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bit Apps.`,
     },
   },
   presets: [
@@ -106,21 +110,23 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          // path: 'docs',
-          path: './docs',
+          path: 'docs',
+          // path: './docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Bit-Press/bitform-documentation/blob/main',
         },
+        blog: false,
+        pages: false,
         // changelog: {
         //   path: 'changelog',
         //   sidebarPath: require.resolve('./sidebars.clog.js'),
         //   // routeBasePath: '/wp-bit-form-changelog',
         // },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+        // },
         theme: {
           customCss: [
             require.resolve('./src/css/custom.css'),
@@ -140,4 +146,4 @@ module.exports = {
     { src: '/scripts/tawk.to.js', defer: true },
     { src: '/scripts/lite-yt-embed.js' }
   ]
-};
+}
