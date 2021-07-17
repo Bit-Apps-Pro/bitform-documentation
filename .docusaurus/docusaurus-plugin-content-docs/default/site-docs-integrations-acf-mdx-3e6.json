@@ -13,7 +13,7 @@
   "frontMatter": {
     "id": "acf",
     "title": "Bit from Integration With ACF",
-    "sidebar_label": "Advanced Custom Fields",
+    "sidebar_label": "Advanced Custom Fields(ACF)",
     "slug": "/wpbitform-acf"
   },
   "sidebar": "someSidebar",

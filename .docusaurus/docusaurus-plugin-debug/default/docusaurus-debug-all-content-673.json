@@ -1400,7 +1400,7 @@
               "frontMatter": {
                 "id": "acf",
                 "title": "Bit from Integration With ACF",
-                "sidebar_label": "Advanced Custom Fields",
+                "sidebar_label": "Advanced Custom Fields(ACF)",
                 "slug": "/wpbitform-acf"
               },
               "sidebar": "someSidebar",
@@ -1573,7 +1573,7 @@
               },
               "sidebar": "someSidebar",
               "previous": {
-                "title": "Advanced Custom Fields",
+                "title": "Advanced Custom Fields(ACF)",
                 "permalink": "/docs/wpbitform-acf"
               },
               "next": {
@@ -1745,7 +1745,7 @@
                 "permalink": "/docs/wpbitform- email-template"
               },
               "next": {
-                "title": "Advanced Custom Fields",
+                "title": "Advanced Custom Fields(ACF)",
                 "permalink": "/docs/wpbitform-acf"
               }
             },
