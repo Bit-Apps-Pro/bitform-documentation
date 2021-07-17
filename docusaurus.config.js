@@ -14,9 +14,7 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
       switchConfig: {
-        // Icon for the switch while in dark mode
         darkIcon: '💡',
-
         // CSS to apply to dark icon,
         // React inline style object
         // see https://reactjs.org/docs/dom-elements.html#style
@@ -41,18 +39,17 @@ module.exports = {
       },
       items: [
         {
-          to: '/docs',
-          // activeBasePath: 'docs',
-          // activeBaseRegex:'docs\/\b(?!changelog\b).+|docs',
+          to: '/',
+          activeBaseRegex: '^((?!changelog).)*$',
           label: 'Docs',
           position: 'left',
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          to: '/docs/changelog/BitForm-changelog-timeline',
+          to: '/changelog/BitForm-changelog-timeline',
           label: 'Changelogs',
           position: 'left',
-          activeBasePath: '/docs/changelog'
+          activeBasePath: '/changelog'
         },
         {
           href: 'https://downloads.wordpress.org/plugin/bit-form.zip',
@@ -70,11 +67,11 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: 'docs/install-activate-wordpress-frombuilder-bitform',
+              to: '/install-activate-wordpress-frombuilder-bitform',
             },
             {
               label: 'Form Fields',
-              to: 'docs/wpbitform-field-types',
+              to: '/wpbitform-field-types',
             },
           ],
         },
@@ -84,6 +81,10 @@ module.exports = {
             {
               label: 'Facebook',
               href: 'https://www.facebook.com/groups/bitcommunityusers',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCjUl8UGn-G6zXZ-Wpd7Sc3g',
             }
           ],
         },
@@ -91,8 +92,8 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'How tos',
-              to: 'blog',
+              label: 'Changelog',
+              to: '/changelog/BitForm-changelog-timeline',
             },
             {
               label: 'GitHub',
@@ -101,7 +102,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BitApps.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Bit Apps.`,
     },
   },
   presets: [
@@ -110,22 +111,27 @@ module.exports = {
       {
         docs: {
           path: 'docs',
-          // path:'./docs',
-          // routeBasePath: '/',
+          // path: './docs',
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+          editUrl: 'https://github.com/Bit-Press/bitform-documentation/blob/main',
         },
-        changelog: {
-          path: 'changelog',
-          sidebarPath: require.resolve('./sidebars.clog.js'),
-          // routeBasePath: '/wp-bit-form-changelog',
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/Bit-Press/bitform-documentation',
-        },
+        blog: false,
+        pages: false,
+        // changelog: {
+        //   path: 'changelog',
+        //   sidebarPath: require.resolve('./sidebars.clog.js'),
+        //   // routeBasePath: '/wp-bit-form-changelog',
+        // },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+        // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/utility.css'),
+          ]
         },
       },
     ],
@@ -134,6 +140,10 @@ module.exports = {
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap',
     'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap',
+    { href: '/css/lite-yt-embed.css' }
   ],
-  scripts: [{ src: '/scripts/tawk.to.js', defer: true }]
-};
+  scripts: [
+    { src: '/scripts/tawk.to.js', defer: true },
+    { src: '/scripts/lite-yt-embed.js' }
+  ]
+}

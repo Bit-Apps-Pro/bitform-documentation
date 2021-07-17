@@ -30,6 +30,7 @@ body {
 .menu__link{
   border-radius: 0.5rem;
 }
+ .navbar-sidebar{backdrop-filter:blur(10px);}
 
 .docusaurus-highlight-code-line {
   display: block;
@@ -43,6 +44,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
+  overflow: hidden;
 }
 .download-btn{
   background: #0089ff;
@@ -50,7 +52,7 @@ body {
   border-radius: 30px;
   margin-right: 10px;
   padding: 7px 22px;
-  transition: box-shadow 300ms background 200ms;
+  transition: box-shadow 300ms, background 200ms;
 }
 .download-btn:hover{
   background: #007eec;
@@ -60,17 +62,29 @@ body {
 .download-btn:active{
   transform: scale(0.95);
 }
-.navbar{backdrop-filter: blur(10px);}
 
-.flx{
-  display:flex;
+.date{
+  min-width:82px;
 }
 .bdg{
   display: inline-block;
+  position: relative;
   padding: 2px 13px;
-  border-radius: 20px;
+  border-radius: 5px;
   font-weight: 600;
   line-height: 1.4;
+}
+.bdg::before{
+  background: inherit;
+  position: absolute;
+  top: 3px;
+  left: -6px;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  transform: rotate(45deg);
+  z-index: -1;
 }
 .line{
   background: #c7d8ff;
@@ -97,12 +111,22 @@ body {
   background:#ffd000;
 }
 .Improvement{
-  background:#00ff37;
+  background:#00ffbf;
 }
 video, .youtube-vdo{
   border-radius: 10px;
 }
 .new{
-  background:#00ffc8;
-  border-radius: 5px;
+  background:#f6cbff;
+  font-size: 0.75rem;
+  border-radius: 20px;
+}
+.new::before{
+  content: '';
+  width:0px;
+  height:0px;
+} 
+
+@media (min-width: 996px) {
+  .navbar{backdrop-filter: blur(10px);}
 }

@@ -1,3 +1,7 @@
+.docusaurus/
+build/
+build/docs/
+
 # Logs
 logs
 *.log
