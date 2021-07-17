@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Bit Form | Top free form builder in WordPress | Fastest Form-Builder',
   tagline: 'WP Bit Form made easy to build a form in wordpress with database management system.',
-  url: 'https://docs.bitform.bitpress.pro/',
+  url: 'https://docs.form.bitapps.pro/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
