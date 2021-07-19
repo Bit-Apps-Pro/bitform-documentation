@@ -77,15 +77,16 @@ module.exports = {
         "Integrations/zoho-sheet",
         "Integrations/zoho-sign",
         "Integrations/zoho-creator",
-        "Integrations/zoho-bigin"
+        "Integrations/zoho-bigin",
       ],
     },
+    "api",
     {
       Others: [
         "Others/prevent-bot",
         "Others/get-url-parameter",
-        "Others/email-autoresponder"
-      ]
+        "Others/email-autoresponder",
+      ],
     },
   ],
   changelog: [
