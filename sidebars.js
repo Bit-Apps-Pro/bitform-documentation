@@ -80,7 +80,6 @@ module.exports = {
         "Integrations/zoho-bigin",
       ],
     },
-    "api",
     {
       Others: [
         "Others/prevent-bot",
@@ -88,6 +87,7 @@ module.exports = {
         "Others/email-autoresponder",
       ],
     },
+    "api",
   ],
   changelog: [
     "changelog/overview",

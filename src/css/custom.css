@@ -7,25 +7,58 @@
 
 /* You can override the default Infima variables here. */
 body {
-  /* color: rgb(28, 58, 94); */
   /* font-family: 'Poppins', sans-serif; */
-  /* font-family: "Montserrat", sans-serif; */
+  /* font-family:'Open Sans', sans-serif; */
+  /* font-family:'Raleway', sans-serif; */
+}
+body::-webkit-scrollbar {
+  width: 10px;
 }
 
-:root {
-  --ifm-color-primary: #3740ff;
-  --ifm-color-primary-dark: rgb(234, 0, 255);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+body::-webkit-scrollbar-track-piece  {
+  background-color: var(--ifm-background-color);
+}
+
+body::-webkit-scrollbar-thumb:vertical {
+  height: 30px;
+  background-color: #9eb3ca;
+}
+
+:root { 
+
+  --ifm-color-primary: #004ffa;
+  /* --ifm-font-size-base:100%; */
+  /* --ifm-color-primary-dark: rgb(234, 0, 255); */
+  /* --ifm-color-primary-darker: rgb(31, 165, 136); */
+  /* --ifm-color-primary-darkest: rgb(26, 136, 112); */
+  /* --ifm-color-primary-light: rgb(70, 203, 174); */
+  /* --ifm-color-primary-lighter: rgb(102, 212, 189); */
+  /* --ifm-color-primary-lightest: rgb(146, 224, 208); */
+  --ifm-background-color:rgb(255, 255, 255);
   --ifm-code-font-size: 95%;
   --ifm-global-radius: 0.6rem;
   --ifm-navbar-background-color:rgba(255, 255, 255, 0.73);
+  --ifm-h1-font-size:2.5rem;
+  scrollbar-color: #878e97 #ffffff;
+  scrollbar-track-color: rgb(223, 223, 216);
+  scrollbar-width: thin;
+  /* --ifm-font-family-base:'Montserrat', sans-serif; */
 }
+
 [data-theme="dark"]:root{
-  --ifm-navbar-background-color:rgba(32, 32, 32, 0.73);
+  --ifm-background-color:rgb(22, 26, 46); 
+  --ifm-color-primary: #00a2ff;
+  --ifm-font-color-base:rgb(226, 229, 248);
+  --ifm-navbar-background-color:rgba(22, 26, 46, 0.73);
+  --ifm-footer-background-color: rgb(15, 18, 36);
+  --ifm-footer-color:rgb(126, 134, 180);
+  scrollbar-color: #878e97 var(--ifm-background-color);
+  scrollbar-track-color: rgb(223, 223, 216);
+  scrollbar-width: thin;
+}
+h1{font-size: 2.5rem !important;}
+h1,h2,h3,h4,h5,a:not(.table-of-contents__link){
+  font-family: 'Montserrat', sans-serif;
 }
 .menu__link{
   border-radius: 0.5rem;
@@ -92,16 +125,23 @@ body {
   width: 2px;
   margin: 13px 30px 0 25px;
 }
+[data-theme="dark"] .line{
+  background:rgb(32, 69, 104);
+}
 .line::before{
   background: white;
   position: absolute;
-  top: -12px;
+  top: -10px;
   right: -9px;
   content: '';
   width: 11px;
   height: 11px;
   border-radius: 50%;
   border: 4px solid #c7d8ff;
+}
+[data-theme="dark"] .line::before{
+  background-color:var(--ifm-background-color);
+  border: 4px solid rgb(51, 96, 138);
 }
 .Added{
   background:rgb(13 177 255);
@@ -126,7 +166,9 @@ video, .youtube-vdo{
   width:0px;
   height:0px;
 } 
-
+[data-theme="dark"] .Fixed, .Improvement, .Added, .new{
+  color:var(--ifm-background-color);
+}
 @media (min-width: 996px) {
   .navbar{backdrop-filter: blur(10px);}
 }

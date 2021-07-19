@@ -1,272 +1,314 @@
 ---
 id: api
-title: Bit from API
+title: Bit form API
 sidebar_label: API
 slug: /wpbitform-api
 ---
 
 import Image from "../src/components/Image";
 import TOCInline from "@theme/TOCInline";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 An **API (Application Protocol Interface)** defines a set of functions that interact with other software components or applications or you can call micro services between web applications. If any web application or software needs any information from another software, they have to make a **call** or **request** to get the information. This specific call or request is called **API**.
 
 To simplify this context, we can take an example that a user installed a form plugin from which he/she wants to deliver form data to our Bit Form plugin where user has already made a form. What user has to do is to make an API request to Bit Form. In response, user will get all the data that they have requested will be stored in Bit Form.
 
-## API key Option
+## API Key Option
 
-1. Go to Bit form **Settings** and then select **API**
+1. Go to Bit form **Settings** and then navigate **API**
+2. Copy your `API Key` then use it in request header.
 
-2. Copy your API key then use it in request header.
+## API Endpoints
 
-## API Status Codes
+### Get Forms
 
-The success or failure of an API request is conveyed by the code and message in its response.
+To fetch all forms.
 
-| Http Status Code |   HTTP Status    | Code |                                                                            Message                                                                             |
-| :--------------: | :--------------: | :--: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|       200        |        Ok        | 4000 |                                                                  Successfully data submitted                                                                   |
-|       200        |        Ok        | 3910 |                                                                       No forms available                                                                       |
-|       200        |        Ok        | 3920 |                                                                      No fields available                                                                       |
-|       200        |        Ok        | 3710 |                                                   No field named {field} found. Please check and try again.                                                    |
-|       200        |        Ok        | 3120 |                                                                       Data type mismatch                                                                       |
-|       200        |        Ok        | 3970 | The get records API can fetch up to 200 records per request. You’ll have to use the from parameter in your requests to fetch records 1-200, 201-400, and so on |
-|       400        |    Not Found     | 3030 |                                                           The API request’s body content is missing                                                            |
-|       404        |    Not Found     | 3100 |                                                                        No Entry with ID                                                                        |
-|       404        |    Not Found     | 3200 |                                                                        No Form with ID                                                                         |
-|       404        |    Not Found     | 3130 |                                                         No form was found. Please check and try again                                                          |
-|       422        | Validation Error | 3070 |                                                                    Data validation failure                                                                     |
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
 
-### 1. Get Forms
-For transferring information at first user have to specify the form of Bit Form. To make this API request user has to call the ***GET Form*** function where ***base_url*** is the user’s plugin URL link. The requested URL is:
+**Parameters**
+
+|       Name        |  Type  | In     | Description                            |
+| :---------------: | :----: | ------ | -------------------------------------- |
+| `Bitform-Api-Key` | string | Header | Specify your secret key to get access. |
 
 ```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/forms
+https://<base_url>/wp-json/bitform/v1/forms
 ```
-**Requested Method is:**
 
-GET
+  </TabItem>
+  <TabItem value="Response">
 
 ```json title="Response"
 {
   "forms": [
       {
-          "form_name":"Contact Form"
-          "id":"1"
+        "form_name": "Contact Form"
+        "id": "1"
       }
   ],
-      "status":200
-      "code":4000
-      "sucess":true
-  
+  "status": 200,
+  "code": 4000,
+  "sucess":true
 }
 ```
-### 2.Get Field
-Next, the user has to call the ***GET Fields*** function to fetch all the requested information of the form that will be presented in Bit Form.
+
+  </TabItem>
+</Tabs>
+
+### Fetch Entries
+
+Fetch all entries by specific form ID.
+
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
+
+**Parameters**
+
+| Name              | Type   | In     | Default | Description                            |          |
+| ----------------- | ------ | ------ | ------- | -------------------------------------- | -------- |
+| `Bitform-Api-Key` | string | Header |         | Specify your secret key to get access. | required |
+| `form_id`         | number | Path   |         | Sepecify form ID.                      | required |
+| `per_page`        | number | Path   | 200     | How many data fetch in each request.   | optional |
+| `page`            | number | Path   | 1       | Page offset.                           | optional |
+
+```curl title="GET Request"
+https://<base_url>/wp-json/bitform/v1/form/response/<form_id>
+```
+
+  </TabItem>
+  <TabItem value="Response">
+
+```json
+{
+  "data": {
+        "count":"95",
+        "entries":[
+            {
+            "entry_id":"12",
+            "bf1-1":"test data"
+            },
+            ...
+        ]
+    },
+    "status": 200,
+    "sucess": true
+}
+```
+
+  </TabItem>
+</Tabs>
+
+### Get Form Fields
+
+Fetch all field of a specific form.
+
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
+
+|       Name        |  Type  | In     | Description                            |
+| :---------------: | :----: | ------ | -------------------------------------- |
+| `Bitform-Api-Key` | string | Header | Specify your secret key to get access. |
+|     `form_id`     | number | Path   | Sepecify form ID.                      |
 
 ```curl title="GET Request"
   https://<base_url>/wp-json/bitform/v1/fields/<form_id>
 ```
 
-**URI Parameters :**
-
-form_id     : number (required)  id of the Form
-
-**Fields’ type value**
-
-The type value in the response identifies the field’s type.
-
-| FIELD           | ITS "TYPE" VALUE     |
-|:---------------:|:--------------------:|
-| Text            | text                 |
-| Multiline Text	 | textarea             |
-| Check Box	      | check                |
-| Radio Button	   | radio                |
-| Number	         | number               |
-| Dropdown	       | select               |
-| Password	       | password             |
-| Email	          | email                |
-| URL	            | url                  |
-| File Upload	    | File-up (file)       |
-| Date	           | date                 |
-| Time	           | time                 |
-| Date-Time       | datetime-local       |
-| Month	          | month                |
-| Week	           | week                 |
-| Color Picker	   | color                |
-| Decision Box	   | decision-box (check) |
-
-
-```json title="Response"
-{
-  "fields": {
-      "fields":{
-          "bf1-1-":{
-              "typ":"txt",
-              "lbl":"First Name",
-              "ph":"Enter Your First Name",
-              "valid()":{}
-          }
-      },
-      "fieldkeys":{
-          "bf1-1-":""bf1-1-""
-      },
-      "workflows":[
-          {
-              "workflow_name":"workflow 2",
-              "id":"2"
-          }
-      ],
-      "workflow_key_name":"workflow"
-  },
-      "status":200
-      "code":4000
-      "sucess":true
-  
-}
-```
-**Requested Method is:***
-
-GET
-
-In this API request user have to indicate the specific id to ***form_id*** in which fields will be used to fetch information. Suppose a client sent an API request, under a specific form some field’s information will be inserted where , ***typ = field type***, ***lbl = field label name***, ***ph = a indicator of the fields action***. The ***valid : {}*** denotes ***True/False***. If the required field is enabled then ***valid : {}*** will return ***True*** otherwise ***valid : {}*** will be empty. Then ***fieldkeys***is the key name  of the input field. Clients can also run workflows using conditional logic by sending API requests. As example, if a client wants any records to be created & submitted, an email notification will be sent. Clients have to set this workflow & have to mention that specific workflow name on their API request. They can set actions like : ***Success Message***, ***Redirect URL***, ***Web hook***, ***Integration*** and run those actions through our API request. The ***workflow_key_name*** is the input key name of all the created workflows.
-
-### 3. Add record:
-This API add all the data to a form in your Bit Form plugin. The requested URL is:
-
-```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/entry/<form_id>
-```
-
-**Requested Method is:**
-
-POST
-
-**URI Parameters :**
-
-form_id     : number (required)  id of the Form
-
-***form_id*** is the targeted ID where your requested entry will be stored. If the form ID is not selected then this API request will be unsuccessful.
-
-```json title="Response"
-{
-      "status":200,
-      "code":4000,
-      "message":"Data Added Successfully!!!",
-      "sucess":true 
-}
-```
-### 4.Edit Record-Detail View:
-This API edits the recorders regarding their ID value. The requested URL is :
-
-```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/entry/<entry_id>
-```
-To edit the information user has to define the targeted entry id in ***entry_id***
-
-**Requested Method is:**
-
-GET
-
-**URI Parameters :**
- entry_id     : number (required)  entry_id of the Form entries
-
- ```json title="Response"
-{
-  "data": [
-      {
-          "bitforms_forms_entry_id":"95",
-          "meta_key":"bf1-1-",
-          "meta_value":"aaa"
-      }
-  ],
-      "code":4000
-      "status":200
-      "sucess":true
-  
-}
-```
-***meta_key*** is field key name, ***meta_value*** is the field value , ***bitforms_form_entry_id*** is ***entry_id***
-
-### 5.Get All Entries :
-The entries response API  Requested URL is :
-
-```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/entry/<form_id>
-```
-?per_page=200
-
-&page=1
-
-**Requested Method is:**
-
-GET
-
-**URI Parameters :**
-form_id     : number (required)  id of the Form
-
-per_page  :  number (optional) Default : 200
-
-page          :  number (optional) Default : 1
-
-To get all entries responses user have to define the targeted form id in ***id***
+  </TabItem>
+  <TabItem value="Response">
 
 ```json title="Response"
 {
   "data": {
-          "count":"95",
-          "meta_key":36,
-          "entries":[
-              {
-                  "entry_id":"95",
-                  "bf1-1-":"aaa"
-              }
-          ]
+    "fields": {
+      "bf1-1-": {
+        "typ": "txt",
+        "lbl": "First Name",
+        "ph": "Enter Your First Name",
+        "valid": {}
+      }
     },
-      "status":200
-      "sucess":true
+    "fieldkeys": {
+      "bf1-1-": "bf1-1-"
+    },
+    "workflows": [
+      {
+        "workflow_name": "workflow 2",
+        "id": "2"
+      }
+    ],
+    "workflow_key_name": "workflow"
+  },
+  "status": 200,
+  "code": 4000,
+  "sucess": true
 }
 ```
-###  6.Update Record: 
-The update API updates the recorders regarding their ID value. Requested URL is :
 
-```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/entry/<form_id>
+In this API request user have to indicate the specific id to **_form_id_** in which fields will be used to fetch information. Suppose a client sent an API request, under a specific form some field’s information will be inserted where , **_typ = field type_**, **_lbl = field label name_**, **_ph = a indicator of the fields action_**. The **_valid : {}_** denotes **_True/False_**. If the required field is enabled then **_valid : {}_** will return **_True_** otherwise **_valid : {}_** will be empty. Then **_fieldkeys_**is the key name of the input field. Clients can also run workflows using conditional logic by sending API requests. As example, if a client wants any records to be created & submitted, an email notification will be sent. Clients have to set this workflow & have to mention that specific workflow name on their API request. They can set actions like : **_Success Message_**, **_Redirect URL_**, **_Web hook_**, **_Integration_** and run those actions through our API request. The **_workflow_key_name_** is the input key name of all the created workflows.
+
+  </TabItem>
+</Tabs>
+
+### Add record/entries
+
+Add entries to specific form.
+
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
+
+|       Name        |  Type  | In     | Description                            |
+| :---------------: | :----: | ------ | -------------------------------------- |
+| `Bitform-Api-Key` | string | Header | Specify your secret key to get access. |
+|     `form_id`     | number | Path   | Sepecify form ID.                      |
+|    `field_key`    | string | Body   | Specify field key and value.           |
+
+```curl title="POST Request"
+https://<base_url>/wp-json/bitform/v1/entry/<form_id>
 ```
-**Requested Method is:**
 
-POST
-
-**URI Parameters :**
-entry_id     : number (required)  entry_id of the Form entries
+  </TabItem> 
+  <TabItem value="Response">
 
 ```json title="Response"
 {
-      "status":200,
-      "code":4000,
-      "message":"Data Updated Successfully",
-      "sucess":true 
+  "status": 200,
+  "code": 4000,
+  "message": "Data Added Successfully.",
+  "sucess": true
 }
 ```
-### 7.Delete Record:
-To delete any records the requested API URL is :
 
-```curl title="GET Request"
- https://<base_url>/wp-json/bitform/v1/entry/<form_id>
+  </TabItem>
+</Tabs>
+
+### Edit record/entries
+
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
+
+**Parameters**
+
+| Name              | Type   | In     | Description                            |          |
+| ----------------- | ------ | ------ | -------------------------------------- | -------- |
+| `Bitform-Api-Key` | string | Header | Specify your secret key to get access. | required |
+| `form_id`         | number | Path   | Sepecify form ID.                      | required |
+| `field_key_1`     | string | Body   | Specify the value for the field.       | optional |
+| `field_key_2`     | string | Body   | Specify the value for the field.       | optional |
+
+**Note:** `field_key` is form field key, e.g: `bf1-2`
+
+```curl title="POST/PUT Request"
+https://<base_url>/wp-json/bitform/v1/entry_update/<form_id>
 ```
-**Requested Method is:**
 
-DELETE
+  </TabItem>
+  <TabItem value="Response">
 
-If a user wants to delete any of the records have to select entry id in ***entry_id***
-
-```json title="Response"
+```json
 {
-      "status":200,
-      "code":4000,
-      "message":"Entry deleted Successfully",
-      "sucess":true 
+  "status": 200,
+  "code": 4000,
+  "message": "Data Updated Successfully",
+  "sucess": true
 }
 ```
+
+  </TabItem>
+</Tabs>
+
+### Delete record/entries
+
+<Tabs
+  defaultValue="Request"
+  values={[
+    { label: "Request", value: "Request" },
+    { label: "Response", value: "Response" }
+  ]}
+>
+  <TabItem value="Request">
+
+**Parameters**
+
+| Name              | Type   | In     | Description                            |          |
+| ----------------- | ------ | ------ | -------------------------------------- | -------- |
+| `Bitform-Api-Key` | string | Header | Specify your secret key to get access. | required |
+| `form_id`         | number | Path   | Sepecify form ID.                      | required |
+
+```curl title="DELETE Request"
+https://<base_url>/wp-json/bitform/v1/entry_delete/<form_id>
+```
+
+  </TabItem>
+  <TabItem value="Response">
+
+```json
+{
+  "status": 200,
+  "code": 4000,
+  "message": "Data Updated Successfully",
+  "sucess": true
+}
+```
+
+  </TabItem>
+</Tabs>
+
+---
+
+## API Status Codes
+
+The success or failure of an API request is conveyed by the code and message in its response.
+
+| Http Status Code |   HTTP Status    | Code | Message                                                                                                                                                        |
+| :--------------: | :--------------: | :--: | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      `200`       |        OK        | 4000 | Successfully data submitted                                                                                                                                    |
+|      `200`       |        OK        | 3910 | No forms available                                                                                                                                             |
+|      `200`       |        OK        | 3920 | No fields available                                                                                                                                            |
+|      `200`       |        OK        | 3710 | No field named {field} found. Please check and try again.                                                                                                      |
+|      `200`       |        OK        | 3120 | Data type mismatch                                                                                                                                             |
+|      `200`       |        OK        | 3970 | The get records API can fetch up to 200 records per request. You’ll have to use the from parameter in your requests to fetch records 1-200, 201-400, and so on |
+|      `400`       |    Not Found     | 3030 | The API request’s body content is missing                                                                                                                      |
+|      `404`       |    Not Found     | 3100 | No Entry with ID                                                                                                                                               |
+|      `404`       |    Not Found     | 3200 | No Form with ID                                                                                                                                                |
+|      `404`       |    Not Found     | 3130 | No form was found. Please check and try again                                                                                                                  |
+|      `422`       | Validation Error | 3070 | Data validation failure                                                                                                                                        |
+
 **Watch a demo tutorial here!**
 
 <Video youtube src="IauMUSQvrqw" />
+
+#### 🖐 Let us know if you have any feedback or any API request at `support@bitpress.pro`.
