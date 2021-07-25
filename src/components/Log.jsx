@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Log({ date, children }) {
   return (
-    <div className="flx timeline">
+    <div className="log flx timeline">
       <div className="date">{date}</div>
       <div className="line" />
       <div>
