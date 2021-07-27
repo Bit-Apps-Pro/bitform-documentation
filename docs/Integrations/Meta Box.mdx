@@ -1,0 +1,128 @@
+---
+id: metabox
+title: Bit form Integration With Meta Box 
+sidebar_label: Meta Box
+slug: /wpbitform-metabox
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+**Meta boxes** are a great way to add extra functionality to a form, such as allowing your visitors to add comments or upload images. A meta box is a custom field that you can integrate into your WordPress form fields. They are especially useful when you need to add custom fields that do not come with the standard WordPress form in the backend.
+With Meta Box integration with Bit Form, users can easily integrate their form on a post or a page.
+
+## Create custom post type & fields using Meta Box plugin 
+Here, we will demonstrate an example of ***Properties*** to show how you can integrate meta box custom fields with Bit Form fields. Follow the below instructions:
+
+1. For the Meta Box integration, make sure you have installed the ***Meta Box plugin*** successfully on your WordPress dashboard.
+
+ <Image src="Meta-Box/1.Metabox-plugin-Bit-Form" alt="metabox" w="1203" h="500" />
+
+2. Create a post type according to your use case. Here we have already created a type ***Properties***. Also created categories/type related to the post type- ***Commercial***,***Residential***, ***Land*** & ***Industrial***.
+
+ <Image src="Meta-Box/2.Post-Type-Bit-Form" alt="metabox" w="1203" h="350" />
+
+ <Image src="Meta-Box/3.Categories-Bit-Form" alt="metabox" w="1203" h="350" />
+
+
+3. As we have created ***Properties*** as a custom post type earlier, we will create some custom fields under the type.
+
+4. Navigate to the ***Custom Fields*** option of  ***Meta Box*** plugin & click on ***Add New*** to create a field group under your post type. Then set a name for the field group. Here we have created a new field group called ***Properties Custom Fields****.
+
+ <Image src="Meta-Box/4.Add-New-Field-Group-Bit-Form" alt="metabox" w="1203" h="350" />
+
+5. Create your required fields from the option ***Add Fields*** in terms of field type you want. Set the label of the field, basically which are required for your use case. 
+
+ <Image src="Meta-Box/5.Add-Fields-Bit-Form" alt="metabox" w="1203" h="350" />
+
+6. For the demonstration purpose,  we have created four fields - ***Description*** ,***Location***, ***Price*** & ***Gallery***. Then go to ***Settings*** & set the location of the all fields you have created 
+
+ <Image src="Meta-Box/6.Created-Fields-Bit-Form" alt="metabox" w="1203" h="320" />
+
+ <Image src="Meta-Box/7.Location-Bit-Form" alt="metabox" w="1203" h="400" />
+
+7. Now, click on ***Publish/Update*** to save the fields settings.
+
+>> ***Note: All the field settings you have to set are related to your custom post type. Here we have shown you some demo field settings***
+
+## Create a form using Bit Form
+It's time to create a form using Bit Form where you have to integrate the Meta Box custom fields created in the earlier steps.
+
+1. After the Meta Box settings, navigate to Bit Form & click on ***Create Form***. Then select ***Blank form***.
+
+ <Image src="Meta-Box/8.Create-Form-Bit-Form" alt="metabox" w="1203" h="400" />
+
+2. Drag & Drop a text field & name it as ***Post Title***. Then select the other fields from the toolbar related to the custom fields you have created on Meta Box & set the fields settings similar to Meta Box settings. Here we have taken four fields - ***Drop-down field, File upload field, Text field & Number Field*** . For the drop-down field we have imported all the properties types from the **taxonomy section**. To import these we have selected the import option as ***Terms***.
+
+ <Image src="Meta-Box/8.1Form-Bit-Form" alt="metabox" w="1203" h="400" />
+
+ <Image src="Meta-Box/9.Import-Taxonomy-Bit-Form" alt="metabox" w="1203" h="400" />
+
+3. After completing all the field settings, save the form.
+
+>> ***Note: When you import any tag,categories or any other available taxonomies using the drop-down menu, If you want to link any taxonomy to the post then enable "Use Post Taxonomy Fields" option.It will automatically assign posts to taxonomies without field mapping*** 
+
+## Integration Settings
+After finishing the form creation part, move to the integration part where you have to map Meta Box fields with Bit Form fields to create a post via form submission.
+
+1.  Follow the path: ***Settings => Integrations =>  Click on (+) => Click on 'Meta Box'***.  Give a suitable name for the integration.
+
+ <Image src="Meta-Box/10.Settings-to-Integration-Bit-Form" alt="metabox" w="1203" h="400" />
+
+ <Image src="Meta-Box/11.Select-MetaBox-Bit-Form" alt="metabox" w="1203" h="450" />
+
+2. After navigate to the integration page, select the ***Post Type*** you have created for the integration. For example we have selected ***Properties*** as custom post type. 
+
+ <Image src="Meta-Box/12.Select-Post-Type-Bit-Form" alt="metabox" w="1203" h="400" />
+
+3. Now , select ***Post Status***, ***Author*** & ***Comment Status*** according to the requirement.
+
+ <Image src="Meta-Box/13.Select-Other-Bit-Form" alt="metabox" w="1203" h="300" />
+
+4. For the field mapping option you have to configure three types of mapping -
+
+ <Image src="Meta-Box/14.Mapping-Bit-Form" alt="metabox" w="1203" h="400" />
+
+ - At first map the form fields with the ***general/default post fields***.
+
+ - Then map the form fields with the related ***Meta Box fields***.
+
+ - Lastly map the ***file upload*** field. 
+
+5. Save all the integration settings.
+
+ <Image src="Meta-Box/15.Save-Bit-Form" alt="metabox" w="1203" h="400" />
+
+ <Image src="Meta-Box/16.Created-Integration-Bit-Form" alt="metabox" w="1203" h="400" />
+
+>> ***Note: Make sure the Meta Box field type & Bit Form field type have to be the same.***
+
+6. After completing the settings, you have to set the conditions when this integration works. Don't forget to specify the integration name; otherwise, the integration will not work correctly. Here we have set the condition that - every time when records are created/ edited, on form submission the integration will be triggered. At last click on ***Update*** button.
+
+ <Image src="Meta-Box/17.CL-Bit-Form" alt="metabox" w="1203" h="350" />
+
+7. Now, whenever a user will submit the data it will be posted as content on the created custom post type option. Admin can edit those data if needed. Also all the submitted data will be stored on the Form Responses page. Admin can view & manage those data.
+
+ <Image src="Meta-Box/17.CL-Bit-Form" alt="metabox" w="1203" h="350" />
+
+8. Now, whenever a user will submit the data it will be posted as content on the created custom post type option.Also all the submitted data will be stored on the Form Responses page. 
+
+ <Image src="Meta-Box/18.Input-Bit-Form" alt="metabox" w="1203" h="350" />
+
+ <Image src="Meta-Box/19.Post-Bit-Form" alt="metabox" w="1203" h="350" />
+
+ <Image src="Meta-Box/19.1Edit-Page" alt="metabox" w="1203" h="350" /> 
+
+ <Image src="Meta-Box/20. Response-Bit-Form" alt="metabox" w="1203" h="350" />
+
+8. Admin can edit those data if needed. Admin can view & manage those data. Edited data will be updated automatically both on the responses page & post.
+
+ <Image src="Meta-Box/21. Edit-Input-Bit-Form" alt="metabox" w="1203" h="350" /> 
+
+ <Image src="Meta-Box/22. Edit-On-Response-Bit-Form" alt="metabox" w="1203" h="350" />
+
+ <Image src="Meta-Box/23. Edit-On-Post-Bit-Form" alt="metabox" w="1203" h="350" />
+
+
+**Watch the full video here!**
+
+<Video youtube src="RSXaqSjqttc" />

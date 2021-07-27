@@ -50,6 +50,7 @@ module.exports = {
       Integrations: [
         "Integrations/pods",
         "Integrations/acf",
+        "Integrations/metabox",
         "Integrations/googlesheet",
         "Integrations/googleads",
         "Integrations/telegram",
