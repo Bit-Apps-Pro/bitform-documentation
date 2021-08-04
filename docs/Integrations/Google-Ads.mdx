@@ -7,9 +7,9 @@ slug: /wpbitform-googleads
 import Image from "../../src/components/Image";
 import Video from "../../src/components/Video";
 
-***Google Ads***, also known as AdWords, is a pay-per-click online advertising service created by Google. It is a platform that allows advertisers to show targeted advertisements to visitors of websites. Google uses contextual targeting, which is based on keywords and searches terms. The advertisements are text-based and can either be text ads or display ads.
+***Google Ads***, also known as ***AdWords***, is a pay-per-click online advertising service created by Google. It is a platform that allows advertisers to show targeted advertisements to visitors of websites. Google uses contextual targeting, which is based on keywords and searches terms. The advertisements are text-based and can either be text ads or display ads.
 
-***Google Click Identifier***, which refers to GCLID, is a tracking number/ Parameter created by Google Ads when any visitor clicks on any ads. Every time Google Ads provides a unique tracking ID that comes to the website through Google Ads. Using GCLID, you can gather information like- ‘Keyword‘, ‘AdGroup ID‘, ‘Campaign Id‘, ‘Search Partner‘ & many more details regarding the customer.
+***Google Click Identifier***, which refers to ***GCLID***, is a tracking number/ Parameter created by Google Ads when any visitor clicks on any ads. Every time Google Ads provides a unique tracking ID that comes to the website through Google Ads. Using GCLID, you can gather information like- ‘Keyword‘, ‘AdGroup ID‘, ‘Campaign Id‘, ‘Search Partner‘ & many more details regarding the customer.
 
 **Why Google Ads integration with Bit Form?**  
 Google Ads integration with Bit Form gather potential leads that can be a successful marketing investment for your company. Using this integration, Bit Form users can import all the necessary information that drives your online sales. Also, you can track the leads to optimize your keywords, campaign & ad group. In short, Bit Form can be your potential lead gathering platform that helps you to increase your sales in the long run.
@@ -26,7 +26,7 @@ WordPress Schedules a hook that WordPress will trigger at the specified interval
 > ***Note: This cron job will be executed once in 24 hours if there are no visitors to the site, then cron job will not work***
 
 ### ⭐ Authorize your website: 
-1. Now, follow the path: ****Bit Form dashboard => App settings => Google Ads***
+1. Now, follow the path: ***Bit Form dashboard => App settings => Google Ads***
 
 <Image src="Google-Ads-Integration/1_App Settings_Bit Form" alt="google-Ads" w="1020" h="350" />
 
@@ -36,44 +36,44 @@ WordPress Schedules a hook that WordPress will trigger at the specified interval
 
 If you don’t have any then you have to create a new client ID & secret. To get new Client Id & Client secret information go to – ***Google API CONSOL=> Credentials=>Create Credentials=> OAuth Client ID => Select Application Type=> Give a Client Name => Add home page URL => Add authorized URL***.
 
-<Image src="Google-Ads-Integration/3_Credentials-Bit Form" alt="google-Ads" w="1020" h="300" />
+<Image src="Google-Ads-Integration/3_Credentials-Bit Form" alt="google-Ads" w="1020" h="250" />
 
-<Image src="Google-Ads-Integration/4_Application_type-Bit Form" alt="google-Ads" w="1020" h="380" />
+<Image src="Google-Ads-Integration/4_Application_type-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 <Image src="Google-Ads-Integration/5_URLs-Bit Form" alt="google-Ads" w="1020" h="400" />
 
-<Image src="Google-Ads-Integration/6_Oauth Client ID's-Bit Form" alt="google-Ads" w="1020" h="350" />
+<Image src="Google-Ads-Integration/6_Oauth Client ID's-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 <Image src="Google-Ads-Integration/7_Get Client Id & Secret-Bit Form" alt="google-Ads" w="1020" h="200" />
 
-<Image src="Google-Ads-Integration/8_Put Id & Secret" alt="google-Ads" w="1020" h="380" />
+<Image src="Google-Ads-Integration/8_Put Id & Secret" alt="google-Ads" w="1020" h="300" />
 
 3. Enter the URL to which the authentication code will be sent. A redirect URI, or reply URL, is the location where the authorization server sends the user once the app has been successfully authorized and granted an authorization code or access token.
 
 4. Now, to get the ***Customer Id***, visit the ***Google Ads Manager Account***. From the account section, create an account from where you will get an ID & put this ID on the “Customer Id” field of Bit Form settings.
 
-<Image src="Google-Ads-Integration/10_Create Customer ID-Bit Form" alt="google-Ads" w="1020" h="370" />
+<Image src="Google-Ads-Integration/10_Create Customer ID-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 <Image src="Google-Ads-Integration/11_Created Customer Id-Bit Form" alt="google-Ads" w="1020" h="370" />
 
-<Image src="Google-Ads-Integration/12_Put Customer Id-Bit Form" alt="google-Ads" w="1020" h="370" />
+<Image src="Google-Ads-Integration/12_Put Customer Id-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 5. Click on the  ***Authorize***. Then you have to save the entire authorization process & you are ready to import all your data from your Google Ads account to your website.
 
-<Image src="Google-Ads-Integration/15_Authorize-Bit Form" alt="google-Ads" w="1020" h="370" />
+<Image src="Google-Ads-Integration/15_Authorize-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 > ***Note: Enable the auto-tagging option from the “Account Settings” option of the Google Ads account. To do this follow the path: Click on your sub-account => Settings => Account Settings => Enable Auto-tagging => Click on “Save”. It creates the GCLID token on the landing page URL. Check out the attached picture***
 
-<Image src="Google-Ads-Integration/13_Auto tagging-Bit Form" alt="google-Ads" w="1020" h="370" />
+<Image src="Google-Ads-Integration/13_Auto tagging-Bit Form" alt="google-Ads" w="1020" h="300" />
 
-<Image src="Google-Ads-Integration/14_Enable Auto Tagging-Bit Form" alt="google-Ads" w="1020" h="420" />
+<Image src="Google-Ads-Integration/14_Enable Auto Tagging-Bit Form" alt="google-Ads" w="1020" h="350" />
 
 ### ⭐ Bit Form Configuration:
 1. Create a new form or select an existing form where visitors will submit their information after clicking the advertisement.
 
 2. Navigate to the ***Settings*** option. Then click on ***Form Settings***. Now enable the ***Capture Google Ads(Click ID) ***.
 
-<Image src="Google-Ads-Integration/16_Enable GCLID-Bit Form" alt="google-Ads" w="1020" h="370" />
+<Image src="Google-Ads-Integration/16_Enable GCLID-Bit Form" alt="google-Ads" w="1020" h="300" />
 
 ## How will this integration work?
 Here we will demonstrate a simple example of how this integration will help Bit Form users to gather information regarding advertisements.
