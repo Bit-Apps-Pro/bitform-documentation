@@ -28,6 +28,7 @@ module.exports = {
         "Fields/colorpickerfield",
         "Fields/recaptchav2field",
         "Fields/decisionboxfield",
+        "Fields/htmlfield",
         "Fields/buttonfield",
         "Fields/paypalfield",
         "Fields/razorpayfield",
