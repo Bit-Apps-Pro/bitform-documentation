@@ -25,6 +25,7 @@ module.exports = {
         "Fields/timefield",
         "Fields/date-timefield",
         "Fields/monthfield",
+        "Fields/weekfield",
         "Fields/colorpickerfield",
         "Fields/recaptchav2field",
         "Fields/decisionboxfield",

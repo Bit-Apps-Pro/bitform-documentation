@@ -12,6 +12,9 @@ import Video from "../../src/components/Video";
 
 Using **Zoho Analytics integration** with WordPress form builder, you can analyze your data in a much efficient way. You can easily integrate without any coding. This Documentation goes through the configuration process.
 
+
+## Integration Settings
+### Authorization Process
 First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Analytics if you don’t have any form please create a new form. Please follow the screenshots below:
 
  <Image src="Zoho-Analytics/1.create_form" alt="Zoho-Analytics" w="1020" h="350" />
@@ -42,6 +45,8 @@ Then copy the ***Client ID and Client Secret*** and paste it to the Bit Form int
 
 > **Notice: Zoho Analytics only works with the main admin owner(Super admin) of the Zoho analytics account. For Zoho Analytics update criteria, follow this link: https://www.zoho.com/analytics/api/#applying-filter-criteria**
 
+## Integration Steps
+### Select Workspace & Map Fields
 Select the workspace and table from the dropdown. Then map Bit Form fields with Zoho Analytics fields in which you want to send/update data.
 
 **Zoho Analytics doesn’t support data INSERT/UPDATE in integration table**
@@ -52,13 +57,27 @@ Select the workspace and table from the dropdown. Then map Bit Form fields with 
 
 <Video src="2. Bit-Form-to-Zoho-analytics-without-criteria-warning-message" alt="Zoho-Analytics" w="800" h="400" />
 
+### Action
 You can update Zoho Analytics records via using criteria.
 
 <Image src="Zoho-Analytics/10. Bit-Form-to-Zoho-analytics-criteria-1024x500" alt="Zoho-Analytics" w="1020" h="400" />
 
 ***Example criteria: (“Table Name”.”Department”=’Finance’ and “Table Name”.”Salary” => 9000)***
 
-<Image src="Zoho-Analytics/Criteria" alt="Zoho-Analytics" w="1020" h="600" /> 
+| Params              | Description                                                                                                                                                       | Data type          |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| Table Name          | Zoho Analytics table name in which the row will be updated.                                                                                                       | TEXT               |
+| Department,  Salary | Zoho Analytics column name based on which rows will be updated.                                                                                                   | TEXT               |
+| Criteria            | Criteria based on which rows will be updated.  The criteria must be in the format:  “Table name”.” ”  [Supported Operators](#supported-operator-for-the-criteria) | OPERRATOR  /  TEXT |
+
+
+#### Supported operator for the Criteria
+
+| =  | !=     | <                                         | >        |
+|----|--------|-------------------------------------------|----------|
+| <= | =>     | LIKE                                      | NOT LIKE |
+| IN | NOT IN | BETWEEN (to be used as: “BETWEEN ” AND ”) |          |
+
 
 There has another feature name Update Preference. If you select ***Yes*** when the criteria don’t meet a new row will be inserted in Zoho Analytics.
 
@@ -66,6 +85,7 @@ When ***No*** is selected then a new row won’t be inserted if the criteria don
 
 <Image src="Zoho-Analytics/11. update-row" alt="Zoho-Analytics" w="1020" h="350" />
 
+### Set Workflow
 In the end, create a Workflow for triggering the integration. Select the integration which you created before.
 
 <Image src="Zoho-Analytics/12. workflow-3" alt="Zoho-Analytics" w="1020" h="350" />

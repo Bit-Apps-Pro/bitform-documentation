@@ -12,6 +12,7 @@ import Video from "../../src/components/Video";
 
 Using  **Zoho CRM integration** with WordPress form builder, you can automatically push your WordPress form data in CRM modules. You can easily integrate without any coding. This Documentation goes through the configuration process.
 
+
 First, you have to log-in to your WordPress dashboard. Then click on Bit form from the left sidebar. Select an existing form that you want to integrate with Zoho Analytics if you don’t have any form please create a new form. Please follow the screenshots below:
 
 <Image src="Zoho CRM/1. create_form" alt="Zoho CRM" w="1020" h="300" />
@@ -130,9 +131,20 @@ Supported Modules:You can integrate your forms with the following
 
 These are the Bit Forms fields that can be mapped with the respective fields in Zoho CRM.
 
-<Image src="Zoho CRM/Module1" alt="Zoho CRM" w="1020" h="500" />
+| SL No | CRM Field    | Supported Form Fields                                                                                     |
+|-------|--------------|-----------------------------------------------------------------------------------------------------------|
+| 1     | Single Line  | Text, Multi-Line Text, Email, Website, Dropdown, Radio, Checkbox, Number, Decimal, Date, Time, Date-Time. |
+| 2     | Multi Line   | Text, Multi-Line Text, Email, Website, Dropdown, Radio, Checkbox, Number, Decimal, Date, Time, Date-Time. |
+| 3     | Email        | Text, Email                                                                                               |
+| 4     | Phone        | Text                                                                                                      |
+| 5     | Pick List    | Single Line, Dropdown, Radio                                                                              |
+| 6     | Multi Select | Checkbox                                                                                                  |
+| 7     | Date         | Date                                                                                                      |
+| 8     | Date-Time    | Date-Time                                                                                                 |
+| 9     | Number       | Number                                                                                                    |
+| 10    | Checkbox     | Checkbox                                                                                                  |
+| 11    | URL          | Single Line, Website                                                                                      |
 
-<Image src="Zoho CRM/Module2" alt="Zoho CRM" w="1020" h="250" />
 
 In the end, create a Workflow for triggering the integration. Select the integration which you created before.
 

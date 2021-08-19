@@ -32,21 +32,21 @@ The following features are available under ***Form Settings*** -
 ### Allow Single Entry for each IP address
 One form can be submitted one time from each IP address. Suppose you are submitting a form using/from this IP 123.123. 12.1. You can not submit the same form again from the same IP address but you can submit the form using another IP address which is not used yet to submit the same form.
 
-<Image src="Bit-Form-single-entry-for-ip-address" alt="New-Form" w="1000" h="450" />
+<Image src="Bit-Form-single-entry-for-ip-address" alt="New-Form" w="1000" h="300" />
 
 ### Disable this form after limited entry
 If you want to disable the form after certain entries you can use this feature. Suppose you have decided that after 100 times submission you want to disable the form than this feature is for you
 
-<Image src="Bit-Form-limited-entry" alt="New-Form" w="1000" h="450" />
+<Image src="Bit-Form-limited-entry" alt="New-Form" w="1000" h="300" />
 
 ### Honeypot
-It is a well-known fact that spambots are real trouble today. One of the common problems web developers face is that spambots create web forms to submit spam messages to the websites. Spam prevention is not easy because of intelligent bots. Though re-captcha will help you in this situation by setting some challenges or tricks to avoid bots, sometimes you can get into an endless trap which is annoying to some visitors. So, we have come with a better experience for spam protection while submitting web forms & that is an intelligent **Honeypot**, aka a **hidden field**.
+It is a well-known fact that spambots are real trouble today. One of the common problems web developers face is that spambots create web forms to submit spam messages to the websites. Spam prevention is not easy because of intelligent bots. Though re-captcha will help you in this situation by setting some challenges or tricks to avoid bots, sometimes you can get into an endless trap which is annoying to some visitors. So, we have come with a better experience for spam protection while submitting web forms & that is an intelligent `Honeypot`, aka a `hidden field`.
 
 The main goal of today’s article is – how you can prevent a bot from submitting the form using Honeypot in Bit Form. Our previous article demonstrated to you how you could add hidden fields manually using conditional logic. But now, you can use Honeypot by enabling a simple option from the settings. In this article, we will show you how you can do that.
 
 **What is Honeypot & how does it work?**
  
-Honeypot is a security technique that helps an administrator to prevent form submission by a spam bot. With Honeypot, an admin can prevent spamming, which decreases spamming compliance of your website.
+`Honeypot` is a security technique that helps an administrator to prevent form submission by a spam bot. With Honeypot, an admin can prevent spamming, which decreases spamming compliance of your website.
 
 Honeypot works by setting up an automatic trap that will catch the hackers when they try to submit a form with a script. It checks if the hidden field is filled up by someone who will be obviously a bot because a real human can not view the field.
 
@@ -56,19 +56,19 @@ To set up **Honeypot** on Bit Form –
 
 ✔ Create a form or select a form you have created before.
 
-✔ Navigate to ***Form settings*** from the ***Settings*** option.
+✔ Navigate to `Form settings` from the `Settings` option.
 
-✔ Enable the option ***Honeypot trap for bot*** & save the settings
+✔ Enable the option `Honeypot trap for bot` & save the settings
 
-<Image src="Honeypot-Bit-Form (2)" alt="New-Form" w="1000" h="350" />
+<Image src="Honeypot-Bit-Form (2)" alt="New-Form" w="1000" h="300" />
 
-This settings will automatically create some hidden fields that a real human can’t access, but bot will take it as a part of web forms. As it starts to try to fill those fields, it will end up revealings as **Spambots** Whenever bots try to fill those hidden fields & submit the form an error message will be displayed ***Trying to submit the form by bot***.
+This settings will automatically create some hidden fields that a real human can’t access, but bot will take it as a part of web forms. As it starts to try to fill those fields, it will end up revealings as `Spambots` Whenever bots try to fill those hidden fields & submit the form an error message will be displayed ***Trying to submit the form by bot***.
 
 
 ### Limit form submission period
 If you want to disable the form after certain entries you can use this feature. Suppose you have decided that after 100 times submission you want to disable the form than this feature is for you
 
-<Image src="Bit-Form-limit-period" alt="New-Form" w="1000" h="450" />
+<Image src="Bit-Form-limit-period" alt="New-Form" w="1000" h="300" />
 
 ### Blocked IP list
 The blocked listed IP addresses can not submit your form. Suppose you have noticed that from specific IP addresses a form is being submitted as spamming and you do not like it. In this case, you can use this feature, you can list those IP here and form submission from those IP will not be accepted anymore.And you can also disable the blocked listed IPs whenever you want.
@@ -82,22 +82,23 @@ For example, you want to disallow submission from the below listed IPs
 
 Just put these three IPs on blocked list and enable blocked option. Now, no more submission will be accepted from those IPs
 
-<Image src="Bit-Form-block-ip" alt="New-Form" w="1000" h="450" />
+<Image src="Bit-Form-block-ip" alt="New-Form" w="1000" h="300" />
 
 ### Allowed IP
-In some cases, some organization or company want to accept form submission from some specific IP addresses. Only in those situations, this feature will be helpful for them.
+In some cases, some organization or company want to accept form submission from some specific `IP addresses`. Only in those situations, this feature will be helpful for them.
 
 By enabling this option only the listed IP can submit this form.
 
 Suppose you have listed these two IP 123.123. 12.1 and 123.123. 12.2 Now, only form submission from these two IPs will be accepted.
 
-<Image src="Bit-Form-allowed-ip" alt="New-Form" w="1000" h="350" />
+<Image src="Bit-Form-allowed-ip" alt="New-Form" w="1000" h="300" />
 
 ### SMTP Configuration
 A new addition to our Bit Form plugin is – **SMTP configuration**. A lot of site owners face the spam mail problem for using the WordPress default PHP mail function.SMTP is a protocol that helps your WordPress site to make its email deliverability more easygoing & reliable. By enabling this feature you can send mail from your site to your recipients via your preferred mail server.
 
 **How does SMTP works :**
-At first, you have to open an account on your desired hosting provider **(e.g: MailGun, Gmail, Yahoo, Hotmail, Zoho mail)**. By opening an account you are authenticating your WordPress site. They will provide you the necessary credentials **(e.g.: Encryption type, SMTP port )**. You have to put this information when configuring SMTP on your site. Once your site is authenticated you can send mail through your preferred SMTP server. All the email validation work will be done on your specified SMTP server.
+
+At first, you have to open an account on your desired hosting provider **(e.g: `MailGun`, `Gmail`, `Yahoo`, `Hotmail`, `Zoho mail`)**. By opening an account you are authenticating your WordPress site. They will provide you the necessary credentials **(e.g.: `Encryption type`, `SMTP port` )**. You have to put this information when configuring SMTP on your site. Once your site is authenticated you can send mail through your preferred SMTP server. All the email validation work will be done on your specified SMTP server.
 
 
 You don’t have to use different SMTP plug-in or different workflow of SMTP providers. We bring it all in one feature. To access all the mail services you need professional mail addresses. The mail services you can use through this feature:
@@ -119,7 +120,7 @@ You don’t have to use different SMTP plug-in or different workflow of SMTP pro
 
 **Process of SMTP settings :** 
 
-To configure you need to go WordPress Dashboard. Then click to **Bit Form**. From Bit Form to **Settings**. Then go to **SMTP** option.
+To configure you need to go WordPress Dashboard. Then click to **Bit Form**. From Bit Form to `Settings`. Then go to `SMTP` option.
 
 ***1.Bit Form SMTP general settings :***
 
@@ -134,11 +135,11 @@ To configure you need to go WordPress Dashboard. Then click to **Bit Form**. Fro
 ➤SMTP Host: Set the outgoing mail server that you have to choose.(e.g: smtp.gmail.com)
 
 
-<Image src="SMTP/SMTP_1" alt="New-Form" w="1000" h="700" />
+<Image src="SMTP/SMTP_1" alt="New-Form" w="1000" h="650" />
 
 ➤ Type of Encryption: Choose the encryption type regarding your hosting server.
 
-➤ SMTP Port: Choose the port to relay your outgoing mail to the SMTP server. Here are all the details :
+➤ SMTP Port: Choose the port to relay your outgoing mail to the SMTP server. Here are all the configuration details :
 
 **☆  Mail Gun :**
 
@@ -157,7 +158,12 @@ To configure you need to go WordPress Dashboard. Then click to **Bit Form**. Fro
 
             SMTP Port: 587
 
-> **Note: The mail you use must be professional mail, then it will work to send the mail.**
+
+:::tip
+
+The mail you use must be professional mail, then it will work to send the mail..
+
+:::
 
 **☆ Hotmail :**
 
@@ -185,7 +191,7 @@ To configure you need to go WordPress Dashboard. Then click to **Bit Form**. Fro
 
 **☆ Zoho :**
 
-             SMTP Host : smtp.zoho.com
+            SMTP Host : smtp.zoho.com
 
             Type of Encryption : TSL
 
