@@ -2,6 +2,8 @@
 
 #  WP Bit Form Documentation
 
+#### This repository contains Bit Form Documentation. Feel free to suggest edit to improve doc by sending a pull request.
+
 ### Bit Form - WordPress Drag & Drop Contact Form, Payment Form Builder
 
 Requires at least: 5.0
