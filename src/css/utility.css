@@ -1,6 +1,11 @@
-.flx{
-  display:flex;
+.flx {
+  display: flex;
 }
-.pos-rel{
+
+.pos-rel {
   position: relative;
+}
+
+.d-non {
+  display: none;
 }
