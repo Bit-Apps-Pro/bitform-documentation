@@ -1,3 +1,15 @@
+document.body.onload = function () {
+  Sentry.init({
+    dsn: "https://10803bd633204194a62d3d64c2fcb978@o983020.ingest.sentry.io/5938527",
+    // this assumes your build process sets "npm_package_version" in the env
+    // release: "my-project-name@" + process.env.npm_package_version,
+    integrations: [new Sentry.Integrations.BrowserTracing()],
+
+    // We recommend adjusting this value in production, or using tracesSampler
+    // for finer control
+    tracesSampleRate: 1.0,
+  });
+}
 // TAWK.to API START
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
@@ -14,7 +26,6 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
 document.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('keyup', function (e) {
-    console.log('sdf', e.key)
     if (e.key === '/') {
       document.querySelector('.navbar__search-input').focus()
     }
