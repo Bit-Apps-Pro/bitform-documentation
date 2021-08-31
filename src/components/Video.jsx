@@ -10,7 +10,7 @@ export default function Video({ src, w, h, alt, youtube }) {
     }
 
     return (
-        <video width={w} height={h} controls>
+        <video preload="auto"/*  width={w} height={h} */ width="100%" autoPlay controls muted>
             <source src={`/video/${src}.mp4`} type="video/mp4" />
         </video>
     )
