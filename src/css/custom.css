@@ -11,6 +11,7 @@ body {
   /* font-family:'Open Sans', sans-serif; */
   /* font-family:'Raleway', sans-serif; */
 }
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -61,9 +62,11 @@ body::-webkit-scrollbar-thumb:vertical {
   scrollbar-track-color: rgb(223, 223, 216);
   scrollbar-width: thin;
 }
+
 h1 {
   font-size: 2.5rem !important;
 }
+
 h1,
 h2,
 h3,
@@ -72,9 +75,11 @@ h5,
 a:not(.table-of-contents__link) {
   font-family: "Montserrat", sans-serif;
 }
+
 .react-toggle-track div {
   display: none;
 }
+
 .react-toggle-track {
   background-color: transparent !important;
   /* border:.5px solid gray; */
@@ -82,15 +87,19 @@ a:not(.table-of-contents__link) {
   background-image: url(../../static/img/moon.svg);
   background-position: 50% 50%;
 }
+
 [data-theme="dark"] .react-toggle-track {
   background-image: url(../../static/img/sun.svg);
 }
+
 .menu__link {
   border-radius: 0.5rem;
 }
+
 aside {
   --doc-sidebar-width: 260px;
 }
+
 .menu {
   font-size: 15px;
 }
@@ -101,27 +110,55 @@ aside {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
 .doc-img {
   border: 1px solid #d4d4d4;
   box-shadow: 0 0 9px -4px grey;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
   overflow: hidden;
+  transition: transform .3s cubic-bezier(0.25, 0.1, 0.83, 1.21), box-shadow .4s;
+  position: relative;
 }
+
+.doc-img img {
+  display: block;
+}
+
+.img-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #00000059;
+  z-index: 9999999998;
+}
+
+.zoom-in {
+  transform: scale(1.6);
+  z-index: 9999999999;
+  box-shadow: 0 0 38px -9px #6f6f6f;
+}
+
 .download-btn {
-  background: #0089ff;
+  border: 1px solid #0034a9;
+  text-shadow: 0.5px 0.5px 0.5px #223594;
+  background: #0043ff;
   color: white;
   border-radius: 30px;
   margin-right: 10px;
   padding: 7px 22px;
   transition: box-shadow 300ms, background 200ms;
 }
+
 .download-btn:hover {
-  background: #007eec;
+  background: #002bec;
   color: white;
-  box-shadow: 0 0 9px -3px grey;
+  /* box-shadow: 0 0 9px -3px grey; */
 }
+
 .download-btn:active {
   transform: scale(0.95);
 }
@@ -129,6 +166,7 @@ aside {
 .date {
   min-width: 82px;
 }
+
 .bdg {
   display: inline-block;
   position: relative;
@@ -137,6 +175,7 @@ aside {
   font-weight: 600;
   line-height: 1.4;
 }
+
 .bdg::before {
   background: inherit;
   position: absolute;
@@ -149,15 +188,18 @@ aside {
   transform: rotate(45deg);
   z-index: -1;
 }
+
 .line {
   background: #c7d8ff;
   position: relative;
   width: 2px;
   margin: 13px 30px 0 25px;
 }
+
 [data-theme="dark"] .line {
   background: rgb(32, 69, 104);
 }
+
 .line::before {
   background: white;
   position: absolute;
@@ -169,25 +211,34 @@ aside {
   border-radius: 50%;
   border: 4px solid #c7d8ff;
 }
+
 [data-theme="dark"] .line::before {
   background-color: var(--ifm-background-color);
   border: 4px solid rgb(51, 96, 138);
 }
+
 .Added {
   background: rgb(13 177 255);
   color: white;
 }
+
 .Fixed {
   background: #ffd000;
 }
+
 .Improvement {
   background: #00ffbf;
 }
+
 video,
 .youtube-vdo {
-  border-radius: 10px;
+  border-radius: 12px;
   max-width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 9px -3px #bfbfbf;
 }
+
 .new {
   background: #f6cbff;
   color: var(--ifm-font-color-base);
@@ -195,37 +246,53 @@ video,
   font-size: 0.75rem;
   border-radius: 20px;
 }
+
 .new::before {
   content: "";
   width: 0px;
   height: 0px;
 }
+
 [data-theme="dark"] .Fixed,
 .Improvement,
 .Added,
 .new {
   color: var(--ifm-background-color);
 }
+
 .navbar__search-input {
   outline: none;
 }
+
 .navbar__search-input:focus {
   box-shadow: 0 0 0 2px var(--ifm-color-primary);
 }
 
 @media (max-width: 996px) {
+  :root {
+    --ifm-navbar-background-color: white;
+  }
+
+  .zoom-in {
+    transform: scale(1.01);
+  }
+
   h1 {
     font-size: 1.7rem;
   }
+
   .log {
     margin-left: 20px;
   }
+
   .log.flx {
     flex-direction: column;
   }
+
   .line {
     display: none;
   }
+
   .date {
     font-weight: bold;
   }
@@ -235,18 +302,22 @@ video,
   .navbar {
     backdrop-filter: blur(10px);
   }
+
   aside {
     margin-left: 100px;
   }
+
   article,
   .pagination-nav {
     width: 80%;
     margin: auto;
   }
+
   .navbar__inner {
     width: 86%;
     margin: auto;
   }
+
   .navbar__search::after {
     color: #9a9a9a;
     position: absolute;
@@ -261,12 +332,14 @@ video,
     border-radius: 3px;
     line-height: 1;
   }
+
   .navbar__search:focus-within::after {
     width: 0;
     height: 0;
     content: "";
   }
 }
+
 .navbar-sidebar {
   backdrop-filter: blur(10px);
 }
