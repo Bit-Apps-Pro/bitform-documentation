@@ -52,7 +52,7 @@ module.exports = {
           activeBasePath: '/changelog'
         },
         {
-          href: 'https://tawk.to/chat/60755e0b067c2605c0c1e40b/1f357eo8a',
+          href: 'https://tawk.to/chat/60eac4b6d6e7610a49aab375/1faah0r3e',
           label: 'Support',
           position: 'left',
         },
