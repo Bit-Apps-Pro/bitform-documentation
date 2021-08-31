@@ -121,7 +121,7 @@ SMTP is a protocol that helps your wordpress site to make its email deliverabili
 
 
 #### Bit Form API
-Using the Bit Form rest [API](https://bitpress.pro/api/) feature you can retrieve data from our form plugin also can send data from other software as you want. The Bit Form API is built for the user to make  ‘call’ or ‘request’ to get as well as send  the information to the other software. To transfer & edit any information use the GET function. To add records & update them you have to use the function POST. Use the function DELETE to delete any record.
+Using the Bit Form rest [API](https://docs.form.bitapps.pro/wpbitform-api) feature you can retrieve data from our form plugin also can send data from other software as you want. The Bit Form API is built for the user to make  ‘call’ or ‘request’ to get as well as send  the information to the other software. To transfer & edit any information use the GET function. To add records & update them you have to use the function POST. Use the function DELETE to delete any record.
 
 ### ♻Integrations :
 A unique feature one can find on this form builder is Bit form integrations with third party apps.The integrations work when the conditions are triggered.
