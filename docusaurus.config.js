@@ -170,6 +170,7 @@ module.exports = {
   ],
   scripts: [
     { src: '/scripts/custom.js', defer: true },
-    { src: '/scripts/lite-yt-embed.js', defer: true }
+    { src: '/scripts/lite-yt-embed.js', defer: true },
+    { src: 'https://browser.sentry-cdn.com/6.11.0/bundle.tracing.min.js', defer: true }
   ]
 }
