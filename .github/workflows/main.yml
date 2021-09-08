@@ -18,7 +18,7 @@ jobs:
           USE_SSH: true
           GIT_USER: git
         run: |
-          git config --global user.email "actions@github.com"
+          git config --global user.email "developer@bitcode.pro"
           git config --global user.name "Bit-Code-Developer"
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
