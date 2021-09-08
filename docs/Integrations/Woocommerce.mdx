@@ -1,0 +1,106 @@
+---
+id: woocommerce
+title: Bit Form Integration With WooCommerce
+sidebar_label: WooCommerce
+slug: /wpbitform-woocommerce
+---
+
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+The direct integration of Bit Form with **WooCommerce** makes it easy for our users to handle creating & editing their WooCommerce products and customers. For in-depth details, go through this documentation.
+
+## Authorization Process
+
+1. Before setting up the integration, you must confirm that the WooCommerce plugin is activated on your e-commerce site. Otherwise, the integration will not work. 
+
+2. Select the form you want to apply the WooCommerce integration; after that, follow the below instructions. Follow this path:
+
+   **Settings => Integrations =>  Click on (+) => Click on `WooCommerce`**
+
+<Image src="Woocommerce/Product/1 Select-Integration-Bit-Form" alt="woocommerce" w="1020" h="350" />
+
+3. Now, click on the `connect` button to complete authorization settings.
+
+<Image src="Woocommerce/Product/2.Authorization-Bit-Form" alt="woocommerce" w="1020" h="300" />
+
+
+## Integration Settings for product create & edit
+
+After authorization, you have to follow the below instructions:
+
+1. Select the module where you want to send values from Bit Form. Select the `module` as **Product** if you're going to create any products on the site.
+
+ <Image src="Woocommerce/Product/3.Select-Module-Bit-Form" alt="woocommerce" w="1020" h="270" />
+
+2. Then map the necessary form fields with required WooCommerce fields from the `Map Fields`option. 
+
+ <Image src="Woocommerce/Product/4.Map-Fields1-Bit-Form" alt="woocommerce" w="1020" h="350" />
+
+3. You can only create **Simple Product** & **Affiliate Product** through Bit Form. When you map all the form fields, you have to remember some default values on WooCommerce fields. So you have to mention those values on the back end of the form builder. Which are:
+
+   - Product status - pending, draft, publish, future, private & trash.
+
+   - Product type - simple, external
+
+   - Allow Backorder - no, notify, yes
+
+   - Allow Reviews - open, closed
+
+   - Virtual - yes, no
+
+   - Manage Stock - yes, no
+
+   - Sold Individually - yes, no
+
+   - Downloadable - yes, no
+
+ :::info
+
+ The values are case-sensitive, so make sure to give it the same value as all small letters.
+
+ :::
+
+4. You can customize the product **categories** & **tags** according to your choice from Bit Form. Also, you can use the default options here. All the categories will be **parent type**. 
+
+ :::tip
+
+ If any of the category or tags already exist in your WoocCommerce, then it will be referenced to that particular category/tag, otherwise it will create a new one.
+
+ :::
+
+5. If you select the downloadable product, then you have to add attachment file fields. For this, you have to map the form field from the `Map file upload fields` section which is **Downloadable Files**.
+
+ <Image src="Woocommerce/Product/5.Map-Fields2-Bit-Form" alt="woocommerce" w="1020" h="250" />
+
+6. After completing the settings, you have to set the conditions that when will this integration will work. Don't forget to specify the integration name, otherwise the integration will not work properly. 
+
+ <Image src="Woocommerce/Conditional-Logic-Bit-Form" alt="woocommerce" w="1020" h="290" />
+
+7. When you submit any form, it will be added as a product on the website. You can see those data from the responses page.
+
+8. You can view the integration success message from the timeline. Also you can edit the value from the details of the responses. Moreover, the values will be updated directly on the product list. 
+
+ **Watch WooCommerce Product integration tutorial here!**
+
+ <Video youtube src="Jxn1110dzNc" />
+
+## Integration Settings for customer create & edit through Bit Form
+
+1. After the authorization process, select the `module` as **Customer** to create a customer account on site.
+
+ <Image src="Woocommerce/Customer/4.Select-Customer-Bit-Form" alt="woocommerce" w="1020" h="290" />
+
+2. When you select the module, you will see the `Map Fields` option where two fields- **Email** & **Username**, are mapped by default. You can map multiple fields according to your choice for the customer module. 
+
+ <Image src="Woocommerce/Customer/5.Map_Bit-Form" alt="woocommerce" w="1020" h="290" />
+
+3. After completing the settings, you have to set the conditions when this integration works. Don't forget to specify the integration name; otherwise, the integration will not work correctly.
+
+ <Image src="Woocommerce/Conditional-Logic-Bit-Form" alt="woocommerce" w="1020" h="290" /> 
+
+4. When customers submit any form, it will be added to the **Users** section on your woo-commerce site. Also, the admin can view submissions from the Bit Form responses page. 
+
+6. Admin can see the success message of integration from the timeline of that specific submission.
+
+7. Also, you can edit the value from the details of the responses. Moreover, the values will be updated directly on the **Users** option.
