@@ -6,49 +6,95 @@ slug: /wpbitform-paypalfield
 ---
 import Image from "../../src/components/Image";
 
-Admin can receive `Order Payment` & `Subscription Payment` through the PayPal field.
+Admin can receive **One-time Payment** & **Subscription Payment** through the PayPal field. Bit Form now allows you to use **PayPal fields** instead of the **submit button**. So, when admins use PayPal, they can remove the default submit button from the form. When a user clicks on the PayPal button, the form first validates all the form input and then opens the payment window.
 
-## Style Customization 
+## Create PayPal Config 
 
-**1. Layout :** If you select a layout, there exist three layouts :
+ 1. Navigate to the Bit Form dashboard. Then go to `App Settings` & click on `Payments`.
 
-✔ ***Vertical Layout :*** If you choose the vertical layout option, the payment buttons will be aligned vertically at full width. You will find three options available (depending on your region) - 'PayPal', 'Pay Later', and 'Debit/Credit Card'.
+ <Image src="PayPal/1.App-Settings-to-Payment-Bit-Form" alt="paypal" w="1020" h="300" /> 
 
-✔ ***Horizontal Layout :*** The payment buttons will be aligned in horizontally at 50% width  `PayPal` and `Pay Later` will be available.
+ 2. Click on the `(+)` icon & select `PayPal`.
 
-✔ ***Standalone Layout :*** Only one play button will be available. You can choose according to your preference.
+ <Image src="PayPal/2.Select-PayPal-Bit-Form" alt="paypal" w="1020" h="300" /> 
 
-:::info
+ 3. At first. set a suitable integration name on the `Integration Name` field
 
-By default, the layout is set to vertical layout.
+ <Image src="PayPal/3.Set-Integration-Name-Bit-Form" alt="paypal" w="1020" h="300" /> 
 
-:::
+ 4. Admin have to create an application from the `PayPal Developer` site. For that log-in to your `PayPal Developer` account & select `My apps & credentials`.
 
-**3. Color :** You can choose field color : `Gold`, `Blue`, `Silver`, `White` & `Black`. If you choose Standalone and Card from layout only `Black` & `White` color will be available.
+ <Image src="PayPal/4.PayPal-dashboard-Bit-Form" alt="paypal" w="1020" h="290" /> 
 
-**4. Shape :** `Rectangle` & `Pill` are available.
+ <Image src="PayPal/5.My-App-Credentials-Bit-Form" alt="paypal" w="1020" h="250" /> 
 
-**5. PayPal Button Text :** You can change the field button text to - `PayPal`, `PayPal Checkout`, `PayPal Buy Now`, `Pay with payPal`.
+ 5. There are two types of app - `Sandbox Mode` & `Live mode`. For the demonstration purpose we have selected `Sandbox` as an app. You have to select `Live` for the real-time transaction.
 
-## Order Payment 
+ <Image src="PayPal/6.App-Mode-Bit-Form" alt="paypal" w="1020" h="220" /> 
 
-**1. Client Id :** Admin have to create an application from the ***PayPal Developer*** site. To create an application you have to follow the path :  ***PayPal Developer account => Dashboard => My apps & credentials => App name => Create App => Application details => Go back to app name => Default Application =>   Get your Client ID***. Then insert the given client id on that field.
+ 6. After that, there is a default application created by PayPal itself. You can also create a new one from the `Create App` option. Now, follow the path to get your Client Id:
 
-**2. Language :**  You can set the field language according to your preference.
+  ***Set `App Name` => Select `App Type` => Click on `Create App` => Get `Client Id`.***
 
-**3. Disable Card :** You can set the card name on the `disable card` field from which you don't want to take payment.
+  <Image src="PayPal/7.Create-App-Bit-Form" alt="paypal" w="1020" h="300" /> 
 
-**4. Amount Type :**
+  <Image src="PayPal/8.Create-App-2-Bit-Form" alt="paypal" w="1020" h="300" /> 
+
+ 8. Now, copy the client id & go back to Bit Form PayPal settings page. Then paste the it on the `Client  Id` field. 
+ 
+ <Image src="PayPal/9.Copy-Client-Id-Bit-Form" alt="paypal" w="1020" h="300" /> 
+
+ <Image src="PayPal/10.Paste-Client-Id-Bit-Form" alt="paypal" w="1020" h="300" /> 
+
+ 9. Complete the PayPal config settings by clicking on `Save` button.
+
+ <Image src="PayPal/11.Save-Bit-Form" alt="paypal" w="1020" h="300" /> 
+ 
+ 10. Go back to your form and select the created PayPal config.
+
+ <Image src="PayPal/12.Select-Config-Bit-Form" alt="paypal" w="1020" h="300" />
+  
+Now, you have completed your PayPal configuration. It's time to set up the form to get the payments via PayPal. Follow the below instructions.
+
+
+
+## Subscription Payment 
+For subscription payments you need a business account . Just add your `Plan Id` on the field & you are ready to take the payment via PayPal.
+
+ <Image src="PayPal/13.Subscription-Bit-Form" alt="paypal" w="1020" h="300" />
+
+
+
+## One-Time  Payment
+
+**1. Language :**  You can set the field language according to your preference.
+
+<Image src="PayPal/14.Language-Bit-Form" alt="paypal" w="1020" h="300" />
+
+**2. Disable Card :** You can set the card name on the `disable card` field from which you don't want to take payment.
+
+<Image src="PayPal/15.Disable-Card-Bit-Form" alt="paypal" w="1020" h="300" />
+
+**3. Amount Type :**
 
 ✔ ***Fixed :*** If admin want to set a limit of payment, they have to choose this option. As example, you have created a form for a particular sale. Then you have to set the payment digit on the field.
 
+<Image src="PayPal/16.Fixed-ammount-Bit-Form" alt="paypal" w="1020" h="300" />
+
 ✔ ***Dynamic :*** For dynamic payment admin have to add a `number field` where you can add their amount according to their willing.      
 
-✔ ***Shipping Cost & Tax amount type  :*** As likely as Amount type option admin can set `Fixed` / `Dynamic` Shipping cost as well as Tax.
+<Image src="PayPal/17.Dynamic-Amount-Bit-Form" alt="paypal" w="1020" h="250" />
 
-✔ ***Currency :*** You can set `26` currency type.
+**4. Shipping Cost & Tax amount type  :** As likely as Amount type option admin can set `Fixed` / `Dynamic` Shipping cost as well as Tax.
 
-✔ ***Description :*** There are two types of description - `Static` & `Dynamic`.
+<Image src="PayPal/18.Shipping-Tax-Bit-Form" alt="paypal" w="1020" h="250" />
 
-## Subscription Payment 
-You can add descriptions of two types- `Static` & `Dynamic`. For subscription payments you need a business account . Add your `Plan Id` on the field & other style customization is the same as order payment.
+**5. Currency :** You can set `26` currency type.
+
+<Image src="PayPal/19.Currency-Bit-Form" alt="paypal" w="1020" h="300" />
+
+**6. Description :** There are two types of description - `Static` & `Dynamic`.
+
+<Image src="PayPal/20.Static-Description-Bit-Form" alt="paypal" w="1020" h="300" />
+
+<Image src="PayPal/21..Dynamic-Description-Bit-Form" alt="paypal" w="1020" h="270" />
