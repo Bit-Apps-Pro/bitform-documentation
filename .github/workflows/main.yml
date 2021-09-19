@@ -22,4 +22,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy doc on GH pages
-        run: npm run deployy
+        run: npm install
+      - run: npm run deployy
