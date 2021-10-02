@@ -84,6 +84,9 @@ module.exports = {
         "Integrations/zoho-bigin",
       ],
     },
+
+    "user-registration",
+    
     {
       Others: [
         "Others/prevent-bot",
@@ -92,6 +95,7 @@ module.exports = {
       ],
     },
     "api",
+    
   ],
   changelog: [
     "changelog/overview",
