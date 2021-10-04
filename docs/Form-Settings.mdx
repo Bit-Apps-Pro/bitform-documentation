@@ -14,6 +14,16 @@ The following features are available under ***Form Settings*** -
 
 ✔ Allow Single Entry for each IP address
 
+✔ Require user to be logged in for submitting form
+
+✔ Disallow empty form submission
+
+✔ Validate form input for focus lost
+
+✔ Disable entry storing in WordPress database
+
+✔ Enable reCAPTCHA V3
+
 ✔ Disable this form after limited entry
 
 ✔ Honeypot
@@ -33,6 +43,27 @@ The following features are available under ***Form Settings*** -
 One form can be submitted one time from each IP address. Suppose you are submitting a form using/from this IP 123.123. 12.1. You can not submit the same form again from the same IP address but you can submit the form using another IP address which is not used yet to submit the same form.
 
 <Image src="Bit-Form-single-entry-for-ip-address" alt="New-Form" w="1000" h="300" />
+
+### Require user to be logged in for submitting form
+Enabling this option, users have to be logged in for form submission. You can set an error message to notify your user to log in 
+
+<Image src="Form-Settings/Require-Log-In-Bit-Form" alt="New-Form" w="1000" h="230" />
+
+### Disallow empty form submission
+Enabling this option, users can't submit empty form. If users try to submit empty form then admin can display an error message from the `Form settings` option.
+
+<Image src="Form-Settings/Disallow-Empty-Form-Bit-Form" alt="New-Form" w="1000" h="250" />
+
+### Validate form input for focus lost
+
+Turning on this option validate the input of the fields. If the keep any field empty & move to another field, an error message will be displayed to the user. If this option is not turned on & the user forgets to fill up any field required, the error message will be shown when the user wants to submit the form.
+
+<Image src="Form-Settings/Focus-Lost-Bit-Form" alt="New-Form" w="1000" h="250" />
+
+### Disable entry storing in WordPress database
+Enabling this option your form submission data will not be stored in Bit Form responses.
+
+<Image src="Form-Settings/Data-Storing-Bit-Form" alt="New-Form" w="1000" h="250" />
 
 ### Disable this form after limited entry
 If you want to disable the form after certain entries you can use this feature. Suppose you have decided that after 100 times submission you want to disable the form than this feature is for you
