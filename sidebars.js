@@ -11,6 +11,7 @@ module.exports = {
       "Form Fields": [
         "Fields/fields-overview",
         "Fields/textfield",
+        "Fields/usernamefield",
         "Fields/multilinetextfield",
         "Fields/checkboxfield",
         "Fields/radiobuttonfield",

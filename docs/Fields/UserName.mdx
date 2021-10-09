@@ -1,21 +1,15 @@
 ---
-id: multilinetextfield
-title: Bit Form - Multi-Line Text field
-sidebar_label: Multi-Line Text field
-slug: /wpbitform-multilinetextfield
+id: usernamefield
+title: Bit Form - UserName field
+sidebar_label: UserName field
+slug: /wpbitform-usernamefield
 ---
 
 import Image from "../../src/components/Image";
 
+A **UserName field** is usually required when signing up for a service or website. It is used as a unique identifier & often used together with the password field. The username field is usually a text box that shows text.
 
-***Multiline text field*** is similar to the Single Line field, but with a greater capacity. This field accepts multiple lines of plain text like **paragraph text** or **description types**.
-
-<Image
-  src="Field-Types/Multiline-Text-Field-Bit-Form"
-  alt="Form-Field"
-  w="1900"
-  h="300"
- />
+<Image src="Field-Types/User-Name-Bit-Form" alt="New-Form" w="1000" h="300" />
 
 ## ⚙ General Settings 
 
@@ -59,5 +53,8 @@ For each pattern, the user can set `Flag` to control how the regex pattern will 
 
 **y (sticky)-** “Sticky” mode: searching at the exact position in the text.
 
-### 7. Unique Entry Validation
-You can validate whether the entry is unique or not by turning on this option. 
+### 7. Unique Entry Validation: 
+You can validate whether the text field entry is unique or not by turning on this option.
+
+### 8. Unique User Validation: 
+Turning on this option validate whether the input of this field is a unique user or not for the WordPress database. 
