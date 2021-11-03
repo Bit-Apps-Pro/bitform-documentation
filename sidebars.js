@@ -77,6 +77,7 @@ module.exports = {
         "Integrations/zoho-workdrive",
         "Integrations/zoho-desk",
         "Integrations/zoho-campaign",
+        "Integrations/zoho-marketing-hub",
         "Integrations/zoho-mail",
         "Integrations/zoho-project",
         "Integrations/zoho-sheet",
@@ -93,6 +94,7 @@ module.exports = {
         "Others/prevent-bot",
         "Others/get-url-parameter",
         "Others/email-autoresponder",
+        "Others/how-to-add-calculation"
       ],
     },
     "api",

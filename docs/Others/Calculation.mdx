@@ -1,0 +1,40 @@
+---
+id: how-to-add-calculation
+title: Add Calculation in Bit Form
+sidebar_label: How to add calculation
+slug: /wpbitform-how-to-add-calculation
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+<Video youtube src="R2d0yfiWWEE" />
+
+Bit Form enables users to use the form as a **Calculation Form**. Based on a set of conditional logic, Bit Form can perform various calculations with ease. Go- through this demonstration to how to add calculation on Bit Form. 
+
+## Set Conditions & Actions
+
+1. At first, create a form where all the input fields type will be `Number Field` as we are calculating numbers.
+
+ <Image src="Calculation/1.Form-Bit-Form" alt="How-to-add-calculation" w="1020" h="300" />
+
+2. Then, change the field's label according to your use case.
+
+3. Now, navigate `Settings` ➡ `Conditional logic` option & set some conditions that how the values will be calculated.
+
+ <Image src="Calculation/2.CL-Bit-Form" alt="How-to-add-calculation" w="1020" h="300" />
+ 
+ <Image src="Calculation/3.Actions-Bit-Form" alt="How-to-add-calculation" w="1020" h="300" />
+
+ - ***Action Run When:*** Select the option `Record Create/Edit` to set when the calculation will be performed.
+
+ - ***Action Effect:***  Select the option `On Field input`, for which calculation takes place.
+
+ - ***Action Behaviour:*** Select the option `Condition`. Under this `Action Behavior` you have to set the ***IF statements*** . The logic behind this calculation is **if the specified field values are not null, then the action (Calculation) will be performed** that you have to set on the value fields 
+
+  <Image src="Calculation/4.Conditions-&-Actions-Bit-Form" alt="How-to-add-calculation" w="1020" h="270" />
+
+4. Our purpose is to calculate the value of input fields & show the total, so we have to set the action. Then select the field where you want to show the calculated value. Remember that you have to start with the **$** sign in the value section and then have to wrap the field key in **{}**. The syntax will be in the middle of **{}**. The field key will be found on the field setting option.  
+
+5. In this video, we have shown an example. We have taken a **product price(500)** with **vat(2%)** & **discount(10%)**. Now. I will describe the calculation criteria. First, the vat will be added to the product price. Then, the discount will be subtracted from the product price. Moreover, lastly, the final value will be added to the total price field. Here, 'bf12-1', 'bf12-2', 'bf12-3' are the field values we have taken. 
+
+ <Image src="Calculation/5.Result" alt="How-to-add-calculation" w="1020" h="270" />
