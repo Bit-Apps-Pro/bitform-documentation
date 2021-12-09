@@ -130,9 +130,17 @@ To configure your reset password form, navigate to `Settings` & click on `WP Aut
     
   <Image src="User_Registration/21.Redirect-Reset-Pass-Bit-Form" alt="user-registration" w="1020" h="300" /> 
 
- 4. Now,  navigate to the `Conditionals Logics` . For the action behavior `Condition` set a logic `New Password is equal to Confirm Password` on the `Value` field give the `Field Key` of the new Password. As example, here I have set the field key as `${bf35-3}`.
+ 4. Now,  navigate to the `Conditionals Logics` .You have to set logic in terms of some conditions to show **Success Message** & **Error Message**.
 
-  <Image src="User_Registration/22.Conditional-Logic-Bit-Form" alt="user-registration" w="1020" h="300" /> 
+   ▪ Condition for Success Message: On a form submission, under action behavior `Condition` set a logic **New Password is equal to Confirm Password**. On the `Value` field give the `Field Key` of the new Password. As example, here I have set the field key as **${bf35-3}**.
+
+   <Image src="User_Registration/Success-Message-Bit-Form" alt="user-registration" w="1020" h="300" /> 
+
+   ▪ Condition for Error Message: On a form validation, under action behavior `Condition` set a logic **New Password is not equal to Confirm Password**. On the `Value` field give the `Field Key` of the new Password. As example, here I have set the field key as **${bf35-3}**.
+   
+   <Image src="User_Registration/Error-Message-Bit-Form" alt="user-registration" w="1020" h="300" />
+
+
 
 
 All you need is to create a customized registration form using Bit Form & configure WP Auth setting to make your customer a registered user. It will help you to filter your customer as well as spam form submission.   

@@ -1,22 +1,13 @@
 ---
 id: countryfield
-title: Bit form - Country field
+title: Bit Form - Country field
 sidebar_label: Country field
 slug: /wpbitform-countryfield
 ---
 
 import Image from "../../src/components/Image";
 
-## ⚙ General Settings 
-
-***Country field***  in form builder lets you input the `Country Code` or `Country names` of the geographical location of your customers, so you can give them service to them. Bit Form country field allows you to input on this field as well. 
-
-### 1.Field Key
-The Field Key is unique for all fields. `bf4-1` an example of field key. bf means `bit form` , 4 represent `form id` , 1 represent `1st field` of the form . These keys are used in `Success/Error Messages`, `Web Hooks`, `Redirect Page`, `Email Templates`, `Workflow` & `Integrations`.
-### 2.Field Label
-You can set a proper name of the field that is considered as a field label. This label name will appear on the front end of the form you will display. If you want you can hide the field label from the form .
-### 3.Admin Label 
-This field is used for **_Administration purposes_**. Admin can set a label to specify the label name on the responses page.
+***Country field***  in form builder lets you input the **Country Code** or **Country names** of the geographical location of your customers, so you can give them service to them. Bit Form country field allows you to input on this field as well. 
 
 <Image
      src="Field-Types/CountryField-Bit-Form"
@@ -25,19 +16,30 @@ This field is used for **_Administration purposes_**. Admin can set a label to s
      h="350"
    />
 
+## ⚙ General Settings 
+
+### 1.Field Key
+The Field Key is unique for all fields. `bf4-1` an example of field key. bf means `bit form` , 4 represent `form id` , 1 represent `1st field` of the form . These keys are used in `Success/Error Messages`, `Web Hooks`, `Redirect Page`, `Email Templates`, `Workflow` & `Integrations`.
+### 2.Field Label
+You can set a proper name of the field that is considered as a field label. This label name will appear on the front end of the form you will display. If you want you can hide the field label from the form .
+### 3.Admin Label 
+This field is used for **_Administration purposes_**. Admin can set a label to specify the label name on the responses page.
 ### 4.Placeholder
 A `Placeholder` is a property by which user can understand the usage of the field. Any text entered on the placeholder will be displayed on the fields. When the user starts writing on the field, the placeholder text will disappear.   
 
 ### 5.Required
 By enabling this option, you can make the field required for the user if you need it. Also you can set an `Error message` if you want the field required. Also you can set message as your requirements.
 
-### 6.Multiple Select
+### 6.Unique Entry Validation:
+You can validate whether the entry is unique or not by turning on this option.
+
+### 7.Multiple Select
 If this feature is toggled on then users can select multiple options from the drop down list if they want.
 
-### 7.Allow other option
+### 8.Allow other option
 This option allows the user to input custom options on the drop-down field which is not listed.
 
-### 8. Import Options:
+### 9. Import Options:
 Now you can import options for countryfield . This feature allows you to import files from :
 
 ⚡**_File Upload:_**
@@ -167,5 +169,5 @@ You can set `tag` / `Categories` as a dropdown options for the countryfield.
 
    3. Set the `label` name for  the drop-down of countryfield. 
 
-### 7.  Options 
+### 10.  Options 
 By default you will find all the country list as a option fere. For each option there are two features - `Required` & `Check by default` .   

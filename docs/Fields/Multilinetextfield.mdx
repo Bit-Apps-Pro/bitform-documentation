@@ -1,6 +1,6 @@
 ---
 id: multilinetextfield
-title: Bit form - Multi-Line Text field
+title: Bit Form - Multi-Line Text field
 sidebar_label: Multi-Line Text field
 slug: /wpbitform-multilinetextfield
 ---
@@ -8,8 +8,14 @@ slug: /wpbitform-multilinetextfield
 import Image from "../../src/components/Image";
 
 
-***Multiline text field*** is similar to the Single Line field, but with a greater capacity. This field accepts multiple lines of plain text like `paragraph text` or `description types`.
+***Multiline text field*** is similar to the Single Line field, but with a greater capacity. This field accepts multiple lines of plain text like **paragraph text** or **description types**.
 
+<Image
+  src="Field-Types/Multiline-Text-Field-Bit-Form"
+  alt="Form-Field"
+  w="1900"
+  h="300"
+ />
 
 ## ⚙ General Settings 
 
@@ -21,20 +27,37 @@ import Image from "../../src/components/Image";
  This field is used for ***Administration purposes***. Admin can set a label to specify the label name on the responses page. 
 ### 4. Required
  By enabling this option, you can make the field required for the user if you need it.  Also you can set an `Error message` if you want the field required. Also you can set message as your requirements.
-<br/>
-
- <Image
-  src="Field-Types/Multiline-Text-Field-Bit-Form"
-  alt="Form-Field"
-  w="1900"
-  h="300"
- />
-
-<br/>
-
 ### 5. Placeholder
  A `Placeholder` is a property by which user can understand the usage of the field. Any text entered on the placeholder will be displayed on the fields. When the user starts writing on the field, the placeholder text will disappear.
 ### 6. Pattern
- You can set the pattern of the input of the field & also can set a custom regex pattern on the flag option.
+UserName supports a custom Regex Pattern. We have added a suggestion list of predefined patterns:
+ *  Only Characters (a-zA-Z)
+ *  Only Digits (0-9) - only full number, no decimal value
+ *  Name - only characters & space
+ *  Username - only lowercase characters & numbers
+ *  Character Limit - default is set to a maximum of 100 characters
+ *  Word Limit - default is set to a maximum of 30 words
+ * Only Gmail - only allows Gmail address  
+
+:::info
+
+After selecting any predefined pattern, you can customize those too.
+
+:::
+
+For each pattern, the user can set `Flag` to control how the regex pattern will work for the text field.
+
+**g( global)-** With this flag, the search looks for all matches, without it – only the first match is returned.
+
+**i (case-insensitive)-** With this flag, the search is case-insensitive: no difference between A and a. 
+
+**s(single line)-** Enables “dot all” mode, which allows a dot . to match newline character \n.
+
+**m (multi line)**- Multiline mode.
+
+**u (unicode)-** Enables full Unicode support.
+
+**y (sticky)-** “Sticky” mode: searching at the exact position in the text.
+
 ### 7. Unique Entry Validation
 You can validate whether the entry is unique or not by turning on this option. 

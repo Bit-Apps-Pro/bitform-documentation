@@ -1,12 +1,21 @@
 ---
 id: datefield
-title: Bit form - Datefield
+title: Bit Form - Datefield
 sidebar_label:  Date field
 slug: /wpbitform-datefield
 ---
 import Image from "../../src/components/Image";
 
-***Date and time*** field is a field that is used for date and time functionality. It is required field information form builder that records date and time information. From the drop-down list of this form you can select the current time & date also. 
+This field supports a calendar and enables your users to select a date. Users can also type a date value as long as it matches your app’s date-time format.
+
+
+<Image
+  src="Field-Types/Date-Field-Bit-Form"
+  alt="Form-Field"
+  w="1900"
+  h="300"
+/>
+
 ## ⚙ General Settings 
 
 ### 1.Field Key
@@ -14,14 +23,11 @@ The Field Key is unique for all fields. `bf4-1` an example of field key. bf mean
 ### 2.Field Label
 You can set a proper name of the field that is considered as a field label. This label name will appear on the fr
 
-<Image
-  src="Field-Types/Date-Time-Bit-Form"
-  alt="Form-Field"
-  w="1900"
-  h="300"
-/>
+
 
 ### 3.Admin Label 
 This field is used for **_Administration purposes_**. Admin can set a label to specify the label name on the responses page.
 ### 4.Required
 By enabling this option, you can make the field required for the user if you need it. Also you can set an `Error message` if you want the field required. Also you can set message as your requirements.
+### 5.Unique Entry Validation: 
+You can validate whether an entry is unique or not by turning on this option.

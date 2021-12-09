@@ -1,6 +1,6 @@
 ---
 id: numberfield
-title: Bit form - Number field
+title: Bit Form - Number field
 sidebar_label: Number field
 slug: /wpbitform-numberfield
 ---
@@ -8,9 +8,17 @@ slug: /wpbitform-numberfield
 import Image from "../../src/components/Image";
 
 
-***Number field*** is one of the most commonly used types of field available in form builder, and its main purpose is to allow the user to enter an `integer` / `numerical` value in the field. Number fields are used to capture numbers like ***quantity, price, number of hours*** etc. It is a mandatory field in any form.
+***Number field*** is one of the most commonly used types of field available in form builder, and its main purpose is to allow the user to enter an ***integer*** / ***numerical*** value in the field. Number fields are used to capture numbers like ***quantity, price, number of hours*** etc. It is a mandatory field in any form.
 
 ## ⚙ General Settings 
+
+<Image
+     src="Field-Types/NumberField-Bit-Form"
+     alt="Form-Field"
+     w="1900"
+     h="250"
+   />
+
 
 ### 1.Field Key
 The Field Key is unique for all fields. `bf4-1` an example of field key. bf means `bit form` , 4 represent `form id` , 1 represent `1st field` of the form . These keys are used in `Success/Error Messages`, `Web Hooks`, `Redirect Page`, `Email Templates`, `Workflow` & `Integrations`.
@@ -24,17 +32,39 @@ By enabling this option, you can make the field required for the user if you nee
 To suggest auto field value from the browser, you need to enable the `AutoFill` property.
 ### 6.Placeholder
 A `Placeholder` is a property by which user can understand the usage of the field. Any text entered on the placeholder will be displayed on the fields. When the user starts writing on the field, the placeholder text will disappear.
- <Image
-     src="Field-Types/NumberField-Bit-Form"
-     alt="Form-Field"
-     w="1900"
-     h="250"
-   />
-
+ 
 ### 7.Min-Max  
 You have to set the boundary of minimum & maximum number. Users can only input numbers between that boundary.  Also you can set an `Error message` if a user exceeds the number limit. Also you can set message as your requirements.  
 ### 7.Pattern
-You can set the pattern of the input of the field & also can set a custom regex pattern on the flag option.
+NumberField supports a custom Regex Pattern. We have added a suggestion list of predefined patterns:
+ *  Only Characters (a-zA-Z)
+ *  Only Digits (0-9) - only full number, no decimal value
+ *  Name - only characters & space
+ *  Username - only lowercase characters & numbers
+ *  Character Limit - default is set to a maximum of 100 characters
+ *  Word Limit - default is set to a maximum of 30 words
+ * Only Gmail - only allows Gmail address  
+
+:::info
+
+After selecting any predefined pattern, you can customize those too.
+
+:::
+
+For each pattern, the user can set `Flag` to control how the regex pattern will work for the text field.
+
+**g( global)-** With this flag, the search looks for all matches, without it – only the first match is returned.
+
+**i (case-insensitive)-** With this flag, the search is case-insensitive: no difference between A and a. 
+
+**s(single line)-** Enables “dot all” mode, which allows a dot . to match newline character \n.
+
+**m (multi line)**- Multiline mode.
+
+**u (unicode)-** Enables full Unicode support.
+
+**y (sticky)-** “Sticky” mode: searching at the exact position in the text.
+
 
 <Image
      src="Field-Types/Numberfield-Bit-Form2"
@@ -42,3 +72,6 @@ You can set the pattern of the input of the field & also can set a custom regex 
      w="1900"
      h="300"
    />
+
+### 9. Unique Entry Validation: 
+You can validate whether entry is unique or not by turning on this option.   

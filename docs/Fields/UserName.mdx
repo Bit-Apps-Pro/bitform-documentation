@@ -1,0 +1,60 @@
+---
+id: usernamefield
+title: Bit Form - UserName field
+sidebar_label: UserName field
+slug: /wpbitform-usernamefield
+---
+
+import Image from "../../src/components/Image";
+
+A **UserName field** is usually required when signing up for a service or website. It is used as a unique identifier & often used together with the password field. The username field is usually a text box that shows text.
+
+<Image src="Field-Types/User-Name-Bit-Form" alt="New-Form" w="1000" h="300" />
+
+## ⚙ General Settings 
+
+### 1. Field Key
+ The Field Key is unique for all fields. `bf4-1` an example of field key. bf means `bit form` , 4 represent `form id` , 1 represent `1st field` of the form . These keys are used in `Success/Error Messages`, `Web Hooks`, `Redirect Page`, `Email Templates`, `Workflow` & `Integrations`.
+### 2. Field Label
+ You can set a proper name of the field that is considered as a field label. This label name will appear on the front end of the form you will display. If you want you can hide the field label from the form .
+### 3. Admin Label
+ This field is used for ***Administration purposes***. Admin can set a label to specify the label name on the responses page. 
+### 4. Required
+ By enabling this option, you can make the field required for the user if you need it.  Also you can set an `Error message` if you want the field required. Also you can set message as your requirements.
+### 5. Placeholder
+ A `Placeholder` is a property by which user can understand the usage of the field. Any text entered on the placeholder will be displayed on the fields. When the user starts writing on the field, the placeholder text will disappear.
+### 6. Pattern
+UserName supports a custom Regex Pattern. We have added a suggestion list of predefined patterns:
+ *  Only Characters (a-zA-Z)
+ *  Only Digits (0-9) - only full number, no decimal value
+ *  Name - only characters & space
+ *  Username - only lowercase characters & numbers
+ *  Character Limit - default is set to a maximum of 100 characters
+ *  Word Limit - default is set to a maximum of 30 words
+ * Only Gmail - only allows Gmail address  
+
+:::info
+
+After selecting any predefined pattern, you can customize those too.
+
+:::
+
+For each pattern, the user can set `Flag` to control how the regex pattern will work for the text field.
+
+**g( global)-** With this flag, the search looks for all matches, without it – only the first match is returned.
+
+**i (case-insensitive)-** With this flag, the search is case-insensitive: no difference between A and a. 
+
+**s(single line)-** Enables “dot all” mode, which allows a dot . to match newline character \n.
+
+**m (multi line)**- Multiline mode.
+
+**u (unicode)-** Enables full Unicode support.
+
+**y (sticky)-** “Sticky” mode: searching at the exact position in the text.
+
+### 7. Unique Entry Validation: 
+You can validate whether the text field entry is unique or not by turning on this option.
+
+### 8. Unique User Validation: 
+Turning on this option validate whether the input of this field is a unique user or not for the WordPress database. 
