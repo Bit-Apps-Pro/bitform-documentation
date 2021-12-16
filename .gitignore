@@ -84,3 +84,4 @@ yarn.lock
 yarn.lock
 .yarnrc.yml
 yarn.lock
+*.lock
