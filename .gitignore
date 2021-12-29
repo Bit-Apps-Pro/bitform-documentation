@@ -80,4 +80,10 @@ typings/
 .fusebox/
 static/img/photothumb.db
 yarn.lock
+.yarn
 yarn.lock
+.yarnrc.yml
+yarn.lock
+*.lock
+.yarn/*
+.yarnrc.yml

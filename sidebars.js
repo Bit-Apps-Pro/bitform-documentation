@@ -102,6 +102,7 @@ module.exports = {
   ],
   changelog: [
     "changelog/overview",
+    "changelog/prooverview",
     // { "Log Details": ["changelog/1.3", "changelog/1.4"] },
   ],
 };
