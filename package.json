@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
+    "start": "docusaurus start --port=5000",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deployy": "docusaurus deploy",
@@ -15,12 +15,12 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.5",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.5",
-    "@docusaurus/preset-classic": "^2.0.0-beta.5",
-    "@easyops-cn/docusaurus-search-local": "^0.19.1",
+    "@docusaurus/core": "^2.0.0-beta.14",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-beta.14",
+    "@docusaurus/preset-classic": "^2.0.0-beta.14",
+    "@easyops-cn/docusaurus-search-local": "^0.21.4",
     "@mdx-js/react": "^1.6.22",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^6.1.2",
     "clsx": "^1.1.1",
     "file-loader": "^6.2.0",
     "lite-youtube-embed": "^0.2.0",
