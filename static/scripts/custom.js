@@ -24,12 +24,12 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 // TAWK.to API END
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  document.addEventListener('keyup', function (e) {
-    if (e.key === '/') {
-      document.querySelector('.navbar__search-input').focus()
-    }
-  })
-})
+// document.addEventListener('DOMContentLoaded', function () {
+//   document.addEventListener('keyup', function (e) {
+//     if (e.key === '/') {
+//       document.querySelector('.navbar__search-input').focus()
+//     }
+//   })
+// })
 
 
