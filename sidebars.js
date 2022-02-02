@@ -53,6 +53,7 @@ module.exports = {
       Integrations: [
         "Integrations/pods",
         "Integrations/acf",
+        "Integrations/autonami",
         "Integrations/metabox",
         "Integrations/googlesheet",
         "Integrations/googleads",
