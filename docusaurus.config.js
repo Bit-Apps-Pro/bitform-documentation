@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Bit-Press',
+  organizationName: 'Bit-Apps-Pro',
   projectName: 'bitform-documentation',
   themeConfig: {
     colorMode: {
@@ -72,7 +72,7 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: '/install-activate-wordpress-frombuilder-bitform',
+              to: '/install-activate-wordpress-frombuilder-bit-form',
             },
             {
               label: 'Form Fields',
@@ -102,7 +102,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/Bit-Press/bitform-documentation/',
+              href: 'https://github.com/Bit-Apps-Pro/bitform-documentation/',
             },
           ],
         },
@@ -119,7 +119,7 @@ module.exports = {
           // path: './docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Bit-Press/bitform-documentation/blob/main',
+          editUrl: 'https://github.com/Bit-Apps-Pro/bitform-documentation/blob/main',
         },
         blog: false,
         pages: false,
@@ -130,7 +130,7 @@ module.exports = {
         // },
         // blog: {
         //   showReadingTime: true,
-        //   editUrl: 'https://github.com/Bit-Press/bitform-documentation',
+        //   editUrl: 'https://github.com/Bit-Apps/bitform-documentation',
         // },
         theme: {
           customCss: [

@@ -25,7 +25,7 @@ Bit Form is a WordPress form builder. Just drag and drop the fields, the form wi
 Not a typical but easy to use WordPress forms plug-in!
 
 Bit Form – a simple yet user responsive form builder in WordPress! Its 19+ visual drag & drop fields allow you to create any multi-purpose form. It is beyond a normal contact form that helps users to create an eye-catchy form without any help of bulk coding sense. No hassle for designers as it provides a built-in style editor feature. Alongside, it is a user-interactive plug-in regarding all devices (phone, tablet, laptop) which makes it more useable. We offer both free & premium versions.
-[Click here](https://bitpress.pro/demo/) for a live demo!
+[Click here](https://bitapps.pro/demo/) for a live demo!
 
 
 ### ⭐ Features that make Bit Form easy to use:
@@ -43,7 +43,7 @@ Bit Form – a simple yet user responsive form builder in WordPress! Its 19+ vis
 11. reCAPTCHA V3 support.
 12. HTML Field customization.
 
-**  Read about all features in-depth in our [documentation](https://bitpress.pro/)
+**  Read about all features in-depth in our [documentation](https://bitapps.pro/)
 
 ### Categories of Form & Field :
 
@@ -126,46 +126,46 @@ Using the Bit Form rest [API](https://docs.form.bitapps.pro/wpbitform-api) featu
 ### ♻Integrations :
 A unique feature one can find on this form builder is Bit form integrations with third party apps.The integrations work when the conditions are triggered.
 
-✔ [Google Sheet](https://bitpress.pro/google-sheet)*
-✔ [Google Ads](https://bitpress.pro/google-ads)*
-✔ [Telegram](https://bitpress.pro/telegram/)*
-✔ [Pods](https://bitpress.pro/pods/)*
+✔ [Google Sheet](https://bitapps.pro/google-sheet)*
+✔ [Google Ads](https://bitapps.pro/google-ads)*
+✔ [Telegram](https://bitapps.pro/telegram/)*
+✔ [Pods](https://bitapps.pro/pods/)*
 ✔ [ACF]()*
 ✔ [Meta Box]()*
-✔ [Fluent CRM](https://bitpress.pro/fluent-crm/)*
-✔ [Encharge](https://bitpress.pro/encharge-integration-with-bit-form/)*
+✔ [Fluent CRM](https://bitapps.pro/fluent-crm/)*
+✔ [Encharge](https://bitapps.pro/encharge-integration-with-bit-form/)*
 ✔ [WooCommerce]()*
-✔ [MailPoet](https://bitpress.pro/mailpoet-integration-with-bit-form/)*
-✔ [Sendinblue](https://bitpress.pro/sendinblue-integration-with-bit-form/)*
-✔ [MailChimp](https://bitpress.pro/mailchimp/)*
-✔ [Active Campaign](https://bitpress.pro/active-campaign/)*
-✔ [Webhook](https://bitpress.pro/bitform-webhook/)*
+✔ [MailPoet](https://bitapps.pro/mailpoet-integration-with-bit-form/)*
+✔ [Sendinblue](https://bitapps.pro/sendinblue-integration-with-bit-form/)*
+✔ [MailChimp](https://bitapps.pro/mailchimp/)*
+✔ [Active Campaign](https://bitapps.pro/active-campaign/)*
+✔ [Webhook](https://bitapps.pro/bitform-webhook/)*
 ✔ [Zapier]()*
 ✔ [Integromat]()*
 ✔ [Integratly]()*
 ✔ [Pabbly]()*
 ✔ [Zoho Flow]()*
-✔ [Zoho CRM](https://bitpress.pro/zoho-crm-integration-with-wordpress/)*
-✔ [Zoho Recruit](https://bitpress.pro/zoho-recruit-integration-with-wordpress/)*
-✔ [Zoho Analytics](https://bitpress.pro/zoho-analytics-integration-with-wordpress/)*
-✔ [Zoho Desk](https://bitpress.pro/zoho-desk-integration-with-wordpress/)*
-✔ [Zoho Campaigns](https://bitpress.pro/zoho-campaign-integration-with-wordpress/)*
-✔ [Zoho Project](https://bitpress.pro/zoho-project-integration-with-wordpress/)*
-✔ [Zoho Workdrive](https://bitpress.pro/zoho-workdrive-integration-with-wordpress/)*
-✔ [Zoho Mail](https://bitpress.pro/zoho-mail-integration-with-wordpress/)*
-✔ [Zoho Sheet](https://bitpress.pro/zoho-sheet-integration-with-wordpress/)*
-✔ [Zoho Sign](https://bitpress.pro/bit-form-to-zoho-sign/)*
-✔ [Zoho Marketing Hub](https://bitpress.pro/bit-form-to-zoho-marketing-hub/)*
-✔ [Zoho Creator](https://bitpress.pro/bit-form-integration-with-zoho-creator/)*
-✔ [Zoho Bigin](https://bitpress.pro/integration-with-zoho-bigin/)*
+✔ [Zoho CRM](https://bitapps.pro/zoho-crm-integration-with-wordpress/)*
+✔ [Zoho Recruit](https://bitapps.pro/zoho-recruit-integration-with-wordpress/)*
+✔ [Zoho Analytics](https://bitapps.pro/zoho-analytics-integration-with-wordpress/)*
+✔ [Zoho Desk](https://bitapps.pro/zoho-desk-integration-with-wordpress/)*
+✔ [Zoho Campaigns](https://bitapps.pro/zoho-campaign-integration-with-wordpress/)*
+✔ [Zoho Project](https://bitapps.pro/zoho-project-integration-with-wordpress/)*
+✔ [Zoho Workdrive](https://bitapps.pro/zoho-workdrive-integration-with-wordpress/)*
+✔ [Zoho Mail](https://bitapps.pro/zoho-mail-integration-with-wordpress/)*
+✔ [Zoho Sheet](https://bitapps.pro/zoho-sheet-integration-with-wordpress/)*
+✔ [Zoho Sign](https://bitapps.pro/bit-form-to-zoho-sign/)*
+✔ [Zoho Marketing Hub](https://bitapps.pro/bit-form-to-zoho-marketing-hub/)*
+✔ [Zoho Creator](https://bitapps.pro/bit-form-integration-with-zoho-creator/)*
+✔ [Zoho Bigin](https://bitapps.pro/integration-with-zoho-bigin/)*
 
 [ * In pro version ]
 
 
 ### 💲 Payment Gateway Integrations
 
-1. [PayPal](https://bitpress.pro/paypal-settings/)*
-2. [Razorpay](https://bitpress.pro/razorpay/)*
+1. [PayPal](https://bitapps.pro/paypal-settings/)*
+2. [Razorpay](https://bitapps.pro/razorpay/)*
 3. Stripe*[Coming Soon]
 
 ###  ✨Fastest & Easy Contact Form Builder In WorPress
@@ -191,7 +191,7 @@ We can say this keeping all the terms in mind that Bit Form is one of the cheape
 > Payment gateway
 > Integration
 > Much more
-> Thanks bitpress team
+> Thanks bitapps team
 > by @statusword
 
 ** Flexible, Feature-rich Form Builder! ** 
@@ -209,7 +209,7 @@ We can say this keeping all the terms in mind that Bit Form is one of the cheape
  by @bangelo123
 
 
-📹 For Video Tutorial Links visit [BitPress](https://www.youtube.com/channel/UCjUl8UGn-G6zXZ-Wpd7Sc3g/videos)
+📹 For Video Tutorial Links visit [bitapps](https://www.youtube.com/channel/UCjUl8UGn-G6zXZ-Wpd7Sc3g/videos)
 
 
 🎉 Overview of other products we are offering :

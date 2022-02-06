@@ -317,7 +317,7 @@ video,
     width: 86%;
     margin: auto;
   }
-
+/* 
   .navbar__search::after {
     color: #9a9a9a;
     position: absolute;
@@ -337,7 +337,7 @@ video,
     width: 0;
     height: 0;
     content: "";
-  }
+  } */
 }
 
 .navbar-sidebar {
