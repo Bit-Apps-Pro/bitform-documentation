@@ -95,7 +95,8 @@ module.exports = {
         "Others/prevent-bot",
         "Others/get-url-parameter",
         "Others/email-autoresponder",
-        "Others/how-to-add-calculation"
+        "Others/how-to-add-calculation",
+        "Others/how-to-translate-bitform",
       ],
     },
     "api",
