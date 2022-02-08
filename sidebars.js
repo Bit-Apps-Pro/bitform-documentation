@@ -89,18 +89,18 @@ module.exports = {
     },
 
     "user-registration",
-    
+
     {
       Others: [
         "Others/prevent-bot",
         "Others/get-url-parameter",
         "Others/email-autoresponder",
         "Others/how-to-add-calculation",
-        "Others/how-to-translate-bitform",
       ],
     },
+    "how-to-translate-bitform",
     "api",
-    
+
   ],
   changelog: [
     "changelog/overview",
