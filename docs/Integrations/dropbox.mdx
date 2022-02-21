@@ -1,0 +1,62 @@
+---
+id: dropbox
+title: Bit Form Integration With Dropbox
+sidebar_label:  Dropbox
+slug: /dropbox
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+
+## Authorization Settings
+
+1. At first, select the form name you want to apply the ** Dropbox integration** after that, follow the below instructions.
+
+  Follow the path:
+
+  ***Settings=> Integrations => Click on (+) => Click on ‘Dropbox` ***
+
+  <Image src="dropbox/create-a-form" alt="Dropbox" w="1020" h="350" />
+  <Image src="dropbox/add-integration" alt="Dropbox" w="1020" h="350" />
+  <Image src="dropbox/available-integration" alt="Dropbox" w="1020" h="350" />
+
+2. **Integration Name:** Set the proper integration name. Default it's taken ‘Dropbox Integration’.
+ <Image src="dropbox/dropbox-integration-default-name" alt="Dropbox" w="1020" h="350" />
+
+3.	After that, To get the API key & API Secret, click on `Dropbox API Console`.
+    1. **Choose an API:**  Scoped access
+    2. **Choose the type of access you need:**  Full Dropbox
+    3. Type Name your app and click on **`Create App`** button. 
+    4. **Go to Permissions Tab:** **Permissions that allow your app to view and manage** > you need to enable all scopes. <br/>Now copy the API key and API secret, then paste it into the integration’s dashboard.
+     <Video src="dropbox-api-console" alt="Dropbox" w="1020" h="350" />
+      
+    2. After that, to get the Access Code, click on **`Dropbox Access Code`**. And Create a Access Code. Now copy the Generated Access Code and paste it into the integration’s dashboard. And Click on **`“Authorize”`** button.
+      <Video src="dropbox-access-code" alt="Dropbox" w="1020" h="350" />
+
+4.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="dropbox/authorization-completed-after-next" alt="Dropbox" w="1020" h="350" />
+
+## Integration Process
+
+1. After successful authorization, you will find the Map Field option. Select the folder Name from the Drop-Down list that you want to send the files to the folder.
+ <Image src="dropbox/integration-field-map" alt="Dropbox" w="1020" h="350" />
+
+
+2.	Also, if you want to delete the uploaded file from WordPress, enable the `'Delete File From WordPress'` option. the Dropbox integration is ready.
+
+ <Image src="dropbox/delete-file-form-wordpress" alt="Dropbox" w="1020" h="350" />
+
+
+3.	Now click on `Next` button. And save the integration by clicking the `Finish & Save` Button.
+ <Image src="dropbox/dropbox-integration-finish-and-save" alt="Dropbox" w="1020" h="350" />
+ <Image src="dropbox/completed-dropbox-integration" alt="Dropbox" w="1020" h="350" />
+
+4.	Now, you have to set conditional logic to trigger the integration for the submitted data. When you set conditional logic, remember some points – set ***Action behavior = Always*** & specify the integration name you have created for Dropbox. If you don’t select the integration name properly, then the integration will not work. And update the form by clicking the `“Update”` button.
+ <Image src="dropbox/dropbox-conditional-logics" alt="Dropbox" w="1020" h="350" />
+
+5.	After submitting any data, you can see the record both on the Dropbox account & response page of Bit Form.
+ <Image src="dropbox/bitform-responses" alt="Dropbox" w="1020" h="350" />
+ <Image src="dropbox/dropbox-file-check" alt="Dropbox" w="1020" h="350" />
+
+6.	You can view every success API of the submitted data from the timeline of related info. 
+ <Image src="dropbox/biform-related-info" alt="Dropbox" w="1020" h="350" />

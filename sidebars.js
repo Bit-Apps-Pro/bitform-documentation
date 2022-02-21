@@ -51,10 +51,11 @@ module.exports = {
     "email-template",
     {
       Integrations: [
+        "Integrations/autonami",
         "Integrations/pods",
         "Integrations/acf",
-        "Integrations/autonami",
         "Integrations/metabox",
+        "Integrations/dropbox",
         "Integrations/googlesheet",
         "Integrations/googleads",
         "Integrations/telegram",
