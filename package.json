@@ -9,6 +9,7 @@
     "swizzle": "docusaurus swizzle",
     "deployy": "docusaurus deploy",
     "deploy": "cross-env GIT_USER=arif-un docusaurus deploy",
+    "deploy-amin": "cross-env GIT_USER=mdrubelamin2 docusaurus deploy",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "write-translations": "docusaurus write-translations",
