@@ -134,7 +134,7 @@ module.exports = {
         // },
         theme: {
           customCss: [
-            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/custom.min.css'),
             require.resolve('./src/css/utility.css'),
           ]
         },
@@ -163,11 +163,11 @@ module.exports = {
   ],
   stylesheets: [
     'https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap',
-    { href: '/css/lite-yt-embed.css' }
+    { href: '/css/lite-yt-embed.min.css' }
   ],
   scripts: [
     { src: '/scripts/custom.js', defer: true },
-    { src: '/scripts/lite-yt-embed.js', defer: true },
+    { src: '/scripts/lite-yt-embed.min.js', defer: true },
     { src: 'https://browser.sentry-cdn.com/6.11.0/bundle.tracing.min.js', defer: true }
   ]
 }
