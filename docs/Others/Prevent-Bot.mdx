@@ -21,24 +21,24 @@ Now, we will show you how you can prevent bot submission on Bit Form.
 
 2. Now, take fake fields for the bot. Label it as a real name like email, website, address or anything. But remember, don’t set the label as ‘Honeypot/Bot’. Because some sophisticated or clever bot can detect those fields. Also, add an admin label as bot or honeypot field to recognize by admin.
 
- <Image src="Prevent Bot/Admin & Field label" alt="Prevent Bot" w="1020" h="300" />
+ <Image src="Prevent Bot/Admin & Field label" alt="Prevent Bot from the form submission" w="1020" h="300" />
 
 3. Then go to the ***Settings*** option. Navigate to the ***Confirmation*** page. Now set an ***Error Message*** to show when the form not submitted by humans.
 
- <Image src="Prevent Bot/Show Error message" alt="Prevent Bot" w="1020" h="300" />
+ <Image src="Prevent Bot/Show Error message" alt="Prevent Bot from the form submission" w="1020" h="300" />
 
 4. Now go to the ***Conditional Logic*** option & set some conditions to prevent the bot from submitting the form. For this, set a new logic and set action effect -***on form load***.
 And select the fake field and then set the action to ***Hide***.
 
- <Image src="Prevent Bot/Set Conditional logic" alt="Prevent Bot" w="1020" h="300" />
+ <Image src="Prevent Bot/Set Conditional logic" alt="Prevent Bot from the form submission" w="1020" h="300" />
 
 5. We need to set another logic to validate the hidden fields triggered when a bot wants to submit a form. To do this, add another new logic and select the action effect – ***on form validate*** and select the fake field and then set the action – ***is not null***. Now select the error message. Your form is now secure from most common bots.
 
- <Image src="Prevent Bot/Set the action" alt="Prevent Bot" w="1020" h="300" />
+ <Image src="Prevent Bot/Set the action" alt="Prevent Bot from the form submission" w="1020" h="300" />
 
 6. Now upload the form to any page of your site & you can’t see the hidden fields you have set before. However, the bot won’t understand that the field is hidden. When it tries to fill up the form with the honeypot field, the form won’t submit & the error message will be shown.
 
- <Image src="Prevent Bot/Submission" alt="Prevent Bot" w="1020" h="300" />
+ <Image src="Prevent Bot/Submission" alt="Prevent Bot from the form submission" w="1020" h="300" />
  
 Thus, you can prevent any bot or spam from your site from gathering your information and submit any data.
 
