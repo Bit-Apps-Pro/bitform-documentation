@@ -52,6 +52,11 @@ module.exports = {
           activeBasePath: '/changelog'
         },
         {
+          href: '/bit-integration-feature-request',
+          label: 'Feature Request',
+          position: 'left',
+        },
+        {
           href: 'https://tawk.to/chat/60eac4b6d6e7610a49aab375/1faah0r3e',
           label: 'Support',
           position: 'left',

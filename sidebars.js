@@ -102,7 +102,7 @@ module.exports = {
     "how-to-translate-bitform",
     "api",
     "feature-request",
-
+    "changelog/overview",
   ],
   changelog: [
     "changelog/overview",
