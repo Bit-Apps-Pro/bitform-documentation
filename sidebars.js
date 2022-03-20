@@ -97,6 +97,7 @@ module.exports = {
         "Others/get-url-parameter",
         "Others/email-autoresponder",
         "Others/how-to-add-calculation",
+        "Others/smart-tags",
       ],
     },
     "how-to-translate-bitform",

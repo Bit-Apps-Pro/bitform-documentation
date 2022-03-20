@@ -1,0 +1,219 @@
+---
+id: smart-tags
+title: Bit form Smart Tags
+sidebar_label: Smart Tags
+slug: /smart-tags
+---
+
+import Image from "../../src/components/Image";
+
+## Basic Smart Tags
+|Lable			|Key			|
+|----------------|-------------------------------|
+|[Current Date Time](#current-date-time)	|`_bf_current_time`
+|[Administrator Email](#administrator-email)	|`_bf_admin_email`
+|[Date (default format)](#default-date-format)	|`_bf_date_default`
+|Date(mm/dd/yy)	|`_bf_date.m/d/y`  
+|Date(dd/mm/yy)	|`_bf_date.d/m/y`
+|Date(Y/m/d	|`_bf_date.y/m/d` 	
+|[Time](#time)	|`_bf_time` 	
+|[Weekday](#weekday)	|`_bf_weekday`	
+|[Referer URL](#refer-url)	|`_bf_http_referer_url`
+
+### Current Date Time {#current-date-time}
+This smart tag inserted the current date and time when a form was submitted. The date and time will be set in your WordPress date and time format.  
+You can get Current Date Time through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_current_time}`
+
+### Administrator Email  {#administrator-email}
+This Smart Tag will insert the email address of the website administrator from your WordPress settings.  
+You can get Administrator Email through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.    
+***Example:*** `${_bf_admin_email}`
+<Image src="smart-tags/administrator-email" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Date (default format)  {#default-date-format}
+This smart tag inserted the date when a form was submitted. The date will be set in your WordPress default date format.  
+You can get Date (default format) through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.   
+***Example:*** `${_bf_date_default}`
+<Image src="smart-tags/date-and-time-default-format" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Time  {#time}
+This smart tag is inserted on time when submitting a form.
+Example: If anyone submits the form at 11:00 am. Then with this smart tag, you know which time the user has submitted the form.  
+You can get Time through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.    
+***Example:*** `${_bf_time}`
+<Image src="smart-tags/time" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Weekday  {#weekday}
+This smart tag is inserted on weekdays when submitting a form.
+Example: If anyone submits the form on Friday. Then with this smart tag, you know which day the user has submitted the form.  
+You can get Weekday through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.    
+***Example:*** `${_bf_weekday}`
+
+### Referer URL  {#refer-url}
+This Smart Tag will insert the URL address of the page that referred the user to the current page.  
+If you want, You can get Referer URL through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like. 
+***Example:*** `${_bf_http_referer_url}`
+
+
+## Custom User Data
+|Lable			|Key			|
+|----------------|-------------------------------|
+|[User IP Address](#user-ip-address)	|`_bf_ip_address`	
+|[Browser Name](#browser-name)	|`_bf_browser_name` 
+|[Random Digit](#random-digit)	|`_bf_random_digit_num` 
+|[Operating System](#operating-system)	|`_bf_user_id`
+
+### User IP Address  {#user-ip-address}
+This smart tag allows you to see the IP address of the user who submitted the form?   
+If you want, You can get User IP Address through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like. 
+***Example:*** `${_bf_ip_address}`
+
+### Browser Name  {#browser-name}
+To submit your form, the user has to submit the form from a computer or mobile through the browser. If you’d like to know the Browser name of anyone who fills out your forms, you can use this Smart Tag.  
+If you want, You can get Browser Name through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like. 
+***Example:*** `${_bf_browser_name}	`
+
+### Random Digit  {#random-digit}
+This smart tag generates a unique number.   
+If you want, You can get Random Digit through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.
+***Example:*** `${_bf_random_digit_num}`
+
+
+### Operating System  {#operating-system}
+If you’d like to know the operating system of anyone who fills out your forms, you can use this Smart Tag.    
+If you want, You can get Operating System through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.
+***Example:*** `${_bf_operating_system}`
+
+## Author Details
+|Lable			|Key			|
+|----------------|-------------------------------|
+|[Post Author ID](#post-author-id)	|`_bf_author_id` 
+|[Post Author Display Name](#post-author-display-name)	|`_bf_author_display`
+|[Post Author Email](#post-author-email)	|`_bf_author_email` 
+
+### Post Author ID  {#post-author-id}
+Each user has an unique Author ID. If you'd like to know the Author ID of the post or page on which the form is embedded, you can use this Smart Tag.   
+If you want, You can get Post Author ID through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_user_id}`
+<Image src="smart-tags/author-id" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Post Author Display Name  {#post-author-display-name}
+Each user has an Author Display Name. If you'd like to know the Author's Display Name of the post or page on which the form is embedded, you can use this Smart Tag.	  
+If you want, You can get Post Author Display Name through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_author_display}`
+
+### Post Author Email {#post-author-email}
+Each user has an Author Email. If you'd like to know the Author's Email of the post or page on which the form is embedded, you can use this Smart Tag.    
+If you want, You can get Post Author Email through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_author_email}`
+
+## User Management
+|Lable			|Key			|
+|----------------|-------------------------------|	
+|[User ID](#user-id)	|`_bf_user_id`	
+|[User First Name](#user-first-name)	|`_bf_user_first_name`	
+|[User Last Name](#user-last-name)	|`_bf_user_last_name` 
+|[User Display Name](#user-display-name)	|`_bf_user_display_name`
+|[User Nice Name](#user-nice-name)	|`_bf_user_nice_name` 
+|[User Login Name](#user-login-name)	|`_bf_user_login_name`
+|[User Email](#user-email)	|`_bf_user_email` 
+|[User URL](#user-url)	|`_bf_user_url`	
+|[Site Title](#site-title)	|`_bf_site_title`	
+|[Site Description](#site-description)	|`_bf_site_description` 	
+|[Site URL](#site-url)	|`_bf_site_url`
+|[WordPress Locale Code](#wordpress-local-code)	|`_bf_wp_local_codes`  	
+|[Embedded Page / Post ID](#page-post-id)	|`_bf_post_id` 	
+|[Embedded Page / Post Name](#page-post-name)	|`_bf_post_name`  	
+|[Embedded Page / Post Title](#page-post-title)	|`_bf_post_title`
+|[Embedded Page / Post URL](#page-post-url)	|`_bf_post_url` 	
+|Post Publish Date	|`_bf_post_date`  
+|Post Modified Date	|`_bf_post_modified_date`  
+|URL Query Parameter	|`_bf_query_param()`  	
+|User Meta Key	|`_bf_user_meta_key()` 	
+|Custom Date Format	|`_bf_custom_date_format()` 
+
+### User ID  {#user-id}
+Each registered user on your WordPress site has a unique ID number.  If you'd like to know the User ID when a logged-in user submits your form, you can use this smart tag.   
+If you want, you can take this User ID via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_id}`
+
+### User First Name  {#user-first-name}
+Each registered user on your WordPress site has First Name.  If you'd like to know the First Name when a logged-in user submits your form, you can use this smart tag.   
+If you want, you can take this User First Name via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_first_name}`
+
+### User Last Name  {#user-last-name}
+Each registered user on your WordPress site has a Last Name.  If you'd like to know the Last Name when a logged-in user submits your form, you can use this smart tag.   
+If you want, you can take this User Last Name via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_last_name}`
+
+### User Display Name  {#user-display-name}
+Each registered user on your WordPress site has a Display Name.  If you'd like to know the Display Name when a logged-in user submits your form, you can use this smart tag.   
+If you want, you can take this User Display Name via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_display_name}`
+
+### User Nice Name  {#user-nice-name}
+Each registered user on your WordPress site has a Nice Name.  If you'd like to know the Nice Name when a logged-in user submits your form, you can use this smart tag.    
+If you want, you can take this User Nice Name via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_nice_name}`
+
+### User Login Name  {#user-login-name}
+Each registered user on your WordPress site has a Login Name.  If you'd like to know the Login Name when a logged-in user submits your form, you can use this smart tag.     
+If you want, you can take this User Login Name via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_login_name}`
+
+### User Email  {#user-email}
+Each registered user on your WordPress site has a Login Name.  If you'd like to know the Login Name when a logged-in user submits your form, you can use this smart tag.     
+If you want, you can take this User Email via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_email}`
+
+### User URL  {#user-url}
+Each registered user on your WordPress site has a profile.  If you'd like to know the profile URL when a logged-in user submits your form, you can use this smart tag.      
+If you want, you can take this User URL via email notification and send it to third-party apps through integration. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_url}`
+
+### Site Title  {#site-title}
+This smart tag inserts the title of your website set in your WordPress settings.    
+If you want, You can get Site Title through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.   
+***Example:*** `${_bf_site_title}`
+<Image src="smart-tags/site-title" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Site Description  {#site-description}
+This smart tag inserts the Tagline/Description of your website set in your WordPress settings.   
+If you want, You can get Site Description through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_site_description}`
+<Image src="smart-tags/site-description" alt="Bit Form Smart tags" w="800" h="400" />
+
+
+### Site URL  {#site-url}
+This smart tag inserts the Site URL of your website set in your WordPress settings.   
+If you want, You can get Site URL through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_site_url}`
+<Image src="smart-tags/site-url" alt="Bit Form Smart tags" w="800" h="400" />
+
+### WordPress Locale Code  {#wordpress-local-code}
+This smart tag inserts the WordPress Locale Code(Site Language) of your website set in your WordPress settings. If the user submits the form while logging in to WordPress, the user will see the language code added to WordPress.   
+If you want, You can get WordPress Locale Code through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_wp_local_codes}`
+
+### Embedded Page / Post ID  {#page-post-id}
+If you want to know the ID of the page/post from which page/post is submitting the form., you can use this Smart Tag. Each page/post ID on your WordPress site has a unique ID.      
+If you want, You can get Page / Post ID through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_post_id}`
+
+### Embedded Page / Post Name  {#page-post-name}
+If you want to know the Name of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post Name on your WordPress site has a Name.       
+If you want, You can get Page / Post Name through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_post_name}`
+
+### Embedded Page / Post Title  {#page-post-title}
+If you want to know the Title of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post Title on your WordPress site has a Title.        
+If you want, You can get Page / Post Title through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_post_title}`
+
+### Embedded Page / Post URL  {#page-post-url}
+If you want to know the URL of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post URL on your WordPress site has a URL.       
+If you want, You can get Page / Post URL through email notification and send it to third-party apps through integrations. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags use the dollar sign and curly brackets. Look something like.  
+***Example:*** `${_bf_post_url}`
+
