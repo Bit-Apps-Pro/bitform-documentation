@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Bit Form | Top free form builder in WordPress | Fastest Form-Builder',
+  title: 'Bit Form | Best form builder in WordPress',
   tagline: 'WP Bit Form made easy to build a form in wordpress with database management system.',
   url: 'https://docs.form.bitapps.pro/',
   baseUrl: '/',
@@ -13,23 +13,6 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: '💡',
-        // CSS to apply to dark icon,
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
-        darkIconStyle: {
-          marginLeft: '2px',
-        },
-
-        // Unicode icons such as '\u2600' will work
-        // Unicode with 5 chars require brackets: '\u{1F602}'
-        lightIcon: '🌑',
-
-        lightIconStyle: {
-          marginLeft: '1px',
-        },
-      },
     },
     navbar: {
       title: 'Bit Form',
@@ -50,6 +33,11 @@ module.exports = {
           label: 'Changelogs',
           position: 'left',
           activeBasePath: '/changelog'
+        },
+        {
+          href: '/bit-integration-feature-request',
+          label: 'Feature Request',
+          position: 'left',
         },
         {
           href: 'https://tawk.to/chat/60eac4b6d6e7610a49aab375/1faah0r3e',
@@ -134,7 +122,7 @@ module.exports = {
         // },
         theme: {
           customCss: [
-            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/custom.min.css'),
             require.resolve('./src/css/utility.css'),
           ]
         },
@@ -162,15 +150,12 @@ module.exports = {
     ]
   ],
   stylesheets: [
-    // 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap',
-    // 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap',
-    // 'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300&display=swap'
-    'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap',
-    { href: '/css/lite-yt-embed.css' }
+    'https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap',
+    { href: '/css/lite-yt-embed.min.css' }
   ],
   scripts: [
     { src: '/scripts/custom.js', defer: true },
-    { src: '/scripts/lite-yt-embed.js', defer: true },
+    { src: '/scripts/lite-yt-embed.min.js', defer: true },
     { src: 'https://browser.sentry-cdn.com/6.11.0/bundle.tracing.min.js', defer: true }
   ]
 }
