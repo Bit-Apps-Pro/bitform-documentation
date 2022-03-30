@@ -1,0 +1,240 @@
+---
+id: smart-tags
+title: Bit form Smart Tags
+sidebar_label: Smart Tags
+slug: /smart-tags
+---
+
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+**Smart tags** are helpful to display and get static and dynamic information from the user. A smart tag is some form of default short-code of Bit Form, which gets the static information of the WordPress user you use.  
+***For example:*** Here is a smart tag **`${_bf_admin_email}`** that can be used in the Email template to pull the site admin email. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags uses the dollar sign and curly brackets, look something like.  
+***Example:*** `${_bf_user_display_name}`
+
+## How to use Smart Tags
+### Integration
+You can get a **User IP address** by sending it to a third-party app via integration. First, set up a complete authorization process for integration. Then you will get the option to map the form field. There you will find the section of **general smart code**, select **user IP address**.
+<Image src="smart-tags/integration-smart-tags" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Conditional logic
+**On form load:** The On Form Load action is used to dynamically alter a Form when it is loaded. The Form actions On Form Load are executed when the Form is loaded by a user.
+When a page is loaded and you want to pre-filled some field value.
+There is two ways to pre-filled a value:
+
+1. Use an initial field key in field properties in the form builder.
+2. Use the parameter in the URL. Parameter in the URL: website_url?field_api_name=field_value
+Example: https://www.bitappspro/?bf1-1=${_bf_user_first_name}
+
+ <Video src="smart-tags-in-conditional-logic" alt="Create a first form" w="800" h="400" />
+
+In the above example, after the form loading First Name will be User first Name and User Last Name. Many kinds of logic are used for On Form Load such as Equal, Not Equal, Is Null, Is Not Null, Contain, Not Contain, Start With, End With.
+
+### Email Notification
+You can send admin name, email, and more default WordPress static data using **smart tags** via email notifications. Then you need to `create` an email template or `edit` the existing email template.   
+Next, you will find the **`Smart tag fields`** option. Select the option from the Drop-Down list that you want to send the data into the email notification.
+<Image src="smart-tags/email-template-smart-tag-fields" alt="Bit Form Smart tags" w="800" h="400" />
+
+
+## Basic Smart Tags
+|Label			|Key			|
+|----------------|-------------------------------|
+|[Current Date Time](#current-date-time)	|`${_bf_current_time}`
+|[Administrator Email](#administrator-email)	|`${_bf_admin_email}`
+|[Date (default format)](#default-date-format)	|`${_bf_date_default}`
+|[Date(mm/dd/yy)](#default-date-format)	|`${_bf_date.m/d/y}`  
+|[Date(dd/mm/yy)](#default-date-format)	|`${_bf_date.d/m/y}`
+|[Date(Y/m/d](#default-date-format)	|`${_bf_date.y/m/d}` 	
+|[Time](#time)	|`${_bf_time}` 	
+|[Weekday](#weekday)	|`${_bf_weekday}`	
+|[Referer URL](#refer-url)	|`${_bf_http_referer_url}`
+
+### Current Date Time {#current-date-time}
+This smart tag inserted the current date and time when a form was submitted. The date and time will be set in your WordPress date and time format.  
+***Example:*** `${_bf_current_time}`
+
+### Administrator Email  {#administrator-email}
+This Smart Tag will insert the email address of the website administrator from your WordPress settings.  
+***Example:*** `${_bf_admin_email}`
+<Image src="smart-tags/administrator-email" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Date (default format)  {#default-date-format}
+This smart tag inserted the date when a form was submitted. The date will be set in your WordPress default date format.  
+***Example:*** `${_bf_date_default}`
+<Image src="smart-tags/date-and-time-default-format" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Time  {#time}
+This smart tag is inserted on time when submitting a form.
+Example: If anyone submits the form at 11:00 am. Then with this smart tag, you know which time the user has submitted the form.   
+***Example:*** `${_bf_time}`
+<Image src="smart-tags/time" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Weekday  {#weekday}
+This smart tag is inserted on weekdays when submitting a form.
+Example: If anyone submits the form on Friday. Then with this smart tag, you know which day the user has submitted the form.   
+***Example:*** `${_bf_weekday}`
+
+### Referer URL  {#refer-url}
+This Smart Tag will insert the URL address of the page that referred the user to the current page.  
+***Example:*** `${_bf_http_referer_url}`
+
+
+## Custom User Data
+|Label			|Key			|
+|----------------|-------------------------------|
+|[User IP Address](#user-ip-address)	|`${_bf_ip_address}`	
+|[Browser Name](#browser-name)	|`${_bf_browser_name}` 
+|[Random Digit](#random-digit)	|`${_bf_random_digit_num}` 
+|[Operating System](#operating-system)	|`${_bf_operating_system}`
+
+### User IP Address  {#user-ip-address}
+This smart tag allows you to see the IP address of the user who submitted the form? 
+***Example:*** `${_bf_ip_address}`
+
+### Browser Name  {#browser-name}
+To submit your form, the user has to submit the form from a computer or mobile through the browser. If you’d like to know the Browser name of anyone who fills out your forms, you can use this Smart Tag. 
+***Example:*** `${_bf_browser_name}`
+
+### Random Digit  {#random-digit}
+This smart tag generates a unique number.  
+***Example:*** `${_bf_random_digit_num}`
+
+
+### Operating System  {#operating-system}
+If you’d like to know the operating system of anyone who fills out your forms, you can use this Smart Tag. 
+***Example:*** `${_bf_operating_system}`
+
+## Author Details
+|Label			|Key			|
+|----------------|-------------------------------|
+|[Post Author ID](#post-author-id)	|`${_bf_author_id}` 
+|[Post Author Display Name](#post-author-display-name)	|`${_bf_author_display}`
+|[Post Author Email](#post-author-email)	|`${_bf_author_email}` 
+
+### Post Author ID  {#post-author-id}
+Each user has an unique Author ID. If you'd like to know the Author ID of the post or page on which the form is embedded, you can use this Smart Tag.   
+***Example:*** `${_bf_author_id}`
+<Image src="smart-tags/author-id" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Post Author Display Name  {#post-author-display-name}
+Each user has an Author Display Name. If you'd like to know the Author's Display Name of the post or page on which the form is embedded, you can use this Smart Tag.  
+***Example:*** `${_bf_author_display}`
+
+### Post Author Email {#post-author-email}
+Each user has an Author Email. If you'd like to know the Author's Email of the post or page on which the form is embedded, you can use this Smart Tag.      
+***Example:*** `${_bf_author_email}`
+
+## User Management
+|Label			|Key			|
+|----------------|-------------------------------|	
+|[User ID](#user-id)	|`${_bf_user_id}`	
+|[User First Name](#user-first-name)	|`${_bf_user_first_name}`	
+|[User Last Name](#user-last-name)	|`${_bf_user_last_name}` 
+|[User Display Name](#user-display-name)	|`${_bf_user_display_name}`
+|[User Nice Name](#user-nice-name)	|`${_bf_user_nice_name}` 
+|[User Login Name](#user-login-name)	|`${_bf_user_login_name}`
+|[User Email](#user-email)	|`${_bf_user_email}` 
+|[User URL](#user-url)	|`${_bf_user_url}`	
+|[Current User Role](#current-user-role)	|`${_bf_current_user_role}`	
+|[Site Title](#site-title)	|`${_bf_site_title}`	
+|[Site Description](#site-description)	|`${_bf_site_description}` 	
+|[Site URL](#site-url)	|`${_bf_site_url}`
+|[WordPress Locale Code](#wordpress-local-code)	|`${_bf_wp_local_codes}`  	
+|[Embedded Page / Post ID](#page-post-id)	|`${_bf_post_id}` 	
+|[Embedded Page / Post Name](#page-post-name)	|`${_bf_post_name}`  	
+|[Embedded Page / Post Title](#page-post-title)	|`${_bf_post_title}`
+|[Embedded Page / Post URL](#page-post-url)	|`${_bf_post_url}` 	
+|[Post Publish Date](#post-publish-date)	|`${_bf_post_date}`  
+|[Post Modified Date](#post-modified-date)	|`${_bf_post_modified_date}`  
+|[URL Query Parameter](#url-query-parameter)	|`${_bf_query_param()}`  	
+|[User Meta Key](#user-meta-key)	|`${_bf_user_meta_key()}` 	
+|[Custom Date Format](#custom-date-format)	|`${_bf_custom_date_format()}` 
+
+### User ID  {#user-id}
+Each registered user on your WordPress site has a unique ID number. If you'd like to know the User ID when a logged-in user submits your form, you can use this smart tag.
+***Example:*** `${_bf_user_id}`
+
+### User First Name  {#user-first-name}
+Each registered user on your WordPress site has First Name.  If you'd like to know the First Name when a logged-in user submits your form, you can use this smart tag.  
+***Example:*** `${_bf_user_first_name}`
+
+### User Last Name  {#user-last-name}
+Each registered user on your WordPress site has a Last Name.  If you'd like to know the Last Name when a logged-in user submits your form, you can use this smart tag.  
+***Example:*** `${_bf_user_last_name}`
+
+### User Display Name  {#user-display-name}
+Each registered user on your WordPress site has a Display Name.  If you'd like to know the Display Name when a logged-in user submits your form, you can use this smart tag.     
+***Example:*** `${_bf_user_display_name}`
+
+### User Nice Name  {#user-nice-name}
+Each registered user on your WordPress site has a Nice Name.  If you'd like to know the Nice Name when a logged-in user submits your form, you can use this smart tag.    
+***Example:*** `${_bf_user_nice_name}`
+
+### User Login Name  {#user-login-name}
+Each registered user on your WordPress site has a Login Name.  If you'd like to know the Login Name when a logged-in user submits your form, you can use this smart tag.      
+***Example:*** `${_bf_user_login_name}`
+
+### User Email  {#user-email}
+Each registered user on your WordPress site has a Login Name.  If you'd like to know the Login Name when a logged-in user submits your form, you can use this smart tag.     
+***Example:*** `${_bf_user_email}`
+
+### User URL  {#user-url}
+Each registered user on your WordPress site has a profile.  If you'd like to know the profile URL when a logged-in user submits your form, you can use this smart tag.       
+***Example:*** `${_bf_user_url}`
+
+### Current User Role  {#current-user-role}
+Each registered user on your WordPress site has a User Role.  If you'd like to know the user role when a logged-in user submits your form, you can use this smart tag.      
+***Example:*** `${_bf_current_user_role}`
+
+### Site Title  {#site-title}
+This smart tag inserts the title of your website set in your WordPress settings.     
+***Example:*** `${_bf_site_title}`
+<Image src="smart-tags/site-title" alt="Bit Form Smart tags" w="800" h="400" />
+
+### Site Description  {#site-description}
+This smart tag inserts the Tagline/Description of your website set in your WordPress settings.    
+***Example:*** `${_bf_site_description}`
+<Image src="smart-tags/site-description" alt="Bit Form Smart tags" w="800" h="400" />
+
+
+### Site URL  {#site-url}
+This smart tag inserts the Site URL of your website set in your WordPress settings.    
+***Example:*** `${_bf_site_url}`
+<Image src="smart-tags/site-url" alt="Bit Form Smart tags" w="800" h="400" />
+
+### WordPress Locale Code  {#wordpress-local-code}
+This smart tag inserts the WordPress Locale Code(Site Language) of your website set in your WordPress settings. If the user submits the form while logging in to WordPress, the user will see the language code added to WordPress.     
+***Example:*** `${_bf_wp_local_codes}`
+
+### Embedded Page / Post ID  {#page-post-id}
+If you want to know the ID of the page/post from which page/post is submitting the form., you can use this Smart Tag. Each page/post ID on your WordPress site has a unique ID.       
+***Example:*** `${_bf_post_id}`
+
+### Embedded Page / Post Name  {#page-post-name}
+If you want to know the Name of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post Name on your WordPress site has a Name.         
+***Example:*** `${_bf_post_name}`
+
+### Embedded Page / Post Title  {#page-post-title}
+If you want to know the Title of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post Title on your WordPress site has a Title.         
+***Example:*** `${_bf_post_title}`
+
+### Embedded Page / Post URL  {#page-post-url}
+If you want to know the URL of the page/post from which page/post is submitting the form, you can use this Smart Tag. Each page/post URL on your WordPress site has a URL.          
+***Example:*** `${_bf_post_url}`
+
+### Post Publish Date  {#post-publish-date}
+If you want to know the publish date of the page/post from which page/post is submitting the form, you can use this Smart Tag.          
+***Example:*** `${_bf_post_date}`
+
+### Post Modified Date  {#post-modified-date}
+If you want to know the last Modified Date of the page/post from which page/post is submitting the form, you can use this Smart Tag.          
+***Example:*** `${_bf_post_modified_date}`
+
+### User Meta Key  {#user-meta-key}
+If you have a custom user field in WordPress (Meta Box, ACF) then using this smart tag you will get the data of the custom field. To get the data of the custom field, you have to put the key of the custom field inside the smart tag.         
+***Example:*** `${_bf_user_meta_key(company_name)}`
+
+### Custom Date Format  {#custom-date-format}
+This smart tag inserted the [custom date and time](https://wordpress.org/support/article/formatting-date-and-time/) when a form was submitted. The date and time will be set in your WordPress date and time format.          
+***Example:*** `${_bf_custom_date_format(l, F j, Y)}`
+<Image src="smart-tags/custom-date-format" alt="Bit Form Smart tags" w="800" h="400" />
