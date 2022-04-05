@@ -86,3 +86,4 @@ static/img/photothumb.db
 .pnp.cjs
 .pnp.loader.mjs
 package-lock.json
+yarn.lock
