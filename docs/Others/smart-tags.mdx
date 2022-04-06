@@ -7,6 +7,9 @@ slug: /smart-tags
 
 import Image from "../../src/components/Image";
 import Video from "../../src/components/Video";
+import Copy from "../../src/components/Copy";
+
+<Copy text="Hello Game" />
 
 **Smart tags** are helpful to display and get static and dynamic information from the user. A smart tag is some form of default short-code of Bit Form, which gets the static information of the WordPress user you use.  
 ***For example:*** Here is a smart tag **`${_bf_admin_email}`** that can be used in the Email template to pull the site admin email. Also, you can show this information in your form on the front end with conditional logic and form submitted success or error message. Smart Tags uses the dollar sign and curly brackets, look something like.  
@@ -38,16 +41,16 @@ Next, you will find the **`Smart tag fields`** option. Select the option from th
 
 ## Basic Smart Tags
 |Label			|Key			|
-|----------------|-------------------------------|
-|[Current Date Time](#current-date-time)	|`${_bf_current_time}`
-|[Administrator Email](#administrator-email)	|`${_bf_admin_email}`
-|[Date (default format)](#default-date-format)	|`${_bf_date_default}`
-|[Date(mm/dd/yy)](#default-date-format)	|`${_bf_date.m/d/y}`  
-|[Date(dd/mm/yy)](#default-date-format)	|`${_bf_date.d/m/y}`
-|[Date(Y/m/d](#default-date-format)	|`${_bf_date.y/m/d}` 	
-|[Time](#time)	|`${_bf_time}` 	
-|[Weekday](#weekday)	|`${_bf_weekday}`	
-|[Referer URL](#refer-url)	|`${_bf_http_referer_url}`
+|----------------|----------------------------------|
+|[Current Date Time](#current-date-time)	|<Copy text="${_bf_current_time}" />
+|[Administrator Email](#administrator-email)	|<Copy text='${_bf_admin_email}' />
+|[Date (default format)](#default-date-format)	|<Copy text='${_bf_date_default}' />
+|[Date(mm/dd/yy)](#default-date-format)	| <Copy text='${_bf_date.m/d/y}' /> 
+|[Date(dd/mm/yy)](#default-date-format)	|<Copy text='${_bf_date.d/m/y}' />
+|[Date(Y/m/d](#default-date-format)	| 	<Copy text='${_bf_date.y/m/d}' />
+|[Time](#time)	| 	<Copy text='${_bf_time}' />
+|[Weekday](#weekday)	|	<Copy text='${_bf_weekday}' />
+|[Referer URL](#refer-url)	|<Copy text="${_bf_http_referer_url}" />
 
 ### Current Date Time {#current-date-time}
 This smart tag inserted the current date and time when a form was submitted. The date and time will be set in your WordPress date and time format.  
@@ -82,10 +85,10 @@ This Smart Tag will insert the URL address of the page that referred the user to
 ## Custom User Data
 |Label			|Key			|
 |----------------|-------------------------------|
-|[User IP Address](#user-ip-address)	|`${_bf_ip_address}`	
-|[Browser Name](#browser-name)	|`${_bf_browser_name}` 
-|[Random Digit](#random-digit)	|`${_bf_random_digit_num}` 
-|[Operating System](#operating-system)	|`${_bf_operating_system}`
+|[User IP Address](#user-ip-address)	|<Copy text='${_bf_ip_address}' />	
+|[Browser Name](#browser-name)	|<Copy text='${_bf_browser_name}' /> 
+|[Random Digit](#random-digit)	|<Copy text='${_bf_random_digit_num}' /> 
+|[Operating System](#operating-system)	|<Copy text="${_bf_operating_system}" />
 
 ### User IP Address  {#user-ip-address}
 This smart tag allows you to see the IP address of the user who submitted the form? 
@@ -107,9 +110,9 @@ If you’d like to know the operating system of anyone who fills out your forms,
 ## Author Details
 |Label			|Key			|
 |----------------|-------------------------------|
-|[Post Author ID](#post-author-id)	|`${_bf_author_id}` 
-|[Post Author Display Name](#post-author-display-name)	|`${_bf_author_display}`
-|[Post Author Email](#post-author-email)	|`${_bf_author_email}` 
+|[Post Author ID](#post-author-id)	| <Copy text='${_bf_author_id}' />
+|[Post Author Display Name](#post-author-display-name)	|<Copy text='${_bf_author_display}' />
+|[Post Author Email](#post-author-email)	|<Copy text='${_bf_author_email}' /> 
 
 ### Post Author ID  {#post-author-id}
 Each user has an unique Author ID. If you'd like to know the Author ID of the post or page on which the form is embedded, you can use this Smart Tag.   
@@ -127,28 +130,28 @@ Each user has an Author Email. If you'd like to know the Author's Email of the p
 ## User Management
 |Label			|Key			|
 |----------------|-------------------------------|	
-|[User ID](#user-id)	|`${_bf_user_id}`	
-|[User First Name](#user-first-name)	|`${_bf_user_first_name}`	
-|[User Last Name](#user-last-name)	|`${_bf_user_last_name}` 
-|[User Display Name](#user-display-name)	|`${_bf_user_display_name}`
-|[User Nice Name](#user-nice-name)	|`${_bf_user_nice_name}` 
-|[User Login Name](#user-login-name)	|`${_bf_user_login_name}`
-|[User Email](#user-email)	|`${_bf_user_email}` 
-|[User URL](#user-url)	|`${_bf_user_url}`	
-|[Current User Role](#current-user-role)	|`${_bf_current_user_role}`	
-|[Site Title](#site-title)	|`${_bf_site_title}`	
-|[Site Description](#site-description)	|`${_bf_site_description}` 	
-|[Site URL](#site-url)	|`${_bf_site_url}`
-|[WordPress Locale Code](#wordpress-local-code)	|`${_bf_wp_local_codes}`  	
-|[Embedded Page / Post ID](#page-post-id)	|`${_bf_post_id}` 	
-|[Embedded Page / Post Name](#page-post-name)	|`${_bf_post_name}`  	
-|[Embedded Page / Post Title](#page-post-title)	|`${_bf_post_title}`
-|[Embedded Page / Post URL](#page-post-url)	|`${_bf_post_url}` 	
-|[Post Publish Date](#post-publish-date)	|`${_bf_post_date}`  
-|[Post Modified Date](#post-modified-date)	|`${_bf_post_modified_date}`  
-|[URL Query Parameter](#url-query-parameter)	|`${_bf_query_param()}`  	
-|[User Meta Key](#user-meta-key)	|`${_bf_user_meta_key()}` 	
-|[Custom Date Format](#custom-date-format)	|`${_bf_custom_date_format()}` 
+|[User ID](#user-id)	|	<Copy text='${_bf_user_id}' />
+|[User First Name](#user-first-name)	|	<Copy text='${_bf_user_first_name}' />
+|[User Last Name](#user-last-name)	| <Copy text='${_bf_user_last_name}' />
+|[User Display Name](#user-display-name)	|<Copy text='${_bf_user_display_name}' />
+|[User Nice Name](#user-nice-name)	| <Copy text='${_bf_user_nice_name}' />
+|[User Login Name](#user-login-name)	|<Copy text='${_bf_user_login_name}' />
+|[User Email](#user-email)	| <Copy text='${_bf_user_email}' />
+|[User URL](#user-url)	|	<Copy text='${_bf_user_url}' />
+|[Current User Role](#current-user-role)	|	<Copy text='${_bf_current_user_role}' />
+|[Site Title](#site-title)	|	<Copy text='${_bf_site_title}' />
+|[Site Description](#site-description)	| 	<Copy text='${_bf_site_description}' />
+|[Site URL](#site-url)	|<Copy text='${_bf_site_url}' />
+|[WordPress Locale Code](#wordpress-local-code)	|  	<Copy text='${_bf_wp_local_codes}' />
+|[Embedded Page / Post ID](#page-post-id)	| 	<Copy text='${_bf_post_id}' />
+|[Embedded Page / Post Name](#page-post-name)	|  	<Copy text='${_bf_post_name}' />
+|[Embedded Page / Post Title](#page-post-title)	|<Copy text='${_bf_post_title}' />
+|[Embedded Page / Post URL](#page-post-url)	| 	<Copy text='${_bf_post_url}' />
+|[Post Publish Date](#post-publish-date)	|  <Copy text='${_bf_post_date}' />
+|[Post Modified Date](#post-modified-date)	|  <Copy text='${_bf_post_modified_date}' />
+|[URL Query Parameter](#url-query-parameter)	|  	<Copy text='${_bf_query_param()}' />
+|[User Meta Key](#user-meta-key)	| 	<Copy text='${_bf_user_meta_key()}' />
+|[Custom Date Format](#custom-date-format)	| <Copy text='${_bf_custom_date_format()}' />
 
 ### User ID  {#user-id}
 Each registered user on your WordPress site has a unique ID number. If you'd like to know the User ID when a logged-in user submits your form, you can use this smart tag.
