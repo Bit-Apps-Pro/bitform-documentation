@@ -5,6 +5,7 @@ import GoodEmoji from './GoodEmoji'
 import GreatEmoji from './GreatEmoji'
 import UnsatisfiedEmoji from './UnsatisfiedEmoji'
 
+const FEEDBACK_URL = 'https://wp-api.bitapps.pro/feedback'
 export default function Feedback() {
   const [feedBackOpen, setFeedBackOpen] = useState(false)
   const [form, setForm] = useState({})
@@ -25,9 +26,9 @@ export default function Feedback() {
       rating: emoji,
       pageSlug: currentUrl
     }
-    setForm({...feedbakData})
-    
-    fetch('http://localhost:4001/feedback', {
+    setForm({ ...feedbakData })
+
+    fetch(FEEDBACK_URL, {
       method: 'post',
       body: JSON.stringify(feedbakData),
       headers: { "Content-type": "application/json" },
@@ -75,7 +76,7 @@ export default function Feedback() {
       form.product = 'bitform'
       form.userId = feedbackDetails.userId
       form.pageSlug = currentUrl
-      fetch('http://localhost:4001/feedback', {
+      fetch(FEEDBACK_URL, {
         method: 'post',
         body: JSON.stringify(form),
         headers: { "Content-type": "application/json" },
@@ -127,7 +128,7 @@ export default function Feedback() {
         break
     }
   }
-  
+
   const handleForm = ({ target: { name, value } }) => {
     validationForm(name, value)
     setForm(prvForm => ({ ...prvForm, [name]: value }))
@@ -148,17 +149,17 @@ export default function Feedback() {
         <form onSubmit={handleSubmit}>
           <div className='inputRow'>
             <div className='formControl'>
-              <input type="text" onChange={handleForm} name="name" placeholder='Enter your name' className='formControlInput' />
+              <input aria-label='Name' type="text" onChange={handleForm} name="name" placeholder='Enter your name (optional)' className='formControlInput' />
               <span className='error'>{error.name && error.name}</span>
             </div>
             <div className='formControl'>
-              <input type="email" onChange={handleForm} name="email" placeholder='Enter your email' className='formControlInput' />
+              <input aria-label='Email' type="email" onChange={handleForm} name="email" placeholder='Enter your email (optional)' className='formControlInput' />
               <span className='error'>{error.email && error.email}</span>
             </div>
           </div>
           <div className='inputRow'>
             <div className='formControl'>
-              <textarea name="message" onChange={handleForm} placeholder='Write your opinion' rows="4" className='formControlInput formControlTextArea'></textarea>
+              <textarea aria-label='Your Feedback' name="message" onChange={handleForm} placeholder='Your feedback' rows="4" className='formControlInput formControlTextArea'></textarea>
               <span className='error'>{error.message && error.message}</span>
             </div>
           </div>

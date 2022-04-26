@@ -271,7 +271,7 @@ video,
 
 .feedBackOption {
   background: var(--ifm-feeback-background-color);
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 30px 10px;
 }
 
@@ -295,9 +295,13 @@ video,
 
 
 .emojiIcon {
-  color: var(--ifm-color-primary);
-  transition: transform .4s;
+  color: #5c90ff;
   position: relative;
+  transition: color .3s, transform .4s;
+}
+
+.emojiIcon:hover {
+  color: #2268ff;
 }
 
 [data-theme="dark"] .emojiIcon {
@@ -310,6 +314,7 @@ video,
   transition: opacity .5s;
   position: absolute;
   bottom: -20px;
+  white-space: nowrap;
 }
 
 .emojiIcon:hover+.emojiTitle {
@@ -325,6 +330,7 @@ video,
 }
 
 .activeEmoji {
+  color: #2268ff;
   transform: scale(1.4);
 }
 
@@ -350,7 +356,7 @@ video,
 .formControlInput {
   width: 100%;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   outline: none;
   font-family: 'Outfit', sans-serif;
