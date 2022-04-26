@@ -1,0 +1,84 @@
+---
+id: acumbamail
+title: Bit Form Integration With Acumbamail
+sidebar_label:  Acumbamail
+slug: /wpbitform-acumbamail
+---
+import Image from "../../src/components/Image";
+import Video from "../../src/components/Video";
+
+<!-- <Video youtube src="5hDcm4vVwcg" />
+<br/> -->
+
+Another integration that eases your email marketing is **Acumbamail integration** via Bit form. When users submit any form, the email of that corresponding user will store in the subscribers list of Acumbamail. For more details go through this documentation carefully.
+
+## Authorization Process
+1. At first, select the form you want to apply the Acumbamail integration. If you don’t have any then create a new one from ‘Create Form’.  After that, follow the below instructions. <br/> 
+
+  Follow the path:<br/>
+
+  ***Settings => Integrations =>  Click on (+) => Click on ‘Acumbamail’***.
+
+ <Image src="Acumbamail/create-form" alt="Acumbamail" w="1020" h="300" />
+ <Image src="Acumbamail/setting-to-integration" alt="Acumbamail" w="1020" h="250" />
+ <Image src="Acumbamail/select-acumbamail" alt="Acumbamail" w="1020" h="300" />
+
+
+2. **Integration Name:** Set the integration name “Acumbamail”.
+ <Image src="Acumbamail/integration-name" alt="Acumbamail" w="1020" h="300" />
+
+4. **Auth Token:** To get the **Auth Token** log in to Acumbamail.  Then Open [**Acumbamail API Doc**](https://acumbamail.com/en/apidoc/) in Customer identifier section you will find the Auth Token. You have to copy Auth Token from the Acumbamail API Doc & paste the Auth Token field of integration settings.
+ <Image src="Acumbamail/get-auth-token-from-acumbamail" alt="Acumbamail" w="1020" h="300" />
+
+
+
+5. Now click Authorize, & you are ready to integrate with your **Acumbamail** account.
+
+ <Image src="Acumbamail/authorize" alt="Acumbamail" w="1020" h="270" />
+
+## Integration Settings
+1. After successful authorization. Select the Action(`Add/Update Subscriber`, `Delete Subscriber`) from the drop-down option. Also select the List from the drop-down option. You have to create a list before on your Acumbamail account. 
+
+  **A. Add/Update Subscriber:** If you select this option from the drop-down, a new customer will be added to your Acumbamail list, or the user already exists in your list; It will then update the customer based on the email address.
+
+  **B. Delete Subscriber:** If you selected this option from the drop-down, the records would be deleted from your Acumbamail account based on the email address.
+
+ <Image src="Acumbamail/select-action" alt="Acumbamail" w="1020" h="300" />
+ <Image src="Acumbamail/select-list" alt="Acumbamail" w="1020" h="300" />
+
+2. You will find the Map Field option. You have to map all the necessary form/task fields with the related Acumbamail field. Here ***'Email'*** field is the default for Acumbamail. After mapping the desired fields, click on Next button.
+
+ <Image src="Acumbamail/default-field" alt="Acumbamail" w="1020" h="300" />
+ <Image src="Acumbamail/field-mapping" alt="Acumbamail" w="1020" h="300" />
+
+3. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="Acumbamail/finish-and-save" alt="Acumbamail" w="1020" h="250" />
+
+ <Image src="Acumbamail/acumbamail" alt="Acumbamail" w="1020" h="300" />
+
+4. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the integration name; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be created/ edited, on form submission the integration will be triggered.
+
+ <Image src="Acumbamail/conditional-logic" alt="Acumbamail" w="1020" h="300" />
+
+5. Now, whenever a user will submit the form it will be added to the corresponding subscriber list of Acumbamail. Also can view from form responses of Bit Form.
+
+ <Image src="Acumbamail/responses" alt="Acumbamail" w="1020" h="250" />
+ <Image src="Acumbamail/acumbamail-responses" alt="Acumbamail" w="1020" h="250" />
+
+6. You can view every success API of the submitted data from the timeline of related info.
+
+ <Image src="Acumbamail/releted-info" alt="Acumbamail" w="1020" h="390" />
+
+<!-- 7. If you selected "Delete Subscriber" from Actions, then the records will delete in your Acubamail based on the email address. -->
+
+
+
+
+
+
+
+
+
+
+
