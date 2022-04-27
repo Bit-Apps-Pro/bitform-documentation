@@ -9,8 +9,8 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 export default function FeedBack() {
   return (
-    <BrowserOnly>
-      <FeedbackClient />
+    <BrowserOnly fallback={<div>Loading...</div>}>
+      {() => <FeedbackClient />}
     </BrowserOnly>
   )
 }

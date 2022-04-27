@@ -1,20 +1,12 @@
 import React from 'react'
-import BrowserOnly from '@docusaurus/BrowserOnly';
-export default function Video({ src, w, h, alt, youtube }) {
-    return (
-        <BrowserOnly>
-            <LiteYoutube src={src} w={w} h={h} alt={alt} youtube={youtube} />
-        </BrowserOnly>
-    )
-}
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-function LiteYoutube({ src, w, h, alt, youtube }) {
+export default function Video({ src, w, h, alt, youtube }) {
     if (youtube) {
-        if (typeof window !== 'undefined') {
+        if (ExecutionEnvironment.canUseDOM) {
             return <lite-youtube class="youtube-vdo" videoid={src} />
-        } else {
-            return <></>
         }
+        return <></>
     }
 
     return (
@@ -23,3 +15,4 @@ function LiteYoutube({ src, w, h, alt, youtube }) {
         </video>
     )
 }
+
