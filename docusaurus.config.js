@@ -29,7 +29,7 @@ module.exports = {
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          to: '/changelog/BitForm-changelog-timeline',
+          to: '/changelog/bitform-changelog-timeline',
           label: 'Changelogs',
           position: 'left',
           activeBasePath: '/changelog'
@@ -86,7 +86,7 @@ module.exports = {
           items: [
             {
               label: 'Changelog',
-              to: '/changelog/BitForm-changelog-timeline',
+              to: '/changelog/bitform-changelog-timeline',
             },
             {
               label: 'GitHub',
