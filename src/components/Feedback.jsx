@@ -4,9 +4,18 @@ import MehEmoji from './MehEmoji'
 import GoodEmoji from './GoodEmoji'
 import GreatEmoji from './GreatEmoji'
 import UnsatisfiedEmoji from './UnsatisfiedEmoji'
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
-const FEEDBACK_URL = 'https://wp-api.bitapps.pro/feedback'
-export default function Feedback() {
+
+export default function FeedBack() {
+  return (
+    <BrowserOnly>
+      <FeedbackClient />
+    </BrowserOnly>
+  )
+}
+function FeedbackClient() {
+  const FEEDBACK_URL = 'https://wp-api.bitapps.pro/feedback'
   const [feedBackOpen, setFeedBackOpen] = useState(false)
   const [form, setForm] = useState({})
   const [error, setError] = useState({})
