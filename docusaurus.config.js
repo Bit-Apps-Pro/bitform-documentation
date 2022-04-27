@@ -60,7 +60,7 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: '/install-activate-wordpress-frombuilder-bit-form',
+              to: '/install-activate-wordpress-formbuilder-bit-form',
             },
             {
               label: 'Form Fields',
