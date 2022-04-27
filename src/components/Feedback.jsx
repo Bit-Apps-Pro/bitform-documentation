@@ -16,6 +16,7 @@ export default function FeedBack() {
 }
 function FeedbackClient() {
   const FEEDBACK_URL = 'https://wp-api.bitapps.pro/feedback'
+  const PRODUCT = 'bitform'
   const [feedBackOpen, setFeedBackOpen] = useState(false)
   const [form, setForm] = useState({})
   const [error, setError] = useState({})
@@ -30,7 +31,7 @@ function FeedbackClient() {
     setFeedBackOpen(true)
     setRating(emoji)
     const feedbakData = {
-      product: 'bitform',
+      product: PRODUCT,
       userId: feedbackDetails.userId,
       rating: emoji,
       pageSlug: currentUrl
