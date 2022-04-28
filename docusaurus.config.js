@@ -29,7 +29,7 @@ module.exports = {
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          to: '/changelog/BitForm-changelog-timeline',
+          to: '/changelog/bitform-changelog-timeline',
           label: 'Changelogs',
           position: 'left',
           activeBasePath: '/changelog'
@@ -60,7 +60,7 @@ module.exports = {
           items: [
             {
               label: 'Install & Activate',
-              to: '/install-activate-wordpress-frombuilder-bit-form',
+              to: '/install-activate-wordpress-formbuilder-bit-form',
             },
             {
               label: 'Form Fields',
@@ -86,7 +86,7 @@ module.exports = {
           items: [
             {
               label: 'Changelog',
-              to: '/changelog/BitForm-changelog-timeline',
+              to: '/changelog/bitform-changelog-timeline',
             },
             {
               label: 'GitHub',
