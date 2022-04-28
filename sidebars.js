@@ -52,6 +52,7 @@ module.exports = {
     {
       Integrations: [
         "Integrations/activecampaign",
+        "Integrations/acumbamail",
         "Integrations/acf",
         "Integrations/autonami",
         "Integrations/customposttype",
