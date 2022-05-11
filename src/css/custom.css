@@ -38,6 +38,7 @@ body::-webkit-scrollbar-thumb:vertical {
   --ifm-code-font-size: 95%;
   --ifm-global-radius: 0.6rem;
   --ifm-navbar-background-color: rgba(255, 255, 255, 0.73);
+  --ifm-feeback-background-color: rgb(238 241 247);
   --ifm-h1-font-size: 2.5rem;
   --doc-sidebar-width: 250px;
   --search-local-modal-shadow: 0 0.5px 0.4px rgba(0, 0, 0, 0.01),
@@ -266,6 +267,141 @@ video,
 
 .navbar__search-input:focus {
   box-shadow: 0 0 0 2px var(--ifm-color-primary);
+}
+
+.feedBackOption {
+  background: var(--ifm-feeback-background-color);
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+[data-theme="dark"] .feedBackOption {
+  background: rgb(30 36 64);
+}
+
+.feedBackOption h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.emoji {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 7px;
+  position: relative;
+}
+
+
+.emojiIcon {
+  color: #5c90ff;
+  position: relative;
+  transition: color .3s, transform .4s;
+}
+
+.emojiIcon:hover {
+  color: #2268ff;
+}
+
+[data-theme="dark"] .emojiIcon {
+  color: #ff9800;
+}
+
+.emojiTitle {
+  font-size: 10px;
+  opacity: 0;
+  transition: opacity .5s;
+  position: absolute;
+  bottom: -20px;
+  white-space: nowrap;
+}
+
+.emojiIcon:hover+.emojiTitle {
+  opacity: 1;
+}
+
+.emojiTitleActive {
+  opacity: 1;
+}
+
+.emojiIcon:hover {
+  transform: scale(1.4);
+}
+
+.activeEmoji {
+  color: #2268ff;
+  transform: scale(1.4);
+}
+
+.feedBack {
+  opacity: 0;
+  height: 0;
+  transition: opacity 1s;
+}
+
+.feedBack form {
+  padding-top: 35px;
+}
+
+.inputRow {
+  display: flex;
+}
+
+.formControl {
+  margin-inline: 7px;
+  width: 100%;
+}
+
+.formControlInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Outfit', sans-serif;
+}
+
+.formControlInput:focus-within {
+  box-shadow: 0 0 0 2px var(--ifm-color-primary);
+}
+
+[data-theme="dark"] .formControlInput {
+  background-color: hsl(229deg 35% 23%);
+  color: var(--ifm-font-color-base);
+}
+
+.formControlInput::placeholder {
+  color: hsl(228deg 21% 45%);
+}
+
+.formControlTextArea {
+  margin-top: 12px;
+}
+
+.feedBackFedeIn {
+  opacity: 1;
+  height: auto;
+}
+
+.submitBtn {
+  margin: 10px 10px 0px;
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.error {
+  color: #e91e63;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.successMsg {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  color: var(--ifm-color-primary);
 }
 
 @media (max-width: 996px) {

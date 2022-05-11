@@ -13,7 +13,7 @@
   },
   "link.item.label.Install & Activate": {
     "message": "Install & Activate",
-    "description": "The label of footer link with label=Install & Activate linking to /install-activate-wordpress-frombuilder-bitform"
+    "description": "The label of footer link with label=Install & Activate linking to /install-activate-wordpress-formbuilder-bitform"
   },
   "link.item.label.Form Fields": {
     "message": "Form Fields",
@@ -29,7 +29,7 @@
   },
   "link.item.label.Changelog": {
     "message": "Changelog",
-    "description": "The label of footer link with label=Changelog linking to /changelog/BitForm-changelog-timeline"
+    "description": "The label of footer link with label=Changelog linking to /changelog/bitform-changelog-timeline"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
