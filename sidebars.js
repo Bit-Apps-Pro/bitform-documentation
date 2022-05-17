@@ -64,6 +64,7 @@ module.exports = {
         "Integrations/googleads",
         "Integrations/googlesheet",
         "Integrations/groundhogg",
+        "Integrations/hubspot",
         "Integrations/integrately",
         "Integrations/integromat",
         "Integrations/mailchimp",
