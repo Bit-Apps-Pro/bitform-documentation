@@ -60,6 +60,7 @@ module.exports = {
         "Integrations/elastic-email",
         "Integrations/encharge",
         "Integrations/fluentcrm",
+        "Integrations/getgist",
         "Integrations/googleads",
         "Integrations/googlesheet",
         "Integrations/integrately",
