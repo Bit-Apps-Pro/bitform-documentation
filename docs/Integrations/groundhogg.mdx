@@ -1,0 +1,94 @@
+---
+id: groundhogg
+title: Bit Form Integration With Groundhogg
+sidebar_label:  Groundhogg
+slug: /wpbitform-groundhogg
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+
+## Authorization Process
+1. At first, select the form you want to apply the Groundhogg integration. If you don’t have any then create a new one from **Create Form**.  After that, follow the below instructions. Follow the path:
+
+  ***Settings => Integrations =>  Click on (+) => Click on ‘Groundhogg’***.
+
+ <Image src="groundhogg/create-form" alt="Groundhogg" w="1020" h="300" />
+
+ <Image src="groundhogg/settings-to-integration" alt="Groundhogg" w="1020" h="250" />
+
+ <Image src="groundhogg/select-groundhogg" alt="Groundhogg" w="1020" h="300" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken **Groundhogg**.
+ <Image src="groundhogg/set-integration-name" alt="Groundhogg" w="1020" h="270" />
+
+## Integration Settings
+1.	After that, you have to copy the Groundhogg **Public key** and **Token** from your Groundhogg account & paste the key on the field.   
+**To get the Groundhogg Member URL and Password,**
+- Go to groundhogg dashboard
+- Click on Setting option and go to **API**
+- Select a user, you Want to create an API key for the user. And click on `Generate New API` Keys button.
+- Now copy the **Public key** and **Token**, paste it into the integration’s dashboard. And Click on `Authorize` button.
+
+ <Image src="groundhogg/go-to-setting" alt="Groundhogg" w="1020" h="300" />
+ <Image src="groundhogg/create-and-copy-api-keys" alt="Groundhogg" w="1020" h="300" />
+ <Image src="groundhogg/authorize" alt="Groundhogg" w="1020" h="300" />
+
+2.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="groundhogg/after-authorize" alt="Groundhogg" w="1020" h="300" />
+
+### Integration Settings for Create Contact
+1.	After the authorization process, select the Action as Create Contact.
+ <Image src="groundhogg/select-actions-create-contact" alt="Groundhogg" w="1020" h="300" />
+ 
+2.	When you select the Action, you will see the Map Fields option where one fields **Email**, are mapped by default. You can map multiple fields according to your choice for the Action. And To add more groundhog meta fields enable the `Add meta fields` option. Then click on the `Next` button to move forward for further settings.
+ <Image src="groundhogg/map-fields" alt="Groundhogg" w="1020" h="300" />
+ <Image src="groundhogg/next-button" alt="Groundhogg" w="1020" h="300" />
+ 
+
+3. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="groundhogg/finish-and-Save" alt="Groundhogg" w="1020" h="250" />
+
+ <Image src="groundhogg/groundhogg-integration" alt="Groundhogg" w="1020" h="300" />
+
+### Integration Settings for Add Tag to user
+1.	After the authorization process, select the Action from the drop-down option Add Tag to user.
+ <Image src="groundhogg/select-actions-add-tag-to-user" alt="Groundhogg" w="1020" h="300" />
+ 
+2.	When you select the Action, you will see the **Emails** and **All tags** option. Click on Emails option and select the Email fields from the drop-down option, you can add multiple Form Email fields.
+ <Image src="groundhogg/select-email-form-fields" alt="Groundhogg" w="1020" h="300" />
+ 
+3.	Click on **All Tags** option and select the tags from the drop-down, you can add multiple tag. Then click on the `Next` button to move forward for further settings. If you don't see any tags. Click on the refresh button.
+ <Image src="groundhogg/select-tag-form-fields" alt="Groundhogg" w="1020" h="300" />
+
+
+4. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="groundhogg/finish-and-Save" alt="Groundhogg" w="1020" h="250" />
+ <Image src="groundhogg/groundhogg-integration" alt="Groundhogg" w="1020" h="300" />
+
+5. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the **integration name**; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be **created/ edited**, **on form submission** the integration will be triggered.
+
+ <Image src="groundhogg/conditional-logic" alt="Groundhogg" w="1020" h="300" />
+
+6. Now, whenever a user will submit the form it will be added to the corresponding Contacts list of Groundhogg. Also can view from form responses of Bit Form.
+
+ <Image src="groundhogg/contacts-list" alt="Groundhogg" w="1020" h="270" />
+ 
+ <Image src="groundhogg/responses" alt="Groundhogg" w="1020" h="250" />
+
+7. You can view every success API of the submitted data from the timeline of related info.
+
+ <Image src="groundhogg/api-response" alt="Groundhogg" w="1020" h="390" />
+
+
+## Actions
+ **Add Tags:** You can enable the action Add Tags Field to add the tags of the contact. In addition, you can add multiple tags from the Drop-Down list. If you don't see any Members. Click on the refresh button.
+ <Image src="groundhogg/tag-added" alt="Groundhogg" w="1020" h="390" />
+
+**Option status:** In groundhogg the option status default is unconfirmed. You can change the action opt-in status Field to change the status of the contact opt-in.
+ <Image src="groundhogg/optin-status" alt="Groundhogg" w="1020" h="390" />
+
+<Feedback/>
