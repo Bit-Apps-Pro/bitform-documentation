@@ -57,6 +57,7 @@ module.exports = {
         "Integrations/autonami",
         "Integrations/customposttype",
         "Integrations/dropbox",
+        "Integrations/elastic-email",
         "Integrations/encharge",
         "Integrations/fluentcrm",
         "Integrations/googleads",
