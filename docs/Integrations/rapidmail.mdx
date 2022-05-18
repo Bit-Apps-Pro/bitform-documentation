@@ -1,0 +1,66 @@
+---
+id: rapidmail
+title: Bit Form Integration With Rapid Mail
+sidebar_label: Rapid Mail
+slug: /wpbitform-rapidmail
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+Using Rapid Mail integration with WordPress form builder, you can automatically push your WordPress form data in Rapid Mail. You can easily integrate without any coding. This Documentation goes through the configuration process.
+
+
+## Authorization Process
+
+1. At first, select the form you want to apply the RapidMail integration. If you don’t have any then create a new one from ‘Create Form’. After that, follow the below instructions.
+
+ Follow the path:
+ ***Settings => Integrations => Click on (+) => Click on ‘RapidMail’.***
+ <Image src="rapidmail/create-form" alt="RapidMail" w="1020" h="350" />
+ <Image src="rapidmail/create-integration" alt="RapidMail" w="1020" h="350" />
+ <Image src="rapidmail/select-rapid-mail" alt="RapidMail" w="1020" h="350" />
+
+2. Integration Name: Set the proper integration name Default it's taken “Rapidmail”.
+
+ <Image src="rapidmail/integration-name" alt="RapidMail" w="1020" h="350" />
+
+3. **User Name & Password:** To get the User Name & Password log in to **RapidMail dashboard**=> **Profile**=> **API**=> Click on the "Add New API User Button" Get your User Name & Password. You have to copy the User Name & Password from the RapidMail & paste the User Name & Password on the fields of integration setting. And click on the "Authorize" button.
+
+ <Image src="rapidmail/username-password" alt="RapidMail" w="1020" h="350" />
+ <Image src="rapidmail/_rapidmail-api-dashbord" alt="RapidMail" w="1020" h="350" />
+ <Image src="rapidmail/authorize" alt="RapidMail" w="1020" h="350" />
+
+## Integration Settings
+
+1. Select the Recipient from the Drop-Down list. You have to create a Recipient list before on your RapidMail accounts. Map the mandatory field of RapidMail with the corresponding fields. And click on the Next button.
+
+   <Image src="rapidmail/recipient-list" alt="RapidMail" w="1020" h="350" />
+   <Image src="rapidmail/field-mapping" alt="RapidMail" w="1020" h="350" />
+
+
+2. Now save the integration by clicking the "Finish & Save." Button
+
+   <Image src="rapidmail/finish-and-save" alt="RapidMail" w="1020" h="350" />
+   <Image src="rapidmail/created-integrations" alt="RapidMail" w="1020" h="350" />
+  
+3. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the integration name; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be created/ edited, on form submission the integration will be triggered.
+   <Image src="rapidmail/conditional-logic" alt="RapidMail" w="1020" h="350" />
+
+## Actions
+**Send Activation Email:** By enabling this option, When you send data in RapidMail, an email confirmation message will go to the typed email by enabling this option. The data will not insert before the confirmation. 
+   <Image src="rapidmail/send-activation-mail" alt="RapidMail" w="1020" h="350" />
+
+After clicking on ***Finish & Save***, the ActiveCampaign integration is ready.
+   <Image src="rapidmail/finish-and-save" alt="RapidMail" w="1020" h="350" />
+   <Image src="rapidmail/created-integration" alt="RapidMail" w="1020" h="350" />
+
+
+After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the integration name; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be created/ edited, on form submission the integration will be triggered.
+   <Image src="rapidmail/conditional-logic" alt="RapidMail" w="1020" h="350" />
+
+After submitting any data, you can see the record both on the RapidMail account & response page of Bit Form.
+   <Image src="rapidmail/form-responses" alt="RapidMail" w="1020" h="350" />
+   <Image src="rapidmail/integration-log" alt="RapidMail" w="1020" h="350" />
+   <Image src="rapidmail/rapidmail-responses" alt="RapidMail" w="1020" h="350" />
+<Feedback/>

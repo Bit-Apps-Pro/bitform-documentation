@@ -1,0 +1,68 @@
+---
+id: onedrive
+title: Bit Form Integration With OneDrive
+sidebar_label: OneDrive
+slug: /wpbitform-onedrive
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+Using OneDrive integration with WordPress form builder, you can send attachments to your OneDrive. You can easily integrate without any coding. This Documentation goes through the configuration process.
+
+## Authorization Process
+
+1. At first, select the form you want to apply the OneDrive integration. If you don’t have any then create a new one from ‘Create Form’. After that, follow the below instructions.
+
+ Follow the path:
+ ***Settings => Integrations => Click on (+) => Click on ‘OneDrive’.***
+ <Image src="onedrive/create-form" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/create-integration" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/select-one-drive" alt="OneDrive" w="1020" h="350" />
+
+
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken ‘OneDrive’.
+ <Image src="onedrive/integration-name" alt="OneDrive" w="1020" h="350" />
+
+3. After that, To get the **Client Id & Client Secret**, click on `Azure Portal`. <br/> For client ID & secret you have to visit the **Azure Portal**. If you already have any Client ID & secret before then copy this to the field. If you don’t have any then you have to create a new client ID & secret, Register an App by clicking `New Registration`
+    1. **Name:** In the name field, put the proper app name of your choice.
+    2. **Supported account types:** Personal Microsoft accounts only
+    3. **Redirect URI:** Select Web as a platform from the drop-down list. Copy the Redirect URIs from integrations settings and paste it under Redirect URI field. And click on the Register button. 
+ <Image src="onedrive/azure-portal" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/new-registration-button" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/register-an-app" alt="OneDrive" w="1020" h="350" />
+ <Video src="one-drive-app-create" alt="OneDrive" w="1020" h="350" />
+
+
+4. Now an app will create with a Client ID. Navigate to `Certificates & secrets` and create a client secret to get the client secret. Then copy the `Client ID` and `Client Secret (Value)` and paste them to the Bit Integrations integration page. Then click on the `Authorize` button (wait for a few seconds). After the successful authorization, click on the `Next` button
+ <Image src="onedrive/client-id" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/client-secret" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/authorize" alt="OneDrive" w="1020" h="350" />
+
+5.	After completing the authorization process, select the specific folder from the dropdown menu, which you have created before on OneDrive.
+ <Image src="onedrive/select-folder" alt="OneDrive" w="1020" h="350" />
+
+## Actions
+1.	**Upload Files:** Upload Files is a mandatory action. To send an attachment to the OneDrive, you must select the required file upload field from actions.
+ <Image src="onedrive/upload-file-action" alt="OneDrive" w="1020" h="350" />
+
+
+2.	**Delete File From WordPress:**  By enabling this option,  the file is automatically deleted from WordPress after uploading to OneDrive.
+
+ <Image src="onedrive/delete-file-action" alt="OneDrive" w="1020" h="350" />
+
+
+3.	After clicking **Finish & Save** you can see the integration you have created now.
+ <Image src="onedrive/finish-and-save" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/created-integration" alt="OneDrive" w="1020" h="350" />
+
+4. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the integration name; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be created/ edited, on form submission the integration will be triggered.
+ <Image src="onedrive/conditional-logic" alt="OneDrive" w="1020" h="350" />
+
+5. Now, whenever a user submits the form with the file upload field, it will be added to the file/files of One Drive. Also can view from form responses of Bit Form.
+
+ <Image src="onedrive/form-responsec" alt="OneDrive" w="1020" h="350" />
+ <Image src="onedrive/ondrive-responses" alt="OneDrive" w="1020" h="350" />
+
+<Feedback/>
