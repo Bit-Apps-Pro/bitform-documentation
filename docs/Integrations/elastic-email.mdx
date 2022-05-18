@@ -1,0 +1,73 @@
+---
+id: elastic-email
+title: Bit Form Integration With ElasticEmail
+sidebar_label:  ElasticEmail
+slug: /wpbitform-elastic-email
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+Another integration that eases your email marketing is **ElasticEmail integration** via Bit form. When users submit any form, the email of that corresponding user will store in the newsletter list of ElasticEmail. For more details go through this documentation carefully.
+
+## Authorization Process
+1. At first, select the form you want to apply the ElasticEmail integration. If you don’t have any then create a new one from **Create Form**.  After that, follow the below instructions. Follow the path:
+
+  ***Settings => Integrations =>  Click on (+) => Click on ‘elastic-email’***.
+
+ <Image src="elastic-email/create-form" alt="elastic-email" w="1020" h="300" />
+
+ <Image src="elastic-email/settings-to-integration" alt="elastic-email" w="1020" h="250" />
+
+ <Image src="elastic-email/select-elastic-email" alt="elastic-email" w="1020" h="300" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken **ElasticEmail**.
+ <Image src="elastic-email/set-integration-name" alt="elastic-email" w="1020" h="270" />
+
+### Integration Settings
+1.	After that, you have to copy the API key from your Elastic Email account & paste the key on the field.    
+**To get the API key,**   
+- click on `Elastic Email API Console` or Login your Elastic Email dashboard 
+- click on My Account => Setting => Create Additional API Key
+- You need to **grant Full Access permission** to make the API successful. 
+- Now copy the API key and paste it into the integrations dashboard. And Click on **Authorize** button
+
+ <Image src="elastic-email/api-create" alt="elastic-email" w="1020" h="300" />
+ <Image src="elastic-email/api-created" alt="elastic-email" w="1020" h="300" />
+ <Image src="elastic-email/authorize" alt="elastic-email" w="1020" h="300" />
+
+2.	Click on `Next` to set up the other integration settings ahead.
+3.	After completing the authorization process, Select the List from the drop-down option. You have to create a list before on your Elastic Email account. If you don't see any List. Click on the refresh button.
+
+ <Image src="elastic-email/select-list" alt="elastic-email" w="1020" h="300" />
+
+4.	You will find the Map Field option. You have to map all the necessary form fields with the related Elastic Email field. Here **Email** field is the default for Elastic Email. Now, click on the `Next` button to move forward for further settings.
+
+ <Image src="elastic-email/map-fields" alt="elastic-email" w="1020" h="250" />
+
+5. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="elastic-email/finish-and-Save" alt="elastic-email" w="1020" h="250" />
+
+ <Image src="elastic-email/elastic-email-integration" alt="elastic-email" w="1020" h="300" />
+
+6. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the **integration name**; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be **created/ edited**, **on form submission** the integration will be triggered.
+
+ <Image src="elastic-email/conditional-logic" alt="elastic-email" w="1020" h="300" />
+
+7. Now, whenever a user will submit the form it will be added to the corresponding Campaign list of ElasticEmail. Also can view from form responses of Bit Form.
+
+ <Image src="elastic-email/contact-list" alt="elastic-email" w="1020" h="270" />
+ 
+ <Image src="elastic-email/responses" alt="elastic-email" w="1020" h="250" />
+
+8. You can view every success API of the submitted data from the timeline of related info.
+
+ <Image src="elastic-email/api-response" alt="elastic-email" w="1020" h="390" />
+
+## Actions
+**Status:** You select the User status (`Transactional`, `Engaged`, `Active`, `Bounced`, `Unsubscribed`, `Abuse`) from actions.
+ <Image src="elastic-email/user-status" alt="elastic-email" w="1020" h="390" />
+
+
+<Feedback/>

@@ -1,0 +1,122 @@
+---
+id: hubspot
+title: Bit Form Integration With Hubspot
+sidebar_label:  Hubspot
+slug: /wpbitform-hubspot
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+
+## Authorization Process
+1. At first, select the form you want to apply the Hubspot integration. If you don’t have any then create a new one from **Create Form**.  After that, follow the below instructions. Follow the path:
+
+  ***Settings => Integrations =>  Click on (+) => Click on ‘Hubspot’***.
+
+ <Image src="hubspot/create-form" alt="Hubspot" w="1020" h="300" />
+
+ <Image src="hubspot/settings-to-integration" alt="Hubspot" w="1020" h="250" />
+
+ <Image src="hubspot/select-hubspot" alt="Hubspot" w="1020" h="300" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken **Hubspot**.
+ <Image src="hubspot/set-integration-name" alt="Hubspot" w="1020" h="270" />
+
+### Integration Settings
+1.	After that, you have to copy the API key from your Hubspot account & paste the key on the field.    
+**To get the API key,** 
+- Click on `Hubspot API Console` or Step of generating API key
+-	Login to your HubSpot account, click the Settings icon
+-	In the left sidebar menu, navigate to Integrations > API key
+-	If a key has never been generated for your account, click Generate API key
+-	If you've already generated an API key, click Show to display your key
+-	Now copy the **API key**, paste it into the integrations dashboard. And Click on `Authorize` button
+
+ <Image src="hubspot/api-console-click-and-generated" alt="Hubspot" w="1020" h="300" />
+ <Image src="hubspot/authorize" alt="Hubspot" w="1020" h="300" />
+
+2.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="hubspot/after-authorize" alt="Hubspot" w="1020" h="300" />
+
+### Integration Settings for Contact Create
+1.	After completing the authorization process, Select the Action from the drop-down option **Contact Create**.
+ 
+ <Image src="hubspot/set-action-contact-create" alt="Hubspot" w="1020" h="300" />
+
+2.	You will find the Map Field option. You have to map all the necessary form fields with the related Hubspot field. Here Email fields the default for Hubspot. Now, click on the `Next` button to move forward for further settings.
+ <Image src="hubspot/map-fields" alt="Hubspot" w="1020" h="300" />
+
+3. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="hubspot/finish-and-Save" alt="Hubspot" w="1020" h="250" />
+ <Image src="hubspot/hubspot-integration" alt="Hubspot" w="1020" h="300" />
+
+### Integration Settings for Deal Create
+1.	After completing the authorization process, Select the Action from the drop-down option **Deal Create**. Then select the **Pipeline (sales pipeline)**, from the drop-down option and select the **stage** from the drop-down option of your choice. 
+ <Image src="hubspot/set-action-deal-create" alt="Hubspot" w="1020" h="300" />
+
+2.	You will find the Map Field option. You have to map all the necessary form fields with the related Hubspot field. Here Deal Name field is the default for Hubspot. Now, click on the `Next` button to move forward for further settings.
+ <Image src="hubspot/deal-map-fields" alt="Hubspot" w="1020" h="300" />
+
+3. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="hubspot/finish-and-Save" alt="Hubspot" w="1020" h="250" />
+ <Image src="hubspot/hubspot-integration" alt="Hubspot" w="1020" h="300" />
+
+### Integration Settings for Ticket Create
+1.	After completing the authorization process, Select the Action from the drop-down option **Ticket Create**. Then select the **Pipeline (Support pipeline)**, from the drop-down option and select the **stage** from the drop-down option of your choice. 
+ <Image src="hubspot/set-action-ticket-create" alt="Hubspot" w="1020" h="300" />
+
+2.	You will find the Map Field option. You have to map all the necessary form fields with the related Hubspot field. Here Ticket Name field is the default for Hubspot. Now, click on the `Next` button to move forward for further settings.
+ <Image src="hubspot/ticket-map-fields" alt="Hubspot" w="1020" h="300" />
+
+3. After clicking ***Finish & Save*** you can see the integration you have created now. 
+
+ <Image src="hubspot/finish-and-Save" alt="Hubspot" w="1020" h="250" />
+ <Image src="hubspot/hubspot-integration" alt="Hubspot" w="1020" h="300" />
+
+6. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the **integration name**; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be **created/ edited**, **on form submission** the integration will be triggered.
+
+ <Image src="hubspot/conditional-logic" alt="Hubspot" w="1020" h="300" />
+
+7. Now, whenever a user will submit the form it will be added to the corresponding Campaign list of Hubspot. Also can view from form responses of Bit Form.
+
+ <Image src="hubspot/contacts-list" alt="Hubspot" w="1020" h="270" />
+ 
+ <Image src="hubspot/responses" alt="Hubspot" w="1020" h="250" />
+
+8. You can view every success API of the submitted data from the timeline of related info.
+
+ <Image src="hubspot/api-response" alt="Hubspot" w="1020" h="390" />
+
+
+## Actions
+**Contact Owner:** Select this option you can set a Contact owner of the sent record. Select Contact owner from the drop-down option of your choices.
+ <Image src="hubspot/contact-owner" alt="Hubspot" w="1020" h="390" />
+
+**Lifecycle Stage:** You select the Lifecycle Stage (`Subscriber`, `Lead`, `Marketing Qualified Lead`, `Sales Qualified Lead`, `Opportunity`, `Evangelist`, `Other`, `Customer`) from actions.
+ <Image src="hubspot/lifecycle-stage" alt="Hubspot" w="1020" h="390" />
+ 
+
+**Lead Status:** You select the Lead status (`Open`, `New In`, `Progress`, `Open Deal`, `Unqualified`, `Attempted to contact`, `Connected`, `Bad timing`) from actions.
+ <Image src="hubspot/lead-status" alt="Hubspot" w="1020" h="390" />
+ 
+
+**Contacts:** You can associate deal with your contacts. Select a contact from the drop-down option of your choice.
+ <Image src="hubspot/contacts" alt="Hubspot" w="1020" h="390" />
+ 
+
+**Company:** You can associate deal with your company. Select a company from the drop-down option of your choice.
+ <Image src="hubspot/company" alt="Hubspot" w="1020" h="390" />
+
+ 
+**Deal Type:** Deal types allow you to categorize your deals. Select deal types from the drop-down option of your choice.
+ <Image src="hubspot/deal-type" alt="Hubspot" w="1020" h="390" />
+ 
+
+**Priority:** By enabling this option, you can set the priority for every ticket. Select priority from the drop-down option of your choices.
+ <Image src="hubspot/priority" alt="Hubspot" w="1020" h="390" />
+
+
+<Feedback/>
