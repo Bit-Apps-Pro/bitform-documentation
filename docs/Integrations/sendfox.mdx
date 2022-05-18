@@ -1,0 +1,93 @@
+---
+id: sendfox
+title: Bit Form Integration With SendFox
+sidebar_label:  SendFox
+slug: /wpbitform-sendfox
+---
+import Image from "@site/src/components/Image";
+import Video from "@site/src/components/Video";
+import Feedback from "@site/src/components/Feedback";
+
+
+## Authorization Process
+1. At first, select the form you want to apply the SendFox integration. If you don’t have any then create a new one from **Create Form**.  After that, follow the below instructions. Follow the path:
+
+  ***Settings => Integrations =>  Click on (+) => Click on ‘SendFox’***.
+
+ <Image src="sendfox/create-form" alt="SendFox" w="1020" h="300" />
+
+ <Image src="sendfox/settings-to-integration" alt="SendFox" w="1020" h="250" />
+
+ <Image src="sendfox/select-sendfox" alt="SendFox" w="1020" h="300" />
+
+2.	**Integration Name:** Set the proper integration name. Default it's taken **SendFox**.
+ <Image src="sendfox/set-integration-name" alt="SendFox" w="1020" h="270" />
+
+### Integration Settings
+1.	After that, you have to copy the SendFox Access Token from your SendFox account & paste the key on the field.   
+**To get the SendFox Access token,**
+- Click on `SendFox Access Token`
+- Click on `Create New Token` and Set proper name
+- Then click on `create button`
+- Now copy the Access Token, paste it into the integration’s dashboard. And Click on `Authorize` button.
+
+ <Image src="sendfox/click-sendfox-access-token" alt="SendFox" w="1020" h="300" />
+ <Image src="sendfox/api-console-click-and-generated" alt="SendFox" w="1020" h="300" />
+ <Image src="sendfox/authorize" alt="SendFox" w="1020" h="300" />
+
+2.	Click on `Next` to set up the other integration settings ahead.
+ <Image src="sendfox/after-authorize" alt="SendFox" w="1020" h="300" />
+
+### Integration Settings for Create List
+1.	After the authorization process, select the Action **Create List** to create a Contacts list.
+ <Image src="sendfox/select-action-create-list" alt="SendFox" w="1020" h="250" />
+ 
+2.	When you select the Action, you will see the Map Fields option where a field, ***List Name***, is mapped by default. You can map the fields according to your choice for the list Name. And click on the `Next` button to move forward for further settings.
+ <Image src="sendfox/create-list-map-fields" alt="SendFox" w="1020" h="250" />
+ 
+3.	Save the integration by clicking the ***Finish & Save*** Button. the SendFox integration is ready.
+
+ <Image src="sendfox/finish-and-Save" alt="SendFox" w="1020" h="250" />
+ <Image src="sendfox/sendfox-integration" alt="SendFox" w="1020" h="300" />
+
+### Integration Settings for Create Contact
+1.	After the authorization process, select the Action as **Create Contact** to create a Contact under *List*, then select List. You can add multiple List. If you don't see any List. Click on the refresh button.
+ <Image src="sendfox/select-action-create-contact" alt="SendFox" w="1020" h="250" />
+ 
+2.	When you select the Actions and List, you will see the Map Fields option where the SendFox **email** field, is mapped by default. You can map fields according to your choice for the SendFox contact fields. And click on the `Next` button to move forward for further settings.
+ <Image src="sendfox/create-contact-map-fields" alt="SendFox" w="1020" h="250" />
+ 
+3.	Save the integration by clicking the ***Finish & Save*** Button. the SendFox integration is ready.
+
+ <Image src="sendfox/finish-and-Save" alt="SendFox" w="1020" h="250" />
+ <Image src="sendfox/sendfox-integration" alt="SendFox" w="1020" h="300" />
+
+### Integration Settings for Unsubscribe Contact
+1.	After the authorization process, select the Action **Unsubscribe Contact** to Unsubscribe a Contacts list,
+ <Image src="sendfox/select-action-unsubscribe-contact" alt="SendFox" w="1020" h="250" />
+ 
+2.	When you select the Action, you will see the Map Fields option where a field, the SendFox **Email** field, is mapped by default. You can map the fields. And click on the `Next` button to move forward for further settings.
+
+ <Image src="sendfox/unsubscribe-contact-map-fields" alt="SendFox" w="1020" h="250" />
+ 
+3.	Save the integration by clicking the ***Finish & Save*** Button. the SendFox integration is ready.
+
+ <Image src="sendfox/finish-and-Save" alt="SendFox" w="1020" h="250" />
+ <Image src="sendfox/sendfox-integration" alt="SendFox" w="1020" h="300" />
+
+6. After completing the settings, you have to set the conditions when this integration works. Don’t forget to specify the **integration name**; otherwise, the integration will not work correctly. Here we have set the condition that – every time when records will be **created/ edited**, **on form submission** the integration will be triggered.
+
+ <Image src="sendfox/conditional-logic" alt="SendFox" w="1020" h="300" />
+
+7. Now, whenever a user will submit the form it will be added to the corresponding Contacts list of SendFox. Also can view from form responses of Bit Form.
+
+ <Image src="sendfox/contacts-list" alt="SendFox" w="1020" h="270" />
+ 
+ <Image src="sendfox/responses" alt="SendFox" w="1020" h="250" />
+
+8. You can view every success API of the submitted data from the timeline of related info.
+
+ <Image src="sendfox/api-response" alt="SendFox" w="1020" h="390" />
+
+
+<Feedback/>

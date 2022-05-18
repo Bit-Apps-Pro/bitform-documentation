@@ -73,6 +73,7 @@ module.exports = {
         "Integrations/pabbly",
         "Integrations/pods",
         "Integrations/recaptchav3",
+        "Integrations/sendfox",
         "Integrations/sendinblue",
         "Integrations/telegram",
         "Integrations/woocommerce",
