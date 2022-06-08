@@ -79,6 +79,7 @@ module.exports = {
         "Integrations/sendfox",
         "Integrations/sendinblue",
         "Integrations/telegram",
+        "Integrations/twilio",
         "Integrations/woocommerce",
         "Integrations/zapier",
         "Integrations/zoho-analytics",
