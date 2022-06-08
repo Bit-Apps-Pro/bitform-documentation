@@ -68,6 +68,7 @@ module.exports = {
         "Integrations/integrately",
         "Integrations/integromat",
         "Integrations/mailchimp",
+        "Integrations/mailerlite",
         "Integrations/mailpoet",
         "Integrations/metabox",
         "Integrations/onedrive",
