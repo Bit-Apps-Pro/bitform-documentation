@@ -1,13 +1,38 @@
 ---
 id: overview
 title: Bit Form Changelogs Timeline
-sidebar_label: Chagelog Timeline
+sidebar_label: Changelog Timeline
 slug: /changelog/bitform-changelog-timeline
 ---
 
 import Log from "@site/src/components/Log";
 import List from "@site/src/components/List";
 import Integ from "@site/src/components/Integ";
+
+
+
+### Version 1.6.0
+
+<Log date="16-07-2022">
+  <List type="Added">
+     <li>Form Entry Reports: Filter the responses by conditions & save as report for future entries.</li>
+     <li>Double opt-in confirmation: Confirm the entry by email confirmation to prevent the spam & fake emails. </li>
+     <li>Unread, Read, Unconfirmed, Confirmed status of form entry. </li>
+      <ul>
+        <li>If double opt-in is enabled, then the default entry status will be Unconfirmed. After confirming the email, it will change to Confirmed. </li>
+        <li>otherwise, the default entry status is Unread. After clicking on the entry, it will change to Read. </li>
+      </ul>
+     <li>Logged in User option added in ACF, MetaBox, pods integration to assign as post author. </li>
+     <li>IPv6 support in form entries </li>
+  </List>
+  <List type="Fixed">
+    <li>Responses global search not working issue</li>
+	  <li>replaceAll function not working in old browsers</li>
+	  <li>merge edited new value with old value when entry edit</li>
+	  <li>new integrations not working for version mismatch issue</li>
+	  <li>many more optimizations & misc. fixes under the hood</li>
+  </List>
+</Log>
 
 
 ### Version 1.5.2
@@ -29,8 +54,8 @@ import Integ from "@site/src/components/Integ";
     <li>All integrations are now alphabetically sorted for better user experience.</li>
   </List>
   <List type="Added">
-    <li> bitform domain slug changed to bit-form for i18n compatibility</li>
-    <li>bitform default api key mismatch for the first installation</li>
+    <li> Bit Form domain slug changed to bit-form for i18n compatibility</li>
+    <li>Bit Form default api key mismatch for the first installation</li>
     <li>email notification & confirmation message line break adds too many gap issue</li>
     <li>textarea field line break issue in email notification</li>
     <li>wp auth custom field value not working issue</li>
@@ -201,7 +226,7 @@ import Integ from "@site/src/components/Integ";
   <List type="Fixed">
     <li>Text editor value reset issue</li>
     <li>Form response page blank issue</li>
-    <li>Bitform API returns null value in response</li>
+    <li>Bit Form API returns null value in response</li>
     <li>Many more small fixes & tweaks</li>
   </List>
 </Log>
@@ -291,7 +316,7 @@ import Integ from "@site/src/components/Integ";
   </List>
   <List type="Fixed">
     <li>Responsive device button fix.</li>
-    <li>Admin notice hides on all pages which should be only on bitform page fix</li>
+    <li>Admin notice hides on all pages which should be only on Bit Form page fix</li>
   </List>
 </Log>
 
@@ -683,7 +708,7 @@ import Integ from "@site/src/components/Integ";
     <li> API issue</li>
     <li> CPT title</li>
     <li> option deleted</li>
-    <li> uninstallation bitform</li>
+    <li> uninstallation Bit Form</li>
   </List>
 </Log>
 
