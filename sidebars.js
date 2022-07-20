@@ -49,6 +49,7 @@ module.exports = {
     "conditional-logic",
     "confirmation-massage",
     "email-template",
+    "double-opt-in",
     {
       Integrations: [
         "Integrations/activecampaign",

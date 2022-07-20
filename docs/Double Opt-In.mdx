@@ -1,0 +1,87 @@
+---
+id: double-opt-in
+title: Bit Form - Double Opt-In
+sidebar_label: Double Opt-In
+slug: /wpbitform-double-opt-in
+---
+
+import Image from "@site/src/components/Image";
+import Feedback from "@site/src/components/Feedback";
+
+***Click on ➤ Form Name ➤ Setting➤Double Opt-In*** 
+
+**Double Opt-In:**
+
+When users submit their email in your form responses, a double opt-in email is required to confirm their email. So when they subscribe to your newsletter, they need to click on an email with a confirmation link (button) to confirm the validity of their email address. Integration, Webhook and E-mail notifications will not work before confirmation. Go through this documentation on how to apply Double Opt-In in your form.
+
+Click Form Name➤ Setting➤ Double Opt-In
+
+<Image src="Double-Opt-In/enable-double-opt-in" alt="Bit Form Double Opt-In" w="1875" h="350" />
+1. First, you have to enable the Double Opt-In. Please allow the Double Opt-In by clicking Enable option.
+
+
+<Image src="Double-Opt-In/delete-unconfirm-entry" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+2.**Delete the unconfirmed entries from responses after days:** By enabling this option, the unconfirmed entries will be deleted from responses after the selected time. You can choose the time limit(days) as per your choice.
+
+<Image src="Double-Opt-In/disable-confirmation" alt="Bit Form Double Opt-In" w="1875" h="350" /> 
+
+3.**Disable double opt-in confirmation for logged in users:** By enabling this option, it will disable the double opt-in confirmation for logged-in users. Not for the logged-in user's email address. For example, a WordPress user submits the form. Like: Admin, Author, Editor, and others.
+    
+<Image src="Double-Opt-In/select-email-field" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+4.**Email:** Here you have to input the email field where you want to send the confirmation email notification. Please make sure you have an email field in your form. It does not apply to other fields.
+
+
+
+5.**Customize Email template:** You can customize the confirmation template of your choice with this option.
+
+<Image src="Double-Opt-In/verification-message" alt="Bit Form Double Opt-In" w="1875" h="350" />
+<Image src="Double-Opt-In/invalid-verification" alt="Bit Form Double Opt-In" w="1875" h="350" />
+<Image src="Double-Opt-In/verification-redirect-page" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+
+6.**Edit verification messages:** The user who received the double opt-in email after submitting the form. Needs to click on an email with a confirmation link (button) to confirm the validity of their email address. After clicking the confirmation button, you will show the success or error message. You can edit this message with this option. Also, you can Redirect the page confirmation or error.
+
+ There are three types of verification messages under this option 
+ 1. Activation success (can be edited or redirected)
+ 2. Already activated account (can be edited or redirected)
+ 3. Invalid activation key (can be edited or redirected)
+
+
+### Configure default confirmation email template
+
+<Image src="Double-Opt-In/double-optin-template" alt="Bit Form Double Opt-In" w="1875" h="350" />
+<Image src="Double-Opt-In/double-optin-url" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+By disabling this option, you can manually configure the double opt-in confirmation email from Conditional Logics. You can set the condition if you want to send a confirmation message with any condition. And customize the confirmation template as your own. Please read our doc about creating an [email template](https://docs.form.bitapps.pro/wpbitform-email-template). Make sure that this link(**{entry_confirmation_url}**) is included where (text, button, link) the user clicks for confirmation. Otherwise, Double Opt-In will not work.
+The link is: {entry_confirmation_url}<br/>
+The link is: **{entry_confirmation_url}** 
+
+<Image src="Double-Opt-In/conditional-logic" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+Now, you have to set conditional logic to trigger the Double Opt-In. When you set conditional logic, remember some points <br/>
+Action Run When: Record Create/Edit<br/>
+Action Effect: On Form Load<br/>
+Action Behaviour: Always
+Also check the Double Opt-In from Action.
+ 
+
+
+✔ **Double optin tamplate:** You have to select the email template here which you have created earlier
+
+✔ **To:** Here you have to input the email field where you want to send the confirmation email notification. Please make sure you have an email field in your form. It does not apply to other fields.
+
+✔ **From:** Set the email address from where you want to send mail to recipients.
+
+✔ **CC & BCC field:** Then you have chosen the CC & BCC field if you want to send the notification to multiple email addresses.
+
+✔ **Reply To:** Set the email address where the user will send the reply message in response to your email notification.
+
+✔ **Attachment:** You can send an attachment if you have any file upload field on the form
+
+ <Image src="Double-Opt-In/double-optin-conditional-logic" alt="Bit Form Double Opt-In" w="1875" h="350" />
+
+>**Note:** At last, you have to configure the SMTP from the **App Settings** option to ensure that the verification email will be sent. Otherwise, the verification email will not send. To set the SMTP, read the [SMTP documentation](https://docs.form.bitapps.pro/wpbitform-form-settings/#smtp-configuration).
+
+<Feedback/>
